@@ -1,0 +1,33 @@
+# File Manifest
+
+- `README.md`
+- `docs/agent/Agent.md`
+- `docs/agent/CONTRIBUTING.md`
+- `docs/agent/Goals.md`
+- `docs/agent/PROJECT_STRUCTURE.md`
+- `docs/agent/TASKS.md`
+- `docs/privacy_compliance/Android_Limitations_Notice.md`
+- `docs/privacy_compliance/Guardrails_and_Feature_Rejection.md`
+- `docs/privacy_compliance/Permissions_and_Data_Map.md`
+- `docs/privacy_compliance/Privacy_and_Child_Safety.md`
+- `docs/product/Positioning.md`
+- `docs/product/Project_Brief.md`
+- `docs/scope/MVP_Scope.md`
+- `docs/scope/Risks_and_Assumptions.md`
+- `docs/scope/Roadmap.md`
+- `docs/scope/V1_Scope.md`
+- `docs/store/Monetization.md`
+- `docs/store/Play_Store_and_Compliance_Notes.md`
+- `docs/technical/API_Interfaces.md`
+- `docs/technical/Architecture.md`
+- `docs/technical/CI_CD.md`
+- `docs/technical/DataModel.md`
+- `docs/technical/Setup.md`
+- `docs/technical/Technical_Assumptions.md`
+- `docs/testing/QA_Checklist.md`
+- `docs/testing/Tests.md`
+- `docs/ux/Child_Home_Screen_Concept.md`
+- `docs/ux/Parent_Dashboard_Concept.md`
+- `docs/ux/UX_Concept.md`
+- `prompts/Final_AI_Developer_Prompt.md`
+- `templates/copilot_session_template.md`
