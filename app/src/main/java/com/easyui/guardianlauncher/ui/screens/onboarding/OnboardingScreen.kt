@@ -9,6 +9,8 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -127,14 +129,30 @@ fun WelcomeStep(onNext: () -> Unit) {
         shape = RoundedCornerShape(24.dp),
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
     ) {
-        Column(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(24.dp),
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.SpaceBetween
-        ) {
-            Column(horizontalAlignment = Alignment.CenterHorizontally) {
+        Scaffold(
+            bottomBar = {
+                Button(
+                    onClick = onNext,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(16.dp)
+                        .height(56.dp)
+                        .navigationBarsPadding(),
+                    shape = RoundedCornerShape(16.dp)
+                ) {
+                    Text("Get Started", fontSize = 18.sp, fontWeight = FontWeight.Bold)
+                }
+            },
+            containerColor = MaterialTheme.colorScheme.surface
+        ) { innerPadding ->
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(innerPadding)
+                    .verticalScroll(rememberScrollState())
+                    .padding(horizontal = 24.dp),
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
                 Spacer(modifier = Modifier.height(16.dp))
                 Text(
                     text = "Welcome to Guardian Launcher",
@@ -157,7 +175,8 @@ fun WelcomeStep(onNext: () -> Unit) {
                     colors = CardDefaults.cardColors(
                         containerColor = MaterialTheme.colorScheme.errorContainer.copy(alpha = 0.5f)
                     ),
-                    shape = RoundedCornerShape(16.dp)
+                    shape = RoundedCornerShape(16.dp),
+                    modifier = Modifier.fillMaxWidth()
                 ) {
                     Column(modifier = Modifier.padding(16.dp)) {
                         Text(
@@ -174,16 +193,8 @@ fun WelcomeStep(onNext: () -> Unit) {
                         )
                     }
                 }
-            }
 
-            Button(
-                onClick = onNext,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .height(56.dp),
-                shape = RoundedCornerShape(16.dp)
-            ) {
-                Text("Get Started", fontSize = 18.sp, fontWeight = FontWeight.Bold)
+                Spacer(Modifier.height(96.dp))
             }
         }
     }
