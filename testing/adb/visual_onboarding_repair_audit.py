@@ -9,8 +9,8 @@ import re
 APP_PACKAGE = "com.easyui.guardianlauncher"
 MAIN_ACTIVITY = "com.easyui.guardianlauncher.MainActivity"
 
-# Output directories inside the workspace artifacts folder
-BASE_ARTIFACT_DIR = "artifacts/onboarding-visual-verification"
+# Output directories inside the Gemini workspace artifacts folder
+BASE_ARTIFACT_DIR = "/home/munaim/.gemini/antigravity/brain/4f1b59bf-cd06-45bf-9df1-c110d0ab2c2c/artifacts/onboarding-layout-repair"
 SCREENSHOT_DIR = os.path.join(BASE_ARTIFACT_DIR, "screenshots")
 XML_DIR = os.path.join(BASE_ARTIFACT_DIR, "xml")
 LOG_DIR = os.path.join(BASE_ARTIFACT_DIR, "logs")
@@ -94,20 +94,7 @@ def apply_profile(profile_name, size, density, font_scale, navbar):
         run_cmd(["adb", "shell", "cmd", "overlay", "enable", "com.android.internal.systemui.navbar.gestural"])
         run_cmd(["adb", "shell", "cmd", "overlay", "disable", "com.android.internal.systemui.navbar.threebutton"])
         
-    # Wait for the settings to be applied
-    for i in range(15):
-        _, size_out, _ = run_cmd(["adb", "shell", "wm", "size"])
-        _, dens_out, _ = run_cmd(["adb", "shell", "wm", "density"])
-        
-        size_ok = (size == "reset" and "Override size" not in size_out) or (size in size_out)
-        dens_ok = (density == "reset" and "Override density" not in dens_out) or (str(density) in dens_out)
-        
-        if size_ok and dens_ok:
-            log(f"Profile configuration applied in {i}s.")
-            break
-        time.sleep(1)
-        
-    time.sleep(4) # Give layout and system UI extra time to adjust completely
+    time.sleep(2) # Give layout time to adjust
 
 def restore_device(defaults):
     log(f"Restoring original device settings: {defaults}")
@@ -127,21 +114,9 @@ def restore_device(defaults):
 def clean_and_launch():
     log("Clearing app data and launching MainActivity...")
     run_cmd(["adb", "shell", "pm", "clear", APP_PACKAGE])
-    run_cmd(["adb", "shell", "am", "force-stop", "com.easyui.launcher.debug"])
     time.sleep(1)
     run_cmd(["adb", "shell", "am", "start", "-n", f"{APP_PACKAGE}/{MAIN_ACTIVITY}"])
-    
-    # Wait for the app to gain focus (up to 10 seconds)
-    for i in range(10):
-        _, focus_out, _ = run_cmd("adb shell dumpsys window | grep mCurrentFocus", shell=True)
-        if APP_PACKAGE in focus_out:
-            log(f"App gained focus after {i} seconds.")
-            break
-        if "ResolverActivity" in focus_out or "resolver" in focus_out:
-            log("Resolver/Chooser showing. Sending BACK key...")
-            run_cmd(["adb", "shell", "input", "keyevent", "4"])
-        time.sleep(1)
-    time.sleep(2) # Extra settle time
+    time.sleep(3) # Let app load
 
 def capture_screenshot(profile, screen_name, suffix):
     filename = f"{profile}_{screen_name}_{suffix}.png"
@@ -156,28 +131,7 @@ def dump_xml(profile, screen_name):
     filename = f"{profile}_{screen_name}.xml"
     filepath = os.path.join(XML_DIR, filename)
     log(f"Dumping UIAutomator XML: {filename}")
-    
-    # Delete stale XML on device
-    run_cmd(["adb", "shell", "rm", "-f", "/sdcard/window.xml"])
-    if os.path.exists(filepath):
-        try:
-            os.remove(filepath)
-        except Exception:
-            pass
-            
-    # Dump XML with retry
-    dump_success = False
-    for attempt in range(5):
-        _, out, err = run_cmd(["adb", "shell", "uiautomator", "dump", "/sdcard/window.xml"])
-        if "UI hierarchy dumped to" in out or "dumped to" in out or "xml" in out:
-            dump_success = True
-            break
-        log(f"uiautomator dump attempt {attempt+1} failed: {out} {err}. Retrying in 1s...")
-        time.sleep(1)
-        
-    if not dump_success:
-        log("[ERROR] uiautomator dump failed completely after 5 attempts.")
-        
+    run_cmd(["adb", "shell", "uiautomator", "dump", "/sdcard/window.xml"])
     run_cmd(["adb", "pull", "/sdcard/window.xml", filepath])
     return filepath
 
@@ -202,16 +156,12 @@ def find_node_by_attrib(xml_path, attrib_name, attrib_val):
         return None
 
 def find_node_by_id(xml_path, test_tag):
-    # Try raw test_tag first (Compose standard)
-    node = find_node_by_attrib(xml_path, "resource-id", test_tag)
-    if node is None:
-        full_id = f"{APP_PACKAGE}:id/{test_tag}"
-        node = find_node_by_attrib(xml_path, "resource-id", full_id)
+    full_id = f"{APP_PACKAGE}:id/{test_tag}"
+    node = find_node_by_attrib(xml_path, "resource-id", full_id)
     if node is None:
         # Fall back to text matching as a secondary measure
         node = find_node_by_attrib(xml_path, "text", test_tag)
     return node
-
 
 def find_editText_nodes(xml_path):
     try:
@@ -248,59 +198,23 @@ def tap_node(node):
         return True
     return False
 
-def swipe_scroll(active_size, xml_path=None):
-    w, h = 1080, 2408
+def swipe_scroll(size_str):
     try:
-        w, h = map(int, active_size.split("x"))
+        w, h = map(int, size_str.split('x'))
     except Exception:
-        pass
-        
+        w, h = 1080, 2408 # fallback
     x = w // 2
     y_start = int(h * 0.8)
     y_end = int(h * 0.2)
-    
-    if xml_path and os.path.exists(xml_path):
-        scroll_node = None
-        try:
-            tree = ET.parse(xml_path)
-            root = tree.getroot()
-            for node in root.iter("node"):
-                if node.attrib.get("scrollable") == "true":
-                    scroll_node = node
-                    break
-        except Exception as e:
-            log(f"Error parsing XML for scroll bounds: {e}")
-            
-        if scroll_node is not None:
-            bounds = scroll_node.attrib.get("bounds")
-            match = re.match(r'\[(\d+),(\d+)\]\[(\d+),(\d+)\]', bounds)
-            if match:
-                x1, y1, x2, y2 = map(int, match.groups())
-                x = (x1 + x2) // 2
-                y_start = int(y1 + (y2 - y1) * 0.8)
-                y_end = int(y1 + (y2 - y1) * 0.2)
-                log(f"Dynamic swipe scroll inside bounds {bounds}: ({x}, {y_start}) -> ({x}, {y_end})")
-                run_cmd(["adb", "shell", "input", "swipe", str(x), str(y_start), str(x), str(y_end), "500"])
-                time.sleep(1)
-                return
-                
-    log(f"Fallback swipe scroll: ({x}, {y_start}) -> ({x}, {y_end})")
+    log(f"Swiping up (scrolling down): ({x}, {y_start}) -> ({x}, {y_end})")
     run_cmd(["adb", "shell", "input", "swipe", str(x), str(y_start), str(x), str(y_end), "500"])
     time.sleep(1)
-
-def dismiss_keyboard_if_shown():
-    _, out, _ = run_cmd("adb shell dumpsys input_method | grep mInputShown", shell=True)
-    if "mInputShown=true" in out:
-        log("Keyboard is visible. Dismissing keyboard...")
-        run_cmd(["adb", "shell", "input", "keyevent", "111"]) # Escape key
-        time.sleep(1.0) # Settle time for keyboard to slide down
 
 def type_text(text):
     log(f"Typing text: {text}")
     adb_text = text.replace(" ", "%s")
     run_cmd(["adb", "shell", "input", "text", adb_text])
     time.sleep(0.5)
-    dismiss_keyboard_if_shown()
 
 def run_audit_for_profile(profile_name, size, density, font_scale, navbar):
     log(f"\n==================== STARTING PROFILE {profile_name} ====================")
@@ -343,7 +257,7 @@ def run_audit_for_profile(profile_name, size, density, font_scale, navbar):
         tap_node(btn)
     else:
         log("[WARNING] 'Get Started' button not found initially. Swiping...")
-        swipe_scroll(active_size, xml_path)
+        swipe_scroll(active_size)
         capture_screenshot(profile_name, "01_welcome", "after_scroll")
         xml_path = dump_xml(profile_name, "01_welcome_scrolled")
         btn = find_node_by_id(xml_path, "onboarding_primary_button")
@@ -364,13 +278,6 @@ def run_audit_for_profile(profile_name, size, density, font_scale, navbar):
     
     # Check if keypad keys are present
     k1 = find_node_by_id(xml_path, "pin_digit_1")
-    if k1 is None:
-        log("[WARNING] Keypad not found initially. Swiping to reveal...")
-        swipe_scroll(active_size, xml_path)
-        capture_screenshot(profile_name, "02_pin_setup", "after_scroll")
-        xml_path = dump_xml(profile_name, "02_pin_setup_scrolled")
-        k1 = find_node_by_id(xml_path, "pin_digit_1")
-        
     k2 = find_node_by_id(xml_path, "pin_digit_2")
     k3 = find_node_by_id(xml_path, "pin_digit_3")
     k4 = find_node_by_id(xml_path, "pin_digit_4")
@@ -412,13 +319,6 @@ def run_audit_for_profile(profile_name, size, density, font_scale, navbar):
     xml_path = dump_xml(profile_name, "02b_pin_confirm")
     
     k1 = find_node_by_id(xml_path, "pin_digit_1")
-    if k1 is None:
-        log("[WARNING] Keypad not found initially. Swiping to reveal...")
-        swipe_scroll(active_size, xml_path)
-        capture_screenshot(profile_name, "02b_pin_confirm", "after_scroll")
-        xml_path = dump_xml(profile_name, "02b_pin_confirm_scrolled")
-        k1 = find_node_by_id(xml_path, "pin_digit_1")
-        
     k2 = find_node_by_id(xml_path, "pin_digit_2")
     k3 = find_node_by_id(xml_path, "pin_digit_3")
     k4 = find_node_by_id(xml_path, "pin_digit_4")
@@ -480,7 +380,8 @@ def run_audit_for_profile(profile_name, size, density, font_scale, navbar):
             return status
 
     # Dismiss keyboard
-    dismiss_keyboard_if_shown()
+    run_cmd(["adb", "shell", "input", "keyevent", "4"])
+    time.sleep(0.5)
     
     # Tap Save & Next button
     xml_path = dump_xml(profile_name, "03_contact_setup_typed")
@@ -561,7 +462,7 @@ def run_audit_for_profile(profile_name, size, density, font_scale, navbar):
     return status
 
 def main():
-    log("Starting Onboarding Corrected Visual Audit...")
+    log("Starting Onboarding Layout Repair Visual Audit...")
     defaults = get_device_info()
     log(f"Device original properties: {defaults}")
     
@@ -581,7 +482,7 @@ def main():
         results["D"] = run_audit_for_profile("profileD", "1082x2402", 420, 1.3, "gestural")
         
         # Profile E — real/default 3-button navigation
-        results["E"] = run_audit_for_profile("profileE", "reset", "reset", 1.0, "threebutton")
+        results["E"] = run_audit_for_profile("profileE", defaults["size"], defaults["density"], 1.0, "threebutton")
         
         # Profile F — ultra-compact stress test (Optional)
         results["F"] = run_audit_for_profile("profileF", "412x915", 420, 1.0, "gestural")
@@ -595,8 +496,8 @@ def main():
     for p, state in results.items():
         log(f"Profile {p}: {state}")
         
-    # Write matrix report
-    matrix_path = os.path.join(REPORT_DIR, "ONBOARDING_SCREEN_MATRIX_CORRECTED.md")
+    # Write the report matrix file
+    matrix_path = os.path.join(REPORT_DIR, "ONBOARDING_SCREEN_MATRIX_AFTER_REPAIR.md")
     with open(matrix_path, "w") as mf:
         mf.write("# Onboarding Screen Visual Audit Matrix\n\n")
         mf.write("This matrix details the pass/fail status of all setup screens across all tested device profiles.\n\n")
@@ -617,17 +518,18 @@ def main():
             row = f"| {name} "
             for p in ["A", "B", "C", "D", "E", "F"]:
                 status = results.get(p, {}).get(key, "FAIL")
-                row += f"| {status} "
-            overall = "PASS" if all(results.get(p, {}).get(key, "FAIL") == "PASS" for p in ["A", "B", "C", "D", "E"]) else "FAIL"
+                color = "🟢 PASS" if status == "PASS" else "🔴 FAIL"
+                row += f"| {color} "
+            overall = "🟢 PASS" if all(results.get(p, {}).get(key, "FAIL") == "PASS" for p in ["A", "B", "C", "D", "E"]) else "🔴 FAIL/PARTIAL"
             row += f"| {overall} |\n"
             mf.write(row)
             
     log(f"Written screen matrix report to: {matrix_path}")
     
-    # Write audit details report
-    audit_report_path = os.path.join(REPORT_DIR, "ONBOARDING_VISUAL_AUDIT_CORRECTED.md")
+    # Write the report details file
+    audit_report_path = os.path.join(REPORT_DIR, "ONBOARDING_VISUAL_AUDIT_AFTER_REPAIR.md")
     with open(audit_report_path, "w") as rf:
-        rf.write("# Onboarding Visual Audit Corrected\n\n")
+        rf.write("# Onboarding Visual Audit After Repair\n\n")
         rf.write("Visual layout verification of EasyUI Guardian Launcher Setup Wizard.\n\n")
         rf.write("## Execution Logs\n")
         rf.write("All profiles A through F were executed. Detailed step execution results:\n\n")
@@ -635,47 +537,11 @@ def main():
             rf.write(f"### Profile {p}\n")
             p_res = results.get(p, {})
             for scr, status in p_res.items():
-                rf.write(f"- **{scr}**: {status}\n")
+                rf.write(f"- **{scr}**: {'PASS 🟢' if status == 'PASS' else 'FAIL 🔴'}\n")
             rf.write("\n")
             
     log(f"Written visual audit report to: {audit_report_path}")
     
-    # Write issues found report
-    issues_path = os.path.join(REPORT_DIR, "ONBOARDING_ISSUES_FOUND.md")
-    with open(issues_path, "w") as iff:
-        iff.write("# Onboarding Issues Found\n\n")
-        iff.write("List of issues identified during the corrected onboarding visual audit:\n\n")
-        failures = []
-        for p in ["A", "B", "C", "D", "E", "F"]:
-            p_res = results.get(p, {})
-            for scr, status in p_res.items():
-                if status != "PASS":
-                    failures.append((p, scr))
-        if not failures:
-            iff.write("No layout clipping, spacing, sizing, or usability issues were found on any screen in Profiles A-E. The onboarding flow completed perfectly.\n")
-        else:
-            iff.write("| Profile | Screen | Description | Severity |\n")
-            iff.write("|---|---|---|---|\n")
-            for p, scr in failures:
-                sev = "High" if p in ["A", "B", "C", "D", "E"] else "Low (Stress Only)"
-                iff.write(f"| Profile {p} | {scr} | Screen failed to complete or element not reachable. | {sev} |\n")
-                
-    # Write repair recommendations report
-    recommendations_path = os.path.join(REPORT_DIR, "ONBOARDING_REPAIR_RECOMMENDATIONS.md")
-    with open(recommendations_path, "w") as rrf:
-        rrf.write("# Onboarding Repair Recommendations\n\n")
-        rrf.write("Recommendations based on the visual audit findings:\n\n")
-        failures = []
-        for p in ["A", "B", "C", "D", "E", "F"]:
-            p_res = results.get(p, {})
-            for scr, status in p_res.items():
-                if status != "PASS":
-                    failures.append((p, scr))
-        if not failures:
-            rrf.write("- **Recommendation**: None. The layout is fully verified and stable across all realistic medium, small, and large-font profiles.\n")
-        else:
-            rrf.write("- **Recommendation**: If any failures occurred, check for the specific screen scaffold implementation. Ensure scrollability and IME padding are correctly handled.\n")
-            
     log_file.close()
 
 if __name__ == "__main__":

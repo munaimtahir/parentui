@@ -14,6 +14,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -27,36 +28,52 @@ fun PinKeypad(
     onClearClick: () -> Unit,
     modifier: Modifier = Modifier
 ) {
-    val keys = listOf("1", "2", "3", "4", "5", "6", "7", "8", "9", "C", "0", "⌫")
+    val rows = listOf(
+        listOf("1", "2", "3"),
+        listOf("4", "5", "6"),
+        listOf("7", "8", "9"),
+        listOf("C", "0", "⌫")
+    )
 
-    LazyVerticalGrid(
-        columns = GridCells.Fixed(3),
+    Column(
         modifier = modifier.padding(8.dp),
-        horizontalArrangement = Arrangement.spacedBy(12.dp),
-        verticalArrangement = Arrangement.spacedBy(12.dp)
+        verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
-        items(keys.size) { index ->
-            val key = keys[index]
-            Box(
-                contentAlignment = Alignment.Center,
-                modifier = Modifier
-                    .aspectRatio(1.2f)
-                    .clip(RoundedCornerShape(16.dp))
-                    .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.8f))
-                    .clickable {
-                        when (key) {
-                            "C" -> onClearClick()
-                            "⌫" -> onDeleteClick()
-                            else -> onDigitClick(key)
-                        }
-                    }
+        rows.forEach { rowKeys ->
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
             ) {
-                Text(
-                    text = key,
-                    fontSize = 22.sp,
-                    fontWeight = FontWeight.Bold,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
-                )
+                rowKeys.forEach { key ->
+                    val testTag = when (key) {
+                        "⌫" -> "pin_backspace"
+                        "C" -> "pin_clear"
+                        else -> "pin_digit_$key"
+                    }
+                    Box(
+                        contentAlignment = Alignment.Center,
+                        modifier = Modifier
+                            .weight(1f)
+                            .aspectRatio(1.6f)
+                            .clip(RoundedCornerShape(12.dp))
+                            .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.8f))
+                            .clickable {
+                                when (key) {
+                                    "C" -> onClearClick()
+                                    "⌫" -> onDeleteClick()
+                                    else -> onDigitClick(key)
+                                }
+                            }
+                            .testTag(testTag)
+                    ) {
+                        Text(
+                            text = key,
+                            fontSize = 20.sp,
+                            fontWeight = FontWeight.Bold,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                    }
+                }
             }
         }
     }
