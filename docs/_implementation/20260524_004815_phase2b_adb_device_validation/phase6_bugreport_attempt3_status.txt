@@ -1,0 +1,2 @@
+Attempt 3: `adb -s 34081500040008N shell bugreport > artifacts/bugreport_shell.txt`
+- Command returned exit code 0 but produced a 0-byte file.

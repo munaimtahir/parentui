@@ -1,0 +1,2 @@
+app:connectedAndroidTest - Installs and runs instrumentation tests for all flavors on connected devices.
+app:connectedDebugAndroidTest - Installs and runs the tests for debug on connected devices.

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.easyui.guardianlauncher.ui.screens.onboarding.OnboardingScreenTest" tests="4" failures="0" errors="0" skipped="0" time="13.571" timestamp="2026-05-23T19:54:20" hostname="localhost">
+  <properties>
+    <property name="device" value="V2109 - 13" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="pinSetupStep_showsAllDigitsAndConfirmFlow" classname="com.easyui.guardianlauncher.ui.screens.onboarding.OnboardingScreenTest" time="4.163" />
+  <testcase name="welcomeStep_showsContentAndTriggersOnNext" classname="com.easyui.guardianlauncher.ui.screens.onboarding.OnboardingScreenTest" time="1.268" />
+  <testcase name="contactSetupStep_showsFieldsAndTriggersSaved" classname="com.easyui.guardianlauncher.ui.screens.onboarding.OnboardingScreenTest" time="4.129" />
+  <testcase name="completionStep_showsContentAndTriggersFinish" classname="com.easyui.guardianlauncher.ui.screens.onboarding.OnboardingScreenTest" time="1.411" />
+</testsuite>

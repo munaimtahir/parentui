@@ -1,0 +1,4 @@
+List of devices attached
+08357252AE006901       device usb:3-1 product:CH6i-GL model:TECNO_CH6i device:TECNO-CH6i transport_id:2
+34081500040008N        device usb:3-5 product:2109N model:V2109 device:2109 transport_id:4
+

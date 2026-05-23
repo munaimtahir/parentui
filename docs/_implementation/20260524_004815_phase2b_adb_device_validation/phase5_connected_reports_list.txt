@@ -1,0 +1,16 @@
+--- reports/androidTests (if any) ---
+app/build/reports/androidTests/connected/debug/com.easyui.guardianlauncher.ui.screens.onboarding.OnboardingScreenTest.html
+app/build/reports/androidTests/connected/debug/com.easyui.guardianlauncher.ui.screens.onboarding.html
+app/build/reports/androidTests/connected/debug/css/base-style.css
+app/build/reports/androidTests/connected/debug/css/style.css
+app/build/reports/androidTests/connected/debug/index.html
+app/build/reports/androidTests/connected/debug/js/report.js
+--- outputs/androidTest-results (if any) ---
+app/build/outputs/androidTest-results/connected/debug/TEST-V2109 - 13-_app-.xml
+app/build/outputs/androidTest-results/connected/debug/V2109 - 13/cpuinfo
+app/build/outputs/androidTest-results/connected/debug/V2109 - 13/device-info.pb
+app/build/outputs/androidTest-results/connected/debug/V2109 - 13/meminfo
+app/build/outputs/androidTest-results/connected/debug/V2109 - 13/test-result.pb
+app/build/outputs/androidTest-results/connected/debug/V2109 - 13/test-result.textproto
+app/build/outputs/androidTest-results/connected/debug/V2109 - 13/testlog/test-results.log
+app/build/outputs/androidTest-results/connected/debug/test-result.pb

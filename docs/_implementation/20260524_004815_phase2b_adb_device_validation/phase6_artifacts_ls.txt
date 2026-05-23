@@ -1,0 +1,6 @@
+total 2620
+drwxrwxr-x 3 munaim munaim    4096 May 24 00:54 .
+drwxrwxr-x 3 munaim munaim    4096 May 24 00:56 ..
+-rw-rw-r-- 1 munaim munaim  159341 May 24 00:54 final_logcat.txt
+-rw-rw-r-- 1 munaim munaim 2507345 May 24 00:54 final_screen.png
+drwxrwxr-x 4 munaim munaim    4096 May 24 00:56 test_reports

@@ -140,3 +140,57 @@ GO (All MVP specifications built, local verification successfully complete)
 ## Next steps
 
 - Request the user to attach a physical Android device to perform real-device integration and launch tests.
+
+---
+
+## Session update: Phase 2B Physical-Device ADB Validation
+
+- Date: 2026-05-24
+- Current objective: Validate Phase 2B Guardian Layer on physical device via ADB (fast, controlled iteration)
+- Selected device ID: `34081500040008N` (vivo V2109, Android 13 / SDK 33)
+
+### Commands run
+```bash
+git status
+./gradlew assembleDebug
+adb version
+adb devices -l
+adb -s 34081500040008N shell getprop ro.product.manufacturer
+adb -s 34081500040008N shell getprop ro.product.model
+adb -s 34081500040008N shell getprop ro.build.version.release
+adb -s 34081500040008N shell getprop ro.build.version.sdk
+adb -s 34081500040008N shell wm size
+adb -s 34081500040008N shell wm density
+adb -s 34081500040008N shell dumpsys power | grep -E "mWakefulness|Display Power|state="
+adb -s 34081500040008N shell dumpsys window | grep -E "mDreamingLockscreen|mShowingLockscreen|isStatusBarKeyguard|mCurrentFocus"
+adb -s 34081500040008N shell input keyevent KEYCODE_WAKEUP
+adb -s 34081500040008N shell wm dismiss-keyguard
+adb -s 34081500040008N shell settings put system screen_off_timeout 1800000
+adb -s 34081500040008N shell svc power stayon usb
+adb -s 34081500040008N install -r app/build/outputs/apk/debug/app-debug.apk
+adb -s 34081500040008N shell cmd package resolve-activity --brief com.easyui.guardianlauncher
+adb -s 34081500040008N logcat -c
+adb -s 34081500040008N shell monkey -p com.easyui.guardianlauncher -c android.intent.category.LAUNCHER 1
+adb -s 34081500040008N shell cmd package resolve-activity --brief -a android.intent.action.MAIN -c android.intent.category.HOME
+adb -s 34081500040008N shell am start -a android.settings.HOME_SETTINGS
+adb -s 34081500040008N shell input keyevent KEYCODE_HOME
+adb -s 34081500040008N shell uiautomator dump /sdcard/window_dump.xml
+ANDROID_SERIAL=34081500040008N ./gradlew connectedDebugAndroidTest
+```
+
+### Pass/fail summary
+- PASS: `assembleDebug`, APK install, app launch (no immediate crash), child home renders, `connectedDebugAndroidTest`
+- BLOCKED/DEFERRED (manual): setting default HOME launcher; parent dashboard content behind unknown PIN
+- BLOCKED (non-critical): zipped bugreport capture
+
+### Blockers
+- Default HOME launcher selection requires manual OEM UI flow.
+- Parent dashboard PIN not available (manual validation required).
+- Bugreport.zip capture failed (non-critical).
+
+### Evidence bundle
+- Report folder: `docs/_implementation/20260524_004815_phase2b_adb_device_validation/`
+- Final report: `docs/_implementation/20260524_004815_phase2b_adb_device_validation/07_FINAL_ADB_VALIDATION_REPORT.md`
+
+### Next recommended step
+- Manually set EasyUI as the default HOME launcher on-device and provide/confirm a QA PIN to validate Guardian Checks + Setup limitations screens.

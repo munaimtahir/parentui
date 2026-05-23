@@ -1,0 +1,295 @@
+--------- beginning of main
+05-24 01:51:13.208 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.214 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.215 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.215 25881 26112 E OCMRequiredConfigManager: SubstrateHost not ready, fallback to default WW value.
+05-24 01:51:13.215 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.215 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.217 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.217 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.218 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.222 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.224 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.224 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.224 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.224 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.224 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.224 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.224 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.224 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.224 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.225 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.225 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.356 25874 25874 E AppHost.Android: Low memory. Level : 40. App part of LRU list. Likely to be killed anytime
+05-24 01:51:13.410 25874 25874 E AppHost.Android: Low memory. Level : 40. App part of LRU list. Likely to be killed anytime
+05-24 01:51:13.438 25874 25874 E AppHost.Android: Low memory. Level : 40. App part of LRU list. Likely to be killed anytime
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: Failed to get service from broker. 
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3025)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at android.os.Parcel.createException(Parcel.java:3009)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:2992)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:2934)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at bioy.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):36)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at bimu.z(:com.google.android.gms@261833029@26.18.33 (190400-913931251):143)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at bhso.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):42)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at android.os.Handler.handleCallback(Handler.java:942)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at cyek.mP(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at cyek.dispatchMessage(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at android.os.Looper.loopOnce(Looper.java:223)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at android.os.Looper.loop(Looper.java:324)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+05-24 01:51:13.489 25874 25874 E AppHost.Android: Low memory. Level : 40. App part of LRU list. Likely to be killed anytime
+05-24 01:51:13.492 25378 25875 E OneAuthLog: [OneAuth:0006:Error:96xl9:eda9c930] Setting correlation ID to identical value
+05-24 01:51:13.493 25378 25875 E OneAuthLog: [OneAuth:0006:Error:96q8r:eda9c930] Attempting to set a new correlation ID to a thread with an existing correlation ID.
+05-24 01:51:13.493 25378 25875 E OneAuthLog: [OneAuth:0006:Error:76xma:eda9c930] Setting a non empty transaction.
+05-24 01:51:13.505 25874 25874 E AppHost.Android: Low memory. Level : 40. App part of LRU list. Likely to be killed anytime
+05-24 01:51:13.645 26177 26177 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath failed , error(Permission denied)
+05-24 01:51:13.645 26177 26177 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:51:13.645 26177 26177 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath2 failed , error(Permission denied)
+05-24 01:51:13.645 26177 26177 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:51:13.645 26177 26177 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath3 failed , error(Permission denied)
+05-24 01:51:13.645 26177 26177 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:51:13.645 26177 26177 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath4 failed , error(Permission denied)
+05-24 01:51:13.645 26177 26177 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:51:14.144 26177 26177 E VivoConfigStore: key:vivo.software.globaltheme isCached is false and normal value is true
+05-24 01:51:14.145 26177 26177 E VivoConfigStore: key:vivo.software.globaltheme isCached is true and value is true
+05-24 01:51:14.556 26207 26207 E VivoConfigStore: key:vivo.software.multilandscape isCached is false and normal value is false
+05-24 01:51:14.559 26207 26207 E VivoConfigStore: key:vivo.software.splitrecents isCached is false and normal value is false
+05-24 01:51:14.561 26207 26207 E VivoConfigStore: key:vivo.software.splitratio isCached is false and normal value is false
+05-24 01:51:14.564 26207 26207 E VivoConfigStore: key:vivo.software.multiwindowresidentbar isCached is false and normal value is false
+05-24 01:51:14.570 26207 26207 E VivoConfigStore: key:vivo.software.hovermode isCached is false and normal value is false
+05-24 01:51:15.745 26207 26207 E VivoConfigStore: key:vivo.software.multiwindow isCached is false and normal value is true
+05-24 01:51:15.746 26207 26207 E VivoConfigStore: key:vivo.software.freeform isCached is false and normal value is true
+05-24 01:51:15.812 26207 26207 E VivoConfigStore: key:vivo.software.nightmode isCached is false and normal value is true
+05-24 01:51:16.137  3354 23991 E jveu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-24 01:51:16.137  3354 23991 E jveu    :     Make sure to call shutdown()/shutdownNow()
+05-24 01:51:16.137  3354 23991 E jveu    : java.lang.RuntimeException: ManagedChannel allocation site
+05-24 01:51:16.137  3354 23991 E jveu    : 	at jvet.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):21)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at jveu.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at jves.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):300)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at jumk.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at czjz.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):154)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at hnlz.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):142)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at hawr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at hjxx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at hjwy.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):19)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at hjxz.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at java.lang.Thread.run(Thread.java:1564)
+05-24 01:51:16.139  3354 23991 E jveu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-24 01:51:16.139  3354 23991 E jveu    :     Make sure to call shutdown()/shutdownNow()
+05-24 01:51:16.139  3354 23991 E jveu    : java.lang.RuntimeException: ManagedChannel allocation site
+05-24 01:51:16.139  3354 23991 E jveu    : 	at jvet.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):21)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at jveu.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at jves.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):300)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at jumk.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at czjz.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):154)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at hnlz.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):142)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at hawr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at hjxx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at hjwy.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):19)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at hjxz.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at java.lang.Thread.run(Thread.java:1564)
+05-24 01:51:16.140  3354 23991 E jveu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-24 01:51:16.140  3354 23991 E jveu    :     Make sure to call shutdown()/shutdownNow()
+05-24 01:51:16.140  3354 23991 E jveu    : java.lang.RuntimeException: ManagedChannel allocation site
+05-24 01:51:16.140  3354 23991 E jveu    : 	at jvet.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):21)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at jveu.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at jves.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):300)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at jumk.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at czjz.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):154)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at hnlz.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):142)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at hawr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at hjxx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at hjwy.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):19)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at hjxz.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at java.lang.Thread.run(Thread.java:1564)
+05-24 01:51:16.140  3354 23991 E jveu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-24 01:51:16.140  3354 23991 E jveu    :     Make sure to call shutdown()/shutdownNow()
+05-24 01:51:16.140  3354 23991 E jveu    : java.lang.RuntimeException: ManagedChannel allocation site
+05-24 01:51:16.140  3354 23991 E jveu    : 	at jvet.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):21)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at jveu.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at jves.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):300)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at jumk.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at czjz.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):154)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at hnlz.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):142)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at hawr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at hjxx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at hjwy.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):19)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at hjxz.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at java.lang.Thread.run(Thread.java:1564)
+05-24 01:51:16.141  3354 23991 E jveu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-24 01:51:16.141  3354 23991 E jveu    :     Make sure to call shutdown()/shutdownNow()
+05-24 01:51:16.141  3354 23991 E jveu    : java.lang.RuntimeException: ManagedChannel allocation site
+05-24 01:51:16.141  3354 23991 E jveu    : 	at jvet.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):21)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at jveu.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at jves.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):300)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at jumk.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at czjz.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):154)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at hnlz.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):142)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at hawr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at hjxx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at hjwy.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):19)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at hjxz.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at java.lang.Thread.run(Thread.java:1564)
+05-24 01:51:16.142  3354 23991 E jveu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-24 01:51:16.142  3354 23991 E jveu    :     Make sure to call shutdown()/shutdownNow()
+05-24 01:51:16.142  3354 23991 E jveu    : java.lang.RuntimeException: ManagedChannel allocation site
+05-24 01:51:16.142  3354 23991 E jveu    : 	at jvet.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):21)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at jveu.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at jves.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):300)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at jumk.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at czjz.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):154)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at hnlz.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):142)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at hawr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at hjxx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at hjwy.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):19)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at hjxz.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at java.lang.Thread.run(Thread.java:1564)
+05-24 01:51:16.148  3354 23991 E jveu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-24 01:51:16.148  3354 23991 E jveu    :     Make sure to call shutdown()/shutdownNow()
+05-24 01:51:16.148  3354 23991 E jveu    : java.lang.RuntimeException: ManagedChannel allocation site
+05-24 01:51:16.148  3354 23991 E jveu    : 	at jvet.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):21)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at jveu.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at jves.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):300)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at jumk.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at czjz.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):154)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at hnlz.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):142)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at hawr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at hjxx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at hjwy.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):19)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at hjxz.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at java.lang.Thread.run(Thread.java:1564)
+05-24 01:51:16.148  3354 23991 E jveu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-24 01:51:16.148  3354 23991 E jveu    :     Make sure to call shutdown()/shutdownNow()
+05-24 01:51:16.148  3354 23991 E jveu    : java.lang.RuntimeException: ManagedChannel allocation site
+05-24 01:51:16.148  3354 23991 E jveu    : 	at jvet.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):21)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at jveu.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at jves.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):300)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at jumk.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at czjz.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):154)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at hnlz.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):142)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at hawr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at hjxx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at hjwy.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):19)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at hjxz.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at java.lang.Thread.run(Thread.java:1564)
+05-24 01:51:16.149  3354 23991 E jveu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-24 01:51:16.149  3354 23991 E jveu    :     Make sure to call shutdown()/shutdownNow()
+05-24 01:51:16.149  3354 23991 E jveu    : java.lang.RuntimeException: ManagedChannel allocation site
+05-24 01:51:16.149  3354 23991 E jveu    : 	at jvet.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):21)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at jveu.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at jves.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):300)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at jumk.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at czjz.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):154)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at hnlz.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):142)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at hawr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at hjxx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at hjwy.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):19)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at hjxz.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at java.lang.Thread.run(Thread.java:1564)
+05-24 01:51:16.149  3354 23991 E jveu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-24 01:51:16.149  3354 23991 E jveu    :     Make sure to call shutdown()/shutdownNow()
+05-24 01:51:16.149  3354 23991 E jveu    : java.lang.RuntimeException: ManagedChannel allocation site
+05-24 01:51:16.149  3354 23991 E jveu    : 	at jvet.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):21)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at jveu.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at jves.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):300)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at jumk.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at czjz.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):154)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at hnlz.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):142)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at hawr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at hjxx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at hjwy.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):19)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at hjxz.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at java.lang.Thread.run(Thread.java:1564)
+05-24 01:51:16.155  3354 23991 E jveu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-24 01:51:16.155  3354 23991 E jveu    :     Make sure to call shutdown()/shutdownNow()
+05-24 01:51:16.155  3354 23991 E jveu    : java.lang.RuntimeException: ManagedChannel allocation site
+05-24 01:51:16.155  3354 23991 E jveu    : 	at jvet.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):21)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at jveu.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at jves.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):300)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at jumk.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at czjz.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):154)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at hnlz.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):142)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at hawr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at hjxx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at hjwy.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):19)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at hjxz.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at java.lang.Thread.run(Thread.java:1564)
+05-24 01:51:16.353 26207 26207 E FBI     : Can't load library: dlopen failed: library "libmagtsync.so" not found
+05-24 01:51:16.368 26207 26231 E OpenGLRenderer: Device claims wide gamut support, cannot find matching config, error = EGL_SUCCESS
+05-24 01:51:16.413 26207 26271 E ion     : ioctl c0044901 failed with code -1: Invalid argument
+05-24 01:51:16.879 26248 26294 E SoLoader: Waiting on SoSource BackupSoSource
+05-24 01:51:16.884 26248 26294 E SoLoader: Checking /data/app missing libraries.
+05-24 01:51:16.896 26248 26294 E SoLoader: No libraries missing from /data/app/~~afRuEiIuUgVT6G9WgLkXhw==/com.facebook.services-FD9lSFUW5WxrGhTSNCcukw==/lib/arm64
+05-24 01:51:16.896 26248 26294 E SoLoader: Checking /data/data missing libraries.
+05-24 01:51:16.896 26248 26294 E SoLoader: No libraries missing from unpacking so paths while recovering /data/data failure
+05-24 01:51:16.896 26248 26294 E SoLoader: Waiting on SoSource BackupSoSource

@@ -1,0 +1,97 @@
+adb -s 34081500040008N shell input keyevent KEYCODE_WAKEUP
+adb -s 34081500040008N shell wm dismiss-keyguard
+adb -s 34081500040008N shell settings put system screen_off_timeout 1800000
+adb -s 34081500040008N shell svc power stayon usb
+(post) dumpsys power grep
+  mWakefulness=Awake
+  mWakefulnessChanging=false
+  UID 1000:   ACTIVE  count=0 state=0
+  UID 1001:   ACTIVE  count=0 state=0
+  UID 1002:   ACTIVE  count=0 state=0
+  UID 1041: INACTIVE  count=1 state=20
+  UID 1068:   ACTIVE  count=0 state=0
+  UID 1073:   ACTIVE  count=0 state=0
+  UID u0a0:   ACTIVE  count=0 state=0
+  UID u0a44: INACTIVE  count=0 state=10
+  UID u0a46: INACTIVE  count=0 state=10
+  UID u0a51: INACTIVE  count=0 state=10
+  UID u0a54: INACTIVE  count=0 state=19
+  UID u0a55: INACTIVE  count=0 state=10
+  UID u0a56:   ACTIVE  count=0 state=0
+  UID u0a61: INACTIVE  count=0 state=19
+  UID u0a74: INACTIVE  count=0 state=10
+  UID u0a78: INACTIVE  count=0 state=19
+  UID u0a85: INACTIVE  count=0 state=19
+  UID u0a86: INACTIVE  count=0 state=19
+  UID u0a88:   ACTIVE  count=0 state=0
+  UID u0a89: INACTIVE  count=0 state=19
+  UID u0a95: INACTIVE  count=0 state=19
+  UID u0a97: INACTIVE  count=0 state=19
+  UID u0a103: INACTIVE  count=0 state=19
+  UID u0a108: INACTIVE  count=0 state=19
+  UID u0a115: INACTIVE  count=0 state=10
+  UID u0a117: INACTIVE  count=0 state=10
+  UID u0a121: INACTIVE  count=0 state=19
+  UID u0a124: INACTIVE  count=0 state=19
+  UID u0a128: INACTIVE  count=0 state=19
+  UID u0a130: INACTIVE  count=0 state=19
+  UID u0a131:   ACTIVE  count=0 state=0
+  UID u0a141:   ACTIVE  count=0 state=3
+  UID u0a143:   ACTIVE  count=0 state=0
+  UID u0a145: INACTIVE  count=0 state=19
+  UID u0a146:   ACTIVE  count=0 state=2
+  UID u0a154:   ACTIVE  count=0 state=5
+  UID u0a156: INACTIVE  count=0 state=19
+  UID u0a159: INACTIVE  count=0 state=10
+  UID u0a160: INACTIVE  count=0 state=15
+  UID u0a164: INACTIVE  count=0 state=19
+  UID u0a165:   ACTIVE  count=0 state=5
+  UID u0a166:   ACTIVE  count=0 state=5
+  UID u0a167:   ACTIVE  count=0 state=3
+  UID u0a168:   ACTIVE  count=0 state=3
+  UID u0a177:   ACTIVE  count=0 state=6
+  UID u0a178: INACTIVE  count=0 state=19
+  UID u0a180: INACTIVE  count=0 state=19
+  UID u0a181: INACTIVE  count=0 state=19
+  UID u0a182: INACTIVE  count=0 state=19
+  UID u0a184: INACTIVE  count=0 state=16
+  UID u0a186: INACTIVE  count=0 state=19
+  UID u0a190: INACTIVE  count=0 state=19
+  UID u0a193: INACTIVE  count=0 state=19
+  UID u0a196:   ACTIVE  count=0 state=3
+  UID u0a199: INACTIVE  count=0 state=19
+  UID u0a201:   ACTIVE  count=0 state=5
+  UID u0a209: INACTIVE  count=0 state=19
+  UID u0a212: INACTIVE  count=0 state=19
+  UID u0a213:   ACTIVE  count=0 state=4
+  UID u0a214: INACTIVE  count=0 state=19
+  UID u0a218: INACTIVE  count=0 state=19
+  UID u0a227: INACTIVE  count=0 state=19
+  UID u0a231: INACTIVE  count=0 state=19
+  UID u0a233: INACTIVE  count=0 state=19
+  UID u0a249: INACTIVE  count=0 state=19
+  UID u0a257: INACTIVE  count=0 state=19
+  UID u0a266: INACTIVE  count=0 state=19
+  UID u0a269: INACTIVE  count=0 state=19
+  UID u0a288: INACTIVE  count=0 state=16
+  UID u0a295: INACTIVE  count=0 state=19
+  UID u0a300: INACTIVE  count=0 state=19
+  UID u0a313: INACTIVE  count=0 state=19
+  UID u0a316:   ACTIVE  count=0 state=5
+  UID u0a319: INACTIVE  count=0 state=19
+  UID u0a320:   ACTIVE  count=0 state=6
+  UID u0a321: INACTIVE  count=0 state=19
+  UID u0a323: INACTIVE  count=0 state=19
+  UID u0a330: INACTIVE  count=0 state=19
+  UID u0a343: INACTIVE  count=0 state=19
+  UID u0a350: INACTIVE  count=0 state=19
+  UID u0a375: INACTIVE  count=0 state=10
+  UID u0a428: INACTIVE  count=0 state=16
+  UID u0a455:   ACTIVE  count=0 state=5
+  UID u0ai0: INACTIVE  count=0 state=17
+  UID u0i84: INACTIVE  count=0 state=19
+  UID u0i85:   ACTIVE  count=0 state=5
+Display Power: com.android.server.power.PowerManagerService$1@521f5ff
+(post) dumpsys window grep
+  mCurrentFocus=Window{a32242e u0 com.android.launcher3/com.android.launcher3.Launcher}
+    mShowingDream=false mDreamingLockscreen=false

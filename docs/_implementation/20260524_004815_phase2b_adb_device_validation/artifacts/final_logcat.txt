@@ -1,0 +1,1341 @@
+--------- beginning of main
+05-24 01:51:13.208 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.214 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.215 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.215 25881 26112 E OCMRequiredConfigManager: SubstrateHost not ready, fallback to default WW value.
+05-24 01:51:13.215 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.215 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.217 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.217 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.218 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.222 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.223 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.224 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.224 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.224 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.224 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.224 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.224 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.224 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.224 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.224 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.225 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.225 25881 26112 E OCMRequiredConfigManager: AddonFeatureEnabled not ready, fallback to default WW value.
+05-24 01:51:13.356 25874 25874 E AppHost.Android: Low memory. Level : 40. App part of LRU list. Likely to be killed anytime
+05-24 01:51:13.410 25874 25874 E AppHost.Android: Low memory. Level : 40. App part of LRU list. Likely to be killed anytime
+05-24 01:51:13.438 25874 25874 E AppHost.Android: Low memory. Level : 40. App part of LRU list. Likely to be killed anytime
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: Failed to get service from broker. 
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3025)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at android.os.Parcel.createException(Parcel.java:3009)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:2992)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:2934)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at bioy.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):36)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at bimu.z(:com.google.android.gms@261833029@26.18.33 (190400-913931251):143)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at bhso.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):42)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at android.os.Handler.handleCallback(Handler.java:942)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at cyek.mP(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at cyek.dispatchMessage(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at android.os.Looper.loopOnce(Looper.java:223)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at android.os.Looper.loop(Looper.java:324)
+05-24 01:51:13.476 25234 25402 E GoogleApiManager: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+05-24 01:51:13.489 25874 25874 E AppHost.Android: Low memory. Level : 40. App part of LRU list. Likely to be killed anytime
+05-24 01:51:13.492 25378 25875 E OneAuthLog: [OneAuth:0006:Error:96xl9:eda9c930] Setting correlation ID to identical value
+05-24 01:51:13.493 25378 25875 E OneAuthLog: [OneAuth:0006:Error:96q8r:eda9c930] Attempting to set a new correlation ID to a thread with an existing correlation ID.
+05-24 01:51:13.493 25378 25875 E OneAuthLog: [OneAuth:0006:Error:76xma:eda9c930] Setting a non empty transaction.
+05-24 01:51:13.505 25874 25874 E AppHost.Android: Low memory. Level : 40. App part of LRU list. Likely to be killed anytime
+05-24 01:51:13.645 26177 26177 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath failed , error(Permission denied)
+05-24 01:51:13.645 26177 26177 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:51:13.645 26177 26177 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath2 failed , error(Permission denied)
+05-24 01:51:13.645 26177 26177 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:51:13.645 26177 26177 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath3 failed , error(Permission denied)
+05-24 01:51:13.645 26177 26177 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:51:13.645 26177 26177 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath4 failed , error(Permission denied)
+05-24 01:51:13.645 26177 26177 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:51:14.144 26177 26177 E VivoConfigStore: key:vivo.software.globaltheme isCached is false and normal value is true
+05-24 01:51:14.145 26177 26177 E VivoConfigStore: key:vivo.software.globaltheme isCached is true and value is true
+05-24 01:51:14.556 26207 26207 E VivoConfigStore: key:vivo.software.multilandscape isCached is false and normal value is false
+05-24 01:51:14.559 26207 26207 E VivoConfigStore: key:vivo.software.splitrecents isCached is false and normal value is false
+05-24 01:51:14.561 26207 26207 E VivoConfigStore: key:vivo.software.splitratio isCached is false and normal value is false
+05-24 01:51:14.564 26207 26207 E VivoConfigStore: key:vivo.software.multiwindowresidentbar isCached is false and normal value is false
+05-24 01:51:14.570 26207 26207 E VivoConfigStore: key:vivo.software.hovermode isCached is false and normal value is false
+05-24 01:51:15.745 26207 26207 E VivoConfigStore: key:vivo.software.multiwindow isCached is false and normal value is true
+05-24 01:51:15.746 26207 26207 E VivoConfigStore: key:vivo.software.freeform isCached is false and normal value is true
+05-24 01:51:15.812 26207 26207 E VivoConfigStore: key:vivo.software.nightmode isCached is false and normal value is true
+05-24 01:51:16.137  3354 23991 E jveu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-24 01:51:16.137  3354 23991 E jveu    :     Make sure to call shutdown()/shutdownNow()
+05-24 01:51:16.137  3354 23991 E jveu    : java.lang.RuntimeException: ManagedChannel allocation site
+05-24 01:51:16.137  3354 23991 E jveu    : 	at jvet.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):21)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at jveu.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at jves.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):300)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at jumk.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at czjz.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):154)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at hnlz.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):142)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at hawr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at hjxx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at hjwy.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):19)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at hjxz.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 01:51:16.137  3354 23991 E jveu    : 	at java.lang.Thread.run(Thread.java:1564)
+05-24 01:51:16.139  3354 23991 E jveu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-24 01:51:16.139  3354 23991 E jveu    :     Make sure to call shutdown()/shutdownNow()
+05-24 01:51:16.139  3354 23991 E jveu    : java.lang.RuntimeException: ManagedChannel allocation site
+05-24 01:51:16.139  3354 23991 E jveu    : 	at jvet.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):21)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at jveu.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at jves.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):300)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at jumk.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at czjz.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):154)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at hnlz.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):142)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at hawr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at hjxx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at hjwy.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):19)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at hjxz.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 01:51:16.139  3354 23991 E jveu    : 	at java.lang.Thread.run(Thread.java:1564)
+05-24 01:51:16.140  3354 23991 E jveu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-24 01:51:16.140  3354 23991 E jveu    :     Make sure to call shutdown()/shutdownNow()
+05-24 01:51:16.140  3354 23991 E jveu    : java.lang.RuntimeException: ManagedChannel allocation site
+05-24 01:51:16.140  3354 23991 E jveu    : 	at jvet.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):21)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at jveu.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at jves.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):300)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at jumk.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at czjz.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):154)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at hnlz.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):142)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at hawr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at hjxx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at hjwy.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):19)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at hjxz.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at java.lang.Thread.run(Thread.java:1564)
+05-24 01:51:16.140  3354 23991 E jveu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-24 01:51:16.140  3354 23991 E jveu    :     Make sure to call shutdown()/shutdownNow()
+05-24 01:51:16.140  3354 23991 E jveu    : java.lang.RuntimeException: ManagedChannel allocation site
+05-24 01:51:16.140  3354 23991 E jveu    : 	at jvet.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):21)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at jveu.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at jves.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):300)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at jumk.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at czjz.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):154)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at hnlz.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):142)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at hawr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at hjxx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at hjwy.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):19)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at hjxz.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 01:51:16.140  3354 23991 E jveu    : 	at java.lang.Thread.run(Thread.java:1564)
+05-24 01:51:16.141  3354 23991 E jveu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-24 01:51:16.141  3354 23991 E jveu    :     Make sure to call shutdown()/shutdownNow()
+05-24 01:51:16.141  3354 23991 E jveu    : java.lang.RuntimeException: ManagedChannel allocation site
+05-24 01:51:16.141  3354 23991 E jveu    : 	at jvet.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):21)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at jveu.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at jves.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):300)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at jumk.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at czjz.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):154)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at hnlz.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):142)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at hawr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at hjxx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at hjwy.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):19)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at hjxz.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 01:51:16.141  3354 23991 E jveu    : 	at java.lang.Thread.run(Thread.java:1564)
+05-24 01:51:16.142  3354 23991 E jveu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-24 01:51:16.142  3354 23991 E jveu    :     Make sure to call shutdown()/shutdownNow()
+05-24 01:51:16.142  3354 23991 E jveu    : java.lang.RuntimeException: ManagedChannel allocation site
+05-24 01:51:16.142  3354 23991 E jveu    : 	at jvet.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):21)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at jveu.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at jves.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):300)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at jumk.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at czjz.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):154)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at hnlz.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):142)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at hawr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at hjxx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at hjwy.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):19)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at hjxz.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 01:51:16.142  3354 23991 E jveu    : 	at java.lang.Thread.run(Thread.java:1564)
+05-24 01:51:16.148  3354 23991 E jveu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-24 01:51:16.148  3354 23991 E jveu    :     Make sure to call shutdown()/shutdownNow()
+05-24 01:51:16.148  3354 23991 E jveu    : java.lang.RuntimeException: ManagedChannel allocation site
+05-24 01:51:16.148  3354 23991 E jveu    : 	at jvet.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):21)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at jveu.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at jves.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):300)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at jumk.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at czjz.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):154)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at hnlz.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):142)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at hawr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at hjxx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at hjwy.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):19)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at hjxz.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at java.lang.Thread.run(Thread.java:1564)
+05-24 01:51:16.148  3354 23991 E jveu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-24 01:51:16.148  3354 23991 E jveu    :     Make sure to call shutdown()/shutdownNow()
+05-24 01:51:16.148  3354 23991 E jveu    : java.lang.RuntimeException: ManagedChannel allocation site
+05-24 01:51:16.148  3354 23991 E jveu    : 	at jvet.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):21)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at jveu.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at jves.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):300)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at jumk.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at czjz.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):154)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at hnlz.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):142)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at hawr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at hjxx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at hjwy.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):19)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at hjxz.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 01:51:16.148  3354 23991 E jveu    : 	at java.lang.Thread.run(Thread.java:1564)
+05-24 01:51:16.149  3354 23991 E jveu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-24 01:51:16.149  3354 23991 E jveu    :     Make sure to call shutdown()/shutdownNow()
+05-24 01:51:16.149  3354 23991 E jveu    : java.lang.RuntimeException: ManagedChannel allocation site
+05-24 01:51:16.149  3354 23991 E jveu    : 	at jvet.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):21)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at jveu.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at jves.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):300)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at jumk.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at czjz.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):154)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at hnlz.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):142)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at hawr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at hjxx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at hjwy.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):19)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at hjxz.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at java.lang.Thread.run(Thread.java:1564)
+05-24 01:51:16.149  3354 23991 E jveu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-24 01:51:16.149  3354 23991 E jveu    :     Make sure to call shutdown()/shutdownNow()
+05-24 01:51:16.149  3354 23991 E jveu    : java.lang.RuntimeException: ManagedChannel allocation site
+05-24 01:51:16.149  3354 23991 E jveu    : 	at jvet.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):21)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at jveu.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at jves.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):300)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at jumk.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at czjz.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):154)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at hnlz.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):142)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at hawr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at hjxx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at hjwy.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):19)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at hjxz.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 01:51:16.149  3354 23991 E jveu    : 	at java.lang.Thread.run(Thread.java:1564)
+05-24 01:51:16.155  3354 23991 E jveu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-24 01:51:16.155  3354 23991 E jveu    :     Make sure to call shutdown()/shutdownNow()
+05-24 01:51:16.155  3354 23991 E jveu    : java.lang.RuntimeException: ManagedChannel allocation site
+05-24 01:51:16.155  3354 23991 E jveu    : 	at jvet.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):21)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at jveu.<init>(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at jves.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):300)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at jumk.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at czjz.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):154)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at hnlz.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):142)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at hawr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at hjxx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at hjwy.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):19)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at hjxz.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 01:51:16.155  3354 23991 E jveu    : 	at java.lang.Thread.run(Thread.java:1564)
+05-24 01:51:16.353 26207 26207 E FBI     : Can't load library: dlopen failed: library "libmagtsync.so" not found
+05-24 01:51:16.368 26207 26231 E OpenGLRenderer: Device claims wide gamut support, cannot find matching config, error = EGL_SUCCESS
+05-24 01:51:16.413 26207 26271 E ion     : ioctl c0044901 failed with code -1: Invalid argument
+05-24 01:51:16.879 26248 26294 E SoLoader: Waiting on SoSource BackupSoSource
+05-24 01:51:16.884 26248 26294 E SoLoader: Checking /data/app missing libraries.
+05-24 01:51:16.896 26248 26294 E SoLoader: No libraries missing from /data/app/~~afRuEiIuUgVT6G9WgLkXhw==/com.facebook.services-FD9lSFUW5WxrGhTSNCcukw==/lib/arm64
+05-24 01:51:16.896 26248 26294 E SoLoader: Checking /data/data missing libraries.
+05-24 01:51:16.896 26248 26294 E SoLoader: No libraries missing from unpacking so paths while recovering /data/data failure
+05-24 01:51:16.896 26248 26294 E SoLoader: Waiting on SoSource BackupSoSource
+05-24 01:51:17.752 23613 23613 E SlowAppComponent: 0ms: FbnsInitBroadcastReceiver instantiating…
+05-24 01:51:17.752 23613 23613 E SlowAppComponent: Main thread was blocked for 31ms in the background starting with FbnsInitBroadcastReceiver
+05-24 01:51:17.960 26379 26390 E ion     : ioctl c0044901 failed with code -1: Invalid argument
+05-24 01:51:18.363 13408 26433 E GoogleApiManager: Failed to get service from broker. 
+05-24 01:51:18.363 13408 26433 E GoogleApiManager: java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+05-24 01:51:18.363 13408 26433 E GoogleApiManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3025)
+05-24 01:51:18.363 13408 26433 E GoogleApiManager: 	at android.os.Parcel.createException(Parcel.java:3009)
+05-24 01:51:18.363 13408 26433 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:2992)
+05-24 01:51:18.363 13408 26433 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:2934)
+05-24 01:51:18.363 13408 26433 E GoogleApiManager: 	at bioy.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):36)
+05-24 01:51:18.363 13408 26433 E GoogleApiManager: 	at bimu.z(:com.google.android.gms@261833029@26.18.33 (190400-913931251):143)
+05-24 01:51:18.363 13408 26433 E GoogleApiManager: 	at bhso.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):42)
+05-24 01:51:18.363 13408 26433 E GoogleApiManager: 	at android.os.Handler.handleCallback(Handler.java:942)
+05-24 01:51:18.363 13408 26433 E GoogleApiManager: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-24 01:51:18.363 13408 26433 E GoogleApiManager: 	at cyek.mP(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1)
+05-24 01:51:18.363 13408 26433 E GoogleApiManager: 	at cyek.dispatchMessage(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:18.363 13408 26433 E GoogleApiManager: 	at android.os.Looper.loopOnce(Looper.java:223)
+05-24 01:51:18.363 13408 26433 E GoogleApiManager: 	at android.os.Looper.loop(Looper.java:324)
+05-24 01:51:18.363 13408 26433 E GoogleApiManager: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+05-24 01:51:18.407 13408 26433 E GoogleApiManager: Failed to get service from broker. 
+05-24 01:51:18.407 13408 26433 E GoogleApiManager: java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+05-24 01:51:18.407 13408 26433 E GoogleApiManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3025)
+05-24 01:51:18.407 13408 26433 E GoogleApiManager: 	at android.os.Parcel.createException(Parcel.java:3009)
+05-24 01:51:18.407 13408 26433 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:2992)
+05-24 01:51:18.407 13408 26433 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:2934)
+05-24 01:51:18.407 13408 26433 E GoogleApiManager: 	at bioy.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):36)
+05-24 01:51:18.407 13408 26433 E GoogleApiManager: 	at bimu.z(:com.google.android.gms@261833029@26.18.33 (190400-913931251):143)
+05-24 01:51:18.407 13408 26433 E GoogleApiManager: 	at bhso.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):42)
+05-24 01:51:18.407 13408 26433 E GoogleApiManager: 	at android.os.Handler.handleCallback(Handler.java:942)
+05-24 01:51:18.407 13408 26433 E GoogleApiManager: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-24 01:51:18.407 13408 26433 E GoogleApiManager: 	at cyek.mP(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1)
+05-24 01:51:18.407 13408 26433 E GoogleApiManager: 	at cyek.dispatchMessage(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:18.407 13408 26433 E GoogleApiManager: 	at android.os.Looper.loopOnce(Looper.java:223)
+05-24 01:51:18.407 13408 26433 E GoogleApiManager: 	at android.os.Looper.loop(Looper.java:324)
+05-24 01:51:18.407 13408 26433 E GoogleApiManager: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+05-24 01:51:18.414 13408 26433 E GoogleApiManager: Failed to get service from broker. 
+05-24 01:51:18.414 13408 26433 E GoogleApiManager: java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+05-24 01:51:18.414 13408 26433 E GoogleApiManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3025)
+05-24 01:51:18.414 13408 26433 E GoogleApiManager: 	at android.os.Parcel.createException(Parcel.java:3009)
+05-24 01:51:18.414 13408 26433 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:2992)
+05-24 01:51:18.414 13408 26433 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:2934)
+05-24 01:51:18.414 13408 26433 E GoogleApiManager: 	at bioy.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):36)
+05-24 01:51:18.414 13408 26433 E GoogleApiManager: 	at bimu.z(:com.google.android.gms@261833029@26.18.33 (190400-913931251):143)
+05-24 01:51:18.414 13408 26433 E GoogleApiManager: 	at bhso.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):42)
+05-24 01:51:18.414 13408 26433 E GoogleApiManager: 	at android.os.Handler.handleCallback(Handler.java:942)
+05-24 01:51:18.414 13408 26433 E GoogleApiManager: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-24 01:51:18.414 13408 26433 E GoogleApiManager: 	at cyek.mP(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1)
+05-24 01:51:18.414 13408 26433 E GoogleApiManager: 	at cyek.dispatchMessage(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:18.414 13408 26433 E GoogleApiManager: 	at android.os.Looper.loopOnce(Looper.java:223)
+05-24 01:51:18.414 13408 26433 E GoogleApiManager: 	at android.os.Looper.loop(Looper.java:324)
+05-24 01:51:18.414 13408 26433 E GoogleApiManager: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+05-24 01:51:20.235 23613 23717 E MQTTBypassDGWStreamGroupCallbacks.cpp: onStreamGroupError TransientError domain: MNSQUICConnection code: 1 detail: Local error: 0x40000015: 35 seconds timeout
+05-24 01:51:20.271 23613 23889 E msys    : E[N mns:DGWClient]_OnResolverSuccess(317)=>Cache refresh succeeded with system DNS resolver. IP count: 1
+05-24 01:51:28.422 13408 26433 E GoogleApiManager: Failed to get service from broker. 
+05-24 01:51:28.422 13408 26433 E GoogleApiManager: java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+05-24 01:51:28.422 13408 26433 E GoogleApiManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3025)
+05-24 01:51:28.422 13408 26433 E GoogleApiManager: 	at android.os.Parcel.createException(Parcel.java:3009)
+05-24 01:51:28.422 13408 26433 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:2992)
+05-24 01:51:28.422 13408 26433 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:2934)
+05-24 01:51:28.422 13408 26433 E GoogleApiManager: 	at bioy.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):36)
+05-24 01:51:28.422 13408 26433 E GoogleApiManager: 	at bimu.z(:com.google.android.gms@261833029@26.18.33 (190400-913931251):143)
+05-24 01:51:28.422 13408 26433 E GoogleApiManager: 	at bhso.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):42)
+05-24 01:51:28.422 13408 26433 E GoogleApiManager: 	at android.os.Handler.handleCallback(Handler.java:942)
+05-24 01:51:28.422 13408 26433 E GoogleApiManager: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-24 01:51:28.422 13408 26433 E GoogleApiManager: 	at cyek.mP(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1)
+05-24 01:51:28.422 13408 26433 E GoogleApiManager: 	at cyek.dispatchMessage(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-24 01:51:28.422 13408 26433 E GoogleApiManager: 	at android.os.Looper.loopOnce(Looper.java:223)
+05-24 01:51:28.422 13408 26433 E GoogleApiManager: 	at android.os.Looper.loop(Looper.java:324)
+05-24 01:51:28.422 13408 26433 E GoogleApiManager: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+05-24 01:51:48.950 26575 26593 E SoLoader: Waiting on SoSource BackupSoSource
+05-24 01:51:48.952 26575 26593 E SoLoader: Checking /data/app missing libraries.
+05-24 01:51:48.956 26575 26593 E SoLoader: No libraries missing from /data/app/~~afRuEiIuUgVT6G9WgLkXhw==/com.facebook.services-FD9lSFUW5WxrGhTSNCcukw==/lib/arm64
+05-24 01:51:48.956 26575 26593 E SoLoader: Checking /data/data missing libraries.
+05-24 01:51:48.956 26575 26593 E SoLoader: No libraries missing from unpacking so paths while recovering /data/data failure
+05-24 01:51:48.956 26575 26593 E SoLoader: Waiting on SoSource BackupSoSource
+05-24 01:51:49.123 26619 26619 E VivoConfigStore: key:vivo.software.multilandscape isCached is false and normal value is false
+05-24 01:51:49.124 26619 26619 E VivoConfigStore: key:vivo.software.splitrecents isCached is false and normal value is false
+05-24 01:51:49.125 26619 26619 E VivoConfigStore: key:vivo.software.splitratio isCached is false and normal value is false
+05-24 01:51:49.126 26619 26619 E VivoConfigStore: key:vivo.software.multiwindowresidentbar isCached is false and normal value is false
+05-24 01:51:49.128 26619 26619 E VivoConfigStore: key:vivo.software.hovermode isCached is false and normal value is false
+05-24 01:51:50.133 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+--------- beginning of system
+05-24 01:51:50.184 26619 26672 E ActivityThread: Failed to find provider info for com.facebook.appmanager.nekodirect
+05-24 01:51:50.264 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.278 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.279 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.298 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.302 21457 21457 E VivoConfigStore: key:vivo.software.springeffect isCached is true and value is true
+05-24 01:51:50.532 21457  7262 E OpenGLRenderer: Device claims wide gamut support, cannot find matching config, error = EGL_SUCCESS
+05-24 01:51:50.619 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.620 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.620 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.630 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.647 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.648 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.648 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.649 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.654 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.656 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.657 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.659 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.662 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.663 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.664 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.665 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.670 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.670 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.671 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.672 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.678 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:50.680 21457 21457 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:51:53.943 22449 22449 E NetworkErrorMessage: (REDACTED) Invalid connectivity state: %s
+05-24 01:51:55.160 26756 26759 E ion     : ioctl c0044901 failed with code -1: Invalid argument
+05-24 01:52:03.515 26767 26780 E GmsClient: unable to connect to service: com.google.android.gms.gservices.START on com.google.android.gms
+05-24 01:52:11.283 26788 26788 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath failed , error(Permission denied)
+05-24 01:52:11.283 26788 26788 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:52:11.283 26788 26788 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath2 failed , error(Permission denied)
+05-24 01:52:11.283 26788 26788 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:52:11.283 26788 26788 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath3 failed , error(Permission denied)
+05-24 01:52:11.283 26788 26788 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:52:11.283 26788 26788 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath4 failed , error(Permission denied)
+05-24 01:52:11.283 26788 26788 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:52:11.625 26788 26788 E VivoConfigStore: key:vivo.software.globaltheme isCached is false and normal value is true
+05-24 01:52:11.626 26788 26788 E VivoConfigStore: key:vivo.software.globaltheme isCached is true and value is true
+05-24 01:52:14.202 26810 26811 E ion     : ioctl c0044901 failed with code -1: Invalid argument
+05-24 01:52:15.188 26819 26819 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath failed , error(Permission denied)
+05-24 01:52:15.188 26819 26819 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:52:15.188 26819 26819 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath2 failed , error(Permission denied)
+05-24 01:52:15.188 26819 26819 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:52:15.188 26819 26819 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath3 failed , error(Permission denied)
+05-24 01:52:15.188 26819 26819 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:52:15.188 26819 26819 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath4 failed , error(Permission denied)
+05-24 01:52:15.188 26819 26819 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:52:16.482 26819 26819 E VivoConfigStore: key:vivo.software.multilandscape isCached is false and normal value is false
+05-24 01:52:16.485 26819 26819 E VivoConfigStore: key:vivo.software.splitrecents isCached is false and normal value is false
+05-24 01:52:16.487 26819 26819 E VivoConfigStore: key:vivo.software.splitratio isCached is false and normal value is false
+05-24 01:52:16.489 26819 26819 E VivoConfigStore: key:vivo.software.multiwindowresidentbar isCached is false and normal value is false
+05-24 01:52:16.491 26819 26819 E VivoConfigStore: key:vivo.software.hovermode isCached is false and normal value is false
+05-24 01:52:29.201 26207 26207 E VivoConfigStore: key:vivo.software.romstyle isCached is false and normal value is true
+05-24 01:52:29.204 26207 26207 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:52:31.437 26863 26864 E ion     : ioctl c0044901 failed with code -1: Invalid argument
+05-24 01:52:32.189 26868 26868 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath failed , error(Permission denied)
+05-24 01:52:32.189 26868 26868 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:52:32.189 26868 26868 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath2 failed , error(Permission denied)
+05-24 01:52:32.189 26868 26868 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:52:32.189 26868 26868 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath3 failed , error(Permission denied)
+05-24 01:52:32.189 26868 26868 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:52:32.189 26868 26868 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath4 failed , error(Permission denied)
+05-24 01:52:32.189 26868 26868 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:52:33.447 26868 26868 E VivoConfigStore: key:vivo.software.multilandscape isCached is false and normal value is false
+05-24 01:52:33.449 26868 26868 E VivoConfigStore: key:vivo.software.splitrecents isCached is false and normal value is false
+05-24 01:52:33.451 26868 26868 E VivoConfigStore: key:vivo.software.splitratio isCached is false and normal value is false
+05-24 01:52:33.452 26868 26868 E VivoConfigStore: key:vivo.software.multiwindowresidentbar isCached is false and normal value is false
+05-24 01:52:33.453 26868 26868 E VivoConfigStore: key:vivo.software.hovermode isCached is false and normal value is false
+05-24 01:53:28.641 11701 11842 E msgr.msys: E[C mem.context]_LogNetworkStateUpdate(7451)=>[Critical] network_state/prev/2/new/1/source/1
+05-24 01:53:28.651 11701 11807 E msgr.msys: E[N mns:DGWClient]_OnResolverSuccess(317)=>Cache refresh succeeded with system DNS resolver. IP count: 1
+05-24 01:53:28.653 11701 11842 E msgr.msys: E[C MEMConnectionManager]_NetworkConnectedConnectionEventHandler(1509)=>[Debug] Start _NetworkConnectedConnectionEventHandler.
+05-24 01:53:28.658 11701 11842 E msgr.msys: E[C MEMConnectionManager]_NetworkConnectedConnectionEventHandler(1519)=>[Debug] End _NetworkConnectedConnectionEventHandler.
+05-24 01:53:28.658 11701 11810 E msgr.msys: E[C MEMConnectionManager]__ConnectIfNeededOnNetworkContextAsyncImpl(1214)=>[Critical] Call WCCConnectionConnect with event id: 4
+05-24 01:53:28.661 11701 11810 E msgr.msys: E[N WCCConnectionMEM]_WCCConnectionMEMEmitStateChange(3256)=>[INFO] connection/new_state/connecting [connection_id=1061907756, wcc_source=0, wcc_reason=0]
+05-24 01:53:28.661 11701 11810 E msgr.msys: E[C MEMConnectionManager]_MEMConnectionManagerStateChangeHandler(585)=>[Critical] MEMConnectionState updated to ID: 1 with connectionId: 1061907756
+05-24 01:53:28.688 11701 11810 E msgr.msys: E[N WCCConnectionMEM]_WCCConnectionMEMDoConnectWithAuthKeys(1558)=>[INFO] connection/connect/start/[host=chat-e2ee-mini.facebook.com port=5222]/[157.240.227.37:5222]/socketAddressCount=1
+05-24 01:53:28.689 11701 11810 E msgr.msys: E[N WCCConnectionMEM]_WCCConnectionMEMLifecycleEventHandler(2232)=>[INFO] connection/xmpp/lifecycle_event/will-connect
+05-24 01:53:28.690 11701 11810 E msgr.msys: E[A WA]WCCHandshakeCreate(191)=>handshake/create, pq mode:0
+05-24 01:53:28.721 11701 11842 E msgr.msys: E[C mem.context]_NetworkStateChangedCallbackOnExecutionContext(7558)=>[INFO]skip the network state change source=3
+05-24 01:53:28.722 11701 11810 E msgr.msys: E[N WCCConnectionMEM]_WCCConnectionMEMLifecycleEventHandler(2240)=>[INFO] connection/xmpp/lifecycle_event/did-connect, [0.0334s]
+05-24 01:53:28.728 11701 11810 E msgr.msys: E[N WCCConnectionMEM]_WCCConnectionMEMLifecycleEventHandler(2240)=>[INFO] connection/xmpp/lifecycle_event/did-send-initial-payload, [0.0058s]
+05-24 01:53:28.987 11701 11810 E msgr.msys: E[N WCCConnectionMEM]_WCCConnectionMEMLifecycleEventHandler(2240)=>[INFO] connection/xmpp/lifecycle_event/will-handshake, [0.2580s]
+05-24 01:53:28.990 11701 11810 E msgr.msys: E[N WCCConnectionMEM]_WCCConnectionMEMLifecycleEventHandler(2240)=>[INFO] connection/xmpp/lifecycle_event/did-handshake, [0.0031s]
+05-24 01:53:28.996 11701 11810 E msgr.msys: E[N WCCConnectionMEM]_WCCConnectionMEMReceiveHandler(2412)=>[INFO] connection/receive/login-success
+05-24 01:53:28.996 11701 11810 E msgr.msys: E[N WCCConnectionMEM]_WCCConnectionMEMEmitStateChange(3256)=>[INFO] connection/new_state/connected [connection_id=1061907756, wcc_source=0, wcc_reason=0]
+05-24 01:53:28.996 11701 11810 E msgr.msys: E[C MEMConnectionManager]_MEMConnectionManagerStateChangeHandler(585)=>[Critical] MEMConnectionState updated to ID: 2 with connectionId: 1061907756
+05-24 01:53:28.999 11701 11809 E msgr.ZeroChatDHostController: Trying to add the same listener twice. This must be a bug.
+05-24 01:53:34.597 22449 22449 E NetworkErrorMessage: (REDACTED) Invalid connectivity state: %s
+05-24 01:53:34.849 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:34.853 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:34.853 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:34.867 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:34.867 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:34.867 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:34.868 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:34.868 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:34.868 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:34.868 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:34.868 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:34.892 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:34.892 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:34.892 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:34.896 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:34.896 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:34.897 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:34.898 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:34.898 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:34.898 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:34.919 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#query
+05-24 01:53:34.920 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:34.941 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:34.941 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:34.942 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:34.942 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:34.942 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:34.943 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:34.954 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:34.954 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:34.959 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:34.959 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:34.960 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:34.960 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:34.960 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:34.960 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:34.960 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:34.961 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:34.961 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:34.961 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:34.961 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:34.967 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#query
+05-24 01:53:34.967 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:34.974 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:34.975 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:34.975 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:34.975 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:34.976 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:34.976 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:34.976 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:34.985 21773 22036 E Finsky  : [126] [Counters] attempted to use a non-positive increment for: 4752
+05-24 01:53:35.049 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#query
+05-24 01:53:35.049 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:35.050 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:35.050 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:35.051 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:35.051 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:35.051 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:35.052 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:35.052 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:35.052 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:35.053 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:35.053 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:35.053 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:35.053 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:35.054 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:35.054 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:35.054 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:35.054 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:35.054 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:35.054 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:35.054 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:35.063 21773 22036 E Finsky  : [126] [Counters] attempted to use a non-positive increment for: 4753
+05-24 01:53:35.072 21773 22036 E Finsky  : [126] [Counters] attempted to use a non-positive increment for: 4752
+05-24 01:53:35.078 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#query
+05-24 01:53:35.078 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:35.097 21773 22036 E Finsky  : [126] [Counters] attempted to use a non-positive increment for: 4753
+05-24 01:53:35.558 21773 22009 E Finsky  : [122] [Counters] attempted to use a non-positive increment for: 4752
+05-24 01:53:35.602 21773 22012 E Finsky  : [123] [Counters] attempted to use a non-positive increment for: 4753
+05-24 01:53:35.657 21773 22009 E Finsky  : [122] [Counters] attempted to use a non-positive increment for: 4752
+05-24 01:53:35.682 21773 22012 E Finsky  : [123] [Counters] attempted to use a non-positive increment for: 4753
+05-24 01:53:36.327 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:36.328 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:36.328 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:36.329 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:36.329 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:36.329 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:36.329 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:36.329 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:36.329 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:36.330 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:36.330 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:36.351 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:36.351 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:36.351 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:36.353 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:36.353 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:36.354 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:36.360 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:36.361 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:36.361 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:36.373 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#query
+05-24 01:53:36.374 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:36.377 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:36.377 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:36.378 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:36.378 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:36.378 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:36.379 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:36.379 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:36.379 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:36.380 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:36.380 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:36.380 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:36.381 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:36.381 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:36.381 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:36.381 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:36.381 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:36.381 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:36.381 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:36.382 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:36.386 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#query
+05-24 01:53:36.386 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:36.720 23560 27044 W SQLiteLog: (28) double-quoted string literal: "com.easyui.guardianlauncher"
+05-24 01:53:36.723 14467 27020 D NetUtils: getNation:PK
+05-24 01:53:36.729 25201 25229 I ProvidersCache: Provider returned no roots. Possibly naughty: com.microsoft.skydrive.content.StorageAccessProvider
+05-24 01:53:36.763 14467 27020 D NetUtils: getNation:PK
+05-24 01:53:36.889  3354 27066 I ProximityAuth: [RecentAppsMediator] Package added: (user=UserHandle{0}) com.easyui.guardianlauncher.test
+05-24 01:53:36.903  3354 27037 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+05-24 01:53:36.906  3354 27072 I FontLog : (REDACTED) Package %s has no metadata
+05-24 01:53:36.911  3354 27072 W NetworkScheduler: Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+05-24 01:53:36.926 23560 27106 I Auth    : (REDACTED) [SupervisedAccountIntentOperation] onHandleIntent: %s
+05-24 01:53:36.940 23560 27106 W AppInstallOperation: FDL Migration::InstallIntentOperation by FDL Module [CONTEXT service_id=77 ]
+05-24 01:53:36.943 23560 27136 I Dck     : (REDACTED) disableDckSupport: %s
+05-24 01:53:36.947 25201 25228 I ProvidersCache: Provider returned no roots. Possibly naughty: com.microsoft.skydrive.content.StorageAccessProvider
+05-24 01:53:36.963 23560 27107 I FraudProtectUtils: (REDACTED) Latest bank app list size: %d, %s isBankApp: %b
+05-24 01:53:36.963 23560 27136 E Dck     : Could not get ProviderInfo when resolving the content provider authority. [CONTEXT service_id=289 ]
+05-24 01:53:36.963 23560 27107 I PackageInstalledIntentO: (REDACTED) Package %s is not a bank app. Skipping updates.
+05-24 01:53:36.964 23560 27136 E Dck     : Samsung Content Provider failed app verification [CONTEXT service_id=289 ]
+05-24 01:53:36.969 23560 27136 W Dck     : [WirelessCapabilitiesFeatures] wccSysProp: 0 [CONTEXT service_id=289 ]
+05-24 01:53:36.969 23560 27136 I Dck     : [WirelessCapabilitiesFeatures] wccOverride: not set [CONTEXT service_id=289 ]
+05-24 01:53:36.973 23560 24036 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36
+05-24 01:53:36.986 23560 27136 I Dck     : (REDACTED) [WirelessCapabilitiesFeatures] returned wcc: %s
+05-24 01:53:36.990 23560 27136 I Dck     : Dck module condition - hasWccSupport: false [CONTEXT service_id=289 ]
+05-24 01:53:36.990 23560 27136 I Dck     : Dck module condition - downloadAllowed: false [CONTEXT service_id=289 ]
+05-24 01:53:36.990 23560 27136 W Dck     : Dck module not eligible for asynchronous downloading [CONTEXT service_id=289 ]
+05-24 01:53:37.026 21457 24587 I PermissionControllerServiceImpl: Updating user sensitive for uid 10473
+05-24 01:53:37.029  3354 27066 W libc    : Access denied finding property "vendor.vivo.imageencoder.dump"
+05-24 01:53:37.029  3354 27066 D OpenGLRenderer: Bitmap::compress format:Png w:96 h:96 quality:100 app_apk:com.google.android.gms.persistent 
+05-24 01:53:37.029  3354 27066 W libc    : Access denied finding property "vendor.vivo.imageencoder.dump"
+05-24 01:53:37.094 21773 22036 I Finsky  : [126] AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.easyui.guardianlauncher.test]
+05-24 01:53:37.143 21457 27161 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION, user: 0
+05-24 01:53:37.198 14467 27020 D NetUtils: getNation:PK
+05-24 01:53:37.225 21457 27161 W SignedPackage: Package doesn't have required signing certificate: com.google.android.apps.work.clouddpc
+05-24 01:53:37.238 14467 27113 E AS.ATRequest: 01:53:37.237[280] ----doRetryPost(): response: {"ret_code":11020}
+05-24 01:53:37.278 23560 27107 I NearbyDiscovery: (REDACTED) processGrantSlicePermission: %s
+05-24 01:53:37.291 21773 22036 I Finsky  : [126] AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.easyui.guardianlauncher.test]
+05-24 01:53:37.291 21773 22036 I Finsky  : [126] AIM: Got app ownership map. App counts: . Unique apps: 0
+05-24 01:53:37.291 21773 22036 E Finsky  : [126] [Counters] attempted to use a non-positive increment for: 4752
+05-24 01:53:37.294 21773 22036 I Finsky  : [126] AIM: Got app ownership map. App counts: . Unique apps: 0
+05-24 01:53:37.301 21773 22036 E Finsky  : [126] [Counters] attempted to use a non-positive increment for: 4752
+05-24 01:53:37.397 21773 21773 I Finsky  : [2] ajol - Received: android.intent.action.PACKAGE_CHANGED, [lvbmYPyLMM9QL_3-r3rt9MsWGjal5AvyZuzQqlViin0]
+05-24 01:53:37.402 14467 27020 D NetUtils: getNation:PK
+05-24 01:53:37.402  3354 27066 I Fitness : (REDACTED) OnPackageChangedOperation got intent: %s
+05-24 01:53:37.410  3354 27037 I Fitness : (REDACTED) FitCleanupIntentOperation received Intent %s
+05-24 01:53:37.479 21773 21773 I Finsky  : [2] AIM: AppInfoCacheUpdater -> invalidating apps: [com.easyui.guardianlauncher.test]
+05-24 01:53:37.480 21773 21773 I Finsky  : [2] AIM: AppInfoManager-Perf > getApps > called for 1 apps
+05-24 01:53:37.492 21773 21894 I Finsky  : [108] RECEIVER_PACKAGE_MONITOR#logWorkEndAndFinishGoAsync: SUCCESS
+05-24 01:53:37.567 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:37.567 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:37.567 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:37.568 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:37.568 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:37.568 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:37.568 14467 14769 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=128948bb-4e65-4378-840f-0dee256cfe14, tags={ com.ushareit.ccm.CommandWorker, Cmd } ]
+05-24 01:53:37.568 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:37.569 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:37.569 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:37.569 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:37.569 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:37.569 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:37.569 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:37.569 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:37.569 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:37.570 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:37.570 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:37.570 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:37.570 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:37.570 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:37.573 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:37.573 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:37.578 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:37.578 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:37.578 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:37.579 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:37.579 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:37.580 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:37.580 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#query
+05-24 01:53:37.580 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:37.581 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:37.581 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:37.581 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:37.581 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:37.582 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#query
+05-24 01:53:37.582 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:37.630 27217 27217 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath failed , error(Permission denied)
+05-24 01:53:37.630 27217 27217 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:53:37.630 27217 27217 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath2 failed , error(Permission denied)
+05-24 01:53:37.630 27217 27217 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:53:37.630 27217 27217 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath3 failed , error(Permission denied)
+05-24 01:53:37.630 27217 27217 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:53:37.630 27217 27217 E appproc : checkAndSetEnv get_baksize open file /data/dalvik-cache/classpath4 failed , error(Permission denied)
+05-24 01:53:37.630 27217 27217 E appproc : checkAndSetEnv write_classpathbak open file failed:Permission denied
+05-24 01:53:37.630 27217 27217 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-24 01:53:37.637 27217 27217 I AndroidRuntime: Using default boot image
+05-24 01:53:37.638 27217 27217 I AndroidRuntime: Leaving lock profiling enabled
+05-24 01:53:37.645 27217 27217 I app_process: Using CollectorTypeCC GC.
+05-24 01:53:37.656 23560 23560 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+05-24 01:53:37.656 23560 23560 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+05-24 01:53:37.783 23560 24036 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30
+05-24 01:53:37.802 27217 27217 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+05-24 01:53:37.813  3354 27037 I Fitness : (REDACTED) OnPackageChangedOperation got intent: %s
+05-24 01:53:37.822 27217 27217 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-24 01:53:37.822 27217 27217 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+05-24 01:53:37.823 27217 27217 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt70l.dat
+05-24 01:53:37.826 27217 27217 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-24 01:53:37.828 27217 27217 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-24 01:53:37.831 27217 27217 I app_process: Priority-to-niceness mapping: 19, 16, 13, 10, 0, -2, -4, -5, -6, -8
+05-24 01:53:37.841 27217 27217 I VivoSystemFrameworkFactory: Instance implClass com.vivo.VivoSystemFrameworkFactoryImpl
+05-24 01:53:37.873  3354 27066 I Fitness : (REDACTED) FitCleanupIntentOperation received Intent %s
+05-24 01:53:37.888 27217 27217 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-24 01:53:37.888 27217 27217 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+05-24 01:53:37.898 27217 27217 W main    : type=1400 audit(0.0:151201): avc: denied { read } for name="u:object_r:system_mtk_app32_boost_prop:s0" dev="tmpfs" ino=13529 scontext=u:r:shell:s0 tcontext=u:object_r:system_mtk_app32_boost_prop:s0 tclass=file permissive=0
+05-24 01:53:37.901 27217 27217 W libc    : Access denied finding property "ro.vendor.mtk.app32_boost_support"
+05-24 01:53:37.968 21773 22009 E Finsky  : [122] [Counters] attempted to use a non-positive increment for: 4753
+05-24 01:53:38.004 23560 27134 I Icing   : Usage reports ok 2, Failed Usage reports 0, indexed 0, rejected 0
+05-24 01:53:38.047 21773 22012 E Finsky  : [123] [Counters] attempted to use a non-positive increment for: 4753
+05-24 01:53:38.050 21773 22012 I Finsky  : [123] AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.easyui.guardianlauncher.test]
+05-24 01:53:38.087 21773 22012 I Finsky  : [123] AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.easyui.guardianlauncher.test]
+05-24 01:53:38.088 21773 22012 I Finsky  : [123] AIM: Got app ownership map. App counts: . Unique apps: 0
+05-24 01:53:38.088 21773 22012 E Finsky  : [123] [Counters] attempted to use a non-positive increment for: 4752
+05-24 01:53:38.097 21773 22012 I Finsky  : [123] AIM: Got app ownership map. App counts: . Unique apps: 0
+05-24 01:53:38.097 21773 22012 E Finsky  : [123] [Counters] attempted to use a non-positive increment for: 4752
+05-24 01:53:38.107 21773 22012 E Finsky  : [123] [Counters] attempted to use a non-positive increment for: 4753
+05-24 01:53:38.154 21773 22012 E Finsky  : [123] [Counters] attempted to use a non-positive increment for: 4753
+05-24 01:53:38.173 23560 27134 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+05-24 01:53:38.196 21773 22012 I Finsky  : [123] AIM: AppInfoManager-Perf > ItemModel > CacheSize=238, cacheHitCount=0, cacheMissCount=0, total appsWithNoServerDataCount=0. Missed  in cache (limit 10) : []
+05-24 01:53:38.207 21773 22012 I Finsky  : [123] AIM: AppInfoManager-Perf > ItemModel > CacheSize=238, cacheHitCount=0, cacheMissCount=0, total appsWithNoServerDataCount=0. Missed  in cache (limit 10) : []
+05-24 01:53:38.234 21773 22012 I Finsky  : [123] AIM: AppInfoManager-Perf > ItemModel > CacheSize=238, cacheHitCount=0, cacheMissCount=0, total appsWithNoServerDataCount=0. Missed  in cache (limit 10) : []
+05-24 01:53:38.235 23560 27134 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+05-24 01:53:38.239 21773 22012 I Finsky  : [123] AIM: AppInfoManager-Perf > getApps > data collection finished
+05-24 01:53:38.240 21773 22012 I Finsky  : [123] AIM: AppInfoManager-Perf > maybeDestroyAppInfoManager is called. actives = 1
+05-24 01:53:38.257 21773 22012 I Finsky  : [123] AIM: AppInfoManager-Perf > ItemModel > CacheSize=238, cacheHitCount=0, cacheMissCount=0, total appsWithNoServerDataCount=0. Missed  in cache (limit 10) : []
+05-24 01:53:38.271 21773 22012 I Finsky  : [123] AIM: AppInfoManager-Perf > getApps > data collection finished
+05-24 01:53:38.271 21773 22012 I Finsky  : [123] AIM: AppInfoManager-Perf > maybeDestroyAppInfoManager is called. actives = 0
+05-24 01:53:38.656 23560 27134 I Icing   : Indexing done com.google.android.gms-apps
+05-24 01:53:38.659 23560 27134 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+05-24 01:53:38.661 23560 27134 I Icing   : Indexing done com.google.android.gms-apps
+05-24 01:53:38.704 23560 27134 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+05-24 01:53:38.706 23560 27134 I Icing   : Indexing done com.google.android.gms-apps
+05-24 01:53:38.715 17984 18502 I DGW     : I[notifyStreamGroupError:1890] StreamGroupTransport[rpsignaling] notify StreamGroup error: StreamGroupNetworkRequest request cancelled: max retries reached; last err (TransientError domain: MNSSecureTCP code: 1 detail: SecureTCP connection establish timeout)
+05-24 01:53:38.717 17984 18502 I DGW     : I[onStreamGroupError:733] DGW: StreamGroup error: StreamGroupNetworkRequest request cancelled: max retries reached; last err (TransientError domain: MNSSecureTCP code: 1 detail: SecureTCP connection establish timeout)
+05-24 01:53:38.717 17984 18502 I DGW     : I[clearStream:354] DGW: Clearing stream coordinators
+05-24 01:53:38.717 17984 18502 I DGW     : I[closeStream:370] DGW: Closing stream: streamId=1, reason=StreamCoordinator destroyed
+05-24 01:53:38.717 17984 18502 I DGW     : I[startNewStream:292] DGW: Starting new stream, traceId=224148215031145686671876797088_232
+05-24 01:53:38.717 17984 18502 I DGW     : I[start:41] DGW: StreamGroup starting: traceId=224148215031145686671876797088_232, service=rpsignaling
+05-24 01:53:38.718 17984 18502 W DGW     : W[setEnabled:191] StreamGroupPinger[rpsignaling]: setEnabled: 0
+05-24 01:53:38.720 17984 18502 I DGW     : I[addStreamCoordinator:221] DGW: Adding stream coordinator for service: mws
+05-24 01:53:38.720 17984 18502 I DGW     : I[establishStream:299] DGW: Establishing stream: streamId=1, service=mws
+05-24 01:53:38.720 17984 18502 I DGW     : I[establishStream:100] DGW: StreamGroup establishing stream: service=mws, traceId=1
+05-24 01:53:38.720 17984 18502 I DGW     : I[onConnecting:191] DGW: StreamGroup connecting: traceId=224148215031145686671876797088_232_1
+05-24 01:53:38.723 23560 23599 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+05-24 01:53:38.725 23560 23599 I Icing   : Indexing done com.google.android.gms-apps
+05-24 01:53:38.780 14467 27031 D NetUtils: getNation:PK
+05-24 01:53:38.790 14467 27031 D NetUtils: getNation:PK
+05-24 01:53:38.865 22460 23030 D WM-WorkConstraintsTrack: NetworkRequestConstraintController onCapabilitiesChanged callback
+05-24 01:53:38.874  3354  5427 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+05-24 01:53:38.874  3354  5427 W .gms.persistent: Large reply transaction of 4227072 bytes, interface descriptor , code 1
+05-24 01:53:38.924 21493 21716 W UnityAds: com.unity3d.services.core.connectivity.ConnectivityMonitor.connectionStatusChanged() (line:58) :: Unity Ads was not able to get current network type due to missing permission
+05-24 01:53:39.018 21457 27161 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION, user: 0
+05-24 01:53:39.022 21457 27161 W SignedPackage: Package doesn't have required signing certificate: com.google.android.apps.work.clouddpc
+05-24 01:53:39.033 14467 27031 D NetUtils: getNation:PK
+05-24 01:53:39.178 14467 27031 D NetUtils: getNation:PK
+05-24 01:53:39.306 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:39.307 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:39.307 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:39.308 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:39.308 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:39.308 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:39.308 14467 14585 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=b23e603e-e0c2-4157-81ea-2722e0cb51e8, tags={ com.ushareit.ccm.CommandWorker, Cmd } ]
+05-24 01:53:39.308 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:39.308 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:39.308 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:39.309 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:39.309 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:39.309 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:39.309 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:39.310 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:39.310 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:39.310 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:39.310 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:39.310 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:39.310 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:39.310 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:39.311 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:39.311 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:39.321 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:39.321 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:39.321 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:39.323 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:39.323 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:39.324 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:39.324 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#query
+05-24 01:53:39.325 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:39.325 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:39.326 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:39.326 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:39.327 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:39.327 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#query
+05-24 01:53:39.327 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:39.364  3354 23450 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+05-24 01:53:39.811 14467 14478 I vo.anyshare.gps: Waiting for a blocking GC ProfileSaver
+05-24 01:53:39.850 14467 14478 I vo.anyshare.gps: WaitForGcToComplete blocked ProfileSaver on Background for 39.181ms
+05-24 01:53:40.034  4393  4630 W SQLiteConnectionPool: The connection pool for database '/data/user/0/com.microsoft.todos/databases/AriaStorage.db' has been unable to grant a connection to thread 117 (Aria-Stats-thread-1) with flags 0x2 for 570.161 seconds.
+05-24 01:53:40.034  4393  4630 W SQLiteConnectionPool: Connections: 0 active, 1 idle, 0 available.
+05-24 01:53:40.474 14467 27122 D NetUtils: getNation:PK
+05-24 01:53:40.485 14467 27122 D NetUtils: getNation:PK
+05-24 01:53:40.800 14467 27122 D NetUtils: getNation:PK
+05-24 01:53:40.939 14467 27122 D NetUtils: getNation:PK
+05-24 01:53:41.069 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:41.070 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:41.070 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:41.071 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:41.071 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:41.071 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:41.071 14467 14568 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=f91d2e22-453f-4185-812f-a563c2999cd0, tags={ com.ushareit.ccm.CommandWorker, Cmd } ]
+05-24 01:53:41.071 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:41.071 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:41.071 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:41.072 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:41.072 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:41.072 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:41.072 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:41.072 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:41.072 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:41.072 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:41.073 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:41.073 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:41.073 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:41.073 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:41.075 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:41.076 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:41.083 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:41.083 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:41.083 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:41.084 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:41.084 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:41.085 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:41.087 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#query
+05-24 01:53:41.087 14467 14568 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:41.088 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:53:41.088 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:41.088 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:41.089 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:53:41.090 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#query
+05-24 01:53:41.090 14467 14768 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:53:41.158 10527 17316 I native  : I0000 00:00:1779569621.158080   17316 soda_async_impl.cc:1424] Current audio timestamp: 1779569620827980
+05-24 01:53:41.261 22449 22449 I bygm    : onPause
+05-24 01:53:41.263 22449 22449 W dnyu    : measuring already stopped.
+05-24 01:53:41.417 10527 10766 I ekvy    : (REDACTED) #onAudioData: %s bytes, getAudioReadSize %s
+05-24 01:53:41.556  1660  1697 I ActivityTaskManager: Displayed com.easyui.guardianlauncher/androidx.activity.ComponentActivity: +446ms
+05-24 01:53:41.599  4371  4371 W g0      : onStartInput event aborted
+05-24 01:53:41.599  4371  4371 W g0      : ic0.d0: could not obtain extracted text
+05-24 01:53:41.599  4371  4371 W g0      : 	at ic0.x0.H(Unknown Source:329)
+05-24 01:53:41.599  4371  4371 W g0      : 	at o70.b0.h(Unknown Source:283)
+05-24 01:53:41.599  4371  4371 W g0      : 	at o70.j3.h(Unknown Source:4)
+05-24 01:53:41.599  4371  4371 W g0      : 	at com.touchtype.KeyboardService.onStartInput(Unknown Source:11)
+05-24 01:53:41.599  4371  4371 W g0      : 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:2902)
+05-24 01:53:41.599  4371  4371 W g0      : 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:809)
+05-24 01:53:41.599  4371  4371 W g0      : 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInputWithToken(InputMethodService.java:840)
+05-24 01:53:41.599  4371  4371 W g0      : 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:213)
+05-24 01:53:41.599  4371  4371 W g0      : 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+05-24 01:53:41.599  4371  4371 W g0      : 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-24 01:53:41.599  4371  4371 W g0      : 	at android.os.Looper.loopOnce(Looper.java:223)
+05-24 01:53:41.599  4371  4371 W g0      : 	at android.os.Looper.loop(Looper.java:324)
+05-24 01:53:41.599  4371  4371 W g0      : 	at android.app.ActivityThread.main(ActivityThread.java:8547)
+05-24 01:53:41.599  4371  4371 W g0      : 	at java.lang.reflect.Method.invoke(Native Method)
+05-24 01:53:41.599  4371  4371 W g0      : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:582)
+05-24 01:53:41.599  4371  4371 W g0      : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1061)
+05-24 01:53:41.628 22449 22449 D BLASTBufferQueue: [VRI[GoogleDiscoverWindow]#10](f:0,a:0) destructor()
+05-24 01:53:41.629 22449 22449 D BufferQueueConsumer: [VRI[GoogleDiscoverWindow]#10(BLAST Consumer)10](id:57b10000000a,api:0,p:-1,c:22449) disconnect
+05-24 01:53:41.631 22449 22449 I byaf    : (REDACTED) onApplyWindowInsets: systemWindowInsets=%s
+05-24 01:53:41.631 22449 22449 I byaf    : (REDACTED) onApplyWindowInsets: systemWindowInsets=%s
+05-24 01:53:41.664 22449 22449 I bygm    : onStop
+05-24 01:53:41.904 22460 23030 D WM-WorkConstraintsTrack: NetworkRequestConstraintController onCapabilitiesChanged callback
+05-24 01:53:41.958  3354  5970 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+05-24 01:53:41.977  3354  5970 W .gms.persistent: Large reply transaction of 4227072 bytes, interface descriptor , code 1
+05-24 01:53:42.052 22449 22454 W chbox:googleapp: Reducing the number of considered missed Gc histogram windows from 128 to 100
+05-24 01:53:42.423  3354 19609 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+05-24 01:53:42.626 21457  7262 I GED     : ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 29, oppidx_max 29, oppidx_min 0
+05-24 01:53:42.627 21457  7262 I GED     : ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 29, oppidx_max 29, oppidx_min 0
+05-24 01:53:42.671 21493 21716 W UnityAds: com.unity3d.services.core.connectivity.ConnectivityMonitor.connectionStatusChanged() (line:58) :: Unity Ads was not able to get current network type due to missing permission
+05-24 01:53:42.919  3354 12437 I FontLog : (REDACTED) Received query %s, URI %s
+05-24 01:53:42.919  3354 12437 I FontLog : (REDACTED) Query [%s] resolved to %s
+05-24 01:53:42.933  3354 12437 I FontLog : (REDACTED) Fetch %s end status %s
+05-24 01:53:42.948  3354 12437 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+05-24 01:53:42.967  3354 12437 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+05-24 01:53:43.947 17984 18502 I DGW     : I[notifyStreamGroupError:1890] StreamGroupTransport[rpsignaling] notify StreamGroup error: StreamGroupNetworkRequest request cancelled: max retries reached; last err (TransientError domain: MNSSecureTCP code: 1 detail: SecureTCP connection establish timeout)
+05-24 01:53:43.948 17984 18502 I DGW     : I[onStreamGroupError:733] DGW: StreamGroup error: StreamGroupNetworkRequest request cancelled: max retries reached; last err (TransientError domain: MNSSecureTCP code: 1 detail: SecureTCP connection establish timeout)
+05-24 01:53:43.948 17984 18502 I DGW     : I[clearStream:354] DGW: Clearing stream coordinators
+05-24 01:53:43.948 17984 18502 I DGW     : I[closeStream:370] DGW: Closing stream: streamId=1, reason=StreamCoordinator destroyed
+05-24 01:53:43.948 17984 18502 I DGW     : I[startNewStream:292] DGW: Starting new stream, traceId=224148215031145686671876797088_233
+05-24 01:53:43.948 17984 18502 I DGW     : I[start:41] DGW: StreamGroup starting: traceId=224148215031145686671876797088_233, service=rpsignaling
+05-24 01:53:43.948 17984 18502 W DGW     : W[setEnabled:191] StreamGroupPinger[rpsignaling]: setEnabled: 0
+05-24 01:53:43.949 17984 18502 I DGW     : I[addStreamCoordinator:221] DGW: Adding stream coordinator for service: mws
+05-24 01:53:43.949 17984 18502 I DGW     : I[establishStream:299] DGW: Establishing stream: streamId=1, service=mws
+05-24 01:53:43.949 17984 18502 I DGW     : I[establishStream:100] DGW: StreamGroup establishing stream: service=mws, traceId=1
+05-24 01:53:43.949 17984 18502 I DGW     : I[onConnecting:191] DGW: StreamGroup connecting: traceId=224148215031145686671876797088_233_1
+05-24 01:53:44.420 27363 27363 I anlauncher.test: Late-enabling -Xcheck:jni
+05-24 01:53:44.456 27363 27363 I anlauncher.test: Using CollectorTypeCC GC.
+05-24 01:53:44.471 27363 27363 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-24 01:53:44.497 27363 27363 E VivoConfigStore: key:vivo.software.multilandscape isCached is false and normal value is false
+05-24 01:53:44.501 27363 27363 E VivoConfigStore: key:vivo.software.splitrecents isCached is false and normal value is false
+05-24 01:53:44.503 27363 27363 E VivoConfigStore: key:vivo.software.splitratio isCached is false and normal value is false
+05-24 01:53:44.507 27363 27363 E VivoConfigStore: key:vivo.software.multiwindowresidentbar isCached is false and normal value is false
+05-24 01:53:44.510 27363 27363 E VivoConfigStore: key:vivo.software.hovermode isCached is false and normal value is false
+05-24 01:53:44.555 27363 27374 V ActivityThread: updateVmProcessStateForGc sceneId =1 state=196864
+05-24 01:53:44.583 27363 27363 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10473; state: ENABLED
+05-24 01:53:44.610 27363 27363 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+05-24 01:53:44.619 27363 27363 D nativeloader: Configuring clns-4 for other apk /system/framework/android.test.mock.jar. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~lXN_6cXqvlaaQNKtZSwPOw==/com.easyui.guardianlauncher.test-QEISXXt84NNclsZtIwesYA==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.easyui.guardianlauncher.test
+05-24 01:53:44.619 27363 27363 D nativeloader: Extending system_exposed_libraries: libteeservice_client.trustonic.so:libapuwareapusys.mtk.so:libapuwareapusys_v2.mtk.so:libapuwarexrp.mtk.so:libapuwarexrp_v2.mtk.so:libapuwareutils.mtk.so:libapuwareutils_v2.mtk.so:libapuwarehmp.mtk.so:libmcv_runtime_usdk.mtk.so:libneuron_graph_delegate.mtk.so:libneuronusdk_adapter.mtk.so:libtflite_mtk.mtk.so:libarmnn_ndk.mtk.so:libcmdl_ndk.mtk.so:libnir_neon_driver_ndk.mtk.so:libmvpu_runtime.mtk.so:libmvpu_runtime_pub.mtk.so:libmvpu_engine_pub.mtk.so:libmvpu_pattern_pub.mtk.so:libmvpuop_mtk_cv.mtk.so:libmvpuop_mtk_nn.mtk.so
+05-24 01:53:44.621 27363 27363 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+05-24 01:53:44.631 27363 27363 D nativeloader: Configuring clns-5 for other apk /system/framework/android.test.runner.jar. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~lXN_6cXqvlaaQNKtZSwPOw==/com.easyui.guardianlauncher.test-QEISXXt84NNclsZtIwesYA==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.easyui.guardianlauncher.test
+05-24 01:53:44.631 27363 27363 D nativeloader: Extending system_exposed_libraries: libteeservice_client.trustonic.so:libapuwareapusys.mtk.so:libapuwareapusys_v2.mtk.so:libapuwarexrp.mtk.so:libapuwarexrp_v2.mtk.so:libapuwareutils.mtk.so:libapuwareutils_v2.mtk.so:libapuwarehmp.mtk.so:libmcv_runtime_usdk.mtk.so:libneuron_graph_delegate.mtk.so:libneuronusdk_adapter.mtk.so:libtflite_mtk.mtk.so:libarmnn_ndk.mtk.so:libcmdl_ndk.mtk.so:libnir_neon_driver_ndk.mtk.so:libmvpu_runtime.mtk.so:libmvpu_runtime_pub.mtk.so:libmvpu_engine_pub.mtk.so:libmvpu_pattern_pub.mtk.so:libmvpuop_mtk_cv.mtk.so:libmvpuop_mtk_nn.mtk.so
+05-24 01:53:44.696 27363 27363 D nativeloader: Configuring clns-6 for other apk /data/app/~~lXN_6cXqvlaaQNKtZSwPOw==/com.easyui.guardianlauncher.test-QEISXXt84NNclsZtIwesYA==/base.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~lXN_6cXqvlaaQNKtZSwPOw==/com.easyui.guardianlauncher.test-QEISXXt84NNclsZtIwesYA==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.easyui.guardianlauncher.test
+05-24 01:53:44.706 27363 27363 D nativeloader: Load libframework-connectivity-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
+05-24 01:53:44.712 27363 27363 V GraphicsEnvironment: ANGLE Developer option for 'com.easyui.guardianlauncher.test' set to: 'default'
+05-24 01:53:44.713 27363 27363 V GraphicsEnvironment: ANGLE GameManagerService for com.easyui.guardianlauncher.test: false
+05-24 01:53:44.713 27363 27363 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+05-24 01:53:44.724 27363 27363 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+05-24 01:53:44.727 27363 27363 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+05-24 01:53:44.790 23560 23599 I gle.android.gms: Explicit concurrent copying GC freed 3209KB AllocSpace bytes, 9(372KB) LOS objects, 49% free, 10MB/21MB, paused 115us,72us total 163.167ms
+05-24 01:53:44.804 27363 27363 E VivoConfigStore: key:vivo.software.multiwindow isCached is false and normal value is true
+05-24 01:53:44.806 27363 27363 E VivoConfigStore: key:vivo.software.freeform isCached is false and normal value is true
+05-24 01:53:44.857 27363 27363 I MSYNC3-VariableRefreshRate: Variable refreshrate is disabled
+05-24 01:53:44.866 27363 27385 D nativeloader: Load libpowerhalwrap_jni.so using system ns (caller=/system/framework/mediatek-framework.jar): ok
+05-24 01:53:44.867 27363 27385 I PowerHalWrapper: PowerHalWrapper.getInstance 
+05-24 01:53:44.869 27363 27363 E VivoConfigStore: key:vivo.software.nightmode isCached is false and normal value is true
+05-24 01:53:44.876 27363 27363 W libc    : Access denied finding property "ro.vendor.perf.scroll_opt.heavy_app"
+05-24 01:53:44.971 22460 23030 D WM-WorkConstraintsTrack: NetworkRequestConstraintController onCapabilitiesChanged callback
+05-24 01:53:44.983 27363 27363 D BufferQueueConsumer: [](id:6ae300000000,api:0,p:-1,c:27363) connect: controlledByApp=false
+05-24 01:53:44.991 27363 27363 E FBI     : Can't load library: dlopen failed: library "libmagtsync.so" not found
+05-24 01:53:45.021  3354 11779 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+05-24 01:53:45.021  3354 11779 W .gms.persistent: Large reply transaction of 4227072 bytes, interface descriptor , code 1
+05-24 01:53:45.029 27363 27381 E OpenGLRenderer: Device claims wide gamut support, cannot find matching config, error = EGL_SUCCESS
+05-24 01:53:45.029 27363 27381 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+05-24 01:53:45.033 27363 27381 D skia    : GrGLMakeAssembledInterface verStr OpenGL ES 3.2 v1.r26p0-01eac0.455662e55e7c7fb95a4b1db7e7af49a8
+05-24 01:53:45.033 27363 27381 D skia    : GrGLMakeAssembledGLESInterface verStr OpenGL ES 3.2 v1.r26p0-01eac0.455662e55e7c7fb95a4b1db7e7af49a8
+05-24 01:53:45.034 27363 27381 D skia    : extensions init verString=OpenGL ES 3.2 v1.r26p0-01eac0.455662e55e7c7fb95a4b1db7e7af49a8
+05-24 01:53:45.058 27363 27403 E ion     : ioctl c0044901 failed with code -1: Invalid argument
+05-24 01:53:45.060 27363 27381 D hw-ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+05-24 01:53:45.112 27363 27381 D BLASTBufferQueue: [VRI[InstrumentationActivityInvoker$EmptyActivity]#0](f:0,a:1) acquireNextBufferLocked size=1080x2408 mFrameNumber=1 applyTransaction=true mTimestamp=40556544389185(auto) mPendingTransactions.size=0 graphicBufferId=117523190120448 transform=0
+05-24 01:53:45.115 27363 27381 W Parcel  : Expecting binder but got null!
+05-24 01:53:45.162 27363 27374 V ActivityThread: updateVmProcessStateForGc sceneId =1 state=196608
+05-24 01:53:45.190  1660  1697 I ActivityTaskManager: Displayed com.easyui.guardianlauncher.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +870ms
+05-24 01:53:45.265 27363 27363 V ImeFocusController: onWindowFocus: DecorView@1d969ba[InstrumentationActivityInvoker$EmptyActivity] softInputMode=STATE_UNSPECIFIED|ADJUST_PAN|IS_FORWARD_NAVIGATION
+05-24 01:53:45.265 27363 27363 V ImeFocusController: Restarting due to isRestartOnNextWindowFocus as true
+05-24 01:53:45.269 27363 27363 D ImeFocusController: onViewFocusChanged, view=DecorView@1d969ba[InstrumentationActivityInvoker$EmptyActivity], mServedView=null
+05-24 01:53:45.270 27363 27363 V ImeFocusController: checkFocus: view=null next=DecorView@1d969ba[InstrumentationActivityInvoker$EmptyActivity] immDelegate=delegate{b5d2874 displayId=0} force=true package=<none>
+05-24 01:53:45.428 27363 27381 I GED     : ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 29, oppidx_max 29, oppidx_min 0
+05-24 01:53:45.451 21493 21716 W UnityAds: com.unity3d.services.core.connectivity.ConnectivityMonitor.connectionStatusChanged() (line:58) :: Unity Ads was not able to get current network type due to missing permission
+05-24 01:53:45.476  3354 19609 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+05-24 01:53:45.503  1660  1697 I ActivityTaskManager: Displayed com.easyui.guardianlauncher/androidx.activity.ComponentActivity: +382ms
+05-24 01:53:45.541  4371  4371 W g0      : onStartInput event aborted
+05-24 01:53:45.541  4371  4371 W g0      : ic0.d0: could not obtain extracted text
+05-24 01:53:45.541  4371  4371 W g0      : 	at ic0.x0.H(Unknown Source:329)
+05-24 01:53:45.541  4371  4371 W g0      : 	at o70.b0.h(Unknown Source:283)
+05-24 01:53:45.541  4371  4371 W g0      : 	at o70.j3.h(Unknown Source:4)
+05-24 01:53:45.541  4371  4371 W g0      : 	at com.touchtype.KeyboardService.onStartInput(Unknown Source:11)
+05-24 01:53:45.541  4371  4371 W g0      : 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:2902)
+05-24 01:53:45.541  4371  4371 W g0      : 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:809)
+05-24 01:53:45.541  4371  4371 W g0      : 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInputWithToken(InputMethodService.java:840)
+05-24 01:53:45.541  4371  4371 W g0      : 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:213)
+05-24 01:53:45.541  4371  4371 W g0      : 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+05-24 01:53:45.541  4371  4371 W g0      : 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-24 01:53:45.541  4371  4371 W g0      : 	at android.os.Looper.loopOnce(Looper.java:223)
+05-24 01:53:45.541  4371  4371 W g0      : 	at android.os.Looper.loop(Looper.java:324)
+05-24 01:53:45.541  4371  4371 W g0      : 	at android.app.ActivityThread.main(ActivityThread.java:8547)
+05-24 01:53:45.541  4371  4371 W g0      : 	at java.lang.reflect.Method.invoke(Native Method)
+05-24 01:53:45.541  4371  4371 W g0      : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:582)
+05-24 01:53:45.541  4371  4371 W g0      : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1061)
+05-24 01:53:45.964 27363 27363 D BLASTBufferQueue: [VRI[InstrumentationActivityInvoker$EmptyActivity]#0](f:0,a:0) destructor()
+05-24 01:53:45.964 27363 27363 D BufferQueueConsumer: [VRI[InstrumentationActivityInvoker$EmptyActivity]#0(BLAST Consumer)0](id:6ae300000000,api:0,p:-1,c:27363) disconnect
+05-24 01:53:46.442 27363 27363 D BufferQueueConsumer: [](id:6ae300000001,api:0,p:-1,c:27363) connect: controlledByApp=false
+05-24 01:53:46.477 27363 27381 D BLASTBufferQueue: [VRI[InstrumentationActivityInvoker$EmptyActivity]#1](f:0,a:1) acquireNextBufferLocked size=1080x2408 mFrameNumber=1 applyTransaction=true mTimestamp=40557909141723(auto) mPendingTransactions.size=0 graphicBufferId=117523190120455 transform=0
+05-24 01:53:46.479 27363 27381 W Parcel  : Expecting binder but got null!
+05-24 01:53:46.496  1660  1697 I ActivityTaskManager: Displayed com.easyui.guardianlauncher.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +314ms
+05-24 01:53:46.659 27363 27381 I GED     : ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 29, oppidx_max 29, oppidx_min 0
+05-24 01:53:46.776  1660  1697 I ActivityTaskManager: Displayed com.easyui.guardianlauncher/androidx.activity.ComponentActivity: +226ms
+05-24 01:53:46.819  4371  4371 W g0      : onStartInput event aborted
+05-24 01:53:46.819  4371  4371 W g0      : ic0.d0: could not obtain extracted text
+05-24 01:53:46.819  4371  4371 W g0      : 	at ic0.x0.H(Unknown Source:329)
+05-24 01:53:46.819  4371  4371 W g0      : 	at o70.b0.h(Unknown Source:283)
+05-24 01:53:46.819  4371  4371 W g0      : 	at o70.j3.h(Unknown Source:4)
+05-24 01:53:46.819  4371  4371 W g0      : 	at com.touchtype.KeyboardService.onStartInput(Unknown Source:11)
+05-24 01:53:46.819  4371  4371 W g0      : 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:2902)
+05-24 01:53:46.819  4371  4371 W g0      : 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:809)
+05-24 01:53:46.819  4371  4371 W g0      : 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInputWithToken(InputMethodService.java:840)
+05-24 01:53:46.819  4371  4371 W g0      : 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:213)
+05-24 01:53:46.819  4371  4371 W g0      : 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+05-24 01:53:46.819  4371  4371 W g0      : 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-24 01:53:46.819  4371  4371 W g0      : 	at android.os.Looper.loopOnce(Looper.java:223)
+05-24 01:53:46.819  4371  4371 W g0      : 	at android.os.Looper.loop(Looper.java:324)
+05-24 01:53:46.819  4371  4371 W g0      : 	at android.app.ActivityThread.main(ActivityThread.java:8547)
+05-24 01:53:46.819  4371  4371 W g0      : 	at java.lang.reflect.Method.invoke(Native Method)
+05-24 01:53:46.819  4371  4371 W g0      : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:582)
+05-24 01:53:46.819  4371  4371 W g0      : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1061)
+05-24 01:53:46.925  3354 25578 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-24 01:53:46.939 23560 27134 I PlayGamesServices[GamesSyncAdapter]: Starting sync for 5eec3ec6
+05-24 01:53:46.949 23560 27134 I PlayGamesServices[GamesSyncAdapter]: Sync duration for 5eec3ec6: 4
+05-24 01:53:46.990  3354 27075 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-24 01:53:47.000 23560 23599 I PlayGamesServices[GamesSyncAdapter]: Starting sync for ce13e262
+05-24 01:53:47.009 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.011 23560 23599 I PlayGamesServices[GamesSyncAdapter]: Sync duration for ce13e262: 5
+05-24 01:53:47.042 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.085 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.088 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.090 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.092 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.095 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.096 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.109 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.113 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.114  3354 24814 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-24 01:53:47.120 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.128 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.135 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.136 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.167 23560 25576 I GetServiceValidatorImpl: (REDACTED) onGetService() from Client SDK version [%s], Module version [%s], PGA version [%s], Account [%s], Calling package [%s], Game package [%s]
+05-24 01:53:47.168 27363 27369 I anlauncher.test: Compiler allocated 5508KB to compile void android.view.ViewRootImpl.performTraversals()
+05-24 01:53:47.170 23560 25576 I GetGamesServiceReqFacto: (REDACTED) Parsing request with ignored arguments. signInOptionsBundle [%s], isRetryingSignIn [%s], skipWelcomePopup [%s], requireGooglePlus [%s]
+05-24 01:53:47.171 23560 25576 I GetGamesServiceReqFacto: Replacing request for `games` scope with `games_lite`
+05-24 01:53:47.200 23560 27456 I SignInPerformer-1: (REDACTED) Handling request [%s], isFirstPartyCaller [%s]
+05-24 01:53:47.203 23560 27456 I SignInPerformer-1: Successfully brokered first-party unauthenticated GamesService [CONTEXT service_id=1 ]
+05-24 01:53:47.211 23560 27456 I GetGamesServiceV2Op: (REDACTED) Successfully brokered GamesService for request %s
+05-24 01:53:47.223  3354 25578 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-24 01:53:47.233  3354 25578 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-24 01:53:47.247 23560 27134 I PlayGamesServices[GamesSyncAdapter]: Starting sync for c45dc983
+05-24 01:53:47.252 23560 27134 I PlayGamesServices[GamesSyncAdapter]: Sync duration for c45dc983: 4
+05-24 01:53:47.258 21788 21788 I flutter : RecordingManagerPage: 开始刷新录音列表
+05-24 01:53:47.263 21788 21788 I flutter : Android录音目录: /storage/emulated/0/Android/data/com.lensmoo.app/files/media/no_storage_audio
+05-24 01:53:47.263 21788 21788 I flutter : === 录音目录调试信息 ===
+05-24 01:53:47.263 21788 21788 I flutter : 当前平台: android
+05-24 01:53:47.263 21788 21788 I flutter : 录音目录路径: /storage/emulated/0/Android/data/com.lensmoo.app/files/media/no_storage_audio
+05-24 01:53:47.263 21788 21788 I flutter : 目录是否存在: true
+05-24 01:53:47.264 21788 21788 I flutter : === 调试信息结束 ===
+05-24 01:53:47.268 21788 21788 I flutter : Android录音目录: /storage/emulated/0/Android/data/com.lensmoo.app/files/media/no_storage_audio
+05-24 01:53:47.268 21788 21788 I flutter : 录音文件目录: /storage/emulated/0/Android/data/com.lensmoo.app/files/media/no_storage_audio
+05-24 01:53:47.268 21788 21788 I flutter : 加载了 0 个录音文件
+05-24 01:53:47.304 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.340 27363 27363 D BLASTBufferQueue: [VRI[InstrumentationActivityInvoker$EmptyActivity]#1](f:0,a:0) destructor()
+05-24 01:53:47.341 27363 27363 D BufferQueueConsumer: [VRI[InstrumentationActivityInvoker$EmptyActivity]#1(BLAST Consumer)1](id:6ae300000001,api:0,p:-1,c:27363) disconnect
+05-24 01:53:47.347  3354 24814 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-24 01:53:47.363 23560 23599 I PlayGamesServices[GamesSyncAdapter]: Starting sync for 3306dd37
+05-24 01:53:47.376 23560 23599 I PlayGamesServices[GamesSyncAdapter]: Sync duration for 3306dd37: 10
+05-24 01:53:47.405 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.448 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.454 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.464 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.475 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.479 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.480 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.491  3354 27459 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-24 01:53:47.493 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.496 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.498 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.501 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.503 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.504 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.595  3354 27460 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-24 01:53:47.606 23560 27134 I PlayGamesServices[GamesSyncAdapter]: Starting sync for 3e8499ce
+05-24 01:53:47.607  3354 27460 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-24 01:53:47.619 23560 27134 I PlayGamesServices[GamesSyncAdapter]: Sync duration for 3e8499ce: 11
+05-24 01:53:47.643 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.683  3354 27460 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-24 01:53:47.687 23560 23599 I PlayGamesServices[GamesSyncAdapter]: Starting sync for ec934608
+05-24 01:53:47.691 23560 23599 I PlayGamesServices[GamesSyncAdapter]: Sync duration for ec934608: 3
+05-24 01:53:47.704 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.711 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.712 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.713 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.714 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.716 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.719 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.731  3354 27459 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-24 01:53:47.755 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.756 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.758 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.759 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.761 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.762 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.801  3354 24814 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-24 01:53:47.810 23560 27134 I PlayGamesServices[GamesSyncAdapter]: Starting sync for 55a50f3c
+05-24 01:53:47.817 23560 27134 I PlayGamesServices[GamesSyncAdapter]: Sync duration for 55a50f3c: 5
+05-24 01:53:47.821  3354 27460 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-24 01:53:47.846 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.905 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.908 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.910 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.912 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.914 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.916 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:47.916  3354 24814 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-24 01:53:47.926 23560 23599 I PlayGamesServices[GamesSyncAdapter]: Starting sync for 3c67e224
+05-24 01:53:47.929  3354 24814 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-24 01:53:47.939 23560 23599 I PlayGamesServices[GamesSyncAdapter]: Sync duration for 3c67e224: 12
+05-24 01:53:47.955 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.007 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.009 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.010 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.012 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.013 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.014 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.059  3354 24814 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-24 01:53:48.069 23560 27134 I PlayGamesServices[GamesSyncAdapter]: Starting sync for 797125ac
+05-24 01:53:48.070  3354 25578 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-24 01:53:48.073 23560 27134 I PlayGamesServices[GamesSyncAdapter]: Sync duration for 797125ac: 2
+05-24 01:53:48.102 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.178 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.179 23560 23599 I PlayGamesServices[GamesSyncAdapter]: Starting sync for 8f51ad08
+05-24 01:53:48.180  3354 25578 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-24 01:53:48.183 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.184 23560 23599 I PlayGamesServices[GamesSyncAdapter]: Sync duration for 8f51ad08: 3
+05-24 01:53:48.184 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.189 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.191 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.194 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.204  3354 25578 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-24 01:53:48.211 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.267 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.269 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.271 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.274 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.276 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.279 23560 23599 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.287 10527 10572 I ekqi    : (REDACTED) HDM. appOpsListener %s %s
+05-24 01:53:48.287 10527 10572 I ekqi    : (REDACTED) HDM. Ignoring irrelevant audio permission changes for package %s
+05-24 01:53:48.326 27363 27381 I GED     : ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 29, oppidx_max 29, oppidx_min 0
+05-24 01:53:48.327 27363 27381 I GED     : ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 29, oppidx_max 29, oppidx_min 0
+05-24 01:53:48.327  3354 25578 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-24 01:53:48.332  3354 25578 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-24 01:53:48.333 23560 27134 I PlayGamesServices[GamesSyncAdapter]: Starting sync for 74befcf1
+05-24 01:53:48.342 23560 27134 I PlayGamesServices[GamesSyncAdapter]: Sync duration for 74befcf1: 4
+05-24 01:53:48.370 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.400 21788 21788 I flutter : RecordingManagerPage: 开始刷新录音列表
+05-24 01:53:48.405 21788 21788 I flutter : Android录音目录: /storage/emulated/0/Android/data/com.lensmoo.app/files/media/no_storage_audio
+05-24 01:53:48.405 21788 21788 I flutter : === 录音目录调试信息 ===
+05-24 01:53:48.405 21788 21788 I flutter : 当前平台: android
+05-24 01:53:48.405 21788 21788 I flutter : 录音目录路径: /storage/emulated/0/Android/data/com.lensmoo.app/files/media/no_storage_audio
+05-24 01:53:48.405 21788 21788 I flutter : 目录是否存在: true
+05-24 01:53:48.406 21788 21788 I flutter : === 调试信息结束 ===
+05-24 01:53:48.409 21788 21788 I flutter : Android录音目录: /storage/emulated/0/Android/data/com.lensmoo.app/files/media/no_storage_audio
+05-24 01:53:48.409 21788 21788 I flutter : 录音文件目录: /storage/emulated/0/Android/data/com.lensmoo.app/files/media/no_storage_audio
+05-24 01:53:48.410 21788 21788 I flutter : 加载了 0 个录音文件
+05-24 01:53:48.435 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.437 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.438 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.442 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.443 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.445 23560 27134 W PlayGamesServices[DataBroker]: No player ID found when refreshing
+05-24 01:53:48.457  3354 27460 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-24 01:53:48.851  4371  4371 W g0      : onStartInput event aborted
+05-24 01:53:48.851  4371  4371 W g0      : ic0.d0: could not obtain extracted text
+05-24 01:53:48.851  4371  4371 W g0      : 	at ic0.x0.H(Unknown Source:329)
+05-24 01:53:48.851  4371  4371 W g0      : 	at o70.b0.h(Unknown Source:283)
+05-24 01:53:48.851  4371  4371 W g0      : 	at o70.j3.h(Unknown Source:4)
+05-24 01:53:48.851  4371  4371 W g0      : 	at com.touchtype.KeyboardService.onStartInput(Unknown Source:11)
+05-24 01:53:48.851  4371  4371 W g0      : 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:2902)
+05-24 01:53:48.851  4371  4371 W g0      : 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:809)
+05-24 01:53:48.851  4371  4371 W g0      : 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInputWithToken(InputMethodService.java:840)
+05-24 01:53:48.851  4371  4371 W g0      : 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:213)
+05-24 01:53:48.851  4371  4371 W g0      : 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+05-24 01:53:48.851  4371  4371 W g0      : 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-24 01:53:48.851  4371  4371 W g0      : 	at android.os.Looper.loopOnce(Looper.java:223)
+05-24 01:53:48.851  4371  4371 W g0      : 	at android.os.Looper.loop(Looper.java:324)
+05-24 01:53:48.851  4371  4371 W g0      : 	at android.app.ActivityThread.main(ActivityThread.java:8547)
+05-24 01:53:48.851  4371  4371 W g0      : 	at java.lang.reflect.Method.invoke(Native Method)
+05-24 01:53:48.851  4371  4371 W g0      : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:582)
+05-24 01:53:48.851  4371  4371 W g0      : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1061)
+05-24 01:53:49.131  4371  4371 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:53:49.175 17984 18502 I DGW     : I[notifyStreamGroupError:1890] StreamGroupTransport[rpsignaling] notify StreamGroup error: StreamGroupNetworkRequest request cancelled: max retries reached; last err (TransientError domain: MNSSecureTCP code: 1 detail: SecureTCP connection establish timeout)
+05-24 01:53:49.176 17984 18502 I DGW     : I[onStreamGroupError:733] DGW: StreamGroup error: StreamGroupNetworkRequest request cancelled: max retries reached; last err (TransientError domain: MNSSecureTCP code: 1 detail: SecureTCP connection establish timeout)
+05-24 01:53:49.176 17984 18502 I DGW     : I[clearStream:354] DGW: Clearing stream coordinators
+05-24 01:53:49.176 17984 18502 I DGW     : I[closeStream:370] DGW: Closing stream: streamId=1, reason=StreamCoordinator destroyed
+05-24 01:53:49.176 17984 18502 I DGW     : I[startNewStream:292] DGW: Starting new stream, traceId=224148215031145686671876797088_234
+05-24 01:53:49.176 17984 18502 I DGW     : I[start:41] DGW: StreamGroup starting: traceId=224148215031145686671876797088_234, service=rpsignaling
+05-24 01:53:49.177 17984 18502 W DGW     : W[setEnabled:191] StreamGroupPinger[rpsignaling]: setEnabled: 0
+05-24 01:53:49.178 17984 18502 I DGW     : I[addStreamCoordinator:221] DGW: Adding stream coordinator for service: mws
+05-24 01:53:49.178 17984 18502 I DGW     : I[establishStream:299] DGW: Establishing stream: streamId=1, service=mws
+05-24 01:53:49.178 17984 18502 I DGW     : I[establishStream:100] DGW: StreamGroup establishing stream: service=mws, traceId=1
+05-24 01:53:49.178 17984 18502 I DGW     : I[onConnecting:191] DGW: StreamGroup connecting: traceId=224148215031145686671876797088_234_1
+05-24 01:53:49.193  4371  4371 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:53:49.305  4371  4371 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:53:49.308  4371  4371 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:53:49.311  4371  4371 E VivoConfigStore: key:vivo.software.romstyle isCached is true and value is true
+05-24 01:53:49.808  4371  4371 W g0      : onStartInputView event aborted
+05-24 01:53:49.808  4371  4371 W g0      : ic0.d0: Could not create reset composing text event
+05-24 01:53:49.808  4371  4371 W g0      : 	at ic0.g0.u0(Unknown Source:17)
+05-24 01:53:49.808  4371  4371 W g0      : 	at ic0.g0.t0(Unknown Source:175)
+05-24 01:53:49.808  4371  4371 W g0      : 	at o70.b0.n(Unknown Source:291)
+05-24 01:53:49.808  4371  4371 W g0      : 	at o70.j3.n(Unknown Source:4)
+05-24 01:53:49.808  4371  4371 W g0      : 	at com.touchtype.KeyboardService.onStartInputView(Unknown Source:9)
+05-24 01:53:49.808  4371  4371 W g0      : 	at android.inputmethodservice.InputMethodService.startViews(InputMethodService.java:2737)
+05-24 01:53:49.808  4371  4371 W g0      : 	at android.inputmethodservice.InputMethodService.showWindow(InputMethodService.java:2639)
+05-24 01:53:49.808  4371  4371 W g0      : 	at android.inputmethodservice.InputMethodService$InputMethodImpl.showSoftInput(InputMethodService.java:947)
+05-24 01:53:49.808  4371  4371 W g0      : 	at android.inputmethodservice.InputMethodService$InputMethodImpl.showSoftInputWithToken(InputMethodService.java:921)
+05-24 01:53:49.808  4371  4371 W g0      : 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:235)
+05-24 01:53:49.808  4371  4371 W g0      : 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+05-24 01:53:49.808  4371  4371 W g0      : 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-24 01:53:49.808  4371  4371 W g0      : 	at android.os.Looper.loopOnce(Looper.java:223)
+05-24 01:53:49.808  4371  4371 W g0      : 	at android.os.Looper.loop(Looper.java:324)
+05-24 01:53:49.808  4371  4371 W g0      : 	at android.app.ActivityThread.main(ActivityThread.java:8547)
+05-24 01:53:49.808  4371  4371 W g0      : 	at java.lang.reflect.Method.invoke(Native Method)
+05-24 01:53:49.808  4371  4371 W g0      : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:582)
+05-24 01:53:49.808  4371  4371 W g0      : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1061)
+05-24 01:53:49.834  4371  4371 I Choreographer: Skipped 51 frames!  The application may be doing too much work on its main thread.
+05-24 01:53:49.861  4371  4371 D BufferQueueConsumer: [](id:11130000004a,api:0,p:-1,c:4371) connect: controlledByApp=false
+05-24 01:53:49.890 21773 21773 I Finsky  : [2] SCH: job service start with id 9551.
+05-24 01:53:49.924 21773 22036 I Finsky  : [126] SCH: Scheduling phonesky job Id: 1-1337, CT: 1779554815525, Constraints: [{ L: 43184763, D: 86384763, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+05-24 01:53:49.924 21773 22036 I Finsky  : [126] SCH: Scheduling phonesky job Id: 12-1, CT: 1779569615003, Constraints: [{ L: 15000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+05-24 01:53:49.925 21773 22036 I Finsky  : [126] SCH: Scheduling phonesky job Id: 34-1713, CT: 1779554846734, Constraints: [{ L: 604800000, D: 2491208160, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+05-24 01:53:49.925 21773 22036 I Finsky  : [126] SCH: Scheduling phonesky job Id: 34-1722, CT: 1779554846735, Constraints: [{ L: 604800000, D: 2570519144, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+05-24 01:53:49.925 21773 22036 I Finsky  : [126] SCH: Scheduling phonesky job Id: 34-1725, CT: 1779554846735, Constraints: [{ L: 57712560, D: 1353712560, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+05-24 01:53:49.948 21773 22012 I Finsky  : [123] SCH: Scheduling 1 system job(s)
+05-24 01:53:49.948 21773 22012 I Finsky  : [123] SCH: Scheduling system job Id: 9557, L: 0, D: 71570340, C: false, I: false, N: 1
+05-24 01:53:49.968 21773 21773 I Finsky  : [2] SCH: job service start with id 9557.
+05-24 01:53:49.974 21773 27476 I Finsky  : [231] SCH: job service finished with id 9551.
+05-24 01:53:49.977  4371  4401 D BLASTBufferQueue: [VRI[InputMethod]#74](f:0,a:1) acquireNextBufferLocked size=1080x2320 mFrameNumber=1 applyTransaction=true mTimestamp=40561410075570(auto) mPendingTransactions.size=0 graphicBufferId=18773302051123 transform=0
+05-24 01:53:49.983  4371  4371 E ANDR-VIVO-PERF: IVPerf::tryGetService failed!
+05-24 01:53:49.993 21773 22012 I Finsky  : [123] SCH: Scheduling phonesky job Id: 1-1337, CT: 1779554815525, Constraints: [{ L: 43184763, D: 86384763, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+05-24 01:53:49.993 21773 22012 I Finsky  : [123] SCH: Scheduling phonesky job Id: 12-1, CT: 1779569615003, Constraints: [{ L: 15000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+05-24 01:53:49.994 21773 22012 I Finsky  : [123] SCH: Scheduling phonesky job Id: 34-1713, CT: 1779554846734, Constraints: [{ L: 604800000, D: 2491208160, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+05-24 01:53:49.994 21773 22012 I Finsky  : [123] SCH: Scheduling phonesky job Id: 34-1722, CT: 1779554846735, Constraints: [{ L: 604800000, D: 2570519144, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+05-24 01:53:49.994 21773 22012 I Finsky  : [123] SCH: Scheduling phonesky job Id: 34-1725, CT: 1779554846735, Constraints: [{ L: 57712560, D: 1353712560, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+05-24 01:53:49.997  4371  4384 I OpenGLRenderer: Davey! duration=995ms; Flags=1, FrameTimelineVsyncId=13945224, IntendedVsync=40560417148625, Vsync=40561257122654, InputEventId=0, HandleInputStart=40561267959570, AnimationStart=40561267963262, PerformTraversalsStart=40561268094031, DrawStart=40561302080800, FrameDeadline=40560437148625, FrameInterval=40561267835877, FrameStartTime=16470079, SyncQueued=40561363274723, SyncStart=40561364183877, IssueDrawCommandsStart=40561372361800, SwapBuffers=40561407082108, FrameCompleted=40561413395646, DequeueBufferDuration=35077, QueueBufferDuration=951154, GpuCompleted=40561413395646, SwapBuffersCompleted=40561411600877, DisplayPresentTime=33717901984239, CommandSubmissionCompleted=40561407082108, 
+05-24 01:53:50.003 21773 22009 I Finsky  : [122] SCH: Scheduling 1 system job(s)
+05-24 01:53:50.003 21773 22009 I Finsky  : [122] SCH: Scheduling system job Id: 9562, L: 0, D: 71570285, C: false, I: false, N: 1
+05-24 01:53:50.017 21773 21773 I Finsky  : [2] SCH: job service start with id 9562.
+05-24 01:53:50.029 21773 27476 I Finsky  : [231] SCH: job service finished with id 9557.
+05-24 01:53:50.037  4371  4378 W chtype.swiftkey: Missing inline cache for void ia.j.b(java.util.ArrayList, java.util.List)
+05-24 01:53:50.056 21773 27003 I Finsky  : [220] SCH: Satisfied jobs for 9562 are: 12-1
+05-24 01:53:50.065 21773 27476 I Finsky  : [231] SCH: Job 12-1 starting
+05-24 01:53:50.078 21773 21773 I Finsky  : [2] WM::SCH: Logging work start for 12-1
+05-24 01:53:50.082 21773 21773 I Finsky  : [2] [ContentSync] job started
+05-24 01:53:50.164  4371  4371 E ANDR-VIVO-PERF: IVPerf::tryGetService failed!
+05-24 01:53:50.337 27363 27363 D BufferQueueConsumer: [](id:6ae300000002,api:0,p:-1,c:27363) connect: controlledByApp=false
+05-24 01:53:50.341 27363 27381 E OpenGLRenderer: Device claims wide gamut support, cannot find matching config, error = EGL_SUCCESS
+05-24 01:53:50.341 27363 27381 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+05-24 01:53:50.342 27363 27381 D skia    : GrGLMakeAssembledInterface verStr OpenGL ES 3.2 v1.r26p0-01eac0.455662e55e7c7fb95a4b1db7e7af49a8
+05-24 01:53:50.342 27363 27381 D skia    : GrGLMakeAssembledGLESInterface verStr OpenGL ES 3.2 v1.r26p0-01eac0.455662e55e7c7fb95a4b1db7e7af49a8
+05-24 01:53:50.342 27363 27381 D skia    : extensions init verString=OpenGL ES 3.2 v1.r26p0-01eac0.455662e55e7c7fb95a4b1db7e7af49a8
+05-24 01:53:50.376 27363 27381 D BLASTBufferQueue: [VRI[InstrumentationActivityInvoker$EmptyActivity]#2](f:0,a:1) acquireNextBufferLocked size=1080x2408 mFrameNumber=1 applyTransaction=true mTimestamp=40561809235031(auto) mPendingTransactions.size=0 graphicBufferId=117523190120456 transform=0
+05-24 01:53:50.378 27363 27381 W Parcel  : Expecting binder but got null!
+05-24 01:53:50.498 22449 22449 D BufferQueueConsumer: [](id:57b10000000b,api:0,p:-1,c:22449) connect: controlledByApp=false
+05-24 01:53:50.503 22449 22449 I byaf    : (REDACTED) onApplyWindowInsets: systemWindowInsets=%s
+05-24 01:53:50.503 22449 22449 I byaf    : (REDACTED) onApplyWindowInsets: systemWindowInsets=%s
+05-24 01:53:50.534 21773 21777 I android.vending: Background young concurrent copying GC freed 17MB AllocSpace bytes, 7(428KB) LOS objects, 52% free, 16MB/35MB, paused 3.303ms,408us total 277.089ms
+05-24 01:53:50.553 22449 22603 D BLASTBufferQueue: [VRI[GoogleDiscoverWindow]#11](f:0,a:1) acquireNextBufferLocked size=1080x2408 mFrameNumber=1 applyTransaction=true mTimestamp=40561984911031(auto) mPendingTransactions.size=0 graphicBufferId=96417720827949 transform=0
+05-24 01:53:50.556 22449 22449 I bygm    : onStart
+05-24 01:53:50.567 27363 27381 I GED     : ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 29, oppidx_max 29, oppidx_min 0
+05-24 01:53:50.569 22449 22449 I bvzm    : (REDACTED) [%s] onStart()
+05-24 01:53:50.571 22449 22449 I bwbz    : Reloading theme data
+05-24 01:53:50.587 22449 22449 E NetworkErrorMessage: (REDACTED) Invalid connectivity state: %s
+05-24 01:53:50.588 22449 22449 I bygm    : onResume
+05-24 01:53:50.589 22449 22449 W dnyu    : missing event name
+05-24 01:53:50.619 22449 22449 I byaf    : (REDACTED) onApplyWindowInsets: systemWindowInsets=%s
+05-24 01:53:50.619 22449 22449 I byaf    : (REDACTED) onApplyWindowInsets: systemWindowInsets=%s
+05-24 01:53:50.826 22449 22449 I bygm    : onPause
+05-24 01:53:50.827 22449 22449 W dnyu    : measuring already stopped.
+05-24 01:53:50.920 22449 22449 I bygm    : onStop
+05-24 01:53:51.008  1660  1697 I ActivityTaskManager: Displayed com.easyui.guardianlauncher/androidx.activity.ComponentActivity: +323ms
+05-24 01:53:51.099  4371  4371 W g0      : onStartInput event aborted
+05-24 01:53:51.099  4371  4371 W g0      : ic0.d0: could not obtain extracted text
+05-24 01:53:51.099  4371  4371 W g0      : 	at ic0.x0.H(Unknown Source:329)
+05-24 01:53:51.099  4371  4371 W g0      : 	at o70.b0.h(Unknown Source:283)
+05-24 01:53:51.099  4371  4371 W g0      : 	at o70.j3.h(Unknown Source:4)
+05-24 01:53:51.099  4371  4371 W g0      : 	at com.touchtype.KeyboardService.onStartInput(Unknown Source:11)
+05-24 01:53:51.099  4371  4371 W g0      : 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:2902)
+05-24 01:53:51.099  4371  4371 W g0      : 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:809)
+05-24 01:53:51.099  4371  4371 W g0      : 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInputWithToken(InputMethodService.java:840)
+05-24 01:53:51.099  4371  4371 W g0      : 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:213)
+05-24 01:53:51.099  4371  4371 W g0      : 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+05-24 01:53:51.099  4371  4371 W g0      : 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-24 01:53:51.099  4371  4371 W g0      : 	at android.os.Looper.loopOnce(Looper.java:223)
+05-24 01:53:51.099  4371  4371 W g0      : 	at android.os.Looper.loop(Looper.java:324)
+05-24 01:53:51.099  4371  4371 W g0      : 	at android.app.ActivityThread.main(ActivityThread.java:8547)
+05-24 01:53:51.099  4371  4371 W g0      : 	at java.lang.reflect.Method.invoke(Native Method)
+05-24 01:53:51.099  4371  4371 W g0      : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:582)
+05-24 01:53:51.099  4371  4371 W g0      : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1061)
+05-24 01:53:51.115 22449 22449 D BLASTBufferQueue: [VRI[GoogleDiscoverWindow]#11](f:0,a:0) destructor()
+05-24 01:53:51.116 22449 22449 D BufferQueueConsumer: [VRI[GoogleDiscoverWindow]#11(BLAST Consumer)11](id:57b10000000b,api:0,p:-1,c:22449) disconnect
+05-24 01:53:51.278 23560 23560 W ThreadPoolForeg: type=1400 audit(0.0:151238): avc: denied { write } for name="traced_producer" dev="tmpfs" ino=17544 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+05-24 01:53:51.510 27363 27363 D BLASTBufferQueue: [VRI[InstrumentationActivityInvoker$EmptyActivity]#2](f:0,a:0) destructor()
+05-24 01:53:51.510 27363 27363 D BufferQueueConsumer: [VRI[InstrumentationActivityInvoker$EmptyActivity]#2(BLAST Consumer)2](id:6ae300000002,api:0,p:-1,c:27363) disconnect
+05-24 01:53:51.712  4371  4371 D BLASTBufferQueue: [VRI[InputMethod]#74](f:0,a:0) destructor()
+05-24 01:53:51.712  4371  4371 D BufferQueueConsumer: [VRI[InputMethod]#74(BLAST Consumer)74](id:11130000004a,api:0,p:-1,c:4371) disconnect
+05-24 01:53:51.900 27363 27363 D BufferQueueConsumer: [](id:6ae300000003,api:0,p:-1,c:27363) connect: controlledByApp=false
+05-24 01:53:51.917 27363 27381 D BLASTBufferQueue: [VRI[InstrumentationActivityInvoker$EmptyActivity]#3](f:0,a:1) acquireNextBufferLocked size=1080x2408 mFrameNumber=1 applyTransaction=true mTimestamp=40563349877185(auto) mPendingTransactions.size=0 graphicBufferId=117523190120461 transform=0
+05-24 01:53:51.920 27363 27381 W Parcel  : Expecting binder but got null!
+05-24 01:53:51.993 22449 22449 D BufferQueueConsumer: [](id:57b10000000c,api:0,p:-1,c:22449) connect: controlledByApp=false
+05-24 01:53:51.995 22449 22449 I byaf    : (REDACTED) onApplyWindowInsets: systemWindowInsets=%s
+05-24 01:53:51.996 22449 22449 I byaf    : (REDACTED) onApplyWindowInsets: systemWindowInsets=%s
+05-24 01:53:52.008 22449 22603 D BLASTBufferQueue: [VRI[GoogleDiscoverWindow]#12](f:0,a:1) acquireNextBufferLocked size=1080x2408 mFrameNumber=1 applyTransaction=true mTimestamp=40563441295877(auto) mPendingTransactions.size=0 graphicBufferId=96417720827953 transform=0
+05-24 01:53:52.025 22449 22449 I bygm    : onStart
+05-24 01:53:52.039 10527 10572 I ekqi    : (REDACTED) HDM. appOpsListener %s %s
+05-24 01:53:52.040 10527 10572 I ekqi    : (REDACTED) HDM. Ignoring irrelevant audio permission changes for package %s
+05-24 01:53:52.040 22449 22449 I bvzm    : (REDACTED) [%s] onStart()
+05-24 01:53:52.054 22449 22449 I bwbz    : Reloading theme data
+05-24 01:53:52.057 22449 22449 E NetworkErrorMessage: (REDACTED) Invalid connectivity state: %s
+05-24 01:53:52.065 27363 27381 I GED     : ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 29, oppidx_max 29, oppidx_min 0
+05-24 01:53:52.072 22449 22449 I bygm    : onResume
+05-24 01:53:52.076 22449 22449 W dnyu    : missing event name
+05-24 01:53:52.112 27217 27217 I app_process: System.exit called, status: 0
+05-24 01:53:52.113 27217 27217 I AndroidRuntime: VM exiting with result code 0.
+05-24 01:53:52.311  4371  4371 W g0      : onStartInput event aborted
+05-24 01:53:52.311  4371  4371 W g0      : ic0.d0: could not obtain extracted text
+05-24 01:53:52.311  4371  4371 W g0      : 	at ic0.x0.H(Unknown Source:329)
+05-24 01:53:52.311  4371  4371 W g0      : 	at o70.b0.h(Unknown Source:283)
+05-24 01:53:52.311  4371  4371 W g0      : 	at o70.j3.h(Unknown Source:4)
+05-24 01:53:52.311  4371  4371 W g0      : 	at com.touchtype.KeyboardService.onStartInput(Unknown Source:11)
+05-24 01:53:52.311  4371  4371 W g0      : 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:2902)
+05-24 01:53:52.311  4371  4371 W g0      : 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:809)
+05-24 01:53:52.311  4371  4371 W g0      : 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInputWithToken(InputMethodService.java:840)
+05-24 01:53:52.311  4371  4371 W g0      : 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:213)
+05-24 01:53:52.311  4371  4371 W g0      : 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+05-24 01:53:52.311  4371  4371 W g0      : 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-24 01:53:52.311  4371  4371 W g0      : 	at android.os.Looper.loopOnce(Looper.java:223)
+05-24 01:53:52.311  4371  4371 W g0      : 	at android.os.Looper.loop(Looper.java:324)
+05-24 01:53:52.311  4371  4371 W g0      : 	at android.app.ActivityThread.main(ActivityThread.java:8547)
+05-24 01:53:52.311  4371  4371 W g0      : 	at java.lang.reflect.Method.invoke(Native Method)
+05-24 01:53:52.311  4371  4371 W g0      : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:582)
+05-24 01:53:52.311  4371  4371 W g0      : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1061)
+05-24 01:53:52.342 21773 21773 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.mainline.primary.libs' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+05-24 01:53:52.543 27363 27363 D BLASTBufferQueue: [VRI[InstrumentationActivityInvoker$EmptyActivity]#3](f:0,a:0) destructor()
+05-24 01:53:52.543 27363 27363 D BufferQueueConsumer: [VRI[InstrumentationActivityInvoker$EmptyActivity]#3(BLAST Consumer)3](id:6ae300000003,api:0,p:-1,c:27363) disconnect
+05-24 01:53:52.882 23560 23560 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+05-24 01:53:53.252 21773 21773 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.appsearch' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+05-24 01:53:53.261 21773 21773 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.art' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+05-24 01:53:53.547 27363 27381 I GED     : ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 29, oppidx_max 29, oppidx_min 0
+05-24 01:53:53.547 27363 27381 I GED     : ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 29, oppidx_max 29, oppidx_min 0
+05-24 01:53:54.611 21457 27161 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION, user: 0
+05-24 01:53:54.794 21773 22018 E Finsky  : [125] [Counters] attempted to use a non-positive increment for: 4752
+05-24 01:53:54.813 21773 22018 E Finsky  : [125] [Counters] attempted to use a non-positive increment for: 4753
+05-24 01:53:55.346 21773 22009 E Finsky  : [122] [Counters] attempted to use a non-positive increment for: 4752
+05-24 01:53:55.509 21773 22009 E Finsky  : [122] [Counters] attempted to use a non-positive increment for: 4752
+05-24 01:53:55.541 21773 22009 E Finsky  : [122] [Counters] attempted to use a non-positive increment for: 4752
+05-24 01:53:55.554 21773 22018 E Finsky  : [125] [Counters] attempted to use a non-positive increment for: 4753
+05-24 01:53:56.943 21457 27161 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION, user: 0
+05-24 01:54:12.741 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:54:12.746 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:54:12.746 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:54:12.748 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:54:12.749 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#beginTransaction
+05-24 01:54:12.749 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:54:12.750 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:54:12.751 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:54:12.751 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:54:12.752 14467 14585 E CrashFixLancet: androidx.room.RoomDatabase#endTransaction
+05-24 01:54:12.753 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#query
+05-24 01:54:12.753 14467 14769 E CrashFixLancet: androidx.room.RoomDatabase#assertNotSuspendingTransaction
+05-24 01:54:17.049 27716 27719 E ion     : ioctl c0044901 failed with code -1: Invalid argument

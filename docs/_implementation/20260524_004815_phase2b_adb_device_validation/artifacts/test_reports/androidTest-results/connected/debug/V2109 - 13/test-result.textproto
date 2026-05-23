@@ -1,0 +1,188 @@
+# 2026-05-23T19:54:21.229Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 4
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "OnboardingScreenTest"
+    test_package: "com.easyui.guardianlauncher.ui.screens.onboarding"
+    test_method: "pinSetupStep_showsAllDigitsAndConfirmFlow"
+    start_time {
+      seconds: 1779566047
+      nanos: 315000000
+    }
+    end_time {
+      seconds: 1779566051
+      nanos: 465000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/munaim/Documents/github/parentui/app/build/outputs/androidTest-results/connected/debug/V2109 - 13/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/munaim/Documents/github/parentui/app/build/outputs/androidTest-results/connected/debug/V2109 - 13/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/munaim/Documents/github/parentui/app/build/outputs/androidTest-results/connected/debug/V2109 - 13/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "OnboardingScreenTest"
+    test_package: "com.easyui.guardianlauncher.ui.screens.onboarding"
+    test_method: "welcomeStep_showsContentAndTriggersOnNext"
+    start_time {
+      seconds: 1779566051
+      nanos: 570000000
+    }
+    end_time {
+      seconds: 1779566052
+      nanos: 869000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/munaim/Documents/github/parentui/app/build/outputs/androidTest-results/connected/debug/V2109 - 13/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/munaim/Documents/github/parentui/app/build/outputs/androidTest-results/connected/debug/V2109 - 13/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/munaim/Documents/github/parentui/app/build/outputs/androidTest-results/connected/debug/V2109 - 13/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "OnboardingScreenTest"
+    test_package: "com.easyui.guardianlauncher.ui.screens.onboarding"
+    test_method: "contactSetupStep_showsFieldsAndTriggersSaved"
+    start_time {
+      seconds: 1779566052
+      nanos: 871000000
+    }
+    end_time {
+      seconds: 1779566057
+      nanos: 6000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/munaim/Documents/github/parentui/app/build/outputs/androidTest-results/connected/debug/V2109 - 13/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/munaim/Documents/github/parentui/app/build/outputs/androidTest-results/connected/debug/V2109 - 13/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/munaim/Documents/github/parentui/app/build/outputs/androidTest-results/connected/debug/V2109 - 13/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "OnboardingScreenTest"
+    test_package: "com.easyui.guardianlauncher.ui.screens.onboarding"
+    test_method: "completionStep_showsContentAndTriggersFinish"
+    start_time {
+      seconds: 1779566057
+      nanos: 35000000
+    }
+    end_time {
+      seconds: 1779566058
+      nanos: 447000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/munaim/Documents/github/parentui/app/build/outputs/androidTest-results/connected/debug/V2109 - 13/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/munaim/Documents/github/parentui/app/build/outputs/androidTest-results/connected/debug/V2109 - 13/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/munaim/Documents/github/parentui/app/build/outputs/androidTest-results/connected/debug/V2109 - 13/cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "/home/munaim/Documents/github/parentui/app/build/outputs/androidTest-results/connected/debug/V2109 - 13/testlog/test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}
