@@ -1,0 +1,94 @@
+== adb devices -l ==
+List of devices attached
+08357252AE006901       device usb:3-1 product:CH6i-GL model:TECNO_CH6i device:TECNO-CH6i transport_id:2
+34081500040008N        device usb:3-5 product:2109N model:V2109 device:2109 transport_id:4
+
+== wakeup ==
+== dismiss keyguard ==
+== power/window (sanity) ==
+  mWakefulness=Awake
+  mWakefulnessChanging=false
+  UID 1000:   ACTIVE  count=0 state=0
+  UID 1001:   ACTIVE  count=0 state=0
+  UID 1002:   ACTIVE  count=0 state=0
+  UID 1041: INACTIVE  count=1 state=20
+  UID 1068:   ACTIVE  count=0 state=0
+  UID 1073:   ACTIVE  count=0 state=0
+  UID u0a0:   ACTIVE  count=0 state=0
+  UID u0a44: INACTIVE  count=0 state=10
+  UID u0a46: INACTIVE  count=0 state=10
+  UID u0a47: INACTIVE  count=0 state=19
+  UID u0a51: INACTIVE  count=0 state=10
+  UID u0a54: INACTIVE  count=0 state=19
+  UID u0a55: INACTIVE  count=0 state=10
+  UID u0a56:   ACTIVE  count=0 state=0
+  UID u0a61: INACTIVE  count=0 state=19
+  UID u0a63: INACTIVE  count=0 state=19
+  UID u0a74: INACTIVE  count=0 state=10
+  UID u0a86: INACTIVE  count=0 state=19
+  UID u0a88:   ACTIVE  count=0 state=0
+  UID u0a103: INACTIVE  count=0 state=19
+  UID u0a108: INACTIVE  count=0 state=19
+  UID u0a115: INACTIVE  count=0 state=10
+  UID u0a117: INACTIVE  count=0 state=10
+  UID u0a121: INACTIVE  count=0 state=19
+  UID u0a128: INACTIVE  count=0 state=19
+  UID u0a131:   ACTIVE  count=0 state=0
+  UID u0a133: INACTIVE  count=0 state=19
+  UID u0a141:   ACTIVE  count=0 state=5
+  UID u0a143:   ACTIVE  count=0 state=0
+  UID u0a146:   ACTIVE  count=0 state=5
+  UID u0a154:   ACTIVE  count=0 state=5
+  UID u0a158: INACTIVE  count=0 state=19
+  UID u0a159: INACTIVE  count=0 state=10
+  UID u0a160: INACTIVE  count=0 state=19
+  UID u0a164: INACTIVE  count=0 state=19
+  UID u0a165:   ACTIVE  count=0 state=5
+  UID u0a166:   ACTIVE  count=0 state=5
+  UID u0a167:   ACTIVE  count=0 state=5
+  UID u0a168:   ACTIVE  count=0 state=5
+  UID u0a173: INACTIVE  count=0 state=19
+  UID u0a174: INACTIVE  count=0 state=19
+  UID u0a175: INACTIVE  count=0 state=19
+  UID u0a177:   ACTIVE  count=0 state=6
+  UID u0a178: INACTIVE  count=0 state=19
+  UID u0a180: INACTIVE  count=0 state=19
+  UID u0a181: INACTIVE  count=0 state=19
+  UID u0a182: INACTIVE  count=0 state=19
+  UID u0a184: INACTIVE  count=0 state=16
+  UID u0a185: INACTIVE  count=0 state=19
+  UID u0a186: INACTIVE  count=0 state=19
+  UID u0a187: INACTIVE  count=0 state=19
+  UID u0a190: INACTIVE  count=0 state=19
+  UID u0a196:   ACTIVE  count=0 state=5
+  UID u0a199:   ACTIVE  count=0 state=6
+  UID u0a201:   ACTIVE  count=0 state=5
+  UID u0a209: INACTIVE  count=0 state=19
+  UID u0a213:   ACTIVE  count=0 state=4
+  UID u0a233: INACTIVE  count=0 state=19
+  UID u0a251: INACTIVE  count=0 state=19
+  UID u0a256: INACTIVE  count=0 state=19
+  UID u0a257: INACTIVE  count=0 state=19
+  UID u0a266: INACTIVE  count=0 state=19
+  UID u0a278: INACTIVE  count=0 state=19
+  UID u0a284: INACTIVE  count=0 state=19
+  UID u0a288: INACTIVE  count=0 state=16
+  UID u0a295: INACTIVE  count=0 state=19
+  UID u0a301: INACTIVE  count=0 state=19
+  UID u0a313: INACTIVE  count=0 state=19
+  UID u0a316:   ACTIVE  count=0 state=5
+  UID u0a319: INACTIVE  count=0 state=19
+  UID u0a320:   ACTIVE  count=0 state=6
+  UID u0a321: INACTIVE  count=0 state=19
+  UID u0a323: INACTIVE  count=0 state=19
+  UID u0a353: INACTIVE  count=0 state=19
+  UID u0a375: INACTIVE  count=0 state=10
+  UID u0a381: INACTIVE  count=0 state=19
+  UID u0a428: INACTIVE  count=0 state=16
+  UID u0a455:   ACTIVE  count=0 state=5
+  UID u0a477:   ACTIVE  count=0 state=2
+  UID u0ai0: INACTIVE  count=0 state=17
+  UID u0i85:   ACTIVE  count=0 state=5
+Display Power: com.android.server.power.PowerManagerService$1@521f5ff
+  mCurrentFocus=Window{6fb76a1 u0 com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity}
+    mShowingDream=false mDreamingLockscreen=false

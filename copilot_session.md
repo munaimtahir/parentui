@@ -194,3 +194,38 @@ ANDROID_SERIAL=34081500040008N ./gradlew connectedDebugAndroidTest
 
 ### Next recommended step
 - Manually set EasyUI as the default HOME launcher on-device and provide/confirm a QA PIN to validate Guardian Checks + Setup limitations screens.
+
+---
+
+## Session update: Phase 2B-2 Manual Unlock + Final ADB Completion Pass
+
+- Date: 2026-05-24
+- Objective: Close remaining ADB blockers (default HOME, parent dashboard, setup limitations)
+- Device ID: `34081500040008N`
+
+### Commands run
+```bash
+adb devices -l
+adb -s 34081500040008N shell input keyevent KEYCODE_WAKEUP
+adb -s 34081500040008N shell wm dismiss-keyguard
+adb -s 34081500040008N shell am start -a android.settings.HOME_SETTINGS
+adb -s 34081500040008N shell cmd package resolve-activity --brief -a android.intent.action.MAIN -c android.intent.category.HOME
+adb -s 34081500040008N shell input keyevent KEYCODE_HOME
+adb -s 34081500040008N exec-out screencap -p > docs/_implementation/20260524_011139_phase2b2_final_adb_completion/home_default_easyui.png
+adb -s 34081500040008N shell monkey -p com.easyui.guardianlauncher -c android.intent.category.LAUNCHER 1
+adb -s 34081500040008N shell input tap 970 220
+adb -s 34081500040008N shell uiautomator dump /sdcard/window_dump.xml
+adb -s 34081500040008N pull /sdcard/window_dump.xml ...
+adb -s 34081500040008N shell input swipe 950 330 200 330 300
+adb -s 34081500040008N shell input tap 935 330
+adb -s 34081500040008N shell input tap 540 1395
+```
+
+### Outcome
+- PASS: default HOME now `com.easyui.guardianlauncher/.MainActivity` and HOME key returns to EasyUI.
+- PASS: Parent dashboard content reachable; Guardian Checks items visible (Battery/Internet/Contacts/Parent Lock).
+- PASS: Setup limitations screen renders required text (includes Family Link mention).
+
+### Evidence
+- Report folder: `docs/_implementation/20260524_011139_phase2b2_final_adb_completion/`
+- Final completion report: `docs/_implementation/20260524_011139_phase2b2_final_adb_completion/04_FINAL_COMPLETION_REPORT.md`
