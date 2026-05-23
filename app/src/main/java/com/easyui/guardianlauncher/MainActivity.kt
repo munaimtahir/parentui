@@ -13,6 +13,12 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.rememberNavController
 import com.easyui.guardianlauncher.data.SettingsRepository
+import com.easyui.guardianlauncher.guardian.GuardianStatusServiceImpl
+import com.easyui.guardianlauncher.guardian.clock.SystemClock
+import com.easyui.guardianlauncher.guardian.datasource.SettingsGuardianDataSource
+import com.easyui.guardianlauncher.guardian.providers.android.AndroidBatteryStatusProvider
+import com.easyui.guardianlauncher.guardian.providers.android.AndroidLauncherStatusProvider
+import com.easyui.guardianlauncher.guardian.providers.android.AndroidNetworkStatusProvider
 import com.easyui.guardianlauncher.ui.navigation.NavigationGraph
 import com.easyui.guardianlauncher.ui.navigation.Routes
 import com.easyui.guardianlauncher.ui.theme.GuardianLauncherTheme
@@ -24,7 +30,17 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         val settingsRepository = SettingsRepository(applicationContext)
-        val viewModel = LauncherViewModel(settingsRepository)
+        val guardianStatusService = GuardianStatusServiceImpl(
+            dataSource = SettingsGuardianDataSource(settingsRepository),
+            batteryStatusProvider = AndroidBatteryStatusProvider(applicationContext),
+            networkStatusProvider = AndroidNetworkStatusProvider(applicationContext),
+            launcherStatusProvider = AndroidLauncherStatusProvider(applicationContext),
+            clock = SystemClock(),
+        )
+        val viewModel = LauncherViewModel(
+            repository = settingsRepository,
+            guardianStatusService = guardianStatusService,
+        )
 
         setContent {
             val activeMode by viewModel.activeMode.collectAsState()

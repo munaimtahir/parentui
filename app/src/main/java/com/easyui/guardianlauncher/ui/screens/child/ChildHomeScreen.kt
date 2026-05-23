@@ -30,6 +30,7 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.viewinterop.AndroidView
 import com.easyui.guardianlauncher.data.AllowedApp
 import com.easyui.guardianlauncher.data.Mode
+import com.easyui.guardianlauncher.guardian.child.ChildSafetyWarnings
 import com.easyui.guardianlauncher.ui.components.PinEntryDialog
 import com.easyui.guardianlauncher.ui.components.ModeSelectItem
 import com.easyui.guardianlauncher.ui.viewmodels.LauncherViewModel
@@ -50,6 +51,7 @@ fun ChildHomeScreen(
     val childApps by viewModel.childHomeApps.collectAsState()
     val parentContact by viewModel.parentContact.collectAsState()
     val emergencyContact by viewModel.emergencyContact.collectAsState()
+    val guardianStatus by viewModel.guardianStatus.collectAsState()
 
     // UI Local States
     var showPinDialogForDashboard by remember { mutableStateOf(false) }
@@ -63,10 +65,17 @@ fun ChildHomeScreen(
 
     LaunchedEffect(Unit) {
         viewModel.scanInstalledApps(context)
+        viewModel.refreshGuardianStatus()
+        var lastGuardianRefreshAt = System.currentTimeMillis()
         while (true) {
             val now = Calendar.getInstance().time
             timeString = SimpleDateFormat("h:mm a", Locale.getDefault()).format(now)
             dateString = SimpleDateFormat("EEEE, MMMM d", Locale.getDefault()).format(now)
+            val nowMillis = System.currentTimeMillis()
+            if (nowMillis - lastGuardianRefreshAt >= 5 * 60_000L) {
+                viewModel.refreshGuardianStatus()
+                lastGuardianRefreshAt = nowMillis
+            }
             kotlinx.coroutines.delay(1000)
         }
     }
@@ -148,7 +157,35 @@ fun ChildHomeScreen(
                 textAlign = TextAlign.Center
             )
 
-            Spacer(modifier = Modifier.height(32.dp))
+            Spacer(modifier = Modifier.height(16.dp))
+
+            val warnings = remember(guardianStatus) {
+                guardianStatus?.let { ChildSafetyWarnings.fromGuardianStatus(it, maxWarnings = 2) }.orEmpty()
+            }
+            if (warnings.isNotEmpty()) {
+                Column(
+                    modifier = Modifier.fillMaxWidth(),
+                    verticalArrangement = Arrangement.spacedBy(10.dp)
+                ) {
+                    warnings.forEach { warning ->
+                        Card(
+                            modifier = Modifier.fillMaxWidth(),
+                            colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.errorContainer.copy(alpha = 0.55f)),
+                            shape = RoundedCornerShape(16.dp)
+                        ) {
+                            Text(
+                                text = warning.message,
+                                modifier = Modifier.padding(14.dp),
+                                color = MaterialTheme.colorScheme.onErrorContainer,
+                                fontWeight = FontWeight.Bold,
+                                textAlign = TextAlign.Center
+                            )
+                        }
+                    }
+                }
+            }
+
+            Spacer(modifier = Modifier.height(20.dp))
 
             // First Row: Contact shortcuts
             Row(

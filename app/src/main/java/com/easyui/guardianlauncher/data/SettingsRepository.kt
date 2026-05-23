@@ -5,6 +5,7 @@ import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
+import androidx.datastore.preferences.core.longPreferencesKey
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.core.stringSetPreferencesKey
 import androidx.datastore.preferences.preferencesDataStore
@@ -28,6 +29,8 @@ class SettingsRepository(private val context: Context) {
         private val KEY_EMERGENCY_NAME = stringPreferencesKey("emergency_name")
         private val KEY_EMERGENCY_PHONE = stringPreferencesKey("emergency_phone")
         private val KEY_EMERGENCY_ENABLED = booleanPreferencesKey("emergency_enabled")
+        private val KEY_LAYOUT_LOCK_ENABLED = booleanPreferencesKey("layout_lock_enabled")
+        private val KEY_LAST_ONLINE_AT_MILLIS = longPreferencesKey("last_online_at_millis")
     }
 
     val parentPinHash: Flow<String> = context.dataStore.data.map { preferences ->
@@ -78,6 +81,14 @@ class SettingsRepository(private val context: Context) {
         )
     }
 
+    val layoutLockEnabled: Flow<Boolean> = context.dataStore.data.map { preferences ->
+        preferences[KEY_LAYOUT_LOCK_ENABLED] ?: true
+    }
+
+    val lastOnlineAtMillis: Flow<Long?> = context.dataStore.data.map { preferences ->
+        preferences[KEY_LAST_ONLINE_AT_MILLIS]
+    }
+
     suspend fun saveParentPinHash(hash: String) {
         context.dataStore.edit { preferences ->
             preferences[KEY_PARENT_PIN_HASH] = hash
@@ -124,6 +135,18 @@ class SettingsRepository(private val context: Context) {
             preferences[KEY_EMERGENCY_NAME] = contact.label
             preferences[KEY_EMERGENCY_PHONE] = contact.phoneNumber
             preferences[KEY_EMERGENCY_ENABLED] = contact.enabled
+        }
+    }
+
+    suspend fun saveLayoutLockEnabled(enabled: Boolean) {
+        context.dataStore.edit { preferences ->
+            preferences[KEY_LAYOUT_LOCK_ENABLED] = enabled
+        }
+    }
+
+    suspend fun saveLastOnlineAtMillis(timestampMillis: Long) {
+        context.dataStore.edit { preferences ->
+            preferences[KEY_LAST_ONLINE_AT_MILLIS] = timestampMillis
         }
     }
 }

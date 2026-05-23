@@ -11,6 +11,8 @@ import com.easyui.guardianlauncher.data.EmergencyContact
 import com.easyui.guardianlauncher.data.GuardianContact
 import com.easyui.guardianlauncher.data.Mode
 import com.easyui.guardianlauncher.data.SettingsRepository
+import com.easyui.guardianlauncher.guardian.GuardianCheckStatus
+import com.easyui.guardianlauncher.guardian.GuardianStatusService
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -21,7 +23,10 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import java.security.MessageDigest
 
-class LauncherViewModel(private val repository: SettingsRepository) : ViewModel() {
+class LauncherViewModel(
+    private val repository: SettingsRepository,
+    private val guardianStatusService: GuardianStatusService? = null,
+) : ViewModel() {
 
     // Exposure of repo flows
     val onboardingCompleted: StateFlow<Boolean> = repository.onboardingCompleted
@@ -48,9 +53,15 @@ class LauncherViewModel(private val repository: SettingsRepository) : ViewModel(
     val emergencyContact: StateFlow<EmergencyContact> = repository.emergencyContact
         .stateIn(viewModelScope, SharingStarted.Lazily, EmergencyContact("", "", true))
 
+    val layoutLockEnabled: StateFlow<Boolean> = repository.layoutLockEnabled
+        .stateIn(viewModelScope, SharingStarted.Lazily, true)
+
     // List of all installed launchable apps (scanned dynamically at runtime)
     private val _installedApps = MutableStateFlow<List<AllowedApp>>(emptyList())
     val installedApps: StateFlow<List<AllowedApp>> = _installedApps.asStateFlow()
+
+    private val _guardianStatus = MutableStateFlow<GuardianCheckStatus?>(null)
+    val guardianStatus: StateFlow<GuardianCheckStatus?> = _guardianStatus.asStateFlow()
 
     // Derived list of apps that should appear on the child's home screen
     val childHomeApps: StateFlow<List<AllowedApp>> = combine(
@@ -216,6 +227,19 @@ class LauncherViewModel(private val repository: SettingsRepository) : ViewModel(
     fun updateEmergencyContact(label: String, phone: String, enabled: Boolean) {
         viewModelScope.launch {
             repository.saveEmergencyContact(EmergencyContact(label, phone, enabled))
+        }
+    }
+
+    fun setLayoutLockEnabled(enabled: Boolean) {
+        viewModelScope.launch {
+            repository.saveLayoutLockEnabled(enabled)
+        }
+    }
+
+    fun refreshGuardianStatus() {
+        val service = guardianStatusService ?: return
+        viewModelScope.launch {
+            _guardianStatus.value = service.getGuardianStatus()
         }
     }
 
