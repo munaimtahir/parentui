@@ -21,6 +21,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.ColorFilter
+import androidx.compose.ui.graphics.ColorMatrix
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -63,6 +65,12 @@ fun ChildHomeScreen(
     var timeString by remember { mutableStateOf("") }
     var dateString by remember { mutableStateOf("") }
 
+    // Visual tweaks based on mode
+    val isQuietMode = activeMode in listOf(Mode.SLEEP, Mode.BEDTIME, Mode.EXAM)
+    val backgroundColor = if (isQuietMode) Color(0xFF121212) else MaterialTheme.colorScheme.background
+    val primaryTextColor = if (isQuietMode) Color.White else MaterialTheme.colorScheme.primary
+    val secondaryTextColor = if (isQuietMode) Color.LightGray else MaterialTheme.colorScheme.secondary
+
     LaunchedEffect(Unit) {
         viewModel.scanInstalledApps(context)
         viewModel.refreshGuardianStatus()
@@ -83,7 +91,7 @@ fun ChildHomeScreen(
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(MaterialTheme.colorScheme.background)
+            .background(backgroundColor)
     ) {
         Column(
             modifier = Modifier
@@ -106,18 +114,21 @@ fun ChildHomeScreen(
                         showPinDialogForMode = true
                     },
                     colors = ButtonDefaults.textButtonColors(
-                        containerColor = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.6f)
+                        containerColor = if (isQuietMode) Color.DarkGray else MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.6f)
                     ),
                     shape = RoundedCornerShape(16.dp)
                 ) {
                     Text(
                         text = when (activeMode) {
-                            Mode.HOME -> "🏡 Home Mode"
-                            Mode.SCHOOL -> "🎒 School Mode"
-                            Mode.SLEEP -> "🌙 Sleep Mode"
+                            Mode.HOME -> "🏡 Home"
+                            Mode.SCHOOL -> "🎒 School"
+                            Mode.SLEEP -> "🌙 Sleep"
+                            Mode.BEDTIME -> "🛌 Bedtime"
+                            Mode.TRAVEL -> "🚗 Travel"
+                            Mode.EXAM -> "✍️ Exam"
                         },
                         fontWeight = FontWeight.Bold,
-                        color = MaterialTheme.colorScheme.onPrimaryContainer
+                        color = if (isQuietMode) Color.White else MaterialTheme.colorScheme.onPrimaryContainer
                     )
                 }
 
@@ -129,12 +140,12 @@ fun ChildHomeScreen(
                     },
                     modifier = Modifier
                         .clip(RoundedCornerShape(12.dp))
-                        .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f))
+                        .background(if (isQuietMode) Color.DarkGray else MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f))
                 ) {
                     Icon(
                         imageVector = Icons.Default.Lock,
                         contentDescription = "Parent Dashboard",
-                        tint = MaterialTheme.colorScheme.onSurfaceVariant
+                        tint = if (isQuietMode) Color.White else MaterialTheme.colorScheme.onSurfaceVariant
                     )
                 }
             }
@@ -146,14 +157,14 @@ fun ChildHomeScreen(
                 text = timeString,
                 style = MaterialTheme.typography.displayLarge,
                 fontWeight = FontWeight.Black,
-                color = MaterialTheme.colorScheme.primary,
+                color = primaryTextColor,
                 textAlign = TextAlign.Center
             )
             Text(
                 text = dateString,
                 style = MaterialTheme.typography.titleMedium,
                 fontWeight = FontWeight.Bold,
-                color = MaterialTheme.colorScheme.secondary,
+                color = secondaryTextColor,
                 textAlign = TextAlign.Center
             )
 
@@ -170,13 +181,13 @@ fun ChildHomeScreen(
                     warnings.forEach { warning ->
                         Card(
                             modifier = Modifier.fillMaxWidth(),
-                            colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.errorContainer.copy(alpha = 0.55f)),
+                            colors = CardDefaults.cardColors(containerColor = if (isQuietMode) Color(0xFF332222) else MaterialTheme.colorScheme.errorContainer.copy(alpha = 0.55f)),
                             shape = RoundedCornerShape(16.dp)
                         ) {
                             Text(
                                 text = warning.message,
                                 modifier = Modifier.padding(14.dp),
-                                color = MaterialTheme.colorScheme.onErrorContainer,
+                                color = if (isQuietMode) Color.LightGray else MaterialTheme.colorScheme.onErrorContainer,
                                 fontWeight = FontWeight.Bold,
                                 textAlign = TextAlign.Center
                             )
@@ -198,6 +209,7 @@ fun ChildHomeScreen(
                         label = parentContact.label.ifEmpty { "Call Parent" },
                         iconColor = Color(0xFF00897B),
                         icon = Icons.Default.Phone,
+                        isQuiet = isQuietMode,
                         modifier = Modifier.weight(1f),
                         onClick = {
                             dialNumber(context, parentContact.phoneNumber)
@@ -211,6 +223,7 @@ fun ChildHomeScreen(
                         label = emergencyContact.label.ifEmpty { "Emergency" },
                         iconColor = Color(0xFFD32F2F),
                         icon = Icons.Default.Emergency,
+                        isQuiet = isQuietMode,
                         modifier = Modifier.weight(1f),
                         onClick = {
                             dialNumber(context, emergencyContact.phoneNumber)
@@ -233,7 +246,7 @@ fun ChildHomeScreen(
                         text = "No apps have been added to this mode yet.\nAsk your parent to add apps.",
                         textAlign = TextAlign.Center,
                         style = MaterialTheme.typography.bodyLarge,
-                        color = MaterialTheme.colorScheme.outline,
+                        color = secondaryTextColor,
                         fontWeight = FontWeight.Medium
                     )
                 }
@@ -246,7 +259,7 @@ fun ChildHomeScreen(
                     contentPadding = PaddingValues(vertical = 12.dp)
                 ) {
                     items(childApps) { app ->
-                        AppLauncherTile(app = app) {
+                        AppLauncherTile(app = app, isQuiet = isQuietMode) {
                             viewModel.launchApp(context, app.packageName)
                         }
                     }
@@ -318,10 +331,37 @@ fun ChildHomeScreen(
                         )
                         ModeSelectItem(
                             title = "🌙 Sleep Mode",
-                            desc = "Quiet time. Only contact dials are visible.",
+                            desc = "Rest mode. Hides all app tiles. Only calling tiles remain.",
                             isSelected = activeMode == Mode.SLEEP,
                             onClick = {
                                 viewModel.updateActiveMode(Mode.SLEEP)
+                                showModeSelector = false
+                            }
+                        )
+                        ModeSelectItem(
+                            title = "🛌 Bedtime Mode",
+                            desc = "Quiet apps and essential calls only.",
+                            isSelected = activeMode == Mode.BEDTIME,
+                            onClick = {
+                                viewModel.updateActiveMode(Mode.BEDTIME)
+                                showModeSelector = false
+                            }
+                        )
+                        ModeSelectItem(
+                            title = "🚗 Travel Mode",
+                            desc = "Focus on entertainment and essentials.",
+                            isSelected = activeMode == Mode.TRAVEL,
+                            onClick = {
+                                viewModel.updateActiveMode(Mode.TRAVEL)
+                                showModeSelector = false
+                            }
+                        )
+                        ModeSelectItem(
+                            title = "✍️ Exam Mode",
+                            desc = "Maximum focus. Minimal apps.",
+                            isSelected = activeMode == Mode.EXAM,
+                            onClick = {
+                                viewModel.updateActiveMode(Mode.EXAM)
                                 showModeSelector = false
                             }
                         )
@@ -343,13 +383,14 @@ fun ContactTile(
     label: String,
     iconColor: Color,
     icon: androidx.compose.ui.graphics.vector.ImageVector,
+    isQuiet: Boolean = false,
     modifier: Modifier = Modifier,
     onClick: () -> Unit
 ) {
     Card(
         onClick = onClick,
         shape = RoundedCornerShape(20.dp),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+        colors = CardDefaults.cardColors(containerColor = if (isQuiet) Color(0xFF1E1E1E) else MaterialTheme.colorScheme.surface),
         modifier = modifier
             .height(90.dp)
     ) {
@@ -362,13 +403,13 @@ fun ContactTile(
                 modifier = Modifier
                     .size(36.dp)
                     .clip(androidx.compose.foundation.shape.CircleShape)
-                    .background(iconColor.copy(alpha = 0.15f)),
+                    .background(iconColor.copy(alpha = if (isQuiet) 0.3f else 0.15f)),
                 contentAlignment = Alignment.Center
             ) {
                 Icon(
                     imageVector = icon,
                     contentDescription = label,
-                    tint = iconColor,
+                    tint = if (isQuiet) iconColor.copy(alpha = 0.8f) else iconColor,
                     modifier = Modifier.size(20.dp)
                 )
             }
@@ -379,7 +420,8 @@ fun ContactTile(
                 fontWeight = FontWeight.Bold,
                 textAlign = TextAlign.Center,
                 maxLines = 1,
-                overflow = TextOverflow.Ellipsis
+                overflow = TextOverflow.Ellipsis,
+                color = if (isQuiet) Color.White else Color.Unspecified
             )
         }
     }
@@ -389,6 +431,7 @@ fun ContactTile(
 @Composable
 fun AppLauncherTile(
     app: AllowedApp,
+    isQuiet: Boolean = false,
     onClick: () -> Unit
 ) {
     Column(
@@ -403,9 +446,9 @@ fun AppLauncherTile(
         // App icon container using standard platform views
         Card(
             shape = RoundedCornerShape(18.dp),
-            colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+            colors = CardDefaults.cardColors(containerColor = if (isQuiet) Color(0xFF1E1E1E) else MaterialTheme.colorScheme.surface),
             modifier = Modifier.size(64.dp),
-            elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
+            elevation = CardDefaults.cardElevation(defaultElevation = if (isQuiet) 0.dp else 2.dp)
         ) {
             Box(
                 modifier = Modifier
@@ -413,7 +456,7 @@ fun AppLauncherTile(
                     .padding(8.dp),
                 contentAlignment = Alignment.Center
             ) {
-                AppIcon(packageName = app.packageName)
+                AppIcon(packageName = app.packageName, isQuiet = isQuiet)
             }
         }
         Spacer(modifier = Modifier.height(8.dp))
@@ -421,7 +464,7 @@ fun AppLauncherTile(
             text = app.displayLabel,
             fontSize = 13.sp,
             fontWeight = FontWeight.Bold,
-            color = MaterialTheme.colorScheme.onBackground,
+            color = if (isQuiet) Color.White else MaterialTheme.colorScheme.onBackground,
             textAlign = TextAlign.Center,
             maxLines = 1,
             overflow = TextOverflow.Ellipsis,
@@ -431,7 +474,7 @@ fun AppLauncherTile(
 }
 
 @Composable
-fun AppIcon(packageName: String, modifier: Modifier = Modifier) {
+fun AppIcon(packageName: String, isQuiet: Boolean = false, modifier: Modifier = Modifier) {
     val context = LocalContext.current
     val iconDrawable = remember(packageName) {
         try {
@@ -447,6 +490,11 @@ fun AppIcon(packageName: String, modifier: Modifier = Modifier) {
                 android.widget.ImageView(ctx).apply {
                     setImageDrawable(iconDrawable)
                     scaleType = android.widget.ImageView.ScaleType.FIT_CENTER
+                    if (isQuiet) {
+                        // Apply a desaturation filter for quiet modes
+                        val matrix = android.graphics.ColorMatrix().apply { setSaturation(0.2f) }
+                        colorFilter = android.graphics.ColorMatrixColorFilter(matrix)
+                    }
                 }
             },
             modifier = modifier.fillMaxSize()
@@ -456,13 +504,13 @@ fun AppIcon(packageName: String, modifier: Modifier = Modifier) {
             modifier = modifier
                 .fillMaxSize()
                 .clip(RoundedCornerShape(12.dp))
-                .background(MaterialTheme.colorScheme.primaryContainer),
+                .background(if (isQuiet) Color.DarkGray else MaterialTheme.colorScheme.primaryContainer),
             contentAlignment = Alignment.Center
         ) {
             Text(
                 text = packageName.take(1).uppercase(Locale.getDefault()),
                 fontWeight = FontWeight.Bold,
-                color = MaterialTheme.colorScheme.onPrimaryContainer,
+                color = if (isQuiet) Color.White else MaterialTheme.colorScheme.onPrimaryContainer,
                 fontSize = 18.sp
             )
         }

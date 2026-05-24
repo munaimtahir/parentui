@@ -2,151 +2,186 @@ package com.easyui.guardianlauncher.data
 
 import android.content.Context
 import androidx.datastore.core.DataStore
-import androidx.datastore.preferences.core.Preferences
-import androidx.datastore.preferences.core.booleanPreferencesKey
-import androidx.datastore.preferences.core.edit
-import androidx.datastore.preferences.core.longPreferencesKey
-import androidx.datastore.preferences.core.stringPreferencesKey
-import androidx.datastore.preferences.core.stringSetPreferencesKey
+import androidx.datastore.preferences.core.*
 import androidx.datastore.preferences.preferencesDataStore
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.map
+import kotlinx.serialization.encodeToString
+import kotlinx.serialization.json.Json
 
-val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "guardian_settings")
+private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "guardian_settings")
 
 class SettingsRepository(private val context: Context) {
 
+    private val json = Json { ignoreUnknownKeys = true }
+
     companion object {
-        private val KEY_PARENT_PIN_HASH = stringPreferencesKey("parent_pin_hash")
         private val KEY_ONBOARDING_COMPLETED = booleanPreferencesKey("onboarding_completed")
         private val KEY_ACTIVE_MODE = stringPreferencesKey("active_mode")
         private val KEY_ALLOWED_APPS = stringSetPreferencesKey("allowed_apps")
+        
         private val KEY_MODE_APPS_HOME = stringSetPreferencesKey("mode_apps_home")
         private val KEY_MODE_APPS_SCHOOL = stringSetPreferencesKey("mode_apps_school")
         private val KEY_MODE_APPS_SLEEP = stringSetPreferencesKey("mode_apps_sleep")
-        private val KEY_PARENT_NAME = stringPreferencesKey("parent_name")
-        private val KEY_PARENT_PHONE = stringPreferencesKey("parent_phone")
-        private val KEY_EMERGENCY_NAME = stringPreferencesKey("emergency_name")
-        private val KEY_EMERGENCY_PHONE = stringPreferencesKey("emergency_phone")
-        private val KEY_EMERGENCY_ENABLED = booleanPreferencesKey("emergency_enabled")
+        private val KEY_MODE_APPS_BEDTIME = stringSetPreferencesKey("mode_apps_bedtime")
+        private val KEY_MODE_APPS_TRAVEL = stringSetPreferencesKey("mode_apps_travel")
+        private val KEY_MODE_APPS_EXAM = stringSetPreferencesKey("mode_apps_exam")
+
+        private val KEY_PARENT_CONTACT_LABEL = stringPreferencesKey("parent_contact_label")
+        private val KEY_PARENT_CONTACT_PHONE = stringPreferencesKey("parent_contact_phone")
+        
+        private val KEY_EMERGENCY_CONTACT_LABEL = stringPreferencesKey("emergency_contact_label")
+        private val KEY_EMERGENCY_CONTACT_PHONE = stringPreferencesKey("emergency_contact_phone")
+        private val KEY_EMERGENCY_CONTACT_ENABLED = booleanPreferencesKey("emergency_contact_enabled")
+
+        private val KEY_PARENT_PIN_HASH = stringPreferencesKey("parent_pin_hash")
         private val KEY_LAYOUT_LOCK_ENABLED = booleanPreferencesKey("layout_lock_enabled")
+        
         private val KEY_LAST_ONLINE_AT_MILLIS = longPreferencesKey("last_online_at_millis")
+        
+        private val KEY_ROUTINE_SCHEDULES = stringPreferencesKey("routine_schedules")
     }
 
-    val parentPinHash: Flow<String> = context.dataStore.data.map { preferences ->
-        preferences[KEY_PARENT_PIN_HASH] ?: ""
+    // Flows
+    val onboardingCompleted: Flow<Boolean> = context.dataStore.data.map { it[KEY_ONBOARDING_COMPLETED] ?: false }
+    
+    val activeMode: Flow<Mode> = context.dataStore.data.map { 
+        val modeStr = it[KEY_ACTIVE_MODE] ?: Mode.HOME.name
+        try { Mode.valueOf(modeStr) } catch (e: Exception) { Mode.HOME }
     }
 
-    val onboardingCompleted: Flow<Boolean> = context.dataStore.data.map { preferences ->
-        preferences[KEY_ONBOARDING_COMPLETED] ?: false
+    val allowedApps: Flow<Set<String>> = context.dataStore.data.map { it[KEY_ALLOWED_APPS] ?: emptySet() }
+
+    val modeAppsHome: Flow<Set<String>> = context.dataStore.data.map { it[KEY_MODE_APPS_HOME] ?: emptySet() }
+    val modeAppsSchool: Flow<Set<String>> = context.dataStore.data.map { it[KEY_MODE_APPS_SCHOOL] ?: emptySet() }
+    val modeAppsSleep: Flow<Set<String>> = context.dataStore.data.map { it[KEY_MODE_APPS_SLEEP] ?: emptySet() }
+    val modeAppsBedtime: Flow<Set<String>> = context.dataStore.data.map { it[KEY_MODE_APPS_BEDTIME] ?: emptySet() }
+    val modeAppsTravel: Flow<Set<String>> = context.dataStore.data.map { it[KEY_MODE_APPS_TRAVEL] ?: emptySet() }
+    val modeAppsExam: Flow<Set<String>> = context.dataStore.data.map { it[KEY_MODE_APPS_EXAM] ?: emptySet() }
+
+    val parentContact: Flow<GuardianContact> = context.dataStore.data.map {
+        GuardianContact(it[KEY_PARENT_CONTACT_LABEL] ?: "", it[KEY_PARENT_CONTACT_PHONE] ?: "")
     }
 
-    val activeMode: Flow<Mode> = context.dataStore.data.map { preferences ->
-        val modeStr = preferences[KEY_ACTIVE_MODE] ?: Mode.HOME.name
-        try {
-            Mode.valueOf(modeStr)
-        } catch (e: IllegalArgumentException) {
-            Mode.HOME
-        }
-    }
-
-    val allowedApps: Flow<Set<String>> = context.dataStore.data.map { preferences ->
-        preferences[KEY_ALLOWED_APPS] ?: emptySet()
-    }
-
-    val modeAppsHome: Flow<Set<String>> = context.dataStore.data.map { preferences ->
-        preferences[KEY_MODE_APPS_HOME] ?: emptySet()
-    }
-
-    val modeAppsSchool: Flow<Set<String>> = context.dataStore.data.map { preferences ->
-        preferences[KEY_MODE_APPS_SCHOOL] ?: emptySet()
-    }
-
-    val modeAppsSleep: Flow<Set<String>> = context.dataStore.data.map { preferences ->
-        preferences[KEY_MODE_APPS_SLEEP] ?: emptySet()
-    }
-
-    val parentContact: Flow<GuardianContact> = context.dataStore.data.map { preferences ->
-        GuardianContact(
-            label = preferences[KEY_PARENT_NAME] ?: "",
-            phoneNumber = preferences[KEY_PARENT_PHONE] ?: ""
-        )
-    }
-
-    val emergencyContact: Flow<EmergencyContact> = context.dataStore.data.map { preferences ->
+    val emergencyContact: Flow<EmergencyContact> = context.dataStore.data.map {
         EmergencyContact(
-            label = preferences[KEY_EMERGENCY_NAME] ?: "",
-            phoneNumber = preferences[KEY_EMERGENCY_PHONE] ?: "",
-            enabled = preferences[KEY_EMERGENCY_ENABLED] ?: true
+            it[KEY_EMERGENCY_CONTACT_LABEL] ?: "Emergency",
+            it[KEY_EMERGENCY_CONTACT_PHONE] ?: "",
+            it[KEY_EMERGENCY_CONTACT_ENABLED] ?: true
         )
     }
 
-    val layoutLockEnabled: Flow<Boolean> = context.dataStore.data.map { preferences ->
-        preferences[KEY_LAYOUT_LOCK_ENABLED] ?: true
+    val parentPinHash: Flow<String> = context.dataStore.data.map { it[KEY_PARENT_PIN_HASH] ?: "" }
+    
+    val layoutLockEnabled: Flow<Boolean> = context.dataStore.data.map { it[KEY_LAYOUT_LOCK_ENABLED] ?: true }
+
+    val routineSchedules: Flow<List<RoutineSchedule>> = context.dataStore.data.map {
+        val jsonStr = it[KEY_ROUTINE_SCHEDULES] ?: "[]"
+        try { json.decodeFromString<List<RoutineSchedule>>(jsonStr) } catch (e: Exception) { emptyList() }
     }
 
-    val lastOnlineAtMillis: Flow<Long?> = context.dataStore.data.map { preferences ->
-        preferences[KEY_LAST_ONLINE_AT_MILLIS]
-    }
+    val lastOnlineAtMillis: Flow<Long> = context.dataStore.data.map { it[KEY_LAST_ONLINE_AT_MILLIS] ?: 0L }
 
-    suspend fun saveParentPinHash(hash: String) {
-        context.dataStore.edit { preferences ->
-            preferences[KEY_PARENT_PIN_HASH] = hash
-        }
-    }
-
+    // Setters
     suspend fun saveOnboardingCompleted(completed: Boolean) {
-        context.dataStore.edit { preferences ->
-            preferences[KEY_ONBOARDING_COMPLETED] = completed
-        }
+        context.dataStore.edit { it[KEY_ONBOARDING_COMPLETED] = completed }
     }
 
     suspend fun saveActiveMode(mode: Mode) {
-        context.dataStore.edit { preferences ->
-            preferences[KEY_ACTIVE_MODE] = mode.name
-        }
+        context.dataStore.edit { it[KEY_ACTIVE_MODE] = mode.name }
     }
 
     suspend fun saveAllowedApps(apps: Set<String>) {
-        context.dataStore.edit { preferences ->
-            preferences[KEY_ALLOWED_APPS] = apps
-        }
+        context.dataStore.edit { it[KEY_ALLOWED_APPS] = apps }
     }
 
     suspend fun saveModeApps(mode: Mode, apps: Set<String>) {
-        context.dataStore.edit { preferences ->
+        context.dataStore.edit {
             when (mode) {
-                Mode.HOME -> preferences[KEY_MODE_APPS_HOME] = apps
-                Mode.SCHOOL -> preferences[KEY_MODE_APPS_SCHOOL] = apps
-                Mode.SLEEP -> preferences[KEY_MODE_APPS_SLEEP] = apps
+                Mode.HOME -> it[KEY_MODE_APPS_HOME] = apps
+                Mode.SCHOOL -> it[KEY_MODE_APPS_SCHOOL] = apps
+                Mode.SLEEP -> it[KEY_MODE_APPS_SLEEP] = apps
+                Mode.BEDTIME -> it[KEY_MODE_APPS_BEDTIME] = apps
+                Mode.TRAVEL -> it[KEY_MODE_APPS_TRAVEL] = apps
+                Mode.EXAM -> it[KEY_MODE_APPS_EXAM] = apps
             }
         }
     }
 
     suspend fun saveParentContact(contact: GuardianContact) {
-        context.dataStore.edit { preferences ->
-            preferences[KEY_PARENT_NAME] = contact.label
-            preferences[KEY_PARENT_PHONE] = contact.phoneNumber
+        context.dataStore.edit {
+            it[KEY_PARENT_CONTACT_LABEL] = contact.label
+            it[KEY_PARENT_CONTACT_PHONE] = contact.phoneNumber
         }
     }
 
     suspend fun saveEmergencyContact(contact: EmergencyContact) {
-        context.dataStore.edit { preferences ->
-            preferences[KEY_EMERGENCY_NAME] = contact.label
-            preferences[KEY_EMERGENCY_PHONE] = contact.phoneNumber
-            preferences[KEY_EMERGENCY_ENABLED] = contact.enabled
+        context.dataStore.edit {
+            it[KEY_EMERGENCY_CONTACT_LABEL] = contact.label
+            it[KEY_EMERGENCY_CONTACT_PHONE] = contact.phoneNumber
+            it[KEY_EMERGENCY_CONTACT_ENABLED] = contact.enabled
         }
+    }
+
+    suspend fun saveParentPinHash(hash: String) {
+        context.dataStore.edit { it[KEY_PARENT_PIN_HASH] = hash }
     }
 
     suspend fun saveLayoutLockEnabled(enabled: Boolean) {
-        context.dataStore.edit { preferences ->
-            preferences[KEY_LAYOUT_LOCK_ENABLED] = enabled
-        }
+        context.dataStore.edit { it[KEY_LAYOUT_LOCK_ENABLED] = enabled }
+    }
+
+    suspend fun saveRoutineSchedules(schedules: List<RoutineSchedule>) {
+        context.dataStore.edit { it[KEY_ROUTINE_SCHEDULES] = json.encodeToString(schedules) }
     }
 
     suspend fun saveLastOnlineAtMillis(timestampMillis: Long) {
-        context.dataStore.edit { preferences ->
-            preferences[KEY_LAST_ONLINE_AT_MILLIS] = timestampMillis
+        context.dataStore.edit { it[KEY_LAST_ONLINE_AT_MILLIS] = timestampMillis }
+    }
+
+    // Backup & Restore
+    suspend fun exportBackup(): String {
+        val backup = AppBackup(
+            parentContact = parentContact.first(),
+            emergencyContact = emergencyContact.first(),
+            allowedApps = allowedApps.first(),
+            modeAppsHome = modeAppsHome.first(),
+            modeAppsSchool = modeAppsSchool.first(),
+            modeAppsSleep = modeAppsSleep.first(),
+            modeAppsBedtime = modeAppsBedtime.first(),
+            modeAppsTravel = modeAppsTravel.first(),
+            modeAppsExam = modeAppsExam.first(),
+            schedules = routineSchedules.first(),
+            layoutLockEnabled = layoutLockEnabled.first(),
+            parentPinHash = parentPinHash.first()
+        )
+        return json.encodeToString(backup)
+    }
+
+    suspend fun importBackup(jsonStr: String): Boolean {
+        return try {
+            val backup = json.decodeFromString<AppBackup>(jsonStr)
+            context.dataStore.edit {
+                it[KEY_PARENT_CONTACT_LABEL] = backup.parentContact.label
+                it[KEY_PARENT_CONTACT_PHONE] = backup.parentContact.phoneNumber
+                it[KEY_EMERGENCY_CONTACT_LABEL] = backup.emergencyContact.label
+                it[KEY_EMERGENCY_CONTACT_PHONE] = backup.emergencyContact.phoneNumber
+                it[KEY_EMERGENCY_CONTACT_ENABLED] = backup.emergencyContact.enabled
+                it[KEY_ALLOWED_APPS] = backup.allowedApps
+                it[KEY_MODE_APPS_HOME] = backup.modeAppsHome
+                it[KEY_MODE_APPS_SCHOOL] = backup.modeAppsSchool
+                it[KEY_MODE_APPS_SLEEP] = backup.modeAppsSleep
+                it[KEY_MODE_APPS_BEDTIME] = backup.modeAppsBedtime
+                it[KEY_MODE_APPS_TRAVEL] = backup.modeAppsTravel
+                it[KEY_MODE_APPS_EXAM] = backup.modeAppsExam
+                it[KEY_ROUTINE_SCHEDULES] = json.encodeToString(backup.schedules)
+                it[KEY_LAYOUT_LOCK_ENABLED] = backup.layoutLockEnabled
+                it[KEY_PARENT_PIN_HASH] = backup.parentPinHash
+            }
+            true
+        } catch (e: Exception) {
+            false
         }
     }
 }

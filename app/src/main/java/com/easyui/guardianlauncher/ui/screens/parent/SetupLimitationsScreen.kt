@@ -113,6 +113,50 @@ fun SetupLimitationsScreen(
                     )
                 }
             }
+
+            Text(
+                "Guide: Setting the Default Launcher",
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.Bold
+            )
+            Card(
+                modifier = Modifier.fillMaxWidth(),
+                shape = RoundedCornerShape(16.dp),
+                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+            ) {
+                Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Text(
+                        "To ensure your child stays inside EasyUI:",
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+                    Bullet("Open Android Settings.")
+                    Bullet("Search for 'Default apps' or 'Home app'.")
+                    Bullet("Select 'EasyUI Guardian Launcher' as the Home app.")
+                    Bullet("Test by pressing the Home button; it should now return to EasyUI.")
+                }
+            }
+
+            Text(
+                "Guide: Google Family Link",
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.Bold
+            )
+            Card(
+                modifier = Modifier.fillMaxWidth(),
+                shape = RoundedCornerShape(16.dp),
+                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+            ) {
+                Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Text(
+                        "EasyUI and Family Link work great together:",
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+                    Bullet("Use Family Link to block app installs from Play Store.")
+                    Bullet("Set overall screen time limits in Family Link.")
+                    Bullet("Use Family Link web filtering for Chrome.")
+                    Bullet("Use EasyUI for the simplified, mode-based home screen experience.")
+                }
+            }
         }
     }
 }

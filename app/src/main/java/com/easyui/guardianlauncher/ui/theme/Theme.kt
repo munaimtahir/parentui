@@ -14,7 +14,7 @@ fun GuardianLauncherTheme(
     content: @Composable () -> Unit
 ) {
     val colorScheme = when (mode) {
-        Mode.HOME -> {
+        Mode.HOME, Mode.TRAVEL -> {
             if (darkTheme) {
                 darkColorScheme(
                     primary = HomePrimary,
@@ -39,7 +39,7 @@ fun GuardianLauncherTheme(
                 )
             }
         }
-        Mode.SCHOOL -> {
+        Mode.SCHOOL, Mode.EXAM -> {
             if (darkTheme) {
                 darkColorScheme(
                     primary = SchoolPrimary,
@@ -64,7 +64,7 @@ fun GuardianLauncherTheme(
                 )
             }
         }
-        Mode.SLEEP -> {
+        Mode.SLEEP, Mode.BEDTIME -> {
             if (darkTheme) {
                 darkColorScheme(
                     primary = SleepPrimary,
