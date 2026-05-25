@@ -127,6 +127,8 @@ class OnboardingScreenTest {
         composeTestRule.setContent {
             CompletionStep(
                 onOpenSettings = {},
+                defaultLauncherState = null,
+                onCheckAgain = {},
                 onFinish = { clickedFinish = true },
                 onBack = {}
             )

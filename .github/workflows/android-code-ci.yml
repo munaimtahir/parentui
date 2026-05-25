@@ -1,0 +1,61 @@
+name: Android Code CI
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  android-code-ci:
+    name: Build, Unit Test, and Lint
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Make Gradle executable
+        run: chmod +x ./gradlew
+
+      - name: Clean
+        run: ./gradlew --no-daemon --stacktrace :app:clean
+
+      - name: Assemble debug APK
+        run: ./gradlew --no-daemon --stacktrace :app:assembleDebug
+
+      - name: Run unit tests
+        run: ./gradlew --no-daemon --stacktrace :app:testDebugUnitTest
+
+      - name: Run lint
+        run: ./gradlew --no-daemon --stacktrace :app:lintDebug
+
+      - name: Upload APK artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-apk
+          if-no-files-found: warn
+          path: |
+            app/build/outputs/apk/debug/*.apk
+
+      - name: Upload test and lint reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-code-ci-reports
+          if-no-files-found: warn
+          path: |
+            **/build/reports/tests/
+            **/build/test-results/
+            **/build/reports/lint-results-*.html
+            **/build/reports/lint-results-*.xml
+
