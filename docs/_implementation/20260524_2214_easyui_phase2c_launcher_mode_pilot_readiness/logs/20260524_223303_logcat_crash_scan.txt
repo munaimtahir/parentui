@@ -1,0 +1,8 @@
+10110:05-24 22:31:10.797 I/AndroidRuntime(14296): Using default boot image
+10111:05-24 22:31:10.798 I/AndroidRuntime(14296): Leaving lock profiling enabled
+13874:05-24 22:31:43.670 I/AndroidRuntime(14960): Using default boot image
+13875:05-24 22:31:43.670 I/AndroidRuntime(14960): Leaving lock profiling enabled
+15878:05-24 22:32:28.774 I/AndroidRuntime(15309): Using default boot image
+15879:05-24 22:32:28.774 I/AndroidRuntime(15309): Leaving lock profiling enabled
+18071:05-24 22:32:53.955 I/AndroidRuntime(15622): Using default boot image
+18072:05-24 22:32:53.955 I/AndroidRuntime(15622): Leaving lock profiling enabled

@@ -41,6 +41,8 @@ class SettingsRepository(private val context: Context) {
         private val KEY_LAST_ONLINE_AT_MILLIS = longPreferencesKey("last_online_at_millis")
         
         private val KEY_ROUTINE_SCHEDULES = stringPreferencesKey("routine_schedules")
+
+        private val KEY_LIMITATIONS_ACKNOWLEDGED = booleanPreferencesKey("limitations_acknowledged")
     }
 
     // Flows
@@ -48,7 +50,11 @@ class SettingsRepository(private val context: Context) {
     
     val activeMode: Flow<Mode> = context.dataStore.data.map { 
         val modeStr = it[KEY_ACTIVE_MODE] ?: Mode.HOME.name
-        try { Mode.valueOf(modeStr) } catch (e: Exception) { Mode.HOME }
+        val parsed = try { Mode.valueOf(modeStr) } catch (e: Exception) { Mode.HOME }
+        when (parsed) {
+            Mode.HOME, Mode.SCHOOL, Mode.SLEEP -> parsed
+            else -> Mode.HOME
+        }
     }
 
     val allowedApps: Flow<Set<String>> = context.dataStore.data.map { it[KEY_ALLOWED_APPS] ?: emptySet() }
@@ -82,6 +88,8 @@ class SettingsRepository(private val context: Context) {
     }
 
     val lastOnlineAtMillis: Flow<Long> = context.dataStore.data.map { it[KEY_LAST_ONLINE_AT_MILLIS] ?: 0L }
+
+    val limitationsAcknowledged: Flow<Boolean> = context.dataStore.data.map { it[KEY_LIMITATIONS_ACKNOWLEDGED] ?: false }
 
     // Setters
     suspend fun saveOnboardingCompleted(completed: Boolean) {
@@ -140,6 +148,10 @@ class SettingsRepository(private val context: Context) {
         context.dataStore.edit { it[KEY_LAST_ONLINE_AT_MILLIS] = timestampMillis }
     }
 
+    suspend fun saveLimitationsAcknowledged(acknowledged: Boolean) {
+        context.dataStore.edit { it[KEY_LIMITATIONS_ACKNOWLEDGED] = acknowledged }
+    }
+
     // Backup & Restore
     suspend fun exportBackup(): String {
         val backup = AppBackup(
@@ -154,7 +166,9 @@ class SettingsRepository(private val context: Context) {
             modeAppsExam = modeAppsExam.first(),
             schedules = routineSchedules.first(),
             layoutLockEnabled = layoutLockEnabled.first(),
-            parentPinHash = parentPinHash.first()
+            // Never export PIN/PIN hash in backups. If a parent forgets the PIN, the recovery path is still
+            // "clear app data" as documented.
+            parentPinHash = ""
         )
         return json.encodeToString(backup)
     }
@@ -177,7 +191,7 @@ class SettingsRepository(private val context: Context) {
                 it[KEY_MODE_APPS_EXAM] = backup.modeAppsExam
                 it[KEY_ROUTINE_SCHEDULES] = json.encodeToString(backup.schedules)
                 it[KEY_LAYOUT_LOCK_ENABLED] = backup.layoutLockEnabled
-                it[KEY_PARENT_PIN_HASH] = backup.parentPinHash
+                // Intentionally do not import PIN/PIN hash.
             }
             true
         } catch (e: Exception) {

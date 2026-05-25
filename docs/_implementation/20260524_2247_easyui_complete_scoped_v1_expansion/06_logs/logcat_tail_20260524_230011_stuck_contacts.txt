@@ -1,0 +1,400 @@
+05-24 23:00:07.400 E/DatabaseUtils(24678): java.lang.IllegalArgumentException: Unrecognized uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006207
+05-24 23:00:07.400 E/DatabaseUtils(24678): 	at com.transsion.camera.app.common.provider.ProcessPhotoProvider.query(ProcessPhotoProvider.java:75)
+05-24 23:00:07.400 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1477)
+05-24 23:00:07.400 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1573)
+05-24 23:00:07.400 E/DatabaseUtils(24678): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:292)
+05-24 23:00:07.400 E/DatabaseUtils(24678): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:107)
+05-24 23:00:07.400 E/DatabaseUtils(24678): 	at android.os.Binder.execTransactInternal(Binder.java:1281)
+05-24 23:00:07.400 E/DatabaseUtils(24678): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-24 23:00:07.406 I/CamAp_ProcessPhotoProvi(24678): query uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006209
+05-24 23:00:07.411 I/CamAp_ProcessPhotoProvi(24678): query uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006208
+05-24 23:00:07.412 E/DatabaseUtils(24678): Writing exception to parcel
+05-24 23:00:07.412 E/DatabaseUtils(24678): java.lang.IllegalArgumentException: Unrecognized uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006208
+05-24 23:00:07.412 E/DatabaseUtils(24678): 	at com.transsion.camera.app.common.provider.ProcessPhotoProvider.query(ProcessPhotoProvider.java:75)
+05-24 23:00:07.412 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1477)
+05-24 23:00:07.412 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1573)
+05-24 23:00:07.412 E/DatabaseUtils(24678): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:292)
+05-24 23:00:07.412 E/DatabaseUtils(24678): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:107)
+05-24 23:00:07.412 E/DatabaseUtils(24678): 	at android.os.Binder.execTransactInternal(Binder.java:1281)
+05-24 23:00:07.412 E/DatabaseUtils(24678): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-24 23:00:07.412 E/DatabaseUtils(24678): Writing exception to parcel
+05-24 23:00:07.412 E/DatabaseUtils(24678): java.lang.IllegalArgumentException: Unrecognized uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006209
+05-24 23:00:07.412 E/DatabaseUtils(24678): 	at com.transsion.camera.app.common.provider.ProcessPhotoProvider.query(ProcessPhotoProvider.java:75)
+05-24 23:00:07.412 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1477)
+05-24 23:00:07.412 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1573)
+05-24 23:00:07.412 E/DatabaseUtils(24678): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:292)
+05-24 23:00:07.412 E/DatabaseUtils(24678): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:107)
+05-24 23:00:07.412 E/DatabaseUtils(24678): 	at android.os.Binder.execTransactInternal(Binder.java:1281)
+05-24 23:00:07.412 E/DatabaseUtils(24678): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-24 23:00:07.416 I/CamAp_ProcessPhotoProvi(24678): query uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006221
+05-24 23:00:07.417 E/DatabaseUtils(24678): Writing exception to parcel
+05-24 23:00:07.417 E/DatabaseUtils(24678): java.lang.IllegalArgumentException: Unrecognized uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006221
+05-24 23:00:07.417 E/DatabaseUtils(24678): 	at com.transsion.camera.app.common.provider.ProcessPhotoProvider.query(ProcessPhotoProvider.java:75)
+05-24 23:00:07.417 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1477)
+05-24 23:00:07.417 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1573)
+05-24 23:00:07.417 E/DatabaseUtils(24678): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:292)
+05-24 23:00:07.417 E/DatabaseUtils(24678): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:107)
+05-24 23:00:07.417 E/DatabaseUtils(24678): 	at android.os.Binder.execTransactInternal(Binder.java:1281)
+05-24 23:00:07.417 E/DatabaseUtils(24678): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-24 23:00:07.423 I/CamAp_ProcessPhotoProvi(24678): query uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006223
+05-24 23:00:07.424 I/CamAp_ProcessPhotoProvi(24678): query uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006224
+05-24 23:00:07.424 E/DatabaseUtils(24678): Writing exception to parcel
+05-24 23:00:07.424 E/DatabaseUtils(24678): java.lang.IllegalArgumentException: Unrecognized uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006223
+05-24 23:00:07.424 E/DatabaseUtils(24678): 	at com.transsion.camera.app.common.provider.ProcessPhotoProvider.query(ProcessPhotoProvider.java:75)
+05-24 23:00:07.424 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1477)
+05-24 23:00:07.424 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1573)
+05-24 23:00:07.424 E/DatabaseUtils(24678): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:292)
+05-24 23:00:07.424 E/DatabaseUtils(24678): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:107)
+05-24 23:00:07.424 E/DatabaseUtils(24678): 	at android.os.Binder.execTransactInternal(Binder.java:1281)
+05-24 23:00:07.424 E/DatabaseUtils(24678): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-24 23:00:07.424 E/DatabaseUtils(24678): Writing exception to parcel
+05-24 23:00:07.424 E/DatabaseUtils(24678): java.lang.IllegalArgumentException: Unrecognized uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006224
+05-24 23:00:07.424 E/DatabaseUtils(24678): 	at com.transsion.camera.app.common.provider.ProcessPhotoProvider.query(ProcessPhotoProvider.java:75)
+05-24 23:00:07.424 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1477)
+05-24 23:00:07.424 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1573)
+05-24 23:00:07.424 E/DatabaseUtils(24678): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:292)
+05-24 23:00:07.424 E/DatabaseUtils(24678): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:107)
+05-24 23:00:07.424 E/DatabaseUtils(24678): 	at android.os.Binder.execTransactInternal(Binder.java:1281)
+05-24 23:00:07.424 E/DatabaseUtils(24678): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-24 23:00:07.430 I/CamAp_ProcessPhotoProvi(24678): query uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006528
+05-24 23:00:07.430 E/DatabaseUtils(24678): Writing exception to parcel
+05-24 23:00:07.430 E/DatabaseUtils(24678): java.lang.IllegalArgumentException: Unrecognized uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006528
+05-24 23:00:07.430 E/DatabaseUtils(24678): 	at com.transsion.camera.app.common.provider.ProcessPhotoProvider.query(ProcessPhotoProvider.java:75)
+05-24 23:00:07.430 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1477)
+05-24 23:00:07.430 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1573)
+05-24 23:00:07.430 E/DatabaseUtils(24678): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:292)
+05-24 23:00:07.430 E/DatabaseUtils(24678): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:107)
+05-24 23:00:07.430 E/DatabaseUtils(24678): 	at android.os.Binder.execTransactInternal(Binder.java:1281)
+05-24 23:00:07.430 E/DatabaseUtils(24678): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-24 23:00:07.435 I/CamAp_ProcessPhotoProvi(24678): query uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006700
+05-24 23:00:07.436 E/DatabaseUtils(24678): Writing exception to parcel
+05-24 23:00:07.436 E/DatabaseUtils(24678): java.lang.IllegalArgumentException: Unrecognized uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006700
+05-24 23:00:07.436 E/DatabaseUtils(24678): 	at com.transsion.camera.app.common.provider.ProcessPhotoProvider.query(ProcessPhotoProvider.java:75)
+05-24 23:00:07.436 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1477)
+05-24 23:00:07.436 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1573)
+05-24 23:00:07.436 E/DatabaseUtils(24678): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:292)
+05-24 23:00:07.436 E/DatabaseUtils(24678): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:107)
+05-24 23:00:07.436 E/DatabaseUtils(24678): 	at android.os.Binder.execTransactInternal(Binder.java:1281)
+05-24 23:00:07.436 E/DatabaseUtils(24678): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-24 23:00:07.437 I/resolv  (  711): GetAddrInfoHandler::run: {107 107 107 983147 10109 0}
+05-24 23:00:07.438 I/resolv  (  711): res_nmkquery: (QUERY, IN, A)
+05-24 23:00:07.440 I/CamAp_ProcessPhotoProvi(24678): query uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006825
+05-24 23:00:07.440 E/DatabaseUtils(24678): Writing exception to parcel
+05-24 23:00:07.440 E/DatabaseUtils(24678): java.lang.IllegalArgumentException: Unrecognized uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006825
+05-24 23:00:07.440 E/DatabaseUtils(24678): 	at com.transsion.camera.app.common.provider.ProcessPhotoProvider.query(ProcessPhotoProvider.java:75)
+05-24 23:00:07.440 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1477)
+05-24 23:00:07.440 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1573)
+05-24 23:00:07.440 E/DatabaseUtils(24678): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:292)
+05-24 23:00:07.440 E/DatabaseUtils(24678): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:107)
+05-24 23:00:07.440 E/DatabaseUtils(24678): 	at android.os.Binder.execTransactInternal(Binder.java:1281)
+05-24 23:00:07.440 E/DatabaseUtils(24678): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-24 23:00:07.441 I/CamAp_ProcessPhotoProvi(24678): query uri: content://com.transsion.camera.SpecialTypesProvider/type/1000007169
+05-24 23:00:07.441 E/DatabaseUtils(24678): Writing exception to parcel
+05-24 23:00:07.441 E/DatabaseUtils(24678): java.lang.IllegalArgumentException: Unrecognized uri: content://com.transsion.camera.SpecialTypesProvider/type/1000007169
+05-24 23:00:07.441 E/DatabaseUtils(24678): 	at com.transsion.camera.app.common.provider.ProcessPhotoProvider.query(ProcessPhotoProvider.java:75)
+05-24 23:00:07.441 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1477)
+05-24 23:00:07.441 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1573)
+05-24 23:00:07.441 E/DatabaseUtils(24678): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:292)
+05-24 23:00:07.441 E/DatabaseUtils(24678): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:107)
+05-24 23:00:07.441 E/DatabaseUtils(24678): 	at android.os.Binder.execTransactInternal(Binder.java:1281)
+05-24 23:00:07.441 E/DatabaseUtils(24678): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-24 23:00:07.445 I/CamAp_ProcessPhotoProvi(24678): query uri: content://com.transsion.camera.SpecialTypesProvider/type/1000616050
+05-24 23:00:07.445 E/DatabaseUtils(24678): Writing exception to parcel
+05-24 23:00:07.445 E/DatabaseUtils(24678): java.lang.IllegalArgumentException: Unrecognized uri: content://com.transsion.camera.SpecialTypesProvider/type/1000616050
+05-24 23:00:07.445 E/DatabaseUtils(24678): 	at com.transsion.camera.app.common.provider.ProcessPhotoProvider.query(ProcessPhotoProvider.java:75)
+05-24 23:00:07.445 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1477)
+05-24 23:00:07.445 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1573)
+05-24 23:00:07.445 E/DatabaseUtils(24678): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:292)
+05-24 23:00:07.445 E/DatabaseUtils(24678): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:107)
+05-24 23:00:07.445 E/DatabaseUtils(24678): 	at android.os.Binder.execTransactInternal(Binder.java:1281)
+05-24 23:00:07.445 E/DatabaseUtils(24678): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-24 23:00:07.451 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039813,0.000076, totalTime 0.039891 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:07.502 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:00:07.502 W/TWSClientService(13878): array is null
+05-24 23:00:07.511 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039749,0.000069, totalTime 0.039820 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:07.551 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039619,0.000070, totalTime 0.039689 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:07.583 I/libPerfCtl(  738): xgfGetFPS pid:23260 fps:-1
+05-24 23:00:07.589 I/dex2oat32(24588): Priority-to-niceness mapping: 19, 16, 13, 10, 0, -2, -4, -5, -6, -8
+05-24 23:00:07.591 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039570,0.000061, totalTime 0.039632 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:07.622 I/BufferQueueProducer(  755): [com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity#17314](this:0xb400007ca80ee188,id:-1,api:0,p:-1,c:755) queueBuffer: fps=2.00 dur=1000.40 max=500.23 min=500.17
+05-24 23:00:07.631 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039679,0.000063, totalTime 0.039743 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:07.671 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039617,0.000063, totalTime 0.039681 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:07.686 I/resolv  (  711): res_nsend: used send_dg 76 terrno: 0
+05-24 23:00:07.687 I/resolv  (  711): doQuery: rcode=0, ancount=2, return value=76
+05-24 23:00:07.711 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039631,0.000073, totalTime 0.039705 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:07.751 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039646,0.000061, totalTime 0.039708 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:07.811 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039774,0.000065, totalTime 0.039841 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:07.851 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039597,0.000068, totalTime 0.039665 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:07.899 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:00:07.899 W/TWSClientService(13878): array is null
+05-24 23:00:07.926 I/WifiHAL ( 1850): Get link layer stats
+05-24 23:00:07.926 I/WifiHAL ( 1850): GetLinkStatsCommand::create
+05-24 23:00:07.926 I/android.hardware.wifi@1.0-service-lazy( 1850): WifiCommand::requestResponse err=-14
+05-24 23:00:07.926 I/WifiHAL ( 1850): wifi_get_link_stats: result=-1
+05-24 23:00:07.927 E/WifiVendorHal( 1478): getWifiLinkLayerStats_1_5_Internal(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+05-24 23:00:07.951 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039691,0.000058, totalTime 0.039750 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:07.979 I/dex2oat32(24588): Explicit concurrent copying GC freed 40MB AllocSpace bytes, 5(80KB) LOS objects, 83% free, 4712KB/28MB, paused 88us,23us total 87.136ms
+05-24 23:00:07.992 W/TeeEndorsementInstaller(  775): Endorsement token not found, wait a bit longer [vendor/mediatek/proprietary/trustzone/trustonic/source/external/mobicore/common/500/Daemon/src/EndorsementInstaller.cpp:105]
+05-24 23:00:08.031 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039695,0.000062, totalTime 0.039758 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:08.111 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039785,0.000097, totalTime 0.039884 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:08.124 I/hwcomposer(  727): [HWCDisplay] [Display_0 (type:1)] fps:1.999263,dur:1000.37,max:500.26,min:500.11  
+05-24 23:00:08.151 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039556,0.000078, totalTime 0.039634 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:08.231 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039715,0.000076, totalTime 0.039792 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:08.252 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:00:08.252 W/TWSClientService(13878): array is null
+05-24 23:00:08.271 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039549,0.000069, totalTime 0.039619 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:08.311 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000000,0.039641,0.000066, totalTime 0.039707 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:08.315 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:00:08.315 W/TWSClientService(13878): array is null
+05-24 23:00:08.351 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039603,0.000060, totalTime 0.039664 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:08.391 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039566,0.000059, totalTime 0.039626 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:08.431 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039636,0.000058, totalTime 0.039695 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:08.471 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039663,0.000058, totalTime 0.039722 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:08.511 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039581,0.000063, totalTime 0.039645 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:08.551 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039629,0.000062, totalTime 0.039692 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:08.583 I/libPerfCtl(  738): xgfGetFPS pid:23260 fps:-1
+05-24 23:00:08.591 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039622,0.000066, totalTime 0.039689 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:08.613 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:00:08.614 W/TWSClientService(13878): array is null
+05-24 23:00:08.623 I/BufferQueueProducer(  755): [com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity#17314](this:0xb400007ca80ee188,id:-1,api:0,p:-1,c:755) queueBuffer: fps=2.00 dur=1000.42 max=500.21 min=500.21
+05-24 23:00:08.631 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039623,0.000065, totalTime 0.039689 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:08.671 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039591,0.000062, totalTime 0.039654 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:08.710 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:00:08.710 W/TWSClientService(13878): array is null
+05-24 23:00:08.711 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039589,0.000057, totalTime 0.039647 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:08.714 E/SQLiteLog(23265): (13) statement aborts at 7: [INSERT OR REPLACE  INTO stats(tenantid,statsvalue) VALUES (?,?)] database or disk is full
+05-24 23:00:08.751 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039815,0.000069, totalTime 0.039885 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:08.791 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039459,0.000060, totalTime 0.039520 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:08.831 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039611,0.000060, totalTime 0.039671 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:08.834 I/AlarmManager( 1478): going to acquire mWakeLock actually.
+05-24 23:00:08.837 I/AlarmManager( 1478): alarmComplete() from android.app.AlarmManager$ListenerWrapper@f8b942b
+05-24 23:00:08.847 I/netd    (  711): tetherGetStats() -> {[]} <1.44ms>
+05-24 23:00:08.856 I/netd    (  711): bandwidthSetGlobalAlert(2097152) <0.51ms>
+05-24 23:00:08.871 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039564,0.000052, totalTime 0.039616 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:08.911 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039619,0.000056, totalTime 0.039676 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:08.933 I/downloader2( 7125): Exceeded max concurrent downloads, not running another queued request
+05-24 23:00:08.933 I/downloader2( 7125): Exceeded max concurrent downloads, not running another queued request
+05-24 23:00:08.933 I/downloader2( 7125): Exceeded max concurrent downloads, not running another queued request
+05-24 23:00:08.935 I/resolv  (  711): GetAddrInfoHandler::run: {107 107 107 983147 10206 0}
+05-24 23:00:08.935 I/resolv  (  711): GetAddrInfoHandler::run: {107 107 107 983147 10206 0}
+05-24 23:00:08.936 I/resolv  (  711): res_nmkquery: (QUERY, IN, A)
+05-24 23:00:08.936 I/resolv  (  711): res_nmkquery: (QUERY, IN, A)
+05-24 23:00:08.951 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039652,0.000079, totalTime 0.039732 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:08.955 I/ActivityManager( 1478): Start proc 24617:com.whatsapp/u0a247 for service {com.whatsapp/androidx.work.impl.background.systemjob.SystemJobService}
+05-24 23:00:08.960 W/main    (24617): type=1400 audit(0.0:97907): avc: denied { read } for name="u:object_r:vendor_memfusion_size_prop:s0" dev="tmpfs" ino=7885 scontext=u:r:untrusted_app:s0:c247,c256,c512,c768 tcontext=u:object_r:vendor_memfusion_size_prop:s0 tclass=file permissive=0 app=com.whatsapp
+05-24 23:00:08.960 W/main    (24617): type=1400 audit(0.0:97908): avc: denied { read } for name="u:object_r:vendor_memfusion_state_prop:s0" dev="tmpfs" ino=7886 scontext=u:r:untrusted_app:s0:c247,c256,c512,c768 tcontext=u:object_r:vendor_memfusion_state_prop:s0 tclass=file permissive=0 app=com.whatsapp
+05-24 23:00:08.960 W/main    (24617): type=1400 audit(0.0:97909): avc: denied { read } for name="u:object_r:vendor_memfusion_tranlog_prop:s0" dev="tmpfs" ino=7888 scontext=u:r:untrusted_app:s0:c247,c256,c512,c768 tcontext=u:object_r:vendor_memfusion_tranlog_prop:s0 tclass=file permissive=0 app=com.whatsapp
+05-24 23:00:08.960 W/main    (24617): type=1400 audit(0.0:97910): avc: denied { read } for name="u:object_r:vendor_memfusion_ui_enable_prop:s0" dev="tmpfs" ino=7889 scontext=u:r:untrusted_app:s0:c247,c256,c512,c768 tcontext=u:object_r:vendor_memfusion_ui_enable_prop:s0 tclass=file permissive=0 app=com.whatsapp
+05-24 23:00:08.960 W/main    (24617): type=1400 audit(0.0:97911): avc: denied { read } for name="u:object_r:vendor_uxcompaction_enable_prop:s0" dev="tmpfs" ino=8134 scontext=u:r:untrusted_app:s0:c247,c256,c512,c768 tcontext=u:object_r:vendor_uxcompaction_enable_prop:s0 tclass=file permissive=0 app=com.whatsapp
+05-24 23:00:08.964 I/com.whatsapp(24617): Using CollectorTypeCC GC.
+05-24 23:00:08.978 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:00:08.978 W/TWSClientService(13878): array is null
+05-24 23:00:09.011 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:00:09.011 W/TWSClientService(13878): array is null
+05-24 23:00:09.011 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039706,0.000050, totalTime 0.039758 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:09.030 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:00:09.030 W/TWSClientService(13878): array is null
+05-24 23:00:09.042 I/Finsky  (23794): [2] SCH: job service start with id 9582.
+05-24 23:00:09.051 I/Finsky  (23794): [1691] SCH: Satisfied jobs for 9582 are: 12-1
+05-24 23:00:09.051 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039699,0.000096, totalTime 0.039795 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:09.054 I/Finsky  (23794): [1690] SCH: Job 12-1 starting
+05-24 23:00:09.054 I/Finsky  (23794): [2] WM::SCH: Logging work start for 12-1
+05-24 23:00:09.056 I/Finsky  (23794): [2] [ContentSync] job started
+05-24 23:00:09.056 W/.adservices.api( 7125): Reducing the number of considered missed Gc histogram windows from 360 to 100
+05-24 23:00:09.061 W/com.whatsapp(24617): Failed to find entry 'classes.dex': Entry not found
+05-24 23:00:09.064 W/com.whatsapp(24617): Failed to find entry 'classes.dex': Entry not found
+05-24 23:00:09.086 I/resolv  (  711): res_nsend: used send_dg 49 terrno: 0
+05-24 23:00:09.086 I/resolv  (  711): res_nsend: used send_dg 49 terrno: 0
+05-24 23:00:09.086 I/resolv  (  711): doQuery: rcode=0, ancount=1, return value=49
+05-24 23:00:09.086 I/resolv  (  711): resolv_cache_add: ALREADY IN CACHE (0xb4000070806b7f90) ? IGNORING ADD
+05-24 23:00:09.086 I/resolv  (  711): doQuery: rcode=0, ancount=1, return value=49
+05-24 23:00:09.092 I/LoadedApk(24617): No resource references to update in package com.transsion.theme.icon
+05-24 23:00:09.111 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039869,0.000074, totalTime 0.039944 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:09.124 I/hwcomposer(  727): [HWCDisplay] [Display_0 (type:1)] fps:1.998355,dur:1000.82,max:500.46,min:500.36  
+05-24 23:00:09.143 I/FirebaseApp(24617): Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+05-24 23:00:09.150 I/FirebaseInitProvider(24617): FirebaseApp initialization successful
+05-24 23:00:09.171 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039647,0.000063, totalTime 0.039711 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:09.178 I/ProcessNameUtil(24617): getMyProcessName
+05-24 23:00:09.179 I/ProcessNameUtil(24617): isSecondaryProcess/process name: com.whatsapp/processing time: 0 ms
+05-24 23:00:09.211 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039699,0.000086, totalTime 0.039785 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:09.221 W/SoLoader(24617): Initializing SoLoader: 0
+05-24 23:00:09.221 I/SoLoader(24617): Recording new base apk path: /data/app/~~zvPs85o9ZbCg_4DNx6fOnA==/com.whatsapp-8dNyYhPvXwSR9mrXY-cSYg==/base.apk
+05-24 23:00:09.221 I/SoLoader(24617): Previously recorded 0 base apk paths.
+05-24 23:00:09.223 I/SoLoader(24617): Preparing SO source: DirectorySoSource[root = /vendor/lib64 flags = 2]
+05-24 23:00:09.223 I/SoLoader(24617): Preparing SO source: DirectorySoSource[root = /system_ext/lib64 flags = 2]
+05-24 23:00:09.223 I/SoLoader(24617): Preparing SO source: DirectorySoSource[root = /system/lib64 flags = 2]
+05-24 23:00:09.223 I/SoLoader(24617): Preparing SO source: DirectApkSoSource[root = [/data/app/~~zvPs85o9ZbCg_4DNx6fOnA==/com.whatsapp-8dNyYhPvXwSR9mrXY-cSYg==/base.apk!/lib/arm64-v8a, /data/app/~~zvPs85o9ZbCg_4DNx6fOnA==/com.whatsapp-8dNyYhPvXwSR9mrXY-cSYg==/split_config.arm64_v8a.apk!/lib/arm64-v8a, /data/app/~~zvPs85o9ZbCg_4DNx6fOnA==/com.whatsapp-8dNyYhPvXwSR9mrXY-cSYg==/split_config.xxhdpi.apk!/lib/arm64-v8a]]
+05-24 23:00:09.239 I/SoLoader(24617): Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/~~zvPs85o9ZbCg_4DNx6fOnA==/com.whatsapp-8dNyYhPvXwSR9mrXY-cSYg==/lib/arm64 flags = 0]]
+05-24 23:00:09.239 W/SoLoader(24617): SoLoader initialized: 8
+05-24 23:00:09.251 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039390,0.000076, totalTime 0.039466 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:09.254 W/SoLoader(24617): Loading wa_log on the main thread
+05-24 23:00:09.252 W/com.whatsapp(24617): type=1400 audit(0.0:97912): avc: granted { execute } for path="/data/data/com.whatsapp/files/decompressed/libs.spo/libwa_log.so" dev="dm-42" ino=2417649 scontext=u:r:untrusted_app:s0:c247,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c247,c256,c512,c768 tclass=file app=com.whatsapp
+05-24 23:00:09.257 W/SoLoader(24617): Loading essential on the main thread
+05-24 23:00:09.269 W/SoLoader(24617): Loading fb on the main thread
+05-24 23:00:09.270 I/com.whatsapp(24617): Thread[1,tid=24617,Native,Thread*=0xb400007b7a63d7b0,peer=0x72e98d48,"main"] recursive attempt to load library "/data/data/com.whatsapp/files/decompressed/libs.spo/libfb.so"
+05-24 23:00:09.273 I/essential-jni(24617): JNI_OnLoad start
+05-24 23:00:09.273 I/essential-jni(24617): fbjni lambda running
+05-24 23:00:09.273 I/essential-jni(24617): JNI_OnLoad lambda complete
+05-24 23:00:09.281 I/SigquitBasedANRDetector(24617): Function PaletteWriteCrashThreadStacks hooked with result=0
+05-24 23:00:09.281 W/SoLoader(24617): Loading rtvip on the main thread
+05-24 23:00:09.283 W/SoLoader(24617): Loading rtvip on the main thread
+05-24 23:00:09.283 I/rtvip   (24617): done
+05-24 23:00:09.284 W/SoLoader(24617): Loading vlc on the main thread
+05-24 23:00:09.286 W/SoLoader(24617): Loading native_utils on the main thread
+05-24 23:00:09.288 W/SoLoader(24617): Loading curve25519 on the main thread
+05-24 23:00:09.291 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039656,0.000033, totalTime 0.039690 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:09.331 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039614,0.000070, totalTime 0.039685 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:09.371 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039489,0.000081, totalTime 0.039571 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:09.386 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-24 23:00:09.411 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039697,0.000071, totalTime 0.039768 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:09.434 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:00:09.434 W/TWSClientService(13878): array is null
+05-24 23:00:09.437 W/Finsky  (23794): [2] STU: Failed to get storage stats for package 'com.google.mainline.primary.libs' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+05-24 23:00:09.491 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039635,0.000075, totalTime 0.039711 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:09.535 W/JobScheduler( 1478): Job didn't exist in JobStore: ba0447e #u0a247/25438 com.whatsapp/androidx.work.impl.background.systemjob.SystemJobService
+05-24 23:00:09.542 W/libc    (24617): Access denied finding property "ro.hardware.chipname"
+05-24 23:00:09.549 W/JobScheduler( 1478): Job didn't exist in JobStore: 247a50 #u0a247/25444 com.whatsapp/androidx.work.impl.background.systemjob.SystemJobService
+05-24 23:00:09.551 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039555,0.000039, totalTime 0.039596 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:09.583 I/libPerfCtl(  738): xgfGetFPS pid:23260 fps:-1
+05-24 23:00:09.623 I/BufferQueueProducer(  755): [com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity#17314](this:0xb400007ca80ee188,id:-1,api:0,p:-1,c:755) queueBuffer: fps=2.00 dur=1000.67 max=500.36 min=500.30
+05-24 23:00:09.631 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039573,0.000066, totalTime 0.039641 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:09.671 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039596,0.000063, totalTime 0.039659 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:09.711 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039645,0.000063, totalTime 0.039709 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:09.751 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039620,0.000062, totalTime 0.039682 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:09.788 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:00:09.789 W/TWSClientService(13878): array is null
+05-24 23:00:09.791 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039544,0.000062, totalTime 0.039608 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:09.871 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039584,0.000060, totalTime 0.039645 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:09.894 I/AlarmManager( 1478): going to release mWakeLock actually.
+05-24 23:00:09.911 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039668,0.000069, totalTime 0.039737 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:09.951 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039550,0.000063, totalTime 0.039614 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:10.011 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039732,0.000061, totalTime 0.039795 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:10.127 I/hwcomposer(  727): [HWCDisplay] [Display_0 (type:1)] fps:1.995197,dur:1002.41,max:501.94,min:500.46  
+05-24 23:00:10.131 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:00:10.132 W/TWSClientService(13878): array is null
+05-24 23:00:10.164 I/downloader2( 7125): Exceeded max concurrent downloads, not running another queued request
+05-24 23:00:10.174 I/downloader2( 7125): Exceeded max concurrent downloads, not running another queued request
+05-24 23:00:10.188 W/com.whatsapp(24617): type=1400 audit(0.0:97935): avc: granted { execute } for comm=486967682050726920576F726B6572 path="/data/data/com.whatsapp/files/decompressed/libs.spo/libar-bundle2.so" dev="dm-42" ino=2427654 scontext=u:r:untrusted_app:s0:c247,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c247,c256,c512,c768 tclass=file app=com.whatsapp
+05-24 23:00:10.208 I/downloader2( 7125): Exceeded max concurrent downloads, not running another queued request
+05-24 23:00:10.216 W/com.whatsapp(24617): type=1400 audit(0.0:97936): avc: granted { execute } for comm=486967682050726920576F726B6572 path="/data/data/com.whatsapp/files/decompressed/libs.spo/libwhatsapp.so" dev="dm-42" ino=2421022 scontext=u:r:untrusted_app:s0:c247,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c247,c256,c512,c768 tclass=file app=com.whatsapp
+05-24 23:00:10.225 I/downloader2( 7125): Exceeded max concurrent downloads, not running another queued request
+05-24 23:00:10.231 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039616,0.000069, totalTime 0.039687 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:10.271 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039497,0.000062, totalTime 0.039561 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:10.277 I/WM-WorkerWrapper(24617): Worker result SUCCESS for Work [ id=6ce5d233-56c5-48f3-884b-35f9165a1ddb, tags={ com.whatsapp.ui.wds.metrics.logging.network.HierarchyUploadScheduler$HierarchyUploadWorker } ]
+05-24 23:00:10.284 I/WhatsAppJni(24617): EnsureThreadAttached: attached current thread to JVM
+05-24 23:00:10.311 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039587,0.000066, totalTime 0.039654 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:10.311 I/NetworkScheduler.Stats( 4672): (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-24 23:00:10.317 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-24 23:00:10.317 I/WhatsAppJni(24617): EnsureThreadAttached: attached current thread to JVM
+05-24 23:00:10.317 I/WhatsAppJni(24617): EnsureThreadAttached: attached current thread to JVM
+05-24 23:00:10.318 I/NetworkScheduler.Stats( 4672): (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-24 23:00:10.319 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-24 23:00:10.351 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039674,0.000066, totalTime 0.039741 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:10.375 E/com.whatsapp(24617): hiddenapi: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->setUseSessionTickets(Z)V (runtime_flags=CorePlatformApi, domain=core-platform, api=max-target-q,core-platform-api) from LX/GAX; (domain=app, TargetSdkVersion=36) using reflection: denied
+05-24 23:00:10.375 E/com.whatsapp(24617): hiddenapi: Accessing hidden method Lcom/android/org/conscrypt/AbstractConscryptSocket;->setUseSessionTickets(Z)V (runtime_flags=0, domain=core-platform, api=max-target-q) from LX/GAX; (domain=app, TargetSdkVersion=36) using reflection: denied
+05-24 23:00:10.379 I/resolv  (  711): GetAddrInfoHandler::run: {107 262251 107 983147 10247 0}
+05-24 23:00:10.380 I/resolv  (  711): res_nmkquery: (QUERY, IN, A)
+05-24 23:00:10.380 I/resolv  (  711): resolv_cache_lookup: FOUND IN CACHE entry=0xb4000070906ba330
+05-24 23:00:10.380 I/resolv  (  711): doQuery: rcode=0, ancount=1, return value=63
+05-24 23:00:10.382 E/msys    (24617): E[N WCIHTTPImplNetworkSession]WCIHTTPTaskImplCreateRegular(556)=>[I] http/task/regular/create/start
+05-24 23:00:10.382 E/msys    (24617): E[N WCIHTTPImplNetworkSession]WCIHTTPTaskImplCreateRegular(591)=>[I] http/task/regular/create/execute
+05-24 23:00:10.383 E/msys    (24617): E[N WCIHTTPImplNetworkSession]WCIHTTPTaskImplCreateRegular(614)=>[I] http/task/regular/create/success
+05-24 23:00:10.391 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039488,0.000065, totalTime 0.039554 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:10.420 E/com.whatsapp(24617): No implementation found for void com.facebook.quicklog.QuickPerformanceLoggerNativeProvider.nativeUpdateQPLInstance() (tried Java_com_facebook_quicklog_QuickPerformanceLoggerNativeProvider_nativeUpdateQPLInstance and Java_com_facebook_quicklog_QuickPerformanceLoggerNativeProvider_nativeUpdateQPLInstance__) - is the library loaded, e.g. System.loadLibrary?
+05-24 23:00:10.430 W/QPLProvider(24617): QuickPerformanceLoggerProvider failed to update native QPL instance, native library. This is expected during early app initialization
+05-24 23:00:10.445 E/msys    (24617): E[N mns:TigonMNS]MNSHTTPClientCreateWithThreadName(250)=>AESCE: MBEDTLS_AESCE_C is NOT enabled.
+05-24 23:00:10.449 W/SoLoader(24617): SoLoader already initialized
+05-24 23:00:10.451 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039548,0.000062, totalTime 0.039611 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:10.448 W/com.whatsapp(24617): type=1400 audit(0.0:97937): avc: granted { execute } for comm=576861747341707020576F726B6572 path="/data/data/com.whatsapp/files/decompressed/libs.spo/libfbsocketthreadlocalscope.so" dev="dm-42" ino=2681391 scontext=u:r:untrusted_app:s0:c247,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c247,c256,c512,c768 tclass=file app=com.whatsapp
+05-24 23:00:10.456 W/com.whatsapp(24617): type=1400 audit(0.0:97938): avc: granted { execute } for comm=576861747341707020576F726B6572 path="/data/data/com.whatsapp/files/decompressed/libs.spo/libfb_sqlite_3500300.so" dev="dm-42" ino=2425125 scontext=u:r:untrusted_app:s0:c247,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c247,c256,c512,c768 tclass=file app=com.whatsapp
+05-24 23:00:10.460 W/com.whatsapp(24617): type=1400 audit(0.0:97939): avc: granted { execute } for comm=576861747341707020576F726B6572 path="/data/data/com.whatsapp/files/decompressed/libs.spo/libffsingletonmerged.so" dev="dm-42" ino=2633763 scontext=u:r:untrusted_app:s0:c247,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c247,c256,c512,c768 tclass=file app=com.whatsapp
+05-24 23:00:10.467 W/EndToEnd-Test(24617): Cannot find E2E config file `/data/user/0/com.whatsapp/files/config.json`.
+05-24 23:00:10.472 W/Finsky  (23794): [2] STU: Failed to get storage stats for package 'com.google.android.appsearch' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+05-24 23:00:10.491 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039598,0.000068, totalTime 0.039667 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:10.501 W/Finsky  (23794): [2] STU: Failed to get storage stats for package 'com.google.android.art' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+05-24 23:00:10.523 I/PlayCore(24617): UID: [10247]  PID: [24617] SplitInstallListenerRegistry : registerListener
+05-24 23:00:10.531 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039754,0.000058, totalTime 0.039813 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:10.533 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:00:10.534 W/TWSClientService(13878): array is null
+05-24 23:00:10.558 E/msys    (24617): E[ADNSUCTIMH WAJMNSRuntime]WAJContextInitMNSRuntime(446)=>[LogLevel:I] Secondary DNS resolver enabled
+05-24 23:00:10.559 E/msys    (24617): E[N WA]_WAJMNSStreamImplMNSTCPStreamCreate(361)=>[LogLevel:I] WAJMNSStream/impl/tcpStreamCreate/MNSStreamRaw/p=0xb400007a7a6f5d60
+05-24 23:00:10.559 E/msys    (24617): E[N WA]WAJMNSStreamImplCreate(421)=>[LogLevel:I] WAJMNSStream/impl/create/p=0xb400007a7a6f5d60 (mnsConn=0xb400007a4a69d960)
+05-24 23:00:10.559 E/msys    (24617): E[N WA]_WAJMNSStreamCreateMnsIpsFromIpAddressStrings(87)=>[LogLevel:I] no ip addresses provided, using DNS resolution
+05-24 23:00:10.559 E/msys    (24617): E[N WA]WAJMNSStreamImplConnect(450)=>[LogLevel:I] WAJMNSStream/impl/connect/p=0xb400007a7a6f5d60 (endpoint=g.whatsapp.net:5222)(ipAddressCount=0)
+05-24 23:00:10.559 E/msys    (24617): E[N WA]_WAJMNSStreamImplUpdateStreamState(230)=>[LogLevel:I] WAJMNSStream/impl/state-changed/p=0xb400007a7a6f5d60 (initial=>connecting)
+05-24 23:00:10.562 W/Finsky  (23794): [2] STU: Failed to get storage stats for package 'com.google.android.mediaprovider' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+05-24 23:00:10.563 I/resolv  (  711): GetAddrInfoHandler::run: {107 262251 107 983147 10247 0}
+05-24 23:00:10.564 I/resolv  (  711): res_nmkquery: (QUERY, IN, A)
+05-24 23:00:10.571 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039646,0.000076, totalTime 0.039724 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:10.574 I/resolv  (  711): GetAddrInfoHandler::run: {107 262251 107 983147 10247 0}
+05-24 23:00:10.575 I/resolv  (  711): res_nmkquery: (QUERY, IN, A)
+05-24 23:00:10.584 I/libPerfCtl(  738): xgfGetFPS pid:23260 fps:-1
+05-24 23:00:10.611 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039485,0.000065, totalTime 0.039551 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:10.623 I/BufferQueueProducer(  755): [com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity#17314](this:0xb400007ca80ee188,id:-1,api:0,p:-1,c:755) queueBuffer: fps=2.00 dur=1000.18 max=500.46 min=499.73
+05-24 23:00:10.642 W/Finsky  (23794): [2] STU: Failed to get storage stats for package 'com.google.android.resolv' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+05-24 23:00:10.645 I/downloader2( 7125): Exceeded max concurrent downloads, not running another queued request
+05-24 23:00:10.646 I/downloader2( 7125): Exceeded max concurrent downloads, not running another queued request
+05-24 23:00:10.651 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039577,0.000064, totalTime 0.039642 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:10.652 I/resolv  (  711): res_nsend: used send_dg 71 terrno: 0
+05-24 23:00:10.652 I/resolv  (  711): doQuery: rcode=0, ancount=2, return value=71
+05-24 23:00:10.653 I/resolv  (  711): res_nsend: used send_dg 75 terrno: 0
+05-24 23:00:10.653 I/resolv  (  711): doQuery: rcode=0, ancount=2, return value=75
+05-24 23:00:10.655 E/msys    (24617): E[N mns]_OnResolverSuccess(317)=>Cache refresh succeeded with system DNS resolver. IP count: 1
+05-24 23:00:10.657 E/msys    (24617): E[N mns:TigonMNS]_OnResolverSuccess(317)=>Cache refresh succeeded with system DNS resolver. IP count: 1
+05-24 23:00:10.663 I/downloader2( 7125): Exceeded max concurrent downloads, not running another queued request
+05-24 23:00:10.668 E/msys    (24617): E[N WA]_WAJMNSStreamImplOnMNSReady(259)=>[LogLevel:I] WAJMNSStream/impl/callback/onMNSReady/p=0xb400007a7a6f5d60
+05-24 23:00:10.668 E/msys    (24617): E[N WA]_WAJMNSStreamImplCreateConnectionReport(194)=>[LogLevel:I] WAJMNSStream/impl/report port=5222, connectedIPVersion=4, resolvedIPAddressCount=1, dnsResolutionStartTimeMS=130570129, dnsResolutionEndTimeMS=130570129, dnsCacheHit=Yes, connectStartTimeMS=130570129, connectEndTimeMS=130570235, proxyConnectStartTimeMS=0, proxyConnectEndTimeMS=0
+05-24 23:00:10.669 E/msys    (24617): E[N WA]_WAJMNSStreamImplUpdateStreamState(230)=>[LogLevel:I] WAJMNSStream/impl/state-changed/p=0xb400007a7a6f5d60 (connecting=>connected)
+05-24 23:00:10.675 I/downloader2( 7125): Exceeded max concurrent downloads, not running another queued request
+05-24 23:00:10.691 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039561,0.000061, totalTime 0.039623 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:10.727 I/downloader2( 7125): Exceeded max concurrent downloads, not running another queued request
+05-24 23:00:10.729 I/dex2oat32(24588): dex2oat took 16.011s (34.367s cpu) (threads: 3) arena alloc=5079KB (5200944B) java alloc=4712KB (4825688B) native alloc=43MB (45854384B) free=19MB (20003680B) swap=32MB (33554432B)
+05-24 23:00:10.731 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.038914,0.000066, totalTime 0.038981 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:10.732 I/downloader2( 7125): Exceeded max concurrent downloads, not running another queued request
+05-24 23:00:10.746 I/downloader2( 7125): Exceeded max concurrent downloads, not running another queued request
+05-24 23:00:10.762 W/Finsky  (23794): [2] STU: Failed to get storage stats for package 'com.google.android.media' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+05-24 23:00:10.771 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039620,0.000065, totalTime 0.039686 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:10.792 I/BaseFilesVerify( 1478): Base File verify start
+05-24 23:00:10.792 W/BaseFilesVerify( 1478): notification_policy.xmlis not in fileProtect list,can not protect this file
+05-24 23:00:10.811 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039658,0.000058, totalTime 0.039717 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:10.880 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:00:10.880 W/TWSClientService(13878): array is null
+05-24 23:00:10.908 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:00:10.908 W/TWSClientService(13878): array is null
+05-24 23:00:10.930 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:00:10.930 W/TWSClientService(13878): array is null
+05-24 23:00:10.935 I/WifiHAL ( 1850): Get link layer stats
+05-24 23:00:10.935 I/WifiHAL ( 1850): GetLinkStatsCommand::create
+05-24 23:00:10.935 I/android.hardware.wifi@1.0-service-lazy( 1850): WifiCommand::requestResponse err=-14
+05-24 23:00:10.935 I/WifiHAL ( 1850): wifi_get_link_stats: result=-1
+05-24 23:00:10.937 E/WifiVendorHal( 1478): getWifiLinkLayerStats_1_5_Internal(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+05-24 23:00:10.967 I/BaseFilesVerify( 1478): Base File verify start
+05-24 23:00:10.967 W/BaseFilesVerify( 1478): jobs.xmlis not in fileProtect list,can not protect this file
+05-24 23:00:11.018 W/Finsky  (23794): [2] STU: Failed to get storage stats for package 'com.google.android.sdkext' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+05-24 23:00:11.052 W/Finsky  (23794): [2] STU: Failed to get storage stats for package 'com.google.android.adservices' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+05-24 23:00:11.062 W/Finsky  (23794): [2] STU: Failed to get storage stats for package 'com.google.android.tethering' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+05-24 23:00:11.071 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039515,0.000114, totalTime 0.039632 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:11.128 I/hwcomposer(  727): [HWCDisplay] [Display_0 (type:1)] fps:1.997983,dur:1001.01,max:502.86,min:498.15  
+05-24 23:00:11.174 I/BufferQueueProducer(  755): [StatusBar#88](this:0xb400007ca8098aa8,id:-1,api:0,p:-1,c:755) queueBuffer: fps=0.20 dur=5002.50 max=5002.50 min=5002.50
+05-24 23:00:11.191 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039718,0.000077, totalTime 0.039797 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:11.194 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 23:00:11.196 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 23:00:11.208 D/CompatibilityChangeReporter( 1478): Compat change id reported: 171306433; UID 10247; state: ENABLED
+05-24 23:00:11.211 D/downloader2( 7125): New request enqueued, running queue: https://www.gstatic.com/mdi-serving/rubidium-adservices-topics-classifier/1986/9e98784bcdb26a3eb2ab3f65ee811f43177c761f
+05-24 23:00:11.211 D/downloader2( 7125): Connectivity satisfied; running request. uri=https://www.gstatic.com/mdi-serving/rubidium-adservices-topics-classifier/1986/9e98784bcdb26a3eb2ab3f65ee811f43177c761f
+05-24 23:00:11.214 D/CompatibilityChangeReporter( 1478): Compat change id reported: 218533173; UID 10247; state: ENABLED
+05-24 23:00:11.215 D/CompatibilityChangeReporter( 1478): Compat change id reported: 226439802; UID 10247; state: DISABLED
+05-24 23:00:11.215 V/AlarmManager( 1478): set(PendingIntent{24cbda8: PendingIntentRecord{46620c1 com.whatsapp broadcastIntent}}) : type=2 triggerAtTime=159036153 win=0 tElapsed=159036153 maxElapsed=159036153 interval=0 flags=0x9
+05-24 23:00:11.216 D/AlarmManagerService( 1478): inside native alarm timerfd set Alarm Type = 2
+05-24 23:00:11.216 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 23:00:11.217 V/AlarmManager( 1478): set(PendingIntent{d959fa7: PendingIntentRecord{1840c54 com.whatsapp broadcastIntent}}) : type=3 triggerAtTime=158451161 win=11249 tElapsed=158451161 maxElapsed=158462410 interval=0 flags=0x8
+05-24 23:00:11.217 D/AlarmManagerService( 1478): inside native alarm timerfd set Alarm Type = 2
+05-24 23:00:11.218 D/AlarmManagerService( 1478): inside native alarm timerfd set Alarm Type = 3
+05-24 23:00:11.218 D/downloader2( 7125): New request enqueued, running queue: https://www.gstatic.com/mdi-serving/rubidium-adservices-adtech-enrollment/11167/b5d1a96edb6a1f0a4859f71195a3dae118baacfc
+05-24 23:00:11.218 D/downloader2( 7125): Connectivity satisfied; running request. uri=https://www.gstatic.com/mdi-serving/rubidium-adservices-adtech-enrollment/11167/b5d1a96edb6a1f0a4859f71195a3dae118baacfc
+05-24 23:00:11.218 I/downloader2( 7125): Exceeded max concurrent downloads, not running another queued request
+05-24 23:00:11.219 D/downloader2( 7125): New request enqueued, running queue: https://www.gstatic.com/mdi-serving/rubidium-adservices-ui-ota-strings/4265/91ac5d17ab9f2445a3462f98f5249a73e9b0e235
+05-24 23:00:11.219 I/downloader2( 7125): Exceeded max concurrent downloads, not running another queued request
+05-24 23:00:11.251 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039809,0.000057, totalTime 0.039866 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:00:11.253 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 23:00:11.256 D/TimeCheck(  745): isMT6580Project boolVal = 0 

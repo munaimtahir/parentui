@@ -48,6 +48,7 @@ import com.easyui.guardianlauncher.data.SetupChecklistItem
 import com.easyui.guardianlauncher.guardian.CheckState
 import com.easyui.guardianlauncher.guardian.GuardianCheckStatus
 import com.easyui.guardianlauncher.ui.components.ModeSelectItem
+import com.easyui.guardianlauncher.ui.components.OnResumeEffect
 import com.easyui.guardianlauncher.ui.viewmodels.LauncherViewModel
 import java.text.SimpleDateFormat
 import java.util.Date
@@ -58,6 +59,8 @@ import java.util.Locale
 fun ParentDashboardScreen(
     viewModel: LauncherViewModel,
     onNavigateBack: () -> Unit,
+    onOpenSetupHealth: () -> Unit,
+    onOpenReadyChecklist: () -> Unit,
     onOpenSetupLimitations: () -> Unit,
 ) {
     val context = LocalContext.current
@@ -90,6 +93,8 @@ fun ParentDashboardScreen(
     val guardianStatus by viewModel.guardianStatus.collectAsState()
     val childHomeApps by viewModel.childHomeApps.collectAsState()
     val setupChecklist by viewModel.setupChecklist.collectAsState()
+
+    OnResumeEffect { viewModel.refreshGuardianStatus() }
 
     LaunchedEffect(selectedTab) {
         if (selectedTab == 0) {
@@ -148,6 +153,8 @@ fun ParentDashboardScreen(
                         setupChecklist = setupChecklist,
                         onRefresh = { viewModel.refreshGuardianStatus() },
                         onNavigateToTab = { selectedTab = it },
+                        onOpenSetupHealth = onOpenSetupHealth,
+                        onOpenReadyChecklist = onOpenReadyChecklist,
                         onOpenDefaultLauncherSettings = {
                             try {
                                 val intent = Intent(Settings.ACTION_HOME_SETTINGS)
@@ -235,6 +242,8 @@ private fun GuardianChecksTab(
     setupChecklist: SetupChecklist,
     onRefresh: () -> Unit,
     onNavigateToTab: (Int) -> Unit,
+    onOpenSetupHealth: () -> Unit,
+    onOpenReadyChecklist: () -> Unit,
     onOpenDefaultLauncherSettings: () -> Unit,
     onOpenSetupHelp: () -> Unit,
 ) {
@@ -280,6 +289,23 @@ private fun GuardianChecksTab(
                         modifier = Modifier.weight(1f),
                     ) {
                         Text("Setup Help", fontWeight = FontWeight.Bold)
+                    }
+                }
+
+                Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                    OutlinedButton(
+                        onClick = onOpenSetupHealth,
+                        shape = RoundedCornerShape(12.dp),
+                        modifier = Modifier.weight(1f),
+                    ) {
+                        Text("Setup Health", fontWeight = FontWeight.Bold)
+                    }
+                    OutlinedButton(
+                        onClick = onOpenReadyChecklist,
+                        shape = RoundedCornerShape(12.dp),
+                        modifier = Modifier.weight(1f),
+                    ) {
+                        Text("Ready Checklist", fontWeight = FontWeight.Bold)
                     }
                 }
             }
@@ -522,7 +548,7 @@ private fun ChildHomeTab(
                     Text("Configuration", fontWeight = FontWeight.Bold)
                     
                     Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                        Mode.entries.forEach { mode ->
+                        listOf(Mode.HOME, Mode.SCHOOL, Mode.SLEEP).forEach { mode ->
                             val isSelected = activeMode == mode
                             FilterChip(
                                 selected = isSelected,
@@ -674,7 +700,7 @@ fun AppsConfigTab(
             indicator = {},
             modifier = Modifier.padding(bottom = 12.dp)
         ) {
-            val list = listOf("All Approved", "Home", "School", "Sleep", "Bedtime", "Travel", "Exam")
+            val list = listOf("All Approved", "Home", "School", "Sleep")
             list.forEachIndexed { idx, label ->
                 FilterChip(
                     selected = subTab == idx,
@@ -778,24 +804,38 @@ fun AppsConfigTab(
                         val targetMode = when (subTab) {
                             1 -> Mode.HOME
                             2 -> Mode.SCHOOL
-                            3 -> Mode.SLEEP
-                            4 -> Mode.BEDTIME
-                            5 -> Mode.TRAVEL
-                            else -> Mode.EXAM
+                            else -> Mode.SLEEP
                         }
                         val targetSet = when (subTab) {
                             1 -> modeAppsHome
                             2 -> modeAppsSchool
-                            3 -> modeAppsSleep
-                            4 -> modeAppsBedtime
-                            5 -> modeAppsTravel
-                            else -> modeAppsExam
+                            else -> modeAppsSleep
                         }
 
                         // Only show apps that are in the master allowed list
                         val masterAllowedApps = filteredApps.filter { it.packageName in allowedApps }
 
-                        if (masterAllowedApps.isEmpty() && searchQuery.isEmpty() && selectedCategory == null) {
+                        val isSleepModeConfig = targetMode == Mode.SLEEP
+                        if (isSleepModeConfig) {
+                            item {
+                                Card(
+                                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.tertiaryContainer.copy(alpha = 0.35f)),
+                                    shape = RoundedCornerShape(12.dp),
+                                    modifier = Modifier.fillMaxWidth().padding(top = 16.dp)
+                                ) {
+                                    Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                                        Text("Sleep mode is contact-only in MVP.", fontWeight = FontWeight.Black)
+                                        Text(
+                                            "Sleep mode hides app tiles and keeps Parent/Emergency calling tiles available. This is intentional for the pilot.",
+                                            style = MaterialTheme.typography.bodySmall,
+                                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                                        )
+                                    }
+                                }
+                            }
+                        }
+
+                        if (!isSleepModeConfig && masterAllowedApps.isEmpty() && searchQuery.isEmpty() && selectedCategory == null) {
                             item {
                                 Card(
                                     colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.tertiaryContainer.copy(alpha = 0.4f)),
@@ -808,13 +848,13 @@ fun AppsConfigTab(
                                     }
                                 }
                             }
-                        } else if (masterAllowedApps.isEmpty()) {
+                        } else if (!isSleepModeConfig && masterAllowedApps.isEmpty()) {
                             item {
                                 Box(modifier = Modifier.fillMaxWidth().padding(32.dp), contentAlignment = Alignment.Center) {
                                     Text("No approved apps match your search or filter.", textAlign = TextAlign.Center, color = MaterialTheme.colorScheme.outline)
                                 }
                             }
-                        } else {
+                        } else if (!isSleepModeConfig) {
                             items(masterAllowedApps) { app ->
                                 val isAssigned = app.packageName in targetSet
                                 Row(

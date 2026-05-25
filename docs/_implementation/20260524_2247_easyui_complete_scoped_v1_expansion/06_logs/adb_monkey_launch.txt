@@ -1,0 +1,5 @@
+  bash arg: -p
+  bash arg: com.easyui.guardianlauncher
+  bash arg: 1
+Events injected: 1
+## Network stats: elapsed time=72ms (0ms mobile, 0ms wifi, 72ms not connected)

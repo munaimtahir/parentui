@@ -1,0 +1,300 @@
+05-24 23:07:03.512 I/PickerSyncTracker( 3587): Created new sync future java.util.concurrent.CompletableFuture@d7fca2d[Not completed, 1 dependents]. Future map: {9545137e-2abe-465b-82a0-7346ca632247=java.util.concurrent.CompletableFuture@d7fca2d[Not completed, 1 dependents]}
+05-24 23:07:03.513 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 23:07:03.529 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 23:07:03.536 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 23:07:03.545 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 23:07:03.550 I/WifiHAL ( 1850): Get link layer stats
+05-24 23:07:03.550 I/WifiHAL ( 1850): GetLinkStatsCommand::create
+05-24 23:07:03.550 I/android.hardware.wifi@1.0-service-lazy( 1850): WifiCommand::requestResponse err=-14
+05-24 23:07:03.550 I/WifiHAL ( 1850): wifi_get_link_stats: result=-1
+05-24 23:07:03.551 E/WifiVendorHal( 1478): getWifiLinkLayerStats_1_5_Internal(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+05-24 23:07:03.554 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 23:07:03.556 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 23:07:03.565 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 23:07:03.566 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 23:07:03.569 I/PickerSyncController( 3587): Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+05-24 23:07:03.570 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 23:07:03.580 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:03.583 W/TWSClientService(13878): array is null
+05-24 23:07:03.591 I/PickerSyncController( 3587): Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=5035345, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+05-24 23:07:03.591 I/PickerSyncController( 3587): Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+05-24 23:07:03.603 I/BufferQueueProducer(  755): [StatusBar#88](this:0xb400007ca8098aa8,id:-1,api:0,p:-1,c:755) queueBuffer: fps=0.44 dur=2249.57 max=2249.57 min=2249.57
+05-24 23:07:03.615 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:03.616 W/TWSClientService(13878): array is null
+05-24 23:07:03.619 E/PickerDbFacade( 3587): Could not get first date taken millis for media id: 1000836030
+05-24 23:07:03.622 W/PickerDbFacade( 3587): Unable to promote cloud media with localId: 1000836030
+05-24 23:07:03.625 I/PickerSyncController( 3587): Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=5035345, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+05-24 23:07:03.626 I/PickerSyncTracker( 3587): Marked sync future complete for work id: 9545137e-2abe-465b-82a0-7346ca632247. Future map: {}
+05-24 23:07:03.626 I/PSyncWorker( 3587): Completed picker proactive sync complete from local provider.
+05-24 23:07:03.629 I/WM-WorkerWrapper( 3587): Worker result SUCCESS for Work [ id=9545137e-2abe-465b-82a0-7346ca632247, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+05-24 23:07:03.712 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039816,0.000135, totalTime 0.039955 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:03.961 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:03.962 W/TWSClientService(13878): array is null
+05-24 23:07:04.013 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:04.014 W/TWSClientService(13878): array is null
+05-24 23:07:04.329 I/NetworkScheduler.Stats( 4672): (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-24 23:07:04.338 I/NetworkScheduler.Stats( 4672): (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-24 23:07:04.344 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-24 23:07:04.348 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-24 23:07:04.389 W/RefBase (30696): RefBase: Explicit destruction, weak count = 0 (in 0x7088d676d0). Use sp<> to manage this object.
+05-24 23:07:04.412 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039797,0.000150, totalTime 0.039948 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:04.469 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-24 23:07:04.469 I/libPerfCtl(  738): xgfGetFPS pid:23260 fps:-1
+05-24 23:07:04.472 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000004,0.039321,0.000069, totalTime 0.039395 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:04.473 I/MediaProvider( 3587): Deleted 0 0 0 0 0 0 1 items on external_primary due to com.android.shell
+05-24 23:07:04.532 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000004,0.039387,0.000055, totalTime 0.039446 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:04.564 W/VSyncPredictor(  755): VSyncPredictor::setPeriod current period =16666667
+05-24 23:07:04.612 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039642,0.000061, totalTime 0.039706 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:04.652 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039609,0.000058, totalTime 0.039668 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:04.777 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:04.777 W/TWSClientService(13878): array is null
+05-24 23:07:04.778 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:04.779 W/TWSClientService(13878): array is null
+05-24 23:07:04.819 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:04.819 W/TWSClientService(13878): array is null
+05-24 23:07:04.852 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039479,0.000123, totalTime 0.039605 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:04.987 I/BufferQueueProducer(  755): [com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity#17456](this:0xb400007ca80ee188,id:-1,api:0,p:-1,c:755) queueBuffer: fps=0.66 dur=4535.58 max=4401.75 min=66.55
+05-24 23:07:04.989 I/hwcomposer(  727): [HWCDisplay] [Display_0 (type:1)] fps:3.955890,dur:1516.73,max:1384.63,min:15.13  
+05-24 23:07:04.992 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039392,0.000134, totalTime 0.039529 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:05.052 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000004,0.039466,0.000134, totalTime 0.039604 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:05.093 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:05.093 W/TWSClientService(13878): array is null
+05-24 23:07:05.132 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000004,0.039317,0.000135, totalTime 0.039456 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:05.172 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039210,0.000125, totalTime 0.039337 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:05.232 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039705,0.000137, totalTime 0.039844 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:05.272 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039279,0.000141, totalTime 0.039423 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:05.448 I/libPowerHal(  738): MTKPOWER_HINT_APP_TOUCH: cpu_ctrl set cpu freq: 1800000 -1 2000000 -1
+05-24 23:07:05.455 I/libPowerHal(  738): MTKPOWER_HINT_APP_TOUCH: cpu_ctrl set cpu freq: -1 -1 -1 -1
+05-24 23:07:05.455 I/libPowerHal(  738): [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+05-24 23:07:05.469 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-24 23:07:05.469 I/libPerfCtl(  738): xgfGetFPS pid:23260 fps:15
+05-24 23:07:05.469 I/libPowerHal(  738): [updateFPS] pid(23260) : -1 => 60
+05-24 23:07:05.469 I/libPowerHal(  738): [perfNotifyAppState] pack:com.easyui.guardianlauncher, act:com.easyui.guardianlauncher.MainActivity, state:5, pid:23260, uid:10376, fps:60
+05-24 23:07:05.470 I/UxUtility(  738): notifyForegroundApp pack:com.easyui.guardianlauncher, uid:10376
+05-24 23:07:05.470 I/TouchUtility(  738): notifyAppState error = NULL
+05-24 23:07:05.472 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000004,0.039413,0.000063, totalTime 0.039480 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:05.507 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:05.507 W/TWSClientService(13878): array is null
+05-24 23:07:05.512 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039660,0.000063, totalTime 0.039724 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:05.552 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039464,0.000063, totalTime 0.039528 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:05.592 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039621,0.000069, totalTime 0.039691 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:05.632 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039594,0.000065, totalTime 0.039660 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:05.672 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039595,0.000070, totalTime 0.039666 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:05.712 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039578,0.000067, totalTime 0.039646 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:05.752 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039592,0.000059, totalTime 0.039652 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:05.792 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039480,0.000070, totalTime 0.039552 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:05.851 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:05.851 W/TWSClientService(13878): array is null
+05-24 23:07:05.852 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039305,0.000057, totalTime 0.039363 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:05.856 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:05.856 W/TWSClientService(13878): array is null
+05-24 23:07:05.923 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:05.923 W/TWSClientService(13878): array is null
+05-24 23:07:05.964 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:05.964 W/TWSClientService(13878): array is null
+05-24 23:07:06.072 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039371,0.000116, totalTime 0.039490 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:06.172 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039600,0.000117, totalTime 0.039720 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:06.238 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:06.238 W/TWSClientService(13878): array is null
+05-24 23:07:06.355 I/BufferQueueProducer(  755): [StatusBar#88](this:0xb400007ca8098aa8,id:-1,api:0,p:-1,c:755) queueBuffer: fps=0.36 dur=2752.30 max=2752.30 min=2752.30
+05-24 23:07:06.358 I/hwcomposer(  727): [HWCDisplay] [Display_0 (type:1)] fps:5.847390,dur:1368.13,max:568.75,min:33.25  
+05-24 23:07:06.452 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039565,0.000120, totalTime 0.039688 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:06.469 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-24 23:07:06.470 I/libPerfCtl(  738): xgfGetFPS pid:23260 fps:-1
+05-24 23:07:06.470 I/libPowerHal(  738): [updateFPS] pid(23260) : 60 => -1
+05-24 23:07:06.470 I/libPowerHal(  738): [perfNotifyAppState] pack:com.easyui.guardianlauncher, act:com.easyui.guardianlauncher.MainActivity, state:5, pid:23260, uid:10376, fps:-1
+05-24 23:07:06.471 I/UxUtility(  738): notifyForegroundApp pack:com.easyui.guardianlauncher, uid:10376
+05-24 23:07:06.471 I/TouchUtility(  738): notifyAppState error = NULL
+05-24 23:07:06.513 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039684,0.000162, totalTime 0.039849 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:06.552 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039143,0.000161, totalTime 0.039307 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:06.561 I/WifiHAL ( 1850): Get link layer stats
+05-24 23:07:06.561 I/WifiHAL ( 1850): GetLinkStatsCommand::create
+05-24 23:07:06.561 I/android.hardware.wifi@1.0-service-lazy( 1850): WifiCommand::requestResponse err=-14
+05-24 23:07:06.561 I/WifiHAL ( 1850): wifi_get_link_stats: result=-1
+05-24 23:07:06.563 E/WifiVendorHal( 1478): getWifiLinkLayerStats_1_5_Internal(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+05-24 23:07:06.612 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000004,0.039769,0.000145, totalTime 0.039918 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:06.623 W/MediaProvider( 3587): isAppCloneUserPair for user 0: false
+05-24 23:07:06.632 W/ProcessState(30769): Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+05-24 23:07:06.644 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:06.644 W/TWSClientService(13878): array is null
+05-24 23:07:06.647 I/SurfaceFlinger(  755): operator()(), mtkRenderCntDebug 1015, screenshot (com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity#17456)
+05-24 23:07:06.648 I/SurfaceFlinger(  755): operator()(), mtkRenderCntDebug 1015, screenshot (StatusBar#88)
+05-24 23:07:06.648 I/SurfaceFlinger(  755): operator()(), mtkRenderCntDebug 1015, screenshot (NavigationBar0#2950)
+05-24 23:07:06.667 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:06.667 W/TWSClientService(13878): array is null
+05-24 23:07:06.669 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:06.669 W/TWSClientService(13878): array is null
+05-24 23:07:06.682 I/servicemanager(  489): Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+05-24 23:07:06.683 E/ion     (30769): ioctl c0044901 failed with code -1: Invalid argument
+05-24 23:07:06.683 I/DMABUFHEAPS(30769): Using : Legacy ion heaps
+05-24 23:07:06.712 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000004,0.039592,0.000126, totalTime 0.039722 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:06.752 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039278,0.000134, totalTime 0.039415 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:06.792 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039360,0.000134, totalTime 0.039496 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:06.806 I/NearbyMediums( 4672): Found Fast Ble Advertisements :
+05-24 23:07:06.806 I/NearbyMediums( 4672): BleAdvertisement { version=2, socketVersion=2, isFast=true, serviceIdHash=null, data=[ 0x23 0x5a 0x51 0x54 0x57 0x11 0x32 0xb7 0xd3 0xb1 0x61 0x82 0x51 0xb9 0x3f 0x01 0x49 0x71 0xb3 0x99 0xb3 0xac 0xd2 ], deviceToken=[ 0x5f 0x29 ], rxAdvertisement=null } : 3 times.
+05-24 23:07:06.806 I/NearbyMediums( 4672): BleAdvertisement { version=2, socketVersion=2, isFast=true, serviceIdHash=null, data=[ 0x23 0x4f 0x55 0x35 0x48 0x11 0x32 0xed 0xef 0x02 0xa2 0xe0 0x65 0xb0 0x51 0x57 0xab 0x3e 0x42 0x4a 0x85 0xcc 0x4b ], deviceToken=[ 0x24 0x80 ], rxAdvertisement=null } : 2 times.
+05-24 23:07:06.806 I/NearbyMediums( 4672): Total 5 fast advertisements from 2 unique advertisers.
+05-24 23:07:06.807 I/NearbyMediums( 4672): Current Tracked Scanning Clients are : {NearbyConnections.EnvironmentMonitor, NearbySharing}
+05-24 23:07:06.832 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039283,0.000139, totalTime 0.039424 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:06.872 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039304,0.000133, totalTime 0.039439 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:06.912 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039299,0.000136, totalTime 0.039438 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:06.952 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039308,0.000137, totalTime 0.039447 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:06.992 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039300,0.000134, totalTime 0.039436 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:07.032 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039396,0.000129, totalTime 0.039527 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:07.072 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039245,0.000135, totalTime 0.039382 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:07.129 I/MediaServiceV2( 3587): Creating work for intent Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaServiceV2 }
+05-24 23:07:07.132 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039518,0.000133, totalTime 0.039654 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:07.137 I/MediaServiceV2( 3587): Work enqueued for intent: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaServiceV2 }
+05-24 23:07:07.153 W/RefBase (30769): RefBase: Explicit destruction, weak count = 0 (in 0x745fbe26d0). Use sp<> to manage this object.
+05-24 23:07:07.192 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039458,0.000111, totalTime 0.039573 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:07.194 I/MediaServiceV2( 3587): Work initiated for action [ android.intent.action.MEDIA_SCANNER_SCAN_FILE ]
+05-24 23:07:07.222 I/MediaServiceV2( 3587): Work ended for action [ android.intent.action.MEDIA_SCANNER_SCAN_FILE ]
+05-24 23:07:07.223 I/WM-WorkerWrapper( 3587): Worker result SUCCESS for Work [ id=df15a979-fca3-48ab-9142-95f7e1b809f1, tags={ com.android.providers.media.MediaServiceV2 } ]
+05-24 23:07:07.232 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039293,0.000071, totalTime 0.039366 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:07.234 I/MediaProvider( 3587): Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-24 23:07:07.236 I/UriTaskContentObserver( 4672): (REDACTED) Throttling content uri change event for %s
+05-24 23:07:07.272 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039625,0.000097, totalTime 0.039722 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:07.312 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039642,0.000139, totalTime 0.039782 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:07.352 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039249,0.000141, totalTime 0.039392 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:07.389 I/AndroidRuntime(30783): Using default boot image
+05-24 23:07:07.390 I/AndroidRuntime(30783): Leaving lock profiling enabled
+05-24 23:07:07.395 I/app_process(30783): Using CollectorTypeCC GC.
+05-24 23:07:07.407 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:07.407 W/TWSClientService(13878): array is null
+05-24 23:07:07.412 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000004,0.039505,0.000112, totalTime 0.039621 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:07.470 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-24 23:07:07.471 I/libPerfCtl(  738): xgfGetFPS pid:23260 fps:-1
+05-24 23:07:07.493 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000004,0.040504,0.000305, totalTime 0.040813 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:07.532 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.038526,0.000131, totalTime 0.038659 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:07.553 I/app_process(30783): Priority-to-niceness mapping: 19, 16, 13, 10, 0, -2, -4, -5, -6, -8
+05-24 23:07:07.576 W/libc    (30783): Access denied finding property "ro.vendor.tran.hardware"
+05-24 23:07:07.576 W/libc    (30783): Access denied finding property "ro.vendor.tran.cpu_model"
+05-24 23:07:07.572 W/main    (30783): type=1400 audit(0.0:98535): avc: denied { read } for name="u:object_r:vendor_exported_default_prop:s0" dev="tmpfs" ino=7877 scontext=u:r:shell:s0 tcontext=u:object_r:vendor_exported_default_prop:s0 tclass=file permissive=0 app=magic.friends.rainbow
+05-24 23:07:07.572 W/main    (30783): type=1400 audit(0.0:98536): avc: denied { read } for name="u:object_r:vendor_exported_default_prop:s0" dev="tmpfs" ino=7877 scontext=u:r:shell:s0 tcontext=u:object_r:vendor_exported_default_prop:s0 tclass=file permissive=0 app=magic.friends.rainbow
+05-24 23:07:07.592 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000004,0.039420,0.000093, totalTime 0.039517 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:07.596 W/System  (30783): ClassLoader referenced unknown path: /system/framework/mediatek-cta.jar
+05-24 23:07:07.597 W/CtaManagerFactory(30783): CtaManagerFactoryImpl not found
+05-24 23:07:07.621 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-24 23:07:07.623 I/hwcomposer(  727): [HWCDisplay] [Display_0 (type:1)] fps:1.580977,dur:1265.04,max:981.94,min:283.10  
+05-24 23:07:07.625 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-24 23:07:07.627 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-24 23:07:07.629 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-24 23:07:07.631 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-24 23:07:07.632 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 23:07:07.632 W/VSyncPredictor(  755): VSyncPredictor::setPeriod current period =16666667
+05-24 23:07:07.632 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039491,0.000066, totalTime 0.039559 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:07.636 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 23:07:07.638 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-24 23:07:07.640 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 23:07:07.648 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-24 23:07:07.648 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 23:07:07.649 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 23:07:07.661 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 23:07:07.758 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:07.758 W/TWSClientService(13878): array is null
+05-24 23:07:07.769 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:07.770 W/TWSClientService(13878): array is null
+05-24 23:07:07.984 I/thermal_repeater(  949): [recvMdThermalInfo] ret=33, strLen=127,  2, 32767, -127, 113, 32767, 4046
+05-24 23:07:08.118 W/TeeEndorsementInstaller(  775): Endorsement token not found, wait a bit longer [vendor/mediatek/proprietary/trustzone/trustonic/source/external/mobicore/common/500/Daemon/src/EndorsementInstaller.cpp:105]
+05-24 23:07:08.183 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:08.184 W/TWSClientService(13878): array is null
+05-24 23:07:08.272 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039470,0.000118, totalTime 0.039590 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:08.353 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.040045,0.000136, totalTime 0.040184 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:08.471 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-24 23:07:08.471 I/libPerfCtl(  738): xgfGetFPS pid:23260 fps:-1
+05-24 23:07:08.566 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:08.567 W/TWSClientService(13878): array is null
+05-24 23:07:08.587 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:08.588 W/TWSClientService(13878): array is null
+05-24 23:07:08.642 W/libc    (30783): Access denied finding property "qemu.sf.lcd_density"
+05-24 23:07:08.640 W/uiautomator(30783): type=1400 audit(0.0:98537): avc: denied { read } for name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=7714 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=0 app=magic.friends.rainbow
+05-24 23:07:08.642 W/libc    (30783): Access denied finding property "qemu.sf.lcd_density"
+05-24 23:07:08.640 W/uiautomator(30783): type=1400 audit(0.0:98538): avc: denied { read } for name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=7714 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=0 app=magic.friends.rainbow
+05-24 23:07:08.660 W/MediaProvider( 3587): isAppCloneUserPair for user 0: false
+05-24 23:07:08.685 W/AccessibilityNodeInfoDumper(30783): Fetch time: 39ms
+05-24 23:07:08.715 W/VSyncPredictor(  755): VSyncPredictor::setPeriod current period =16666667
+05-24 23:07:08.725 I/hwcomposer(  727): [HWCDisplay] [Display_0 (type:1)] fps:2.720941,dur:1102.56,max:1068.59,min:15.38  
+05-24 23:07:08.750 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 23:07:08.763 I/PSyncWorker( 3587): Starting proactive picker sync from sync source: 1
+05-24 23:07:08.763 I/PickerSyncTracker( 3587): Created new sync future java.util.concurrent.CompletableFuture@694989d[Not completed, 1 dependents]. Future map: {54def66e-b061-4a2f-ab96-7c71834a1f15=java.util.concurrent.CompletableFuture@694989d[Not completed, 1 dependents]}
+05-24 23:07:08.763 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 23:07:08.768 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 23:07:08.785 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 23:07:08.789 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 23:07:08.800 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 23:07:08.808 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 23:07:08.810 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 23:07:08.818 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 23:07:08.818 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 23:07:08.821 I/PickerSyncController( 3587): Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+05-24 23:07:08.822 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 23:07:08.840 I/PickerSyncController( 3587): Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=5035361, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+05-24 23:07:08.840 I/PickerSyncController( 3587): Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+05-24 23:07:08.852 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039838,0.000085, totalTime 0.039926 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:08.866 E/PickerDbFacade( 3587): Could not get first date taken millis for media id: 1000836032
+05-24 23:07:08.869 W/PickerDbFacade( 3587): Unable to promote cloud media with localId: 1000836032
+05-24 23:07:08.872 I/PickerSyncController( 3587): Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=5035361, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+05-24 23:07:08.873 I/PickerSyncTracker( 3587): Marked sync future complete for work id: 54def66e-b061-4a2f-ab96-7c71834a1f15. Future map: {}
+05-24 23:07:08.873 I/PSyncWorker( 3587): Completed picker proactive sync complete from local provider.
+05-24 23:07:08.875 I/WM-WorkerWrapper( 3587): Worker result SUCCESS for Work [ id=54def66e-b061-4a2f-ab96-7c71834a1f15, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+05-24 23:07:08.998 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:08.998 W/TWSClientService(13878): array is null
+05-24 23:07:09.112 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039495,0.000115, totalTime 0.039614 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:09.276 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:09.277 W/TWSClientService(13878): array is null
+05-24 23:07:09.310 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:09.311 W/TWSClientService(13878): array is null
+05-24 23:07:09.471 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-24 23:07:09.471 I/libPerfCtl(  738): xgfGetFPS pid:23260 fps:-1
+05-24 23:07:09.575 I/WifiHAL ( 1850): Get link layer stats
+05-24 23:07:09.575 I/WifiHAL ( 1850): GetLinkStatsCommand::create
+05-24 23:07:09.575 I/android.hardware.wifi@1.0-service-lazy( 1850): WifiCommand::requestResponse err=-14
+05-24 23:07:09.576 I/WifiHAL ( 1850): wifi_get_link_stats: result=-1
+05-24 23:07:09.577 E/WifiVendorHal( 1478): getWifiLinkLayerStats_1_5_Internal(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+05-24 23:07:09.616 W/VSyncPredictor(  755): VSyncPredictor::setPeriod current period =16666667
+05-24 23:07:09.646 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:09.646 W/TWSClientService(13878): array is null
+05-24 23:07:09.651 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:09.651 W/TWSClientService(13878): array is null
+05-24 23:07:09.655 W/RefBase (30783): RefBase: Explicit destruction, weak count = 0 (in 0x75081946d0). Use sp<> to manage this object.
+05-24 23:07:09.655 I/BufferQueueProducer(  755): [StatusBar#88](this:0xb400007ca8098aa8,id:-1,api:0,p:-1,c:755) queueBuffer: fps=0.61 dur=3300.19 max=3016.73 min=283.46
+05-24 23:07:09.692 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039858,0.000143, totalTime 0.040002 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:09.715 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:09.715 W/TWSClientService(13878): array is null
+05-24 23:07:09.743 I/MediaProvider( 3587): Deleted 0 0 0 0 0 0 1 items on external_primary due to com.android.shell
+05-24 23:07:09.752 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039631,0.000118, totalTime 0.039753 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:09.792 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039298,0.000053, totalTime 0.039352 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:09.852 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039671,0.000049, totalTime 0.039722 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:09.892 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039686,0.000058, totalTime 0.039745 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:09.952 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039437,0.000077, totalTime 0.039518 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:10.012 I/uardianlauncher(23260): Waiting for a blocking GC ProfileSaver
+05-24 23:07:10.019 I/uardianlauncher(23260): WaitForGcToComplete blocked ProfileSaver on Background for 7.508ms
+05-24 23:07:10.052 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039749,0.000094, totalTime 0.039844 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:10.052 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:10.052 W/TWSClientService(13878): array is null
+05-24 23:07:10.081 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:10.081 W/TWSClientService(13878): array is null
+05-24 23:07:10.112 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039791,0.000134, totalTime 0.039927 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:10.127 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:10.127 W/TWSClientService(13878): array is null
+05-24 23:07:10.212 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000004,0.039531,0.000132, totalTime 0.039668 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:10.239 I/BufferQueueProducer(  755): [com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity#17456](this:0xb400007ca80ee188,id:-1,api:0,p:-1,c:755) queueBuffer: fps=1.52 dur=5252.20 max=4451.31 min=33.09
+05-24 23:07:10.241 I/hwcomposer(  727): [HWCDisplay] [Display_0 (type:1)] fps:3.297438,dur:1516.33,max:849.60,min:15.79  
+05-24 23:07:10.252 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039323,0.000135, totalTime 0.039461 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:10.292 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039422,0.000137, totalTime 0.039561 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:10.332 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039298,0.000121, totalTime 0.039420 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:10.471 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-24 23:07:10.471 I/libPerfCtl(  738): xgfGetFPS pid:23260 fps:-1
+05-24 23:07:10.472 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039561,0.000117, totalTime 0.039682 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:10.494 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:07:10.494 W/TWSClientService(13878): array is null
+05-24 23:07:10.515 W/Settings( 4672): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-24 23:07:10.528 W/SystemServiceRegistry( 4672): No service published for: wifirtt
+05-24 23:07:10.532 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039605,0.000139, totalTime 0.039746 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:10.612 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000004,0.039360,0.000089, totalTime 0.039453 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:10.672 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039703,0.000075, totalTime 0.039781 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:10.674 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 23:07:10.675 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 23:07:10.712 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039428,0.000072, totalTime 0.039500 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:07:10.714 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 23:07:10.715 D/TimeCheck(  745): isMT6580Project boolVal = 0 

@@ -1,0 +1,200 @@
+05-24 22:56:58.703 W/Auth.Api.Credentials( 6097): 	at hjxp.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):64)
+05-24 22:56:58.703 W/Auth.Api.Credentials( 6097): 	at hjvn.execute(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1)
+05-24 22:56:58.703 W/Auth.Api.Credentials( 6097): 	at hnnn.execute(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 22:56:58.703 W/Auth.Api.Credentials( 6097): 	at hjxq.execute(:com.google.android.gms@261833029@26.18.33 (190400-913931251):34)
+05-24 22:56:58.703 W/Auth.Api.Credentials( 6097): 	at hnmw.execute(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 22:56:58.703 W/Auth.Api.Credentials( 6097): 	at hjvr.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1)
+05-24 22:56:58.703 W/Auth.Api.Credentials( 6097): 	at hjvr.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):34)
+05-24 22:56:58.703 W/Auth.Api.Credentials( 6097): 	at hjxb.done(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 22:56:58.703 W/Auth.Api.Credentials( 6097): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:434)
+05-24 22:56:58.703 W/Auth.Api.Credentials( 6097): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:303)
+05-24 22:56:58.704 W/Auth.Api.Credentials( 6097): 	at java.util.concurrent.FutureTask.run(FutureTask.java:322)
+05-24 22:56:58.704 W/Auth.Api.Credentials( 6097): 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 22:56:58.704 W/Auth.Api.Credentials( 6097): 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 22:56:58.704 W/Auth.Api.Credentials( 6097): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 22:56:58.704 W/Auth.Api.Credentials( 6097): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 22:56:58.704 W/Auth.Api.Credentials( 6097): 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 22:56:58.704 W/Auth.Api.Credentials( 6097): 	at java.lang.Thread.run(Thread.java:1564)
+05-24 22:56:58.704 W/Auth.Api.Credentials( 6097): Caused by: com.google.android.gms.auth.UserRecoverableAuthException: BadAuthentication
+05-24 22:56:58.704 W/Auth.Api.Credentials( 6097): 	at ageb.l(:com.google.android.gms@261833029@26.18.33 (190400-913931251):34)
+05-24 22:56:58.704 W/Auth.Api.Credentials( 6097): 	at agdv.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):122)
+05-24 22:56:58.704 W/Auth.Api.Credentials( 6097): 	at ageb.m(:com.google.android.gms@261833029@26.18.33 (190400-913931251):34)
+05-24 22:56:58.704 W/Auth.Api.Credentials( 6097): 	at ageb.o(:com.google.android.gms@261833029@26.18.33 (190400-913931251):64)
+05-24 22:56:58.704 W/Auth.Api.Credentials( 6097): 	at hnkl.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):30)
+05-24 22:56:58.704 W/Auth.Api.Credentials( 6097): 	at hnkl.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):75)
+05-24 22:56:58.704 W/Auth.Api.Credentials( 6097): 	at hnki.call(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 22:56:58.704 W/Auth.Api.Credentials( 6097): 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+05-24 22:56:58.704 W/Auth.Api.Credentials( 6097): 	at hnkl.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):59)
+05-24 22:56:58.704 W/Auth.Api.Credentials( 6097): 	at hnjh.call(:com.google.android.gms@261833029@26.18.33 (190400-913931251):32)
+05-24 22:56:58.704 W/Auth.Api.Credentials( 6097): 	at hawt.call(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 22:56:58.704 W/Auth.Api.Credentials( 6097): 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+05-24 22:56:58.704 W/Auth.Api.Credentials( 6097): 	... 6 more
+05-24 22:56:58.718 I/Auth    ( 4672): (REDACTED) [GetToken] GetToken failed for app=%s with userRecoverable status: %s 
+05-24 22:56:58.719 W/Auth    ( 4672): [ChimeraGetToken] exception while trying to fetch auth tokens for app=com.google.android.gms, scope=oauth2:https://www.googleapis.com/auth/lams [CONTEXT service_id=153 ]
+05-24 22:56:58.719 W/Auth    ( 4672): ahbw: GetToken failed with status code and recovery intent: BadAuthentication
+05-24 22:56:58.719 W/Auth    ( 4672): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):352)
+05-24 22:56:58.719 W/Auth    ( 4672): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):107)
+05-24 22:56:58.719 W/Auth    ( 4672): 	at aaql.dispatchTransaction(:com.google.android.gms@261833029@26.18.33 (190400-913931251):153)
+05-24 22:56:58.719 W/Auth    ( 4672): 	at cawh.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):64)
+05-24 22:56:58.719 W/Auth    ( 4672): 	at zuu.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-24 22:56:58.719 W/Auth    ( 4672): 	at android.os.Binder.transact(Binder.java:1165)
+05-24 22:56:58.719 W/Auth    ( 4672): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-24 22:56:58.719 W/Auth    ( 4672): 	at android.os.Binder.transact(Binder.java:1165)
+05-24 22:56:58.719 W/Auth    ( 4672): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-24 22:56:58.719 W/Auth    ( 4672): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-24 22:56:58.719 W/Auth    ( 4672): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-24 22:56:58.719 W/Auth    ( 6097): [GoogleAuthUtil] [GoogleAuthUtil] error status:BAD_AUTHENTICATION with method:getTokenWithDetails
+05-24 22:56:58.724 I/om.adobe.reader(22099): Background concurrent copying GC freed 21MB AllocSpace bytes, 54(2272KB) LOS objects, 44% free, 29MB/53MB, paused 642us,1.243ms total 192.070ms
+05-24 22:56:58.725 W/JavaBinder(22099): BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.google.android.play.core.splitinstall.internal.l0
+05-24 22:56:58.725 I/BpBinder(22099): onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-24 22:56:58.731 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039644,0.000065, totalTime 0.039710 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:58.757 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 22:56:58.757 W/TWSClientService(13878): array is null
+05-24 22:56:58.771 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039567,0.000028, totalTime 0.039596 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:58.792 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 22:56:58.792 W/TWSClientService(13878): array is null
+05-24 22:56:58.811 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039781,0.000063, totalTime 0.039845 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:58.851 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039584,0.000051, totalTime 0.039635 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:58.854 E/AuthPII ( 4672): [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/lams
+05-24 22:56:58.854 E/AuthPII ( 4672): bibt: Long live credential not available.
+05-24 22:56:58.854 E/AuthPII ( 4672): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-24 22:56:58.854 E/AuthPII ( 4672): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-24 22:56:58.854 E/AuthPII ( 4672): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-24 22:56:58.854 E/AuthPII ( 4672): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):151)
+05-24 22:56:58.854 E/AuthPII ( 4672): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):107)
+05-24 22:56:58.854 E/AuthPII ( 4672): 	at aaql.dispatchTransaction(:com.google.android.gms@261833029@26.18.33 (190400-913931251):153)
+05-24 22:56:58.854 E/AuthPII ( 4672): 	at cawh.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):64)
+05-24 22:56:58.854 E/AuthPII ( 4672): 	at zuu.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-24 22:56:58.854 E/AuthPII ( 4672): 	at android.os.Binder.transact(Binder.java:1165)
+05-24 22:56:58.854 E/AuthPII ( 4672): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-24 22:56:58.854 E/AuthPII ( 4672): 	at android.os.Binder.transact(Binder.java:1165)
+05-24 22:56:58.854 E/AuthPII ( 4672): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-24 22:56:58.854 E/AuthPII ( 4672): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-24 22:56:58.854 E/AuthPII ( 4672): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-24 22:56:58.855 E/AuthPII ( 4672): Message is Long live credential not available.
+05-24 22:56:58.855 E/AuthPII ( 4672): bibt: Long live credential not available.
+05-24 22:56:58.855 E/AuthPII ( 4672): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-24 22:56:58.855 E/AuthPII ( 4672): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-24 22:56:58.855 E/AuthPII ( 4672): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-24 22:56:58.855 E/AuthPII ( 4672): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):151)
+05-24 22:56:58.855 E/AuthPII ( 4672): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):107)
+05-24 22:56:58.855 E/AuthPII ( 4672): 	at aaql.dispatchTransaction(:com.google.android.gms@261833029@26.18.33 (190400-913931251):153)
+05-24 22:56:58.855 E/AuthPII ( 4672): 	at cawh.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):64)
+05-24 22:56:58.855 E/AuthPII ( 4672): 	at zuu.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-24 22:56:58.855 E/AuthPII ( 4672): 	at android.os.Binder.transact(Binder.java:1165)
+05-24 22:56:58.855 E/AuthPII ( 4672): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-24 22:56:58.855 E/AuthPII ( 4672): 	at android.os.Binder.transact(Binder.java:1165)
+05-24 22:56:58.855 E/AuthPII ( 4672): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-24 22:56:58.855 E/AuthPII ( 4672): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-24 22:56:58.855 E/AuthPII ( 4672): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-24 22:56:58.876 I/Auth    ( 4672): (REDACTED) [GetToken] GetToken failed for app=%s with userRecoverable status: %s 
+05-24 22:56:58.879 W/Auth    ( 4672): [ChimeraGetToken] exception while trying to fetch auth tokens for app=com.google.android.gms, scope=oauth2:https://www.googleapis.com/auth/lams [CONTEXT service_id=153 ]
+05-24 22:56:58.879 W/Auth    ( 4672): ahbw: GetToken failed with status code and recovery intent: BadAuthentication
+05-24 22:56:58.879 W/Auth    ( 4672): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):352)
+05-24 22:56:58.879 W/Auth    ( 4672): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):107)
+05-24 22:56:58.879 W/Auth    ( 4672): 	at aaql.dispatchTransaction(:com.google.android.gms@261833029@26.18.33 (190400-913931251):153)
+05-24 22:56:58.879 W/Auth    ( 4672): 	at cawh.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):64)
+05-24 22:56:58.879 W/Auth    ( 4672): 	at zuu.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-24 22:56:58.879 W/Auth    ( 4672): 	at android.os.Binder.transact(Binder.java:1165)
+05-24 22:56:58.879 W/Auth    ( 4672): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-24 22:56:58.879 W/Auth    ( 4672): 	at android.os.Binder.transact(Binder.java:1165)
+05-24 22:56:58.879 W/Auth    ( 4672): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-24 22:56:58.879 W/Auth    ( 4672): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-24 22:56:58.879 W/Auth    ( 4672): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-24 22:56:58.879 W/Auth    ( 6097): [GoogleAuthUtil] [GoogleAuthUtil] error status:BAD_AUTHENTICATION with method:getTokenWithDetails
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): [AutoSelectEligibilityHelper] GisLamsPdsSettingsManager#isAutoSignInDisabled() failed. [CONTEXT service_id=68 ]
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): jurf: UNAUTHENTICATED
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at jvox.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):41)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnnr.f(:com.google.android.gms@261833029@26.18.33 (190400-913931251):93)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnnr.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnnr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnob.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):9)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnod.e(:com.google.android.gms@261833029@26.18.33 (190400-913931251):22)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnod.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):6)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnni.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):14)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnnf.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hjxo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hjxp.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):64)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hjvn.execute(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnnn.execute(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hjxq.execute(:com.google.android.gms@261833029@26.18.33 (190400-913931251):34)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnmw.execute(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnnl.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnnr.f(:com.google.android.gms@261833029@26.18.33 (190400-913931251):93)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnnr.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnnr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnob.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):9)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnod.e(:com.google.android.gms@261833029@26.18.33 (190400-913931251):22)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnod.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):6)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnni.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):14)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnnf.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hjxo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hjxp.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):64)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hjvn.execute(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnnn.execute(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hjxq.execute(:com.google.android.gms@261833029@26.18.33 (190400-913931251):34)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnmw.execute(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnnl.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnnr.f(:com.google.android.gms@261833029@26.18.33 (190400-913931251):93)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnnr.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnnr.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnob.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):9)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnod.e(:com.google.android.gms@261833029@26.18.33 (190400-913931251):22)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnod.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):6)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnni.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):14)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnnf.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hjxp.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):64)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hjvn.execute(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnnn.execute(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hjxq.execute(:com.google.android.gms@261833029@26.18.33 (190400-913931251):34)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hnmw.execute(:com.google.android.gms@261833029@26.18.33 (190400-913931251):10)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hjvr.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hjvr.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):34)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at hjxb.done(:com.google.android.gms@261833029@26.18.33 (190400-913931251):3)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:434)
+05-24 22:56:58.883 W/Auth.Api.Credentials( 6097): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:303)
+05-24 22:56:58.884 W/Auth.Api.Credentials( 6097): 	at java.util.concurrent.FutureTask.run(FutureTask.java:322)
+05-24 22:56:58.884 W/Auth.Api.Credentials( 6097): 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-24 22:56:58.884 W/Auth.Api.Credentials( 6097): 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-24 22:56:58.884 W/Auth.Api.Credentials( 6097): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 22:56:58.884 W/Auth.Api.Credentials( 6097): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 22:56:58.884 W/Auth.Api.Credentials( 6097): 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 22:56:58.884 W/Auth.Api.Credentials( 6097): 	at java.lang.Thread.run(Thread.java:1564)
+05-24 22:56:58.884 W/Auth.Api.Credentials( 6097): Caused by: com.google.android.gms.auth.UserRecoverableAuthException: BadAuthentication
+05-24 22:56:58.884 W/Auth.Api.Credentials( 6097): 	at ageb.l(:com.google.android.gms@261833029@26.18.33 (190400-913931251):34)
+05-24 22:56:58.884 W/Auth.Api.Credentials( 6097): 	at agdv.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):122)
+05-24 22:56:58.884 W/Auth.Api.Credentials( 6097): 	at ageb.m(:com.google.android.gms@261833029@26.18.33 (190400-913931251):34)
+05-24 22:56:58.884 W/Auth.Api.Credentials( 6097): 	at ageb.o(:com.google.android.gms@261833029@26.18.33 (190400-913931251):64)
+05-24 22:56:58.884 W/Auth.Api.Credentials( 6097): 	at hnkl.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):30)
+05-24 22:56:58.884 W/Auth.Api.Credentials( 6097): 	at hnkl.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):75)
+05-24 22:56:58.884 W/Auth.Api.Credentials( 6097): 	at hnki.call(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-24 22:56:58.884 W/Auth.Api.Credentials( 6097): 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+05-24 22:56:58.884 W/Auth.Api.Credentials( 6097): 	at hnkl.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):59)
+05-24 22:56:58.884 W/Auth.Api.Credentials( 6097): 	at hnjh.call(:com.google.android.gms@261833029@26.18.33 (190400-913931251):32)
+05-24 22:56:58.884 W/Auth.Api.Credentials( 6097): 	at hawt.call(:com.google.android.gms@261833029@26.18.33 (190400-913931251):17)
+05-24 22:56:58.884 W/Auth.Api.Credentials( 6097): 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+05-24 22:56:58.884 W/Auth.Api.Credentials( 6097): 	... 6 more
+05-24 22:56:58.891 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039644,0.000077, totalTime 0.039722 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:58.931 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039584,0.000067, totalTime 0.039651 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:58.949 W/RefBase (22530): RefBase: Explicit destruction, weak count = 0 (in 0x75527d86d0). Use sp<> to manage this object.
+05-24 22:56:58.971 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039627,0.000061, totalTime 0.039688 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:58.984 W/PerfettoTrace( 6097): type=1400 audit(0.0:97734): avc: denied { write } for name="traced_producer" dev="tmpfs" ino=17420 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+05-24 22:56:59.011 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039530,0.000095, totalTime 0.039626 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:59.051 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039591,0.000096, totalTime 0.039688 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:59.070 I/MediaProvider( 3587): Deleted 0 0 0 0 0 0 1 items on external_primary due to com.android.shell
+05-24 22:56:59.077 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-24 22:56:59.077 I/libPerfCtl(  738): xgfGetFPS pid:2148 fps:-1
+05-24 22:56:59.077 I/libPerfCtl(  738): xgfGetFPS pid:22099 fps:-1
+05-24 22:56:59.091 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039557,0.000083, totalTime 0.039641 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:59.131 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039553,0.000067, totalTime 0.039620 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:59.132 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 22:56:59.133 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 22:56:59.135 D/IOManager( 2944): wl = 85,mmc_q = 0,rt_time = 1844,wt_time = 2339,pid = 2315,data = 14635008
+05-24 22:56:59.135 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 22:56:59.136 W/TWSClientService(13878): array is null
+05-24 22:56:59.171 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039698,0.000061, totalTime 0.039760 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:59.172 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 22:56:59.173 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 22:56:59.211 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039577,0.000068, totalTime 0.039646 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:59.213 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 22:56:59.213 D/TimeCheck(  745): isMT6580Project boolVal = 0 

@@ -1,0 +1,144 @@
+17180:05-24 21:49:46.295 I/ActivityManager( 1478): Force stopping com.easyui.guardianlauncher appid=10376 user=-1: installPackageLI
+17181:05-24 21:49:46.296 I/WindowManager( 1478):   Force removing ActivityRecord{58ad91e u0 com.easyui.guardianlauncher/.MainActivity} t15393}
+17182:05-24 21:49:46.298 I/PackageManager( 1478): Update package com.easyui.guardianlauncher code path from /data/app/~~Tmp6yutFILAwAUfijplm_w==/com.easyui.guardianlauncher-oag6WG415jiuCtbxWXup4Q== to /data/app/~~BEP84WFAXpnzPcC9uWD3Yg==/com.easyui.guardianlauncher-sHFNR-8u-U_NUh7z4Lg5BQ==; Retain data and using new
+17183:05-24 21:49:46.299 I/AppsFilter( 1478): interaction: PackageSetting{7cda452 com.warrantyvault/10291} -> PackageSetting{dc6a329 com.easyui.guardianlauncher/10376} BLOCKED
+17184:05-24 21:49:46.300 I/AppsFilter( 1478): interaction: PackageSetting{f6c0808 com.cuecall.app/10251} -> PackageSetting{dc6a329 com.easyui.guardianlauncher/10376} BLOCKED
+17185:05-24 21:49:46.300 I/AppsFilter( 1478): interaction: PackageSetting{b009571 com.vexel.offlinearcade.test/10457} -> PackageSetting{dc6a329 com.easyui.guardianlauncher/10376} BLOCKED
+17186:05-24 21:49:46.300 I/AppsFilter( 1478): interaction: PackageSetting{ee90122 com.vexel.offlinearcade/10456} -> PackageSetting{dc6a329 com.easyui.guardianlauncher/10376} BLOCKED
+17187:05-24 21:49:46.300 I/AppsFilter( 1478): interaction: PackageSetting{7cda452 com.warrantyvault/10291} -> PackageSetting{3147e79 com.easyui.guardianlauncher/10376} BLOCKED
+17188:05-24 21:49:46.300 I/AppsFilter( 1478): interaction: PackageSetting{f6c0808 com.cuecall.app/10251} -> PackageSetting{3147e79 com.easyui.guardianlauncher/10376} BLOCKED
+17189:05-24 21:49:46.300 I/AppsFilter( 1478): interaction: PackageSetting{b009571 com.vexel.offlinearcade.test/10457} -> PackageSetting{3147e79 com.easyui.guardianlauncher/10376} BLOCKED
+17190:05-24 21:49:46.301 I/AppsFilter( 1478): interaction: PackageSetting{ee90122 com.vexel.offlinearcade/10456} -> PackageSetting{3147e79 com.easyui.guardianlauncher/10376} BLOCKED
+17204:05-24 21:49:46.599 I/AppsFilter( 1478): interaction: PackageSetting{7cda452 com.warrantyvault/10291} -> PackageSetting{3147e79 com.easyui.guardianlauncher/10376} BLOCKED
+17205:05-24 21:49:46.599 I/AppsFilter( 1478): interaction: PackageSetting{f6c0808 com.cuecall.app/10251} -> PackageSetting{3147e79 com.easyui.guardianlauncher/10376} BLOCKED
+17206:05-24 21:49:46.599 I/AppsFilter( 1478): interaction: PackageSetting{b009571 com.vexel.offlinearcade.test/10457} -> PackageSetting{3147e79 com.easyui.guardianlauncher/10376} BLOCKED
+17207:05-24 21:49:46.600 I/AppsFilter( 1478): interaction: PackageSetting{ee90122 com.vexel.offlinearcade/10456} -> PackageSetting{3147e79 com.easyui.guardianlauncher/10376} BLOCKED
+17215:05-24 21:49:46.699 I/ActivityManager( 1478): Force stopping com.easyui.guardianlauncher appid=10376 user=0: pkg removed
+17219:05-24 21:49:46.746 I/DesktopAppsCollector( 4290): checkChange  com.easyui.guardianlauncher, false, 2,  true, 88
+17230:05-24 21:49:46.776 I/Kolun.WidgetEventRegister(24717):  onBusEvent:PackageChangedEvent, packageName: com.easyui.guardianlauncher, actionType: android.intent.action.PACKAGE_REMOVED
+17232:05-24 21:49:46.776 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17233:05-24 21:49:46.776 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17245:05-24 21:49:46.784 I/SdkSandboxManager( 1478): No SDKs used. Skipping SDK data reconcilation for CallingInfo{mUid=10376, mPackageName='com.easyui.guardianlauncher, mAppProcessToken='null'}
+17258:05-24 21:49:46.818 I/SdkSandboxManager( 1478): No SDKs used. Skipping SDK data reconcilation for CallingInfo{mUid=10376, mPackageName='com.easyui.guardianlauncher, mAppProcessToken='null'}
+17266:05-24 21:49:46.833 I/Telecom ( 1478): CarModeTracker: Package com.easyui.guardianlauncher is not tracked.: SSH.oR@Cpk
+17294:05-24 21:49:46.900 I/Finsky  (23794): [2] AIM: AppInfoCacheUpdater -> invalidating apps: [com.easyui.guardianlauncher]
+17313:05-24 21:49:46.970 I/SmartPanel_PackageReceiver1( 3903): PackageReceiver received pkgName = com.easyui.guardianlauncher, action = android.intent.action.PACKAGE_REMOVED
+17325:05-24 21:49:47.011 I/Finsky  (23794): [115] AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.easyui.guardianlauncher]
+17344:05-24 21:49:47.040 I/Finsky:background(20002): [107] IQ:PSL: skipping onPackageRemoved(replacing=true) for untracked package=com.easyui.guardianlauncher
+17351:05-24 21:49:47.052 I/DesktopAppsCollector( 4290): checkChange  com.easyui.guardianlauncher, false, 1,  false, 88
+17358:05-24 21:49:47.063 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17360:05-24 21:49:47.064 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17362:05-24 21:49:47.064 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17363:05-24 21:49:47.064 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17364:05-24 21:49:47.064 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17365:05-24 21:49:47.064 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17366:05-24 21:49:47.064 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17367:05-24 21:49:47.064 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17368:05-24 21:49:47.064 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17369:05-24 21:49:47.064 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17370:05-24 21:49:47.064 I/Kolun.WidgetEventRegister(24717):  onBusEvent:WigAppChangeEvent, package : com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17372:05-24 21:49:47.064 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17373:05-24 21:49:47.064 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17402:05-24 21:49:47.097 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17404:05-24 21:49:47.098 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17406:05-24 21:49:47.098 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17407:05-24 21:49:47.098 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17408:05-24 21:49:47.098 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17409:05-24 21:49:47.098 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17410:05-24 21:49:47.098 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17411:05-24 21:49:47.098 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17412:05-24 21:49:47.098 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17413:05-24 21:49:47.098 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_REMOVED
+17417:05-24 21:49:47.109 I/Kolun.WidgetEventRegister(24717):  onBusEvent:PackageChangedEvent, packageName: com.easyui.guardianlauncher, actionType: android.intent.action.PACKAGE_ADDED
+17419:05-24 21:49:47.109 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17420:05-24 21:49:47.109 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17432:05-24 21:49:47.118 I/NotiCenterReceiver( 3661): onReceive: add pkg = com.easyui.guardianlauncher to allowed list
+17434:05-24 21:49:47.130 I/ProximityAuth( 4672): [RecentAppsMediator] Package added: (user=UserHandle{0}) com.easyui.guardianlauncher
+17447:05-24 21:49:47.164 I/NotiCenterReceiver( 3661): onReceive: replace pkg = com.easyui.guardianlauncher
+17451:05-24 21:49:47.174 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17452:05-24 21:49:47.181 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17454:05-24 21:49:47.181 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17455:05-24 21:49:47.181 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17456:05-24 21:49:47.181 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17457:05-24 21:49:47.181 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17458:05-24 21:49:47.181 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17459:05-24 21:49:47.181 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17460:05-24 21:49:47.181 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17461:05-24 21:49:47.181 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17462:05-24 21:49:47.181 I/Kolun.WidgetEventRegister(24717):  onBusEvent:WigAppChangeEvent, package : com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17464:05-24 21:49:47.181 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17465:05-24 21:49:47.181 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17510:05-24 21:49:47.299 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17520:05-24 21:49:47.309 I/Finsky  (23794): [2] AIM: AppInfoCacheUpdater -> invalidating apps: [com.easyui.guardianlauncher]
+17525:05-24 21:49:47.312 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17526:05-24 21:49:47.315 I/Finsky  (23794): [118] AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.easyui.guardianlauncher]
+17531:05-24 21:49:47.317 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17532:05-24 21:49:47.317 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17533:05-24 21:49:47.317 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17535:05-24 21:49:47.323 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17536:05-24 21:49:47.323 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17537:05-24 21:49:47.323 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17538:05-24 21:49:47.324 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17539:05-24 21:49:47.324 I/Kolun.BaseWidget(24717):  refreshOnPackageChange event com.easyui.guardianlauncher type android.intent.action.PACKAGE_ADDED
+17552:05-24 21:49:47.354 E/VerityUtils( 1478): Failed to measure fs-verity, errno 1: /data/app/~~BEP84WFAXpnzPcC9uWD3Yg==/com.easyui.guardianlauncher-sHFNR-8u-U_NUh7z4Lg5BQ==/base.apk
+17775:05-24 21:49:47.663 W/SQLiteLog( 6097): (28) double-quoted string literal: "com.easyui.guardianlauncher"
+17776:05-24 21:49:47.665 E/VerityUtils( 1478): Failed to measure fs-verity, errno 1: /data/app/~~BEP84WFAXpnzPcC9uWD3Yg==/com.easyui.guardianlauncher-sHFNR-8u-U_NUh7z4Lg5BQ==/base.apk
+17887:05-24 21:49:48.163 I/os_lock_noti_receive(28480): onReceive: add pkg = com.easyui.guardianlauncher to allowed list
+17888:05-24 21:49:48.166 I/os_lock_noti_receive(28480): onReceive: replace pkg = com.easyui.guardianlauncher, isInAllowDb = true
+17956:05-24 21:49:49.594 E/AppSearchIcing( 1478): document-validator.cc:82: Schema type config 'android$apps-db/builtin:MobileApplication-com.easyui.guardianlauncher' not found Error while validating document (android$apps-db/apps, com.easyui.guardianlauncher)
+17957:05-24 21:49:49.594 W/AppSearchIcing( 1478): status-util.h:31: Error: 5, Message: Schema type config 'android$apps-db/builtin:MobileApplication-com.easyui.guardianlauncher' not found
+17973:05-24 21:49:49.596 E/AppSearchAppIndxrHlp( 1478): Ran into error while indexing apps: [FAILURE(6)]: Schema type config 'android$apps-db/builtin:MobileApplication-com.easyui.guardianlauncher' not found
+18076:05-24 21:49:49.988 W/Monkey  (28543): args: [-p, com.easyui.guardianlauncher, 1]
+18078:05-24 21:49:49.988 W/Monkey  (28543):  arg: "com.easyui.guardianlauncher"
+18080:05-24 21:49:49.988 W/Monkey  (28543): data="com.easyui.guardianlauncher"
+18091:05-24 21:49:50.120 I/ActivityTaskManager( 1478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.easyui.guardianlauncher/.MainActivity} from uid 2000
+18097:05-24 21:49:50.126 I/ActivityTaskManager( 1478): needHookReparentToDefaultDisplay: sourceRecord = null,r = ActivityRecord{ce384c3 u0 com.easyui.guardianlauncher/.MainActivity} t-1}, tda = null
+18105:05-24 21:49:50.138 I/PowerHalWrapper( 1478): <amsBoostResume> last:com.transsion.hilauncher, next:com.easyui.guardianlauncher 
+18109:05-24 21:49:50.145 I/SmartPanel_SmartPanelService( 3903): activityCheck pkgName: com.easyui.guardianlauncher, className: com.easyui.guardianlauncher.MainActivity isResume=false isInshow =true isDrawn = false
+18114:05-24 21:49:50.156 I/PowerHalWrapper( 1478): <amsBoostResume> last:com.transsion.hilauncher, next:com.easyui.guardianlauncher 
+18123:05-24 21:49:50.167 I/PowerHalWrapper( 1478): amsBoostProcessCreate package:com.easyui.guardianlauncher 
+18142:05-24 21:49:50.194 I/ActivityManager( 1478): Start proc 28558:com.easyui.guardianlauncher/u0a376 for next-top-activity {com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity}
+18159:05-24 21:49:50.291 I/PowerHalWrapper( 1478): amsBoostNotify pid:28558,activity:com.easyui.guardianlauncher.MainActivity, package:com.easyui.guardianlauncher, mProcessCreatePackcom.easyui.guardianlauncher 
+18161:05-24 21:49:50.291 I/SmartPanel_SmartPanelService( 3903): activityCheck pkgName: com.easyui.guardianlauncher, className: com.easyui.guardianlauncher.MainActivity isResume=false isInshow =true isDrawn = false
+18162:05-24 21:49:50.292 I/mtkpower_client( 1478): [Legacy][PowerHal_Wrap_notifyAppState] com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity pid=28558 state:1
+18163:05-24 21:49:50.292 I/game_scn( 1478): collectForegroundAppList packName=com.easyui.guardianlauncher, actName=com.easyui.guardianlauncher.MainActivity, pid=28558, uid=10376, state:RESUMED
+18164:05-24 21:49:50.292 I/game_scn( 1478): powerNotifyForegroundApp multi_resumed_app_info: pid: 28558, packname: com.easyui.guardianlauncher, actname: com.easyui.guardianlauncher.MainActivity
+18166:05-24 21:49:50.293 I/libPowerHal(  738): [perfNotifyAppState] pack:com.easyui.guardianlauncher, act:com.easyui.guardianlauncher.MainActivity, state:1, pid:28558, uid:10376, fps:-1
+18167:05-24 21:49:50.293 I/libPowerHal(  738): [perfNotifyAppState] foreground:com.easyui.guardianlauncher, pid:28558, uid:10376
+18168:05-24 21:49:50.295 I/UxUtility(  738): notifyForegroundApp pack:com.easyui.guardianlauncher, uid:10376
+18170:05-24 21:49:50.296 I/mtkpower@impl(  738): [notifyAppState] pc:1, com.transsion.hilauncher => com.easyui.guardianlauncher
+18172:05-24 21:49:50.300 I/TranSourceConnectManagerImpl( 1478): hookDisplayResumedActivityChanged displayId: 0 packageName: com.easyui.guardianlauncher
+18173:05-24 21:49:50.301 I/ActivityManager( 1478): Applaunch from com.transsion.hilauncher to com.easyui.guardianlauncher
+18174:05-24 21:49:50.301 I/TranOptimizeRAImpl( 1478): Applaunch from com.transsion.hilauncher to com.easyui.guardianlauncher
+18176:05-24 21:49:50.313 I/SimpleEventAdapt( 4290): onActivityEvent get com.easyui.guardianlauncher, com.easyui.guardianlauncher.MainActivity,true
+18182:05-24 21:49:50.313 I/SimpleEventAdapt( 4290): onAppForegroundEvent get com.easyui.guardianlauncher, true
+18185:05-24 21:49:50.313 I/SimpleEventAdapt( 4290): onAppStartEvent get com.easyui.guardianlauncher,start true
+18198:05-24 21:49:50.317 I/Kolun_AI( 4290): SystemEventSubscribe: onPublishData {"type":"activity_event","time":1779641390314,"data":"{\"className\":\"com.easyui.guardianlauncher.MainActivity\",\"isResumed\":true,\"packageName\":\"com.easyui.guardianlauncher\"}","provider":"dc","dc_version":2023081003,"data_version":1,"user_id":0}
+18211:05-24 21:49:50.318 I/Kolun_AI( 4290): SystemEventSubscribe: onPublishData {"type":"app_foreground","time":1779641390315,"data":"{\"isForeground\":true,\"packageName\":\"com.easyui.guardianlauncher\"}","provider":"dc","dc_version":2023081003,"data_version":1,"user_id":0}
+18213:05-24 21:49:50.319 I/Kolun_AI( 4290): dj1:onBusEvent AppForegroundEvent   com.easyui.guardianlauncher, true, dj1
+18215:05-24 21:49:50.320 I/Kolun_AI( 4290): dj1:checkGameIn  com.easyui.guardianlauncher, 
+18216:05-24 21:49:50.320 I/Kolun_AI( 4290): AppPredictManager:onBusEvent com.easyui.guardianlauncher true
+18218:05-24 21:49:50.320 I/SmartPanel_SmartPanelService( 3903): activityCheck pkgName: com.easyui.guardianlauncher, className: com.easyui.guardianlauncher.MainActivity isResume=true isInshow =true isDrawn = false
+18220:05-24 21:49:50.321 I/Kolun_AI( 4290): AppPredictManager:onPackageChanged AppForegroundEvent com.easyui.guardianlauncher true currentTime 2026-05-24 21:49:50
+18222:05-24 21:49:50.322 I/Kolun_AI( 4290): SystemEventSubscribe: onPublishData {"type":"activity_event","time":1779641390314,"data":"{\"className\":\"com.easyui.guardianlauncher.MainActivity\",\"isResumed\":true,\"packageName\":\"com.easyui.guardianlauncher\"}","provider":"dc","dc_version":2023081003,"data_version":1,"user_id":0}
+18231:05-24 21:49:50.326 I/Kolun_AI( 4290): SystemEventSubscribe: onPublishData {"type":"app_foreground","time":1779641390315,"data":"{\"isForeground\":true,\"packageName\":\"com.easyui.guardianlauncher\"}","provider":"dc","dc_version":2023081003,"data_version":1,"user_id":0}
+18233:05-24 21:49:50.327 I/Kolun_AI( 4290): dj1:onBusEvent AppForegroundEvent   com.easyui.guardianlauncher, true, dj1
+18234:05-24 21:49:50.327 I/Kolun_AI( 4290): dj1:checkGameIn  com.easyui.guardianlauncher, 
+18235:05-24 21:49:50.327 I/Kolun_AI( 4290): AppPredictManager:onBusEvent com.easyui.guardianlauncher true
+18236:05-24 21:49:50.327 I/Kolun_AI( 4290): AppPredictManager:onPackageChanged AppForegroundEvent com.easyui.guardianlauncher true currentTime 2026-05-24 21:49:50
+18315:05-24 21:49:51.402 E/AppSearchIcing( 1478): document-validator.cc:82: Schema type config 'android$apps-db/builtin:MobileApplication-com.easyui.guardianlauncher' not found Error while validating document (android$apps-db/apps, com.easyui.guardianlauncher)
+18316:05-24 21:49:51.402 W/AppSearchIcing( 1478): status-util.h:31: Error: 5, Message: Schema type config 'android$apps-db/builtin:MobileApplication-com.easyui.guardianlauncher' not found
+18331:05-24 21:49:51.404 E/AppSearchAppIndxrHlp( 1478): Ran into error while indexing apps: [FAILURE(6)]: Schema type config 'android$apps-db/builtin:MobileApplication-com.easyui.guardianlauncher' not found
+18388:05-24 21:49:51.942 I/BufferQueueDebug(  755): [com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity#16693](this:0xb400007ca80f3ca8,id:-1,api:0,p:-1,c:-1) BufferQueue core=(755:/system/bin/surfaceflinger)
+18391:05-24 21:49:51.946 W/WindowManager( 1478): Changing focus from null to Window{c98fc1b u0 com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:524 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6372 com.android.server.wm.WindowManagerService.relayoutWindow:2634 com.android.server.wm.Session.relayout:267 
+18392:05-24 21:49:51.948 I/WindowManager( 1478): Relayout Window{c98fc1b u0 com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity}: oldVis=4 newVis=0 focusMayChange = true requestedWidth = 1080 requestedHeight = 2460 outFrames = ClientWindowFrames{frame=[0,0][1080,2460] display=[0,0][1080,2460] parentFrame=[0,0][0,0] parentClippedByDisplayCutout=false} outSurfaceControl = Surface(name=com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity)/@0x33f4bc9
+18435:05-24 21:49:52.344 I/SmartPanel_SmartPanelService( 3903): onWindowsDrawn pkgName: com.easyui.guardianlauncher, className: com.easyui.guardianlauncher.MainActivity launchState=1 windowsDrawnDelayMs =2222
+18437:05-24 21:49:52.351 I/ActivityTaskManager( 1478): Displayed com.easyui.guardianlauncher/.MainActivity: +2s222ms
+18441:05-24 21:49:52.376 I/PowerHalWrapper( 1478): amsBoostNotify pid:2148,activity:com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher, package:com.transsion.hilauncher, mProcessCreatePackcom.easyui.guardianlauncher 
+18445:05-24 21:49:52.376 I/game_scn( 1478): powerNotifyForegroundApp multi_resumed_app_info: pid: 28558, packname: com.easyui.guardianlauncher, actname: com.easyui.guardianlauncher.MainActivity
+18454:05-24 21:49:52.407 I/input_debug( 1478): package: com.easyui.guardianlauncher isPassWordInput: false inputType: 0 mMethodMap: true isKeyguardShowing: false enable: 0 isSplitScreen: false
+18460:05-24 21:49:52.424 E/TranSecureKeyboardManagerImpl( 1478): inputTarget = Window{c98fc1b u0 com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity}
+18534:05-24 21:49:53.363 I/SmartPanel_PackageReceiver1( 3903): PackageReceiver received pkgName = com.easyui.guardianlauncher, action = android.intent.action.PACKAGE_REPLACED
+18535:05-24 21:49:53.363 I/SmartPanel_PackageReceiver1( 3903): package replaced pkgName = com.easyui.guardianlauncher
+18557:05-24 21:49:53.694 I/BufferQueueProducer(  755): [com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity#16693](this:0xb400007ca80f3ca8,id:-1,api:0,p:-1,c:755) queueBuffer: fps=2.19 dur=1370.01 max=683.49 min=86.03
+18581:05-24 21:49:54.025 I/SurfaceFlinger(  755): operator()(), mtkRenderCntDebug 946, screenshot (com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity#16693)

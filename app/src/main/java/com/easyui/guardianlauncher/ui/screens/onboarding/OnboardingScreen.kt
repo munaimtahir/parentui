@@ -24,7 +24,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.easyui.guardianlauncher.ui.components.OnboardingStepScaffold
+import com.easyui.guardianlauncher.ui.components.DefaultLauncherStatusCard
 import com.easyui.guardianlauncher.ui.components.PinKeypad
+import com.easyui.guardianlauncher.ui.components.OnResumeEffect
 import com.easyui.guardianlauncher.ui.viewmodels.LauncherViewModel
 
 @OptIn(ExperimentalComposeUiApi::class)
@@ -35,10 +37,12 @@ fun OnboardingScreen(
 ) {
     val context = LocalContext.current
     var currentStep by remember { mutableStateOf(1) }
+    val guardianStatus by viewModel.guardianStatus.collectAsState()
 
     // Initialize/scan apps
     LaunchedEffect(Unit) {
         viewModel.scanInstalledApps(context)
+        viewModel.refreshGuardianStatus()
     }
 
     Box(
@@ -85,6 +89,8 @@ fun OnboardingScreen(
                         }
                     }
                 },
+                defaultLauncherState = guardianStatus?.defaultLauncherActive,
+                onCheckAgain = { viewModel.refreshGuardianStatus() },
                 onFinish = onComplete,
                 onBack = { currentStep = 4 }
             )
@@ -475,9 +481,13 @@ fun AppSelectionStep(
 @Composable
 fun CompletionStep(
     onOpenSettings: () -> Unit,
+    defaultLauncherState: com.easyui.guardianlauncher.guardian.CheckState?,
+    onCheckAgain: () -> Unit,
     onFinish: () -> Unit,
     onBack: () -> Unit
 ) {
+    OnResumeEffect { onCheckAgain() }
+
     OnboardingStepScaffold(
         modifier = Modifier.testTag("onboarding_completion_screen"),
         title = "Setup Completed!",
@@ -492,28 +502,16 @@ fun CompletionStep(
             textAlign = TextAlign.Center
         )
         Spacer(modifier = Modifier.height(8.dp))
-        Text(
-            text = "Step 1: Click button below to configure Guardian Launcher as default Home screen.",
-            style = MaterialTheme.typography.bodyMedium,
-            textAlign = TextAlign.Center
+
+        DefaultLauncherStatusCard(
+            state = defaultLauncherState,
+            onOpenHomeSettings = onOpenSettings,
+            onCheckAgain = onCheckAgain,
         )
-        Spacer(modifier = Modifier.height(4.dp))
-        Button(
-            onClick = onOpenSettings,
-            colors = ButtonDefaults.buttonColors(
-                containerColor = MaterialTheme.colorScheme.secondaryContainer,
-                contentColor = MaterialTheme.colorScheme.onSecondaryContainer
-            ),
-            modifier = Modifier
-                .fillMaxWidth()
-                .heightIn(min = 48.dp),
-            shape = RoundedCornerShape(12.dp)
-        ) {
-            Text("Set Default Home Screen", fontWeight = FontWeight.Bold)
-        }
-        Spacer(modifier = Modifier.height(16.dp))
+
+        Spacer(modifier = Modifier.height(12.dp))
         Text(
-            text = "Step 2: Start child-safe navigation.",
+            text = "Next: Tap “Finish & Launch”. If HOME still returns to your old launcher, return here and use “Set default home”.",
             style = MaterialTheme.typography.bodyMedium,
             textAlign = TextAlign.Center
         )

@@ -4,6 +4,7 @@ import android.app.AlarmManager
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
+import android.os.Build
 import com.easyui.guardianlauncher.data.RoutineSchedule
 import java.util.Calendar
 
@@ -34,11 +35,28 @@ class RoutineManager(private val context: Context) {
             PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
         )
 
-        alarmManager.setExactAndAllowWhileIdle(
-            AlarmManager.RTC_WAKEUP,
-            nextEvent.timeMillis,
-            pendingIntent
-        )
+        val canUseExactAlarms = Build.VERSION.SDK_INT < 31 || alarmManager.canScheduleExactAlarms()
+        try {
+            if (canUseExactAlarms) {
+                alarmManager.setExactAndAllowWhileIdle(
+                    AlarmManager.RTC_WAKEUP,
+                    nextEvent.timeMillis,
+                    pendingIntent
+                )
+            } else {
+                alarmManager.setAndAllowWhileIdle(
+                    AlarmManager.RTC_WAKEUP,
+                    nextEvent.timeMillis,
+                    pendingIntent
+                )
+            }
+        } catch (e: SecurityException) {
+            alarmManager.setAndAllowWhileIdle(
+                AlarmManager.RTC_WAKEUP,
+                nextEvent.timeMillis,
+                pendingIntent
+            )
+        }
     }
 
     private fun findNextEvent(schedules: List<RoutineSchedule>): ScheduledEvent? {

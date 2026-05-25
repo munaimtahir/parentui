@@ -1,0 +1,19 @@
+10398:05-24 21:54:30.591 I/AndroidRuntime(31306): Using default boot image
+10399:05-24 21:54:30.591 I/AndroidRuntime(31306): Leaving lock profiling enabled
+11076:05-24 21:54:46.955 I/AndroidRuntime(31381): Using default boot image
+11077:05-24 21:54:46.955 I/AndroidRuntime(31381): Leaving lock profiling enabled
+12277:05-24 21:55:04.777 I/AndroidRuntime(31580): Using default boot image
+12278:05-24 21:55:04.777 I/AndroidRuntime(31580): Leaving lock profiling enabled
+12689:05-24 21:55:20.862 I/AndroidRuntime(31615): Using default boot image
+12690:05-24 21:55:20.862 I/AndroidRuntime(31615): Leaving lock profiling enabled
+14841:05-24 21:55:38.133 I/AndroidRuntime(32048): Using default boot image
+14842:05-24 21:55:38.133 I/AndroidRuntime(32048): Leaving lock profiling enabled
+15617:05-24 21:55:53.403 I/AndroidRuntime(32227): Using default boot image
+15618:05-24 21:55:53.403 I/AndroidRuntime(32227): Leaving lock profiling enabled
+16054:05-24 21:55:53.690 I/AndroidRuntime(32227): VM exiting with result code 0.
+16970:05-24 21:56:03.440 I/AndroidRuntime(32271): Using default boot image
+16971:05-24 21:56:03.440 I/AndroidRuntime(32271): Leaving lock profiling enabled
+17717:05-24 21:56:31.191 I/AndroidRuntime(32342): Using default boot image
+17718:05-24 21:56:31.191 I/AndroidRuntime(32342): Leaving lock profiling enabled
+17936:05-24 21:56:43.511 I/AndroidRuntime(32370): Using default boot image
+17937:05-24 21:56:43.511 I/AndroidRuntime(32370): Leaving lock profiling enabled

@@ -1,0 +1,400 @@
+05-24 22:56:20.108 W/fb4a.AppInitScheduler|Run(21602):   Finished DismissSplashScreens in 1ms
+05-24 22:56:20.108 W/fb4a.AppInitScheduler|Schedule(21602):   Executing 182:InitAppComponentFactoryStartupController
+05-24 22:56:20.108 W/fb4a.AppInitScheduler|Run(21602): Running FixieScheduleIdleWork, order=82, priorityHint=NORMAL 
+05-24 22:56:20.109 W/fb4a.AppInitScheduler|Run(21602):   Finished FixieScheduleIdleWork in 1ms
+05-24 22:56:20.109 W/fb4a.AppInitScheduler|Run(21602): Running INeedInitForBroadcastReceiverRegister, order=84, priorityHint=NORMAL 
+05-24 22:56:20.110 W/fb4a.AppInitScheduler|Run(21602):   Finished FixieNoSync in 2ms
+05-24 22:56:20.110 W/fb4a.AppInitScheduler|Run(21602): Running INeedInitForSharedPrefsListenerRegister, order=86, priorityHint=NORMAL 
+05-24 22:56:20.116 W/fb4a.InitStatus(21602): Unblocked Service (263886959)
+05-24 22:56:20.117 W/fb4a.AppInitScheduler|Run(21602):   Finished FbMCPPluginInitializer in 23ms
+05-24 22:56:20.117 W/fb4a.AppInitScheduler|Schedule(21602):   Executing 151:FbMsysImmediateInitializer
+05-24 22:56:20.117 W/fb4a.AppComponentFactory(21602): Instantiating Service
+05-24 22:56:20.117 W/fb4a.AppInitScheduler|Schedule(21602):   Executing 267:MqttEarlySyncInitializerAfterAppCreate
+05-24 22:56:20.117 W/fb4a.InitStatus(21602): Unblocked Provider (87732046)
+05-24 22:56:20.117 W/fb4a.InitStatus(21602): Not blocking Provider (87732046)
+05-24 22:56:20.118 W/fb4a.AppInitScheduler|Run(21602): Running FbMsysImmediateInitializer, order=74, priorityHint=NORMAL 
+05-24 22:56:20.118 W/fb4a.AppInitScheduler|Run(21602):   Finished FbMsysImmediateInitializer in 1ms
+05-24 22:56:20.118 W/fb4a.AppInitScheduler|Run(21602): RUN AppInit 195:InitFeedVpvSeenStore for start destination 6
+05-24 22:56:20.119 W/fb4a.AppInitScheduler|Run(21602): Running InitFeedVpvSeenStore, order=88, priorityHint=NORMAL 
+05-24 22:56:20.119 W/fb4a.AppInitScheduler|Run(21602):   Finished InitFeedVpvSeenStore in 0ms
+05-24 22:56:20.119 W/fb4a.AppInitScheduler|Run(21602): Running InitFury, order=89, priorityHint=NORMAL 
+05-24 22:56:20.122 W/fb4a.AppInitScheduler|Run(21602):   Finished INeedInitForSharedPrefsListenerRegister in 12ms
+05-24 22:56:20.122 W/fb4a.AppInitScheduler|Run(21602): Running InitHelium, order=90, priorityHint=NORMAL 
+05-24 22:56:20.124 W/fb4a.AppInitScheduler|Run(21602):   Finished INeedInitForBroadcastReceiverRegister in 15ms
+05-24 22:56:20.124 W/fb4a.AppInitScheduler|Run(21602): Running InitLacrimaLaterInit, order=91, priorityHint=NORMAL 
+05-24 22:56:20.124 W/fb4a.lacrima(21602): FbErrorReportingConfig.laterInit
+05-24 22:56:20.124 W/fb4a.AppInitScheduler|Run(21602):   Finished InitHelium in 2ms
+05-24 22:56:20.124 W/fb4a.AppInitScheduler|Run(21602): Running InitMemoryDumpHandler, order=94, priorityHint=NORMAL 
+05-24 22:56:20.125 W/fb4a.AppInitScheduler|Run(21602):   Finished InitMemoryDumpHandler in 1ms
+05-24 22:56:20.125 W/fb4a.AppInitScheduler|Run(21602): Running InitSurfaces, order=98, priorityHint=NORMAL 
+05-24 22:56:20.135 W/fb4a.BackgroundStartupDetector(21602): coldStartMode=DEFINITELY_BACKGROUND
+05-24 22:56:20.135 W/fb4a.StartupMetricTracker(21602): Begin BACKGROUND UNTRACKED start
+05-24 22:56:20.137 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-24 22:56:20.142 W/fb4a.AppInitScheduler|Run(21602): Running LanguageSwitcherCommonExInit, order=101, priorityHint=NORMAL 
+05-24 22:56:20.147 W/fb4a.AppInitScheduler|Run(21602):   Finished LanguageSwitcherCommonExInit in 5ms
+05-24 22:56:20.147 W/fb4a.AppInitScheduler|Run(21602): Running LocationRequestDetector, order=102, priorityHint=NORMAL 
+05-24 22:56:20.148 W/fb4a.AppInitScheduler|Run(21602):   Finished LocationRequestDetector in 0ms
+05-24 22:56:20.148 W/fb4a.AppInitScheduler|Run(21602): Running MessageQueueDoctor, order=104, priorityHint=NORMAL 
+05-24 22:56:20.148 W/fb4a.AppInitScheduler|Run(21602):   Finished MessageQueueDoctor in 0ms
+05-24 22:56:20.148 W/fb4a.AppInitScheduler|Run(21602): Running MqttEarlySyncInitializerAfterAppCreate, order=105, priorityHint=NORMAL 
+05-24 22:56:20.148 W/fb4a.AppInitScheduler|Run(21602):   Finished MqttEarlySyncInitializerAfterAppCreate in 1ms
+05-24 22:56:20.149 W/fb4a.AppInitScheduler|Run(21602): Running PendingStoryStoreInitializer, order=107, priorityHint=NORMAL 
+05-24 22:56:20.149 W/fb4a.AppInitScheduler|Run(21602):   Finished PendingStoryStoreInitializer in 0ms
+05-24 22:56:20.149 W/fb4a.AppInitScheduler|Run(21602): Running PreloadIconsInit, order=108, priorityHint=NORMAL 
+05-24 22:56:20.150 W/ComponentDiscovery(21602): Class com.google.firebase.dynamicloading.DynamicLoadingRegistrar is not an found.
+05-24 22:56:20.151 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039730,0.000028, totalTime 0.039760 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:20.159 E/fb4a.AppState(21602): Returning default for firstRunInfo
+05-24 22:56:20.167 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{4ce3c9e com.Neurononfire.SupremeDuelist}
+05-24 22:56:20.173 W/libc    (21602): Access denied finding property "ro.bootimage.build.fingerprint"
+05-24 22:56:20.174 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:20.182 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:20.193 W/fb4a.BackgroundStartupDetector(21602): bgMode=BACKGROUND
+05-24 22:56:20.194 E/fb-distract(21602): Blocking distraction of /apex/com.android.runtime/lib64/bionic/libc.so!abort (0x7cab881270) with /data/data/com.facebook.katana/lib-compressed/libdexload.so!<unknown> (0x796f3c79a4)
+05-24 22:56:20.195 I/hwservicemanager(  490): getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+05-24 22:56:20.198 E/MprotectOptimization(21602): Failed to make 0x7982fa6000 (188416 bytes) executable for 7982fa6000-7982fd4000 r--p 02758000 fd:2a 2684889                        /data/app/~~ypgbsSHt1_Veo61Cru1nyg==/com.facebook.katana-hit4v7h6CuO710UWtc-i4Q==/oat/arm64/base.odex
+05-24 22:56:20.207 W/MlockOptimization(21602): mlock2 0x798302a000 70051840 successful for 798302a000-798b5c7000 rw-p 00000000 fd:2a 1188748                        /data/app/~~ypgbsSHt1_Veo61Cru1nyg==/com.facebook.katana-hit4v7h6CuO710UWtc-i4Q==/oat/arm64/base.vdex
+05-24 22:56:20.207 W/ExperimentConfigurator(21602): onAppInit completed: 2 configs executed
+05-24 22:56:20.208 W/fb4a.lacrima(21602): Unable to install abort hooks
+05-24 22:56:20.208 W/fb4a.lacrima(21602): java.lang.RuntimeException: Cannot create distract hook: Attempted to hook a killswitched function
+05-24 22:56:20.208 W/fb4a.lacrima(21602): 	at com.facebook.aborthooks.AbortHooks.hookAbort(Native Method)
+05-24 22:56:20.208 W/fb4a.lacrima(21602): 	at X.0FJ.CIj(:39)
+05-24 22:56:20.208 W/fb4a.lacrima(21602): 	at com.facebook.common.appinit.invoker.OnApplicationInitInvoker.CKg(Unknown Source:3453)
+05-24 22:56:20.208 W/fb4a.lacrima(21602): 	at X.0kN.run(:266)
+05-24 22:56:20.208 W/fb4a.lacrima(21602): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-24 22:56:20.208 W/fb4a.lacrima(21602): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-24 22:56:20.208 W/fb4a.lacrima(21602): 	at X.0Ey.run(:11)
+05-24 22:56:20.208 W/fb4a.lacrima(21602): 	at java.lang.Thread.run(Thread.java:1564)
+05-24 22:56:20.208 I/resolv  (  711): GetAddrInfoHandler::run: {107 262251 107 983147 10211 0}
+05-24 22:56:20.215 I/resolv  (  711): res_nmkquery: (QUERY, IN, A)
+05-24 22:56:20.215 I/resolv  (  711): resolv_cache_lookup: FOUND IN CACHE entry=0xb4000070906b5fd0
+05-24 22:56:20.215 I/resolv  (  711): doQuery: rcode=0, ancount=2, return value=76
+05-24 22:56:20.223 E/libEGL  (21602): call to OpenGL ES API with no current context (logged once per thread)
+05-24 22:56:20.223 E/libEGL  (21602): call to OpenGL ES API with no current context (logged once per thread)
+05-24 22:56:20.223 E/libEGL  (21602): call to OpenGL ES API with no current context (logged once per thread)
+05-24 22:56:20.225 E/FBI     (21602): Can't load library: dlopen failed: library "libmagtsync.so" not found
+05-24 22:56:20.228 E/libEGL  (21602): call to OpenGL ES API with no current context (logged once per thread)
+05-24 22:56:20.234 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{f57403 com.YsoCorp.MobileRun}
+05-24 22:56:20.241 E/fb4a.SlowAppComponent(21602): 0ms: FacebookApplication instantiating…
+05-24 22:56:20.241 E/fb4a.SlowAppComponent(21602): Main thread was blocked for 430ms in the background starting with FacebookApplication
+05-24 22:56:20.242 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:20.246 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:20.251 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039708,0.000051, totalTime 0.039760 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:20.252 W/fb4a.AppInitScheduler|Run(21602):   Finished FbSharedPreferenceInitializerAsync in 280ms
+05-24 22:56:20.252 W/fb4a.AppInitScheduler|Run(21602): SKIP AppInit 369:PreloadVideoHomeDataController for start destination 6
+05-24 22:56:20.252 W/fb4a.AppInitScheduler|Run(21602):   Finished PreloadVideoHomeDataController in 1ms
+05-24 22:56:20.253 W/fb4a.AppInitScheduler|Run(21602): Running ProfiloBridgeFactoryImpl, order=111, priorityHint=NORMAL 
+05-24 22:56:20.253 W/Profilo/TraceControl(21602): START PROFILO_TRACEID: A+mL4MAbiIA 30539777
+05-24 22:56:20.254 W/fb4a.DefaultNetworkConfig(21602): com.facebook.katana: getShouldCheckCertsInternal: true
+05-24 22:56:20.257 I/Choreographer(21515): Skipped 63 frames!  The application may be doing too much work on its main thread.
+05-24 22:56:20.264 I/AlarmManager( 1478): going to release mWakeLock actually.
+05-24 22:56:20.265 W/fb4a.AppInitScheduler|Run(21602):   Finished InitFury in 146ms
+05-24 22:56:20.266 W/fb4a.AppInitScheduler|Run(21602): Running RegisterMainLooperTracer, order=113, priorityHint=NORMAL 
+05-24 22:56:20.266 W/fb4a.AppInitScheduler|Run(21602):   Finished InitSurfaces in 141ms
+05-24 22:56:20.266 W/fb4a.AppInitScheduler|Run(21602): Running ReleaseDeferredBroadcastReceiver, order=114, priorityHint=NORMAL 
+05-24 22:56:20.266 W/fb4a.AppInitScheduler|Run(21602):   Finished RegisterMainLooperTracer in 0ms
+05-24 22:56:20.266 W/fb4a.AppInitScheduler|Run(21602):   Finished ReleaseDeferredBroadcastReceiver in 0ms
+05-24 22:56:20.266 W/fb4a.AppInitScheduler|Run(21602): Running ReliabilityExperiments, order=115, priorityHint=NORMAL 
+05-24 22:56:20.266 W/fb4a.AppInitScheduler|Run(21602): Running ReliabilityUserPerceptibleScopeToQPL, order=116, priorityHint=NORMAL 
+05-24 22:56:20.266 W/fb4a.AppInitScheduler|Run(21602):   Finished ReliabilityUserPerceptibleScopeToQPL in 0ms
+05-24 22:56:20.266 W/fb4a.AppInitScheduler|Run(21602): Running ReplayBroadcastReceivedDuringAppInit, order=117, priorityHint=NORMAL 
+05-24 22:56:20.266 W/fb4a.AppInitScheduler|Run(21602):   Finished ReplayBroadcastReceivedDuringAppInit in 0ms
+05-24 22:56:20.266 W/fb4a.AppInitScheduler|Run(21602): Running ScheduleLowPriWork, order=118, priorityHint=NORMAL 
+05-24 22:56:20.267 W/fb4a.AppInitScheduler|Run(21602):   Finished ScheduleLowPriWork in 0ms
+05-24 22:56:20.267 W/fb4a.AppInitScheduler|Run(21602): Running SetupDynaBuilds, order=119, priorityHint=NORMAL 
+05-24 22:56:20.267 W/fb4a.AppInitScheduler|Run(21602):   Finished SetupDynaBuilds in 0ms
+05-24 22:56:20.267 W/fb4a.AppInitScheduler|Run(21602): Running TabBadgeFetchAppInit, order=120, priorityHint=NORMAL 
+05-24 22:56:20.267 W/fb4a.AppInitScheduler|Run(21602):   Finished TabBadgeFetchAppInit in 0ms
+05-24 22:56:20.267 W/fb4a.AppInitScheduler|Run(21602): Running WarmFacebookEmojiFont, order=121, priorityHint=NORMAL 
+05-24 22:56:20.267 W/fb4a.AppInitScheduler|Run(21602):   Finished WarmFacebookEmojiFont in 0ms
+05-24 22:56:20.267 W/fb4a.AppInitScheduler|Run(21602): Running WhitehatOverlayInitializer, order=122, priorityHint=NORMAL 
+05-24 22:56:20.268 W/fb4a.AppInitScheduler|Run(21602):   Finished WhitehatOverlayInitializer in 1ms
+05-24 22:56:20.268 W/fb4a.AppInitScheduler|Run(21602): RUN AppInit 346:PreloadFeedDataLoader for start destination 6
+05-24 22:56:20.268 W/fb4a.AppInitScheduler|Run(21602): Running PreloadFeedDataLoader, order=123, priorityHint=LOW 
+05-24 22:56:20.268 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{570bfdc com.YsoCorp.NinjaHands}
+05-24 22:56:20.274 W/fb4a.AppInitScheduler|Run(21602):   Finished WarmVolumeCache in 240ms
+05-24 22:56:20.274 W/fb4a.AppInitScheduler|Run(21602): RUN AppInit 348:PreloadFeedFullCacheLoad for start destination 6
+05-24 22:56:20.274 W/fb4a.AppInitScheduler|Run(21602): Running PreloadFeedFullCacheLoad, order=124, priorityHint=LOW 
+05-24 22:56:20.275 W/fb4a.AppInitScheduler|Run(21602):   Finished DownloadedFbResources in 265ms
+05-24 22:56:20.275 W/fb4a.AppInitScheduler|Run(21602): RUN AppInit 137:EarlyInitStoriesTrayForActivity for start destination 6
+05-24 22:56:20.275 W/fb4a.AppInitScheduler|Run(21602): Running EarlyInitStoriesTrayForActivity, order=126, priorityHint=LOW 
+05-24 22:56:20.275 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:20.275 W/fb4a.AppInitScheduler|Run(21602):   Finished EarlyInitStoriesTrayForActivity in 0ms
+05-24 22:56:20.275 W/fb4a.AppInitScheduler|Run(21602): Running FriendlyFeedPrefetchOnFirstForegroundWarmStart, order=127, priorityHint=LOW 
+05-24 22:56:20.275 W/fb4a.AppInitScheduler|Run(21602):   Finished FriendlyFeedPrefetchOnFirstForegroundWarmStart in 0ms
+05-24 22:56:20.275 W/fb4a.AppInitScheduler|Run(21602): Running InitAppComponentFactoryStartupController, order=128, priorityHint=LOW 
+05-24 22:56:20.275 W/fb4a.AppInitScheduler|Run(21602):   Finished InitAppComponentFactoryStartupController in 0ms
+05-24 22:56:20.275 W/fb4a.AppInitScheduler|Run(21602): Running InitPeriodicThreadBooster, order=129, priorityHint=LOW 
+05-24 22:56:20.276 W/fb4a.AppInitScheduler|Run(21602):   Finished InitPeriodicThreadBooster in 0ms
+05-24 22:56:20.276 W/fb4a.AppInitScheduler|Run(21602): RUN AppInit 225:KeepWarm for start destination 6
+05-24 22:56:20.276 W/fb4a.AppInitScheduler|Run(21602): Running KeepWarm, order=130, priorityHint=LOW 
+05-24 22:56:20.283 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:20.284 W/VSyncPredictor(  755): VSyncPredictor::setPeriod current period =16666667
+05-24 22:56:20.286 W/fb4a.AppInitScheduler|Run(21602):   Finished ReliabilityExperiments in 20ms
+05-24 22:56:20.286 W/fb4a.AppInitScheduler|Run(21602): Running LongtailVoltronAppInit, order=131, priorityHint=LOW 
+05-24 22:56:20.287 E/fb4a.AppState(21602): Returning default for firstRunInfo
+05-24 22:56:20.287 E/fb4a.AppState(21602): Returning default for firstRunInfo
+05-24 22:56:20.287 W/fb4a.HalfnosisInitializer(21602): Not first run! Skip eager unpacking of longtail.
+05-24 22:56:20.287 W/fb4a.LongtailVoltronAppInit(21602): HalfnosisInitializer: fail
+05-24 22:56:20.289 W/fb4a.AppInitScheduler|Run(21602):   Finished LongtailVoltronAppInit in 0ms
+05-24 22:56:20.290 W/fb4a.AppInitScheduler|Run(21602): RUN AppInit 257:MetaCasper for start destination 6
+05-24 22:56:20.290 W/fb4a.AppInitScheduler|Run(21602): Running MetaCasper, order=132, priorityHint=LOW 
+05-24 22:56:20.291 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039635,0.000049, totalTime 0.039685 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:20.304 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{6fa71d1 com.YsoCorp.TVInvasion}
+05-24 22:56:20.304 W/fb4a.AppInitScheduler|Run(21602):   Finished MetaCasper in 14ms
+05-24 22:56:20.307 W/fb4a.AppInitScheduler|Run(21602): Running MobileConfigAdminIdLaterInit, order=133, priorityHint=LOW 
+05-24 22:56:20.308 W/fb4a.AppInitScheduler|Run(21602):   Finished MobileConfigAdminIdLaterInit in 4ms
+05-24 22:56:20.308 W/fb4a.AppInitScheduler|Run(21602): Running MobileConfigLaterInit, order=134, priorityHint=LOW 
+05-24 22:56:20.311 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:20.313 W/fb4a.AppInitScheduler|Run(21602):   Finished MobileConfigLaterInit in 0ms
+05-24 22:56:20.313 W/fb4a.AppInitScheduler|Run(21602): Running MobileConfigSessionlessLaterInit, order=135, priorityHint=LOW 
+05-24 22:56:20.317 W/fb4a.AppInitScheduler|Run(21602):   Finished MobileConfigSessionlessLaterInit in 4ms
+05-24 22:56:20.318 W/fb4a.AppInitScheduler|Run(21602): RUN AppInit 338:PartialScrollOnFirstForegroundWarmStart for start destination 6
+05-24 22:56:20.318 W/fb4a.AppInitScheduler|Run(21602): Running PartialScrollOnFirstForegroundWarmStart, order=136, priorityHint=LOW 
+05-24 22:56:20.319 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:20.326 W/fb4a.AppInitScheduler|Run(21602):   Finished PartialScrollOnFirstForegroundWarmStart in 8ms
+05-24 22:56:20.326 W/fb4a.AppInitScheduler|Run(21602): RUN AppInit 349:PreloadFeedRequest for start destination 6
+05-24 22:56:20.326 W/fb4a.AppInitScheduler|Run(21602): Running PreloadFeedRequest, order=137, priorityHint=LOW 
+05-24 22:56:20.326 W/fb4a.AppInitScheduler|Run(21602):   Finished PreloadFeedRequest in 0ms
+05-24 22:56:20.326 W/fb4a.AppInitScheduler|Schedule(21602):   Executing 340:PrefetchFeedNetwork
+05-24 22:56:20.326 W/fb4a.AppInitScheduler|Run(21602): RUN AppInit 340:PrefetchFeedNetwork for start destination 6
+05-24 22:56:20.326 W/fb4a.AppInitScheduler|Run(21602): Running PrefetchFeedNetwork, order=138, priorityHint=LOW 
+05-24 22:56:20.327 W/fb4a.AppInitScheduler|Run(21602):   Finished PrefetchFeedNetwork in 1ms
+05-24 22:56:20.327 W/fb4a.AppInitScheduler|Run(21602): RUN AppInit 341:PreloadClashManager for start destination 6
+05-24 22:56:20.327 W/fb4a.AppInitScheduler|Run(21602): Running PreloadClashManager, order=139, priorityHint=LOW 
+05-24 22:56:20.328 W/fb4a.AppInitScheduler|Run(21602):   Finished ProfiloBridgeFactoryImpl in 75ms
+05-24 22:56:20.328 W/fb4a.AppInitScheduler|Run(21602): RUN AppInit 344:PreloadCreatorsHomeToHUnit for start destination 6
+05-24 22:56:20.328 W/fb4a.AppInitScheduler|Run(21602): Running PreloadCreatorsHomeToHUnit, order=140, priorityHint=LOW 
+05-24 22:56:20.328 W/fb4a.AppInitScheduler|Run(21602):   Finished PreloadCreatorsHomeToHUnit in 0ms
+05-24 22:56:20.328 W/fb4a.AppInitScheduler|Run(21602): RUN AppInit 345:PreloadFeedConfig for start destination 6
+05-24 22:56:20.328 W/fb4a.AppInitScheduler|Run(21602): Running PreloadFeedConfig, order=141, priorityHint=LOW 
+05-24 22:56:20.328 W/fb4a.AppInitScheduler|Run(21602):   Finished PreloadFeedConfig in 0ms
+05-24 22:56:20.328 W/fb4a.AppInitScheduler|Run(21602): RUN AppInit 347:PreloadFeedFetchMetadata for start destination 6
+05-24 22:56:20.328 W/fb4a.AppInitScheduler|Run(21602): Running PreloadFeedFetchMetadata, order=142, priorityHint=LOW 
+05-24 22:56:20.329 W/fb4a.AppInitScheduler|Run(21602):   Finished PreloadFeedFetchMetadata in 1ms
+05-24 22:56:20.329 W/fb4a.AppInitScheduler|Run(21602): Running PreloadFeedRequestForAllStarts, order=143, priorityHint=LOW 
+05-24 22:56:20.329 W/fb4a.AppInitScheduler|Run(21602):   Finished PreloadFeedRequestForAllStarts in 0ms
+05-24 22:56:20.329 W/fb4a.AppInitScheduler|Run(21602): RUN AppInit 352:PreloadFreshFeedRanker for start destination 6
+05-24 22:56:20.329 W/fb4a.AppInitScheduler|Run(21602): Running PreloadFreshFeedRanker, order=144, priorityHint=LOW 
+05-24 22:56:20.329 W/fb4a.AppInitScheduler|Run(21602):   Finished PreloadClashManager in 2ms
+05-24 22:56:20.329 W/fb4a.AppInitScheduler|Run(21602): SKIP AppInit 353:PreloadHeroManager for start destination 6
+05-24 22:56:20.329 W/fb4a.AppInitScheduler|Run(21602):   Finished PreloadHeroManager in 1ms
+05-24 22:56:20.329 W/fb4a.AppInitScheduler|Run(21602): RUN AppInit 355:PreloadInlineComposerProfileImage for start destination 6
+05-24 22:56:20.329 W/fb4a.AppInitScheduler|Run(21602): Running PreloadInlineComposerProfileImage, order=146, priorityHint=LOW 
+05-24 22:56:20.331 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039626,0.000067, totalTime 0.039694 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:20.335 W/libc    (21549): Access denied finding property "qemu.sf.lcd_density"
+05-24 22:56:20.335 W/libc    (21549): Access denied finding property "qemu.sf.lcd_density"
+05-24 22:56:20.341 W/fb4a.SigquitDetectorLacrima(21602): nativeInit
+05-24 22:56:20.341 W/fb4a.AppInitScheduler|Run(21602):   Finished KeepWarm in 65ms
+05-24 22:56:20.342 W/fb4a.AppInitScheduler|Run(21602): Running PreloadInlineComposerProfileImageDeferred, order=147, priorityHint=LOW 
+05-24 22:56:20.342 W/fb4a.AppInitScheduler|Run(21602):   Finished PreloadInlineComposerProfileImageDeferred in 0ms
+05-24 22:56:20.342 W/fb4a.AppInitScheduler|Run(21602): RUN AppInit 357:PreloadLogDb for start destination 6
+05-24 22:56:20.342 W/fb4a.AppInitScheduler|Run(21602): Running PreloadLogDb, order=148, priorityHint=LOW 
+05-24 22:56:20.342 W/fb4a.AppInitScheduler|Run(21602):   Finished PreloadLogDb in 0ms
+05-24 22:56:20.342 W/fb4a.AppInitScheduler|Run(21602): RUN AppInit 360:PreloadReactions for start destination 6
+05-24 22:56:20.342 W/fb4a.AppInitScheduler|Run(21602): Running PreloadReactions, order=149, priorityHint=LOW 
+05-24 22:56:20.346 W/fb4a.lacrima(21602): Start AnrDetector... com.facebook.acra.anr.multisignal.MultiSignalANRDetector
+05-24 22:56:20.349 E/fb-distract(21602): Blocking distraction of /apex/com.android.art/lib64/libartpalette.so!PaletteWriteCrashThreadStacks (0x7ccde340fc) with /data/data/com.facebook.katana/lib-compressed/libdexload.so!<unknown> (0x796f3c1924)
+05-24 22:56:20.353 W/fb4a.AppInitScheduler|Run(21602):   Finished PreloadInlineComposerProfileImage in 24ms
+05-24 22:56:20.354 W/fb4a.AppInitScheduler|Run(21602): RUN AppInit 366:PreloadStoriesTrayFetchController for start destination 6
+05-24 22:56:20.354 W/fb4a.AppInitScheduler|Run(21602): Running PreloadStoriesTrayFetchController, order=151, priorityHint=LOW 
+05-24 22:56:20.356 W/fb4a.MultiSignalANRDetectorLacrima(21602): Starting
+05-24 22:56:20.356 W/fb4a.ProcessAnrErrorMonitor(21602): startMonitoring with delay: 0
+05-24 22:56:20.357 W/MediaProvider( 3587): isAppCloneUserPair for user 0: false
+05-24 22:56:20.363 W/fb4a.ProcessAnrErrorMonitor(21602): Starting process monitor checks for process 'com.facebook.katana'
+05-24 22:56:20.363 W/fb4a.MultiSignalANRDetectorLacrima(21602): Started monitoring
+05-24 22:56:20.370 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{88e66ca com.aiswei.international}
+05-24 22:56:20.371 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039628,0.000048, totalTime 0.039677 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:20.374 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:20.379 W/fb4a.AppInitScheduler|Run(21602):   Finished PreloadReactions in 38ms
+05-24 22:56:20.380 W/fb4a.AppInitScheduler|Run(21602): RUN AppInit 367:PreloadStoriesTrayQuery for start destination 6
+05-24 22:56:20.380 W/fb4a.AppInitScheduler|Run(21602): Running PreloadStoriesTrayQuery, order=152, priorityHint=LOW 
+05-24 22:56:20.381 W/fb4a.AppInitScheduler|Run(21602):   Finished PreloadStoriesTrayQuery in 1ms
+05-24 22:56:20.381 W/fb4a.AppInitScheduler|Run(21602): Running PreloadTabPreloadablesBackgroundPrefetch, order=153, priorityHint=LOW 
+05-24 22:56:20.393 W/fb4a.AppInitScheduler|Run(21602): SKIP AppInit 370:PreloadVideoPrivateSharing for start destination 6
+05-24 22:56:20.394 W/fb4a.AppInitScheduler|Run(21602):   Finished PreloadVideoPrivateSharing in 0ms
+05-24 22:56:20.394 W/fb4a.AppInitScheduler|Run(21602): RUN AppInit 392:ScreenOnFeedPrefetch for start destination 6
+05-24 22:56:20.394 W/fb4a.AppInitScheduler|Run(21602): Running ScreenOnFeedPrefetch, order=155, priorityHint=LOW 
+05-24 22:56:20.394 W/fb4a.AppInitScheduler|Run(21602):   Finished ScreenOnFeedPrefetch in 0ms
+05-24 22:56:20.394 W/fb4a.AppInitScheduler|Run(21602): Running SecondaryDexPreloaderBg, order=156, priorityHint=LOW 
+05-24 22:56:20.395 W/fb4a.AppInitScheduler|Run(21602):   Finished EagerInitFBTigon in 362ms
+05-24 22:56:20.395 W/fb4a.AppInitScheduler|Schedule(21602):   Executing 173:GraphServiceEagerInit
+05-24 22:56:20.395 W/fb4a.AppInitScheduler|Schedule(21602):   Executing 448:ZeroLibraryInitializer
+05-24 22:56:20.395 W/fb4a.AppInitScheduler|Schedule(21602):   Executing 222:InitTrafficNTS
+05-24 22:56:20.395 W/fb4a.AppInitScheduler|Run(21602): Running GraphServiceEagerInit [*], order=51, priorityHint=CRITICAL_PATH 
+05-24 22:56:20.396 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:20.400 W/fb4a.AppInitScheduler|Schedule(21602):   Executing async work for GraphServiceEagerInit: InjectTigonServiceHolder
+05-24 22:56:20.400 W/fb4a.AppInitScheduler|Schedule(21602):   Executing async work for GraphServiceEagerInit: InjectGraphQLConsistencyJNI
+05-24 22:56:20.404 W/fb4a.AppInitScheduler|Run(21602):   Finished PreloadFreshFeedRanker in 75ms
+05-24 22:56:20.409 W/fb4a.AppInitScheduler|Run(21602):   Finished PreloadIconsInit in 260ms
+05-24 22:56:20.411 W/AccessibilityNodeInfoDumper(21549): Fetch time: 60ms
+05-24 22:56:20.411 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039695,0.000038, totalTime 0.039733 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:20.412 W/fb4a.AppInitScheduler|Run(21602):   Finished InitLacrimaLaterInit in 288ms
+05-24 22:56:20.412 W/fb4a.AppInitScheduler|Run(21602): Running ZeroLibraryInitializer, order=96, priorityHint=NORMAL 
+05-24 22:56:20.412 W/fb4a.AppInitScheduler|Run(21602): Running InitTrafficNTS, order=100, priorityHint=NORMAL 
+05-24 22:56:20.413 W/fb4a.AppInitScheduler|Run(21602):   Finished PreloadTabPreloadablesBackgroundPrefetch in 32ms
+05-24 22:56:20.413 W/fb4a.AppInitScheduler|Run(21602): Running SetupBlockingBackgroundComponentReporting, order=157, priorityHint=LOW 
+05-24 22:56:20.413 W/fb4a.AppInitScheduler|Run(21602):   Finished SetupBlockingBackgroundComponentReporting in 0ms
+05-24 22:56:20.413 W/fb4a.AppInitScheduler|Run(21602): Running StartupQPLReplayer, order=158, priorityHint=LOW 
+05-24 22:56:20.414 W/fb4a.lacrima(21602): FixedLengthFiles.init() called twice.
+05-24 22:56:20.414 W/fb4a.lacrima(21602): FixedLengthFiles.init() called twice.
+05-24 22:56:20.416 W/facebook.katana(21602): JNI RegisterNativeMethods: attempt to register 0 native methods for com.facebook.pando.PandoDataJNI
+05-24 22:56:20.417 W/fb4a.AppInitScheduler|Run(21602):   Finished StartupQPLReplayer in 4ms
+05-24 22:56:20.417 W/fb4a.AppInitScheduler|Schedule(21602):   Executing 408:StartupQPLTransitToMatureStage
+05-24 22:56:20.417 W/fb4a.AppInitScheduler|Run(21602): Running StartupQPLTransitToMatureStage, order=159, priorityHint=LOW 
+05-24 22:56:20.417 W/fb4a.AppInitScheduler|Run(21602):   Finished StartupQPLTransitToMatureStage in 0ms
+05-24 22:56:20.417 W/fb4a.AppInitScheduler|Run(21602): SKIP AppInit 440:VideoMetaCasper for start destination 6
+05-24 22:56:20.417 W/fb4a.AppInitScheduler|Run(21602):   Finished VideoMetaCasper in 0ms
+05-24 22:56:20.425 I/hwcomposer(  727): [HWCDisplay] [Display_0 (type:1)] fps:5.569458,dur:1795.51,max:798.22,min:14.32  
+05-24 22:56:20.426 W/fb4a.AppInitScheduler|Run(21602):   Finished PreloadStoriesTrayFetchController in 72ms
+05-24 22:56:20.428 I/OpenGLRenderer(21515): Davey! duration=1211ms; Flags=0, FrameTimelineVsyncId=9915970, IntendedVsync=130338770764240, Vsync=130339823082535, InputEventId=0, HandleInputStart=130339824844229, AnimationStart=130339824848229, PerformTraversalsStart=130339863885152, DrawStart=130339864088844, FrameDeadline=130338807467705, FrameInterval=130339824653460, FrameStartTime=16703465, SyncQueued=130339885654383, SyncStart=130339885934075, IssueDrawCommandsStart=130339886154152, SwapBuffers=130339974539306, FrameCompleted=130339982662691, DequeueBufferDuration=54154, QueueBufferDuration=696923, GpuCompleted=130339982662691, SwapBuffersCompleted=130339979290383, DisplayPresentTime=0, CommandSubmissionCompleted=130339974539306, 
+05-24 22:56:20.429 W/facebook.katana(21602): JNI RegisterNativeMethods: attempt to register 0 native methods for com.facebook.traffic.nts.providers.startup_signals.StartupSignalsProviderAppLayerUpcallsImpl
+05-24 22:56:20.430 W/facebook.katana(21602): JNI RegisterNativeMethods: attempt to register 0 native methods for com.facebook.traffic.nts.providers.background.BackgroundV2TaskSchedulerCommonImpl
+05-24 22:56:20.432 W/fb4a.AppInitScheduler|Run(21602):   Finished GraphServiceEagerInit in 37ms
+05-24 22:56:20.432 W/fb4a.AppInitScheduler|Schedule(21602):   Executing 211:InitPushabilityCheck
+05-24 22:56:20.432 W/fb4a.AppInitScheduler|Schedule(21602):   Executing 361:PreloadReelsCsrForReelsTabStarts
+05-24 22:56:20.432 W/fb4a.AppInitScheduler|Run(21602): Running InitPushabilityCheck, order=95, priorityHint=NORMAL 
+05-24 22:56:20.433 W/fb4a.AppInitScheduler|Run(21602): SKIP AppInit 361:PreloadReelsCsrForReelsTabStarts for start destination 6
+05-24 22:56:20.433 W/fb4a.AppInitScheduler|Run(21602):   Finished PreloadReelsCsrForReelsTabStarts in 0ms
+05-24 22:56:20.437 W/fb4a.AppInitScheduler|Run(21602):   Finished InitPushabilityCheck in 5ms
+05-24 22:56:20.439 W/facebook.katana(21602): JNI RegisterNativeMethods: attempt to register 0 native methods for com.facebook.traffic.nts.providers.http.HttpProviderAppLayerUpcallsImpl
+05-24 22:56:20.449 W/facebook.katana(21602): JNI RegisterNativeMethods: attempt to register 0 native methods for com.facebook.traffic.nts.providers.radiosignal.RadioSignalProviderAppLayerUpcallsImpl
+05-24 22:56:20.451 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039526,0.000028, totalTime 0.039555 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:20.455 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 22:56:20.455 W/TWSClientService(13878): array is null
+05-24 22:56:20.463 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 22:56:20.464 W/fb4a.AppInitScheduler|Run(21602):   Finished PreloadFeedDataLoader in 196ms
+05-24 22:56:20.464 W/fb4a.AppInitScheduler|Run(21602):   Finished PreloadFeedFullCacheLoad in 190ms
+05-24 22:56:20.464 W/fb4a.AppInitScheduler|Schedule(21602):   Executing 132:EagerInitFeedDataLoader
+05-24 22:56:20.465 W/fb4a.AppInitScheduler|Run(21602): RUN AppInit 132:EagerInitFeedDataLoader for start destination 6
+05-24 22:56:20.465 W/fb4a.AppInitScheduler|Run(21602): Running EagerInitFeedDataLoader, order=125, priorityHint=LOW 
+05-24 22:56:20.465 W/fb4a.AppInitScheduler|Run(21602):   Finished EagerInitFeedDataLoader in 0ms
+05-24 22:56:20.465 W/fb4a.AppInitScheduler|Schedule(21602):   Executing 365:PreloadStoriesTray
+05-24 22:56:20.465 W/fb4a.AppInitScheduler|Run(21602): RUN AppInit 365:PreloadStoriesTray for start destination 6
+05-24 22:56:20.465 W/fb4a.AppInitScheduler|Run(21602): Running PreloadStoriesTray, order=150, priorityHint=LOW 
+05-24 22:56:20.465 W/fb4a.AppInitScheduler|Run(21602):   Finished PreloadStoriesTray in 0ms
+05-24 22:56:20.466 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 22:56:20.467 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 22:56:20.467 W/TWSClientService(13878): array is null
+05-24 22:56:20.481 W/fb4a.AppInitScheduler|Run(21602):   Finished InitTrafficNTS in 69ms
+05-24 22:56:20.482 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 22:56:20.489 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 22:56:20.491 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039740,0.000028, totalTime 0.039769 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:20.500 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 22:56:20.500 W/fb4a.QuickPerformanceLoggerModule(21602): Provided QPL: 114011097
+05-24 22:56:20.505 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 22:56:20.512 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 22:56:20.514 W/fb4a.AppInitScheduler|Run(21602):   Finished ZeroLibraryInitializer in 96ms
+05-24 22:56:20.514 W/fb4a.AppInitScheduler|Schedule(21602):   Executing 213:InitReliableMedia
+05-24 22:56:20.514 W/fb4a.AppInitScheduler|Run(21602): Running InitReliableMedia, order=97, priorityHint=NORMAL 
+05-24 22:56:20.518 W/fb4a.AppInitScheduler|Run(21602):   Finished InitReliableMedia in 5ms
+05-24 22:56:20.520 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 22:56:20.521 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 22:56:20.531 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 22:56:20.535 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 22:56:20.551 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039799,0.000029, totalTime 0.039829 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:20.591 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039794,0.000036, totalTime 0.039831 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:20.616 I/resolv  (  711): GetAddrInfoHandler::run: {107 262251 107 983147 10211 0}
+05-24 22:56:20.619 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{a114fe7 com.base.bankalfalah}
+05-24 22:56:20.619 I/resolv  (  711): res_nmkquery: (QUERY, IN, A)
+05-24 22:56:20.620 I/resolv  (  711): resolv_cache_lookup: FOUND IN CACHE entry=0xb4000070906b5fd0
+05-24 22:56:20.620 I/resolv  (  711): doQuery: rcode=0, ancount=2, return value=76
+05-24 22:56:20.622 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:20.627 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:20.631 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039603,0.000034, totalTime 0.039638 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:20.640 I/BufferQueueProducer(  755): [com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity#17202](this:0xb400007ca80c0888,id:-1,api:0,p:-1,c:755) queueBuffer: fps=2.95 dur=1015.40 max=798.71 min=16.55
+05-24 22:56:20.668 I/BaseFilesVerify( 1478): Base File verify start
+05-24 22:56:20.668 W/BaseFilesVerify( 1478): settings_system.xmlis not in fileProtect list,can not protect this file
+05-24 22:56:20.671 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039744,0.000032, totalTime 0.039776 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:20.672 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{21dc98c com.daraz.android}
+05-24 22:56:20.675 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:20.679 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:20.716 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{bc4666d com.entertainerasia.vouch365}
+05-24 22:56:20.720 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:20.724 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:20.731 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039595,0.000073, totalTime 0.039670 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:20.756 W/fb4a.AppInitScheduler|Run(21602):   Finished SecondaryDexPreloaderBg in 362ms
+05-24 22:56:20.757 W/fb4a.AppInitScheduler|Schedule(21602): Pending tasks reached zero, maybe shutting down…
+05-24 22:56:20.757 W/fb4a.AppInitScheduler|Run(21602): All work finished.
+05-24 22:56:20.771 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039704,0.000074, totalTime 0.039779 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:20.780 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-24 22:56:20.795 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 22:56:20.795 W/TWSClientService(13878): array is null
+05-24 22:56:20.808 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-24 22:56:20.808 I/libPerfCtl(  738): xgfGetFPS pid:12989 fps:-1
+05-24 22:56:20.808 I/libPerfCtl(  738): xgfGetFPS pid:21515 fps:-1
+05-24 22:56:20.811 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039515,0.000081, totalTime 0.039596 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:20.831 W/fb4a.AppInitScheduler|Run(21602): DeadlockMonitor exiting.
+05-24 22:56:20.835 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 22:56:20.835 W/TWSClientService(13878): array is null
+05-24 22:56:20.845 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{3383b0a com.feioou.deliprint.yxq}
+05-24 22:56:20.848 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:20.851 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039617,0.000066, totalTime 0.039684 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:20.852 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:20.866 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{bef2547 com.fun.mxw}
+05-24 22:56:20.869 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:20.874 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:20.911 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039826,0.000045, totalTime 0.039872 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:20.923 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-24 22:56:20.951 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039766,0.000042, totalTime 0.039809 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:20.953 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{5705d1e com.google.android.apps.enterprise.cpanel}
+05-24 22:56:20.956 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:20.961 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:20.991 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039824,0.000070, totalTime 0.039896 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:21.010 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{d10fceb com.higames.grounddigger}
+05-24 22:56:21.013 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:21.017 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:21.031 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039595,0.000076, totalTime 0.039672 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:21.071 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039520,0.000054, totalTime 0.039575 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:21.074 I/BufferQueueProducer(  755): [StatusBar#88](this:0xb400007ca8098aa8,id:-1,api:0,p:-1,c:755) queueBuffer: fps=0.85 dur=2349.00 max=1950.79 min=398.21
+05-24 22:56:21.111 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039659,0.000072, totalTime 0.039732 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:21.112 W/com.transsion.smartpanel( 3903): type=1400 audit(0.0:97640): avc: denied { ioctl } for comm=4173796E635461736B2023343431 path="/data/app/~~yhEHMw2TwLWIpoOU6rwevg==/com.jazz.rox-txFoHXWVtSrylfT5cKYw5Q==/base.apk" dev="incremental-fs" ino=2685370 ioctlcmd=0x6722 scontext=u:r:system_app:s0 tcontext=u:object_r:apk_data_file:s0 tclass=file permissive=0
+05-24 22:56:21.112 W/com.transsion.smartpanel( 3903): type=1400 audit(0.0:97641): avc: denied { ioctl } for comm=4173796E635461736B2023343431 path="/data/app/~~yhEHMw2TwLWIpoOU6rwevg==/com.jazz.rox-txFoHXWVtSrylfT5cKYw5Q==/split_config.en.apk" dev="incremental-fs" ino=2683541 ioctlcmd=0x6722 scontext=u:r:system_app:s0 tcontext=u:object_r:apk_data_file:s0 tclass=file permissive=0
+05-24 22:56:21.112 W/com.transsion.smartpanel( 3903): type=1400 audit(0.0:97642): avc: denied { ioctl } for comm=4173796E635461736B2023343431 path="/data/app/~~yhEHMw2TwLWIpoOU6rwevg==/com.jazz.rox-txFoHXWVtSrylfT5cKYw5Q==/split_config.ur.apk" dev="incremental-fs" ino=2432127 ioctlcmd=0x6722 scontext=u:r:system_app:s0 tcontext=u:object_r:apk_data_file:s0 tclass=file permissive=0
+05-24 22:56:21.116 W/com.transsion.smartpanel( 3903): type=1400 audit(0.0:97643): avc: denied { ioctl } for comm=4173796E635461736B2023343431 path="/data/app/~~yhEHMw2TwLWIpoOU6rwevg==/com.jazz.rox-txFoHXWVtSrylfT5cKYw5Q==/split_config.xxhdpi.apk" dev="incremental-fs" ino=2424891 ioctlcmd=0x6722 scontext=u:r:system_app:s0 tcontext=u:object_r:apk_data_file:s0 tclass=file permissive=0
+05-24 22:56:21.116 W/com.transsion.smartpanel( 3903): type=1400 audit(0.0:97644): avc: denied { ioctl } for comm=4173796E635461736B2023343431 path="/data/app/~~yhEHMw2TwLWIpoOU6rwevg==/com.jazz.rox-txFoHXWVtSrylfT5cKYw5Q==/base.apk" dev="incremental-fs" ino=2685370 ioctlcmd=0x6722 scontext=u:r:system_app:s0 tcontext=u:object_r:apk_data_file:s0 tclass=file permissive=0
+05-24 22:56:21.119 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{dbedd1c com.jazz.rox}
+05-24 22:56:21.122 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:21.126 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:21.137 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{bdffa11 com.kaerosduplicatescleaner}
+05-24 22:56:21.140 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:21.144 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:21.161 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 22:56:21.161 W/TWSClientService(13878): array is null
+05-24 22:56:21.171 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039638,0.000067, totalTime 0.039707 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:21.211 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039589,0.000061, totalTime 0.039650 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:21.251 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039702,0.000066, totalTime 0.039769 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:21.291 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039626,0.000075, totalTime 0.039702 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:21.331 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039567,0.000073, totalTime 0.039641 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:21.336 I/DataStorageManager( 4290): batchSaveRunnable  isBatchSaveRunning false
+05-24 22:56:21.337 I/DataStorageManager( 4290): batchSave 11
+05-24 22:56:21.360 W/RefBase (21549): RefBase: Explicit destruction, weak count = 0 (in 0x7ac295a6d0). Use sp<> to manage this object.
+05-24 22:56:21.371 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039618,0.000084, totalTime 0.039702 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:21.403 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{507d60a com.lensmoo.app}
+05-24 22:56:21.407 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:21.412 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:21.439 W/facebook.katana(21602): JNI RegisterNativeMethods: attempt to register 0 native methods for com.facebook.traffic.nts.providers.reachability.ReachabilityV2ProviderAppLayerUpcallsImpl
+05-24 22:56:21.451 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039626,0.000033, totalTime 0.039660 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:21.465 I/MediaProvider( 3587): Deleted 0 0 0 0 0 0 1 items on external_primary due to com.android.shell
+05-24 22:56:21.491 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039701,0.000068, totalTime 0.039770 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:21.531 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039567,0.000061, totalTime 0.039629 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:21.533 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 22:56:21.534 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 22:56:21.539 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{1a0b61b com.pg.pharmaguide}
+05-24 22:56:21.543 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:21.545 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 22:56:21.545 W/TWSClientService(13878): array is null
+05-24 22:56:21.547 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:21.565 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 22:56:21.566 W/TWSClientService(13878): array is null
+05-24 22:56:21.568 D/AAL     (  960): 05-24 10:56:21.234 BL= 154,ESS= 256, 05-24 10:56:21.318 BL= 153,ESS= 256, 05-24 10:56:21.401 BL= 152,ESS= 256, 05-24 10:56:21.485 BL= 151,ESS= 256, 05-24 10:56:21.568 BL= 150,ESS= 256, 
+05-24 22:56:21.571 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039594,0.000079, totalTime 0.039674 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:21.571 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{eb6ad7e com.rushpro.clonemaster}
+05-24 22:56:21.573 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 22:56:21.574 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 22:56:21.575 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:21.579 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:21.608 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{f5b8f8c com.silkbank.silkbankretail}
+05-24 22:56:21.611 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039550,0.000043, totalTime 0.039595 > logTimeout 0.022000 TIMEOUT!!
+05-24 22:56:21.612 I/TranIconHelper( 3903): Destory assetMAnager
+05-24 22:56:21.612 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 22:56:21.613 D/TimeCheck(  745): isMT6580Project boolVal = 0 

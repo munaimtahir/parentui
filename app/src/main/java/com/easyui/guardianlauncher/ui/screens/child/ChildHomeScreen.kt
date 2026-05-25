@@ -32,9 +32,11 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.viewinterop.AndroidView
 import com.easyui.guardianlauncher.data.AllowedApp
 import com.easyui.guardianlauncher.data.Mode
+import com.easyui.guardianlauncher.guardian.CheckState
 import com.easyui.guardianlauncher.guardian.child.ChildSafetyWarnings
 import com.easyui.guardianlauncher.ui.components.PinEntryDialog
 import com.easyui.guardianlauncher.ui.components.ModeSelectItem
+import com.easyui.guardianlauncher.ui.components.OnResumeEffect
 import com.easyui.guardianlauncher.ui.viewmodels.LauncherViewModel
 import kotlinx.coroutines.launch
 import java.text.SimpleDateFormat
@@ -70,6 +72,10 @@ fun ChildHomeScreen(
     val backgroundColor = if (isQuietMode) Color(0xFF121212) else MaterialTheme.colorScheme.background
     val primaryTextColor = if (isQuietMode) Color.White else MaterialTheme.colorScheme.primary
     val secondaryTextColor = if (isQuietMode) Color.LightGray else MaterialTheme.colorScheme.secondary
+
+    OnResumeEffect {
+        viewModel.refreshGuardianStatus()
+    }
 
     LaunchedEffect(Unit) {
         viewModel.scanInstalledApps(context)
@@ -123,9 +129,7 @@ fun ChildHomeScreen(
                             Mode.HOME -> "🏡 Home"
                             Mode.SCHOOL -> "🎒 School"
                             Mode.SLEEP -> "🌙 Sleep"
-                            Mode.BEDTIME -> "🛌 Bedtime"
-                            Mode.TRAVEL -> "🚗 Travel"
-                            Mode.EXAM -> "✍️ Exam"
+                            else -> "🏡 Home"
                         },
                         fontWeight = FontWeight.Bold,
                         color = if (isQuietMode) Color.White else MaterialTheme.colorScheme.onPrimaryContainer
@@ -198,35 +202,83 @@ fun ChildHomeScreen(
 
             Spacer(modifier = Modifier.height(20.dp))
 
+            // Parent-facing setup banner if EasyUI isn't the default launcher yet.
+            val launcherNotSet = guardianStatus?.defaultLauncherActive == CheckState.ACTION_REQUIRED
+            if (launcherNotSet) {
+                Card(
+                    modifier = Modifier.fillMaxWidth(),
+                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.tertiaryContainer.copy(alpha = if (isQuietMode) 0.22f else 0.35f)),
+                    shape = RoundedCornerShape(16.dp)
+                ) {
+                    Column(modifier = Modifier.padding(14.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                        Text(
+                            "Setup needed: EasyUI is not the default home screen yet.",
+                            fontWeight = FontWeight.Black,
+                            color = if (isQuietMode) Color.White else MaterialTheme.colorScheme.onTertiaryContainer
+                        )
+                        Text(
+                            "Until it’s set, pressing HOME may return to the phone’s normal launcher.",
+                            style = MaterialTheme.typography.bodySmall,
+                            color = if (isQuietMode) Color.LightGray else MaterialTheme.colorScheme.onTertiaryContainer
+                        )
+                        OutlinedButton(
+                            onClick = {
+                                pinError = ""
+                                showPinDialogForDashboard = true
+                            },
+                            shape = RoundedCornerShape(12.dp),
+                            modifier = Modifier.fillMaxWidth()
+                        ) {
+                            Text("Parent setup", fontWeight = FontWeight.Bold)
+                        }
+                    }
+                }
+                Spacer(modifier = Modifier.height(16.dp))
+            }
+
             // First Row: Contact shortcuts
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.spacedBy(16.dp)
             ) {
                 // Parent contact shortcut tile
-                if (parentContact.phoneNumber.isNotEmpty()) {
-                    ContactTile(
-                        label = parentContact.label.ifEmpty { "Call Parent" },
-                        iconColor = Color(0xFF00897B),
-                        icon = Icons.Default.Phone,
-                        isQuiet = isQuietMode,
-                        modifier = Modifier.weight(1f),
-                        onClick = {
+                ContactTile(
+                    label = when {
+                        parentContact.phoneNumber.isNotEmpty() -> parentContact.label.ifEmpty { "Call Parent" }
+                        else -> "Set parent contact"
+                    },
+                    iconColor = Color(0xFF00897B),
+                    icon = Icons.Default.Phone,
+                    isQuiet = isQuietMode,
+                    modifier = Modifier.weight(1f),
+                    onClick = {
+                        if (parentContact.phoneNumber.isNotEmpty()) {
                             dialNumber(context, parentContact.phoneNumber)
+                        } else {
+                            pinError = ""
+                            showPinDialogForDashboard = true
                         }
-                    )
-                }
+                    }
+                )
 
                 // Emergency contact shortcut tile
-                if (emergencyContact.enabled && emergencyContact.phoneNumber.isNotEmpty()) {
+                if (emergencyContact.enabled) {
                     ContactTile(
-                        label = emergencyContact.label.ifEmpty { "Emergency" },
+                        label = when {
+                            emergencyContact.phoneNumber.isNotEmpty() -> emergencyContact.label.ifEmpty { "Emergency" }
+                            else -> "Set emergency contact"
+                        },
                         iconColor = Color(0xFFD32F2F),
                         icon = Icons.Default.Emergency,
                         isQuiet = isQuietMode,
                         modifier = Modifier.weight(1f),
                         onClick = {
-                            dialNumber(context, emergencyContact.phoneNumber)
+                            if (emergencyContact.phoneNumber.isNotEmpty()) {
+                                dialNumber(context, emergencyContact.phoneNumber)
+                            } else {
+                                pinError = ""
+                                showPinDialogForDashboard = true
+                            }
                         }
                     )
                 }
@@ -243,7 +295,11 @@ fun ChildHomeScreen(
                     contentAlignment = Alignment.Center
                 ) {
                     Text(
-                        text = "No apps have been added to this mode yet.\nAsk your parent to add apps.",
+                        text = when (activeMode) {
+                            Mode.SLEEP -> "Sleep mode is active.\nOnly calling tiles are available."
+                            Mode.SCHOOL -> "No apps have been added to School mode yet.\nAsk your parent to add apps."
+                            else -> "No apps have been added to this mode yet.\nAsk your parent to add apps."
+                        },
                         textAlign = TextAlign.Center,
                         style = MaterialTheme.typography.bodyLarge,
                         color = secondaryTextColor,
@@ -335,33 +391,6 @@ fun ChildHomeScreen(
                             isSelected = activeMode == Mode.SLEEP,
                             onClick = {
                                 viewModel.updateActiveMode(Mode.SLEEP)
-                                showModeSelector = false
-                            }
-                        )
-                        ModeSelectItem(
-                            title = "🛌 Bedtime Mode",
-                            desc = "Quiet apps and essential calls only.",
-                            isSelected = activeMode == Mode.BEDTIME,
-                            onClick = {
-                                viewModel.updateActiveMode(Mode.BEDTIME)
-                                showModeSelector = false
-                            }
-                        )
-                        ModeSelectItem(
-                            title = "🚗 Travel Mode",
-                            desc = "Focus on entertainment and essentials.",
-                            isSelected = activeMode == Mode.TRAVEL,
-                            onClick = {
-                                viewModel.updateActiveMode(Mode.TRAVEL)
-                                showModeSelector = false
-                            }
-                        )
-                        ModeSelectItem(
-                            title = "✍️ Exam Mode",
-                            desc = "Maximum focus. Minimal apps.",
-                            isSelected = activeMode == Mode.EXAM,
-                            onClick = {
-                                viewModel.updateActiveMode(Mode.EXAM)
                                 showModeSelector = false
                             }
                         )

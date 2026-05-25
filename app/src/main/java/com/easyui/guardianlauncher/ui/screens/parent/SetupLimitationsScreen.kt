@@ -1,5 +1,7 @@
 package com.easyui.guardianlauncher.ui.screens.parent
 
+import android.content.Intent
+import android.provider.Settings
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -23,15 +25,26 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import com.easyui.guardianlauncher.ui.components.DefaultLauncherStatusCard
+import com.easyui.guardianlauncher.ui.components.OnResumeEffect
+import com.easyui.guardianlauncher.ui.viewmodels.LauncherViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SetupLimitationsScreen(
+    viewModel: LauncherViewModel,
     onNavigateBack: () -> Unit,
 ) {
+    val guardianStatus by viewModel.guardianStatus.collectAsState()
+    val context = androidx.compose.ui.platform.LocalContext.current
+
+    OnResumeEffect { viewModel.refreshGuardianStatus() }
+
     Scaffold(
         topBar = {
             TopAppBar(
@@ -66,6 +79,25 @@ fun SetupLimitationsScreen(
                 "Use EasyUI for a simpler child home screen. For deeper device restrictions, use Android settings or Google Family Link.",
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+
+            DefaultLauncherStatusCard(
+                state = guardianStatus?.defaultLauncherActive,
+                onOpenHomeSettings = {
+                    try {
+                        val intent = Intent(Settings.ACTION_HOME_SETTINGS)
+                        context.startActivity(intent)
+                    } catch (e: Exception) {
+                        try {
+                            val intent = Intent(Settings.ACTION_MANAGE_DEFAULT_APPS_SETTINGS)
+                            context.startActivity(intent)
+                        } catch (ex: Exception) {
+                            val intent = Intent(Settings.ACTION_SETTINGS)
+                            context.startActivity(intent)
+                        }
+                    }
+                },
+                onCheckAgain = { viewModel.refreshGuardianStatus() }
             )
 
             Card(
@@ -165,4 +197,3 @@ fun SetupLimitationsScreen(
 private fun Bullet(text: String) {
     Text("• $text", style = MaterialTheme.typography.bodyMedium)
 }
-

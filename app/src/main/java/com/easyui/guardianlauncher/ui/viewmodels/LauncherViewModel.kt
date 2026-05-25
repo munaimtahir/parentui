@@ -76,6 +76,9 @@ class LauncherViewModel(
     val routineSchedules: StateFlow<List<RoutineSchedule>> = repository.routineSchedules
         .stateIn(viewModelScope, SharingStarted.Lazily, emptyList())
 
+    val limitationsAcknowledged: StateFlow<Boolean> = repository.limitationsAcknowledged
+        .stateIn(viewModelScope, SharingStarted.Lazily, false)
+
     // List of all installed launchable apps (scanned dynamically at runtime)
     private val _installedApps = MutableStateFlow<List<AllowedApp>>(emptyList())
     val installedApps: StateFlow<List<AllowedApp>> = _installedApps.asStateFlow()
@@ -228,7 +231,7 @@ class LauncherViewModel(
         val allowed = array[2] as Set<String>
         val homeApps = array[3] as Set<String>
         val schoolApps = array[4] as Set<String>
-        val sleepApps = array[5] as Set<String>
+        val _sleepApps = array[5] as Set<String>
         val bedtimeApps = array[6] as Set<String>
         val travelApps = array[7] as Set<String>
         val examApps = array[8] as Set<String>
@@ -238,7 +241,7 @@ class LauncherViewModel(
         when (mode) {
             Mode.HOME -> baseAllowed.filter { it.packageName in homeApps }
             Mode.SCHOOL -> baseAllowed.filter { it.packageName in schoolApps }
-            Mode.SLEEP -> baseAllowed.filter { it.packageName in sleepApps }
+            Mode.SLEEP -> emptyList()
             Mode.BEDTIME -> baseAllowed.filter { it.packageName in bedtimeApps }
             Mode.TRAVEL -> baseAllowed.filter { it.packageName in travelApps }
             Mode.EXAM -> baseAllowed.filter { it.packageName in examApps }
@@ -395,6 +398,12 @@ class LauncherViewModel(
         viewModelScope.launch {
             repository.saveActiveMode(Mode.HOME)
             refreshGuardianStatus()
+        }
+    }
+
+    fun setLimitationsAcknowledged(acknowledged: Boolean) {
+        viewModelScope.launch {
+            repository.saveLimitationsAcknowledged(acknowledged)
         }
     }
 

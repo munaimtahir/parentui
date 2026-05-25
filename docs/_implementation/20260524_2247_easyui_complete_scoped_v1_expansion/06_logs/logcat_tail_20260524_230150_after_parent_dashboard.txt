@@ -1,0 +1,250 @@
+05-24 23:01:51.583 I/TPMS    (26591): LetswitchManager controlLetsService
+05-24 23:01:51.584 I/TPMS    (26591): LetswitchManager controlLetsService: disable
+05-24 23:01:51.586 I/os.permission( 1478): Grant permission: android.permission.CHANGE_COMPONENT_ENABLED_STATE to uid: 10193
+05-24 23:01:51.591 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039615,0.000029, totalTime 0.039645 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:51.597 I/Zygote  (  712): Process 25389 exited due to signal 9 (Killed)
+05-24 23:01:51.598 I/ActivityThread(26419): Removing dead content provider:android.content.ContentProviderProxy@75715cd
+05-24 23:01:51.598 I/mtkpower_client( 1478): [Legacy][PowerHal_Wrap_notifyAppState] com.google.android.gsf/com.google.android.gsf pid=25389 state:3
+05-24 23:01:51.599 I/game_scn( 1478): collectForegroundAppList packName=com.google.android.gsf, actName=com.google.android.gsf, pid=25389, uid=10115, state:DEAD
+05-24 23:01:51.599 I/game_scn( 1478): powerNotifyForegroundApp multi_resumed_app_info: pid: 23260, packname: com.easyui.guardianlauncher, actname: com.easyui.guardianlauncher.MainActivity
+05-24 23:01:51.599 I/libPowerHal(  738): [perfNotifyAppState] pack:com.google.android.gsf, act:com.google.android.gsf, state:3, pid:25389, uid:10115, fps:-1
+05-24 23:01:51.599 I/libPowerHal(  738): [perfNotifyAppState] pack:com.google.android.gsf, pid:25389, STATE_DEAD
+05-24 23:01:51.631 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039796,0.000038, totalTime 0.039835 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:51.671 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039734,0.000065, totalTime 0.039800 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:51.711 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039668,0.000052, totalTime 0.039721 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:51.751 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039553,0.000069, totalTime 0.039623 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:51.791 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039664,0.000074, totalTime 0.039739 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:51.831 D/APM_AudioPolicyManager(  745): listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-24 23:01:51.831 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039590,0.000050, totalTime 0.039642 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:51.834 D/APM_AudioPolicyManager(  745): listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-24 23:01:51.854 I/AthenaDelegator(26591): user_experience : false
+05-24 23:01:51.855 I/anti_fraud_log(26419): batteryBroadcastReceiver receive
+05-24 23:01:51.860 I/CameraManagerGlobal(26419): Connecting to camera service
+05-24 23:01:51.876 I/TPMS    (26591): init success :{configuration.transsion-os.com=configuration.transsion-os.com, dsc.shalltry.com=ire-dsc.shalltry.com, api.twibida.com=irl-api.twibida.com, test-configuration.transsion-os.com=test-configuration.transsion-os.com, dsu.shalltry.com=ire-dsu.shalltry.com, mi-test.shalltry.com=mi-test.shalltry.com, mi-pre.shalltry.com=mi-pre.shalltry.com, os-aibox.shalltry.com=os-aibox.shalltry.com}
+05-24 23:01:51.878 W/Finsky  (23794): [2] STU: Failed to get storage stats for package 'com.google.android.media.swcodec' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+05-24 23:01:51.890 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-24 23:01:51.891 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039641,0.000056, totalTime 0.039698 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:51.906 W/Settings(26419): Setting development_settings_enabled has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+05-24 23:01:51.907 W/Settings(26419): Setting adb_enabled has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+05-24 23:01:51.931 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039676,0.000059, totalTime 0.039736 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:51.971 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039651,0.000060, totalTime 0.039711 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:51.985 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:01:51.986 W/TWSClientService(13878): array is null
+05-24 23:01:51.990 I/resolv  (  711): GetAddrInfoHandler::run: {107 107 107 983147 10193 0}
+05-24 23:01:51.991 I/resolv  (  711): res_nmkquery: (QUERY, IN, A)
+05-24 23:01:51.991 I/resolv  (  711): resolv_cache_lookup: FOUND IN CACHE entry=0xb4000070b06b9d50
+05-24 23:01:51.991 I/resolv  (  711): doQuery: rcode=0, ancount=5, return value=169
+05-24 23:01:52.012 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039651,0.000065, totalTime 0.039716 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:52.051 W/Finsky  (23794): [2] STU: Failed to get storage stats for package 'com.google.android.adbd' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+05-24 23:01:52.051 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039552,0.000057, totalTime 0.039609 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:52.091 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039620,0.000061, totalTime 0.039681 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:52.093 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:01:52.094 W/TWSClientService(13878): array is null
+05-24 23:01:52.103 W/Finsky  (23794): [2] STU: Failed to get storage stats for package 'com.google.android.conscrypt' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+05-24 23:01:52.131 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039651,0.000060, totalTime 0.039712 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:52.171 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039589,0.000066, totalTime 0.039655 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:52.211 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039697,0.000058, totalTime 0.039756 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:52.225 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-24 23:01:52.225 I/libPerfCtl(  738): xgfGetFPS pid:23260 fps:-1
+05-24 23:01:52.232 W/Finsky  (23794): [2] STU: Failed to get storage stats for package 'com.google.android.neuralnetworks' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+05-24 23:01:52.251 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039565,0.000067, totalTime 0.039633 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:52.278 W/Finsky  (23794): [2] STU: Failed to get storage stats for package 'com.google.android.ipsec' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+05-24 23:01:52.291 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039665,0.000060, totalTime 0.039726 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:52.298 W/Finsky  (23794): [2] STU: Failed to get storage stats for package 'com.google.android.ondevicepersonalization' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+05-24 23:01:52.332 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039685,0.000070, totalTime 0.039755 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:52.337 I/PSyncWorker( 3587): Starting proactive picker sync from sync source: 1
+05-24 23:01:52.337 I/PickerSyncTracker( 3587): Created new sync future java.util.concurrent.CompletableFuture@439616d[Not completed, 1 dependents]. Future map: {c33d9d66-ea36-4e32-b2a4-651238153a4f=java.util.concurrent.CompletableFuture@439616d[Not completed, 1 dependents]}
+05-24 23:01:52.361 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:01:52.361 W/TWSClientService(13878): array is null
+05-24 23:01:52.368 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:01:52.368 W/TWSClientService(13878): array is null
+05-24 23:01:52.371 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039534,0.000068, totalTime 0.039603 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:52.383 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:01:52.383 W/TWSClientService(13878): array is null
+05-24 23:01:52.392 I/PickerSyncController( 3587): Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+05-24 23:01:52.412 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039649,0.000076, totalTime 0.039726 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:52.412 I/PickerSyncController( 3587): Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=5035117, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+05-24 23:01:52.412 I/PickerSyncController( 3587): Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+05-24 23:01:52.434 W/Finsky  (23794): [2] STU: Failed to get storage stats for package 'com.google.android.extservices' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+05-24 23:01:52.438 E/PickerDbFacade( 3587): Could not get first date taken millis for media id: 1000836000
+05-24 23:01:52.441 W/PickerDbFacade( 3587): Unable to promote cloud media with localId: 1000836000
+05-24 23:01:52.443 I/PickerSyncController( 3587): Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=5035117, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+05-24 23:01:52.444 I/PickerSyncTracker( 3587): Marked sync future complete for work id: c33d9d66-ea36-4e32-b2a4-651238153a4f. Future map: {}
+05-24 23:01:52.444 I/PSyncWorker( 3587): Completed picker proactive sync complete from local provider.
+05-24 23:01:52.446 I/WM-WorkerWrapper( 3587): Worker result SUCCESS for Work [ id=c33d9d66-ea36-4e32-b2a4-651238153a4f, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+05-24 23:01:52.451 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039585,0.000063, totalTime 0.039648 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:52.492 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039713,0.000135, totalTime 0.039848 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:52.565 W/libc    (26543): Access denied finding property "qemu.sf.lcd_density"
+05-24 23:01:52.564 W/uiautomator(26543): type=1400 audit(0.0:98151): avc: denied { read } for name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=7714 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=0 app=com.alibaba.aliexpresshd
+05-24 23:01:52.566 W/libc    (26543): Access denied finding property "qemu.sf.lcd_density"
+05-24 23:01:52.564 W/uiautomator(26543): type=1400 audit(0.0:98152): avc: denied { read } for name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=7714 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=0 app=com.alibaba.aliexpresshd
+05-24 23:01:52.578 W/MediaProvider( 3587): isAppCloneUserPair for user 0: false
+05-24 23:01:52.578 W/Finsky  (23794): [2] STU: Failed to get storage stats for package 'com.google.android.os.statsd' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+05-24 23:01:52.592 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039634,0.000094, totalTime 0.039732 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:52.598 I/MediaProvider( 3587): Backed up next row id as:1000837001 on path:/data/media/0 for external.db.
+05-24 23:01:52.653 W/AccessibilityNodeInfoDumper(26543): Fetch time: 82ms
+05-24 23:01:52.678 W/VSyncPredictor(  755): VSyncPredictor::setPeriod current period =16666667
+05-24 23:01:52.687 I/hwcomposer(  727): [HWCDisplay] [Display_0 (type:1)] fps:3.472103,dur:1152.04,max:1101.31,min:16.20  
+05-24 23:01:52.691 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039723,0.000066, totalTime 0.039792 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:52.696 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 23:01:52.699 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 23:01:52.707 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 23:01:52.709 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 23:01:52.716 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 23:01:52.722 W/Finsky  (23794): [2] STU: Failed to get storage stats for package 'com.google.android.scheduling' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+05-24 23:01:52.725 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 23:01:52.729 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 23:01:52.731 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039566,0.000064, totalTime 0.039630 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:52.732 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 23:01:52.738 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 23:01:52.738 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-24 23:01:52.743 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-24 23:01:52.771 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039608,0.000062, totalTime 0.039671 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:52.806 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:01:52.807 W/TWSClientService(13878): array is null
+05-24 23:01:52.811 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039542,0.000079, totalTime 0.039622 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:52.872 I/Finsky  (23794): [2] App states replicator found 45 unowned apps
+05-24 23:01:53.002 E/AuthPII ( 4672): [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.android.vending, Service: oauth2:https://www.googleapis.com/auth/googleplay
+05-24 23:01:53.002 E/AuthPII ( 4672): bibt: Long live credential not available.
+05-24 23:01:53.002 E/AuthPII ( 4672): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-24 23:01:53.002 E/AuthPII ( 4672): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-24 23:01:53.002 E/AuthPII ( 4672): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-24 23:01:53.002 E/AuthPII ( 4672): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):151)
+05-24 23:01:53.002 E/AuthPII ( 4672): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):107)
+05-24 23:01:53.002 E/AuthPII ( 4672): 	at agvo.getAuthToken(:com.google.android.gms@261833029@26.18.33 (190400-913931251):411)
+05-24 23:01:53.002 E/AuthPII ( 4672): 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+05-24 23:01:53.002 E/AuthPII ( 4672): 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+05-24 23:01:53.002 E/AuthPII ( 4672): 	at android.os.Binder.transact(Binder.java:1165)
+05-24 23:01:53.002 E/AuthPII ( 4672): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-24 23:01:53.002 E/AuthPII ( 4672): 	at android.os.Binder.transact(Binder.java:1165)
+05-24 23:01:53.002 E/AuthPII ( 4672): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-24 23:01:53.002 E/AuthPII ( 4672): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-24 23:01:53.002 E/AuthPII ( 4672): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-24 23:01:53.003 E/AuthPII ( 4672): Message is Long live credential not available.
+05-24 23:01:53.003 E/AuthPII ( 4672): bibt: Long live credential not available.
+05-24 23:01:53.003 E/AuthPII ( 4672): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-24 23:01:53.003 E/AuthPII ( 4672): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-24 23:01:53.003 E/AuthPII ( 4672): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-24 23:01:53.003 E/AuthPII ( 4672): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):151)
+05-24 23:01:53.003 E/AuthPII ( 4672): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):107)
+05-24 23:01:53.003 E/AuthPII ( 4672): 	at agvo.getAuthToken(:com.google.android.gms@261833029@26.18.33 (190400-913931251):411)
+05-24 23:01:53.003 E/AuthPII ( 4672): 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+05-24 23:01:53.003 E/AuthPII ( 4672): 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+05-24 23:01:53.003 E/AuthPII ( 4672): 	at android.os.Binder.transact(Binder.java:1165)
+05-24 23:01:53.003 E/AuthPII ( 4672): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-24 23:01:53.003 E/AuthPII ( 4672): 	at android.os.Binder.transact(Binder.java:1165)
+05-24 23:01:53.003 E/AuthPII ( 4672): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-24 23:01:53.003 E/AuthPII ( 4672): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-24 23:01:53.003 E/AuthPII ( 4672): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-24 23:01:53.023 I/Auth    ( 4672): (REDACTED) [GetToken] GetToken failed for app=%s with userRecoverable status: %s 
+05-24 23:01:53.025 W/Auth    ( 4672): [ChimeraGetToken] exception while trying to fetch auth tokens for app=com.google.android.gms, scope=oauth2:https://www.googleapis.com/auth/googleplay [CONTEXT service_id=153 ]
+05-24 23:01:53.025 W/Auth    ( 4672): ahbw: GetToken failed with status code and recovery intent: BadAuthentication
+05-24 23:01:53.025 W/Auth    ( 4672): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):352)
+05-24 23:01:53.025 W/Auth    ( 4672): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):107)
+05-24 23:01:53.025 W/Auth    ( 4672): 	at agvo.getAuthToken(:com.google.android.gms@261833029@26.18.33 (190400-913931251):411)
+05-24 23:01:53.025 W/Auth    ( 4672): 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+05-24 23:01:53.025 W/Auth    ( 4672): 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+05-24 23:01:53.025 W/Auth    ( 4672): 	at android.os.Binder.transact(Binder.java:1165)
+05-24 23:01:53.025 W/Auth    ( 4672): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-24 23:01:53.025 W/Auth    ( 4672): 	at android.os.Binder.transact(Binder.java:1165)
+05-24 23:01:53.025 W/Auth    ( 4672): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-24 23:01:53.025 W/Auth    ( 4672): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-24 23:01:53.025 W/Auth    ( 4672): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-24 23:01:53.025 W/GLSActivity( 4672): [GmsAccountAuthenticatorImpl] error status while fetching token:BadAuthentication
+05-24 23:01:53.039 E/AuthPII ( 4672): [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.android.vending, Service: oauth2:https://www.googleapis.com/auth/googleplay
+05-24 23:01:53.039 E/AuthPII ( 4672): bibt: Long live credential not available.
+05-24 23:01:53.039 E/AuthPII ( 4672): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-24 23:01:53.039 E/AuthPII ( 4672): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-24 23:01:53.039 E/AuthPII ( 4672): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-24 23:01:53.039 E/AuthPII ( 4672): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):151)
+05-24 23:01:53.039 E/AuthPII ( 4672): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):107)
+05-24 23:01:53.039 E/AuthPII ( 4672): 	at agvo.getAuthToken(:com.google.android.gms@261833029@26.18.33 (190400-913931251):411)
+05-24 23:01:53.039 E/AuthPII ( 4672): 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+05-24 23:01:53.039 E/AuthPII ( 4672): 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+05-24 23:01:53.039 E/AuthPII ( 4672): 	at android.os.Binder.transact(Binder.java:1165)
+05-24 23:01:53.039 E/AuthPII ( 4672): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-24 23:01:53.039 E/AuthPII ( 4672): 	at android.os.Binder.transact(Binder.java:1165)
+05-24 23:01:53.039 E/AuthPII ( 4672): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-24 23:01:53.039 E/AuthPII ( 4672): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-24 23:01:53.039 E/AuthPII ( 4672): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-24 23:01:53.040 E/AuthPII ( 4672): Message is Long live credential not available.
+05-24 23:01:53.040 E/AuthPII ( 4672): bibt: Long live credential not available.
+05-24 23:01:53.040 E/AuthPII ( 4672): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-24 23:01:53.040 E/AuthPII ( 4672): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-24 23:01:53.040 E/AuthPII ( 4672): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-24 23:01:53.040 E/AuthPII ( 4672): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):151)
+05-24 23:01:53.040 E/AuthPII ( 4672): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):107)
+05-24 23:01:53.040 E/AuthPII ( 4672): 	at agvo.getAuthToken(:com.google.android.gms@261833029@26.18.33 (190400-913931251):411)
+05-24 23:01:53.040 E/AuthPII ( 4672): 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+05-24 23:01:53.040 E/AuthPII ( 4672): 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+05-24 23:01:53.040 E/AuthPII ( 4672): 	at android.os.Binder.transact(Binder.java:1165)
+05-24 23:01:53.040 E/AuthPII ( 4672): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-24 23:01:53.040 E/AuthPII ( 4672): 	at android.os.Binder.transact(Binder.java:1165)
+05-24 23:01:53.040 E/AuthPII ( 4672): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-24 23:01:53.040 E/AuthPII ( 4672): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-24 23:01:53.040 E/AuthPII ( 4672): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-24 23:01:53.061 I/Auth    ( 4672): (REDACTED) [GetToken] GetToken failed for app=%s with userRecoverable status: %s 
+05-24 23:01:53.062 W/Auth    ( 4672): [ChimeraGetToken] exception while trying to fetch auth tokens for app=com.google.android.gms, scope=oauth2:https://www.googleapis.com/auth/googleplay [CONTEXT service_id=153 ]
+05-24 23:01:53.062 W/Auth    ( 4672): ahbw: GetToken failed with status code and recovery intent: BadAuthentication
+05-24 23:01:53.062 W/Auth    ( 4672): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):352)
+05-24 23:01:53.062 W/Auth    ( 4672): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):107)
+05-24 23:01:53.062 W/Auth    ( 4672): 	at agvo.getAuthToken(:com.google.android.gms@261833029@26.18.33 (190400-913931251):411)
+05-24 23:01:53.062 W/Auth    ( 4672): 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+05-24 23:01:53.062 W/Auth    ( 4672): 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+05-24 23:01:53.062 W/Auth    ( 4672): 	at android.os.Binder.transact(Binder.java:1165)
+05-24 23:01:53.062 W/Auth    ( 4672): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-24 23:01:53.062 W/Auth    ( 4672): 	at android.os.Binder.transact(Binder.java:1165)
+05-24 23:01:53.062 W/Auth    ( 4672): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-24 23:01:53.062 W/Auth    ( 4672): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-24 23:01:53.062 W/Auth    ( 4672): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-24 23:01:53.062 W/GLSActivity( 4672): [GmsAccountAuthenticatorImpl] error status while fetching token:BadAuthentication
+05-24 23:01:53.075 I/Finsky  (23794): [1702] Completed 2 account content syncs with 0 successful.
+05-24 23:01:53.078 I/Finsky  (23794): [2] [ContentSync] Installation state replication failed, parameters=Id: 12-1, CT: 1779645615509, Constraints: [{ L: 80000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }].
+05-24 23:01:53.078 I/Finsky  (23794): [2] [ContentSync] Scheduling replication attempt 4.
+05-24 23:01:53.078 I/Finsky  (23794): [2] SCH: jobFinished: 12-1. TimeElapsed: 5680ms.
+05-24 23:01:53.079 I/Finsky  (23794): [2] WM::SCH: Logging work end for 12-1
+05-24 23:01:53.087 I/Finsky  (23794): [1701] SCH: Attempting to reschedule job: Id: 12-1, Constraints: [{ L: 100000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+05-24 23:01:53.098 I/Finsky  (23794): [117] SCH: Scheduling phonesky job Id: 1-1337, CT: 1779618574348, Constraints: [{ L: 31001307, D: 74201307, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+05-24 23:01:53.099 I/Finsky  (23794): [117] SCH: Scheduling phonesky job Id: 34-2999, CT: 1779618614582, Constraints: [{ L: 604800000, D: 2481292128, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+05-24 23:01:53.099 I/Finsky  (23794): [117] SCH: Scheduling phonesky job Id: 34-3011, CT: 1779618614582, Constraints: [{ L: 604800000, D: 2560505893, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+05-24 23:01:53.099 I/Finsky  (23794): [117] SCH: Scheduling phonesky job Id: 34-3014, CT: 1779618614582, Constraints: [{ L: 47703639, D: 1343703639, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+05-24 23:01:53.105 I/Finsky  (23794): [118] SCH: Scheduling 1 system job(s)
+05-24 23:01:53.106 I/Finsky  (23794): [118] SCH: Scheduling system job Id: 9592, L: 3862550, D: 47062550, C: false, I: false, N: 1
+05-24 23:01:53.115 I/Finsky  (23794): [1700] SCH: job service finished with id 9587.
+05-24 23:01:53.147 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:01:53.147 W/TWSClientService(13878): array is null
+05-24 23:01:53.174 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:01:53.175 W/TWSClientService(13878): array is null
+05-24 23:01:53.225 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-24 23:01:53.226 I/libPerfCtl(  738): xgfGetFPS pid:23260 fps:-1
+05-24 23:01:53.313 I/WifiHAL ( 1850): Get link layer stats
+05-24 23:01:53.314 I/WifiHAL ( 1850): GetLinkStatsCommand::create
+05-24 23:01:53.314 I/android.hardware.wifi@1.0-service-lazy( 1850): WifiCommand::requestResponse err=-14
+05-24 23:01:53.314 I/WifiHAL ( 1850): wifi_get_link_stats: result=-1
+05-24 23:01:53.315 E/WifiVendorHal( 1478): getWifiLinkLayerStats_1_5_Internal(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+05-24 23:01:53.461 I/Finsky  (23794): [106] WM::SCH: Logging work initialize for 12-1
+05-24 23:01:53.471 I/Finsky  (23794): [113] SCH: Scheduling phonesky job Id: 12-1, CT: 1779645713087, Constraints: [{ L: 100000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+05-24 23:01:53.476 I/Finsky  (23794): [118] SCH: Scheduling 1 system job(s)
+05-24 23:01:53.477 I/Finsky  (23794): [118] SCH: Scheduling system job Id: 9592, L: 99610, D: 47062178, C: false, I: false, N: 1
+05-24 23:01:53.492 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039750,0.000128, totalTime 0.039880 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:53.588 W/RefBase (26543): RefBase: Explicit destruction, weak count = 0 (in 0x700857b6d0). Use sp<> to manage this object.
+05-24 23:01:53.612 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039796,0.000126, totalTime 0.039924 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:53.672 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039728,0.000091, totalTime 0.039822 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:53.726 I/MediaProvider( 3587): Deleted 0 0 0 0 0 0 1 items on external_primary due to com.android.shell
+05-24 23:01:53.732 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039670,0.000124, totalTime 0.039797 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:53.791 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039470,0.000084, totalTime 0.039557 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:53.793 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 23:01:53.795 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 23:01:53.795 W/VSyncPredictor(  755): VSyncPredictor::setPeriod current period =16666667
+05-24 23:01:53.831 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039606,0.000057, totalTime 0.039664 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:53.833 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 23:01:53.834 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 23:01:53.871 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039654,0.000061, totalTime 0.039716 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:53.873 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 23:01:53.874 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 23:01:53.894 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 23:01:53.902 E/BtGatt.ContextMap(13878): Context not found for ID 0
+05-24 23:01:53.902 W/TWSClientService(13878): array is null
+05-24 23:01:53.931 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039517,0.000055, totalTime 0.039574 > logTimeout 0.022000 TIMEOUT!!
+05-24 23:01:53.933 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-24 23:01:53.934 D/TimeCheck(  745): isMT6580Project boolVal = 0 
