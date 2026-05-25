@@ -22,6 +22,8 @@ jobs:
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
+        with:
+          validate-wrappers: false
 
       - name: Make Gradle executable
         run: chmod +x ./gradlew
@@ -58,4 +60,3 @@ jobs:
             **/build/test-results/
             **/build/reports/lint-results-*.html
             **/build/reports/lint-results-*.xml
-
