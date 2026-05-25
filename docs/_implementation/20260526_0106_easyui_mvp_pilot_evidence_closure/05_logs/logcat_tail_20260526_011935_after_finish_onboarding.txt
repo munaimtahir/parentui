@@ -1,0 +1,400 @@
+05-26 01:19:30.500 I/resolv  (  711): GetAddrInfoHandler::run: {108 262252 108 983148 10211 0}
+05-26 01:19:30.501 I/resolv  (  711): res_nmkquery: (QUERY, IN, A)
+05-26 01:19:30.517 W/fb4a.AppInitScheduler|Run(18533):   Finished PreloadClashManager in 25ms
+05-26 01:19:30.518 W/fb4a.AppInitScheduler|Run(18533): RUN AppInit 344:PreloadCreatorsHomeToHUnit for start destination 6
+05-26 01:19:30.518 W/fb4a.AppInitScheduler|Run(18533): Running PreloadCreatorsHomeToHUnit, order=140, priorityHint=LOW 
+05-26 01:19:30.518 W/fb4a.AppInitScheduler|Run(18533):   Finished PreloadCreatorsHomeToHUnit in 0ms
+05-26 01:19:30.518 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039588,0.000057, totalTime 0.039646 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:30.518 W/fb4a.AppInitScheduler|Run(18533): RUN AppInit 345:PreloadFeedConfig for start destination 6
+05-26 01:19:30.518 W/fb4a.AppInitScheduler|Run(18533): Running PreloadFeedConfig, order=141, priorityHint=LOW 
+05-26 01:19:30.518 W/fb4a.AppInitScheduler|Run(18533):   Finished PreloadFeedConfig in 0ms
+05-26 01:19:30.518 W/fb4a.AppInitScheduler|Run(18533): RUN AppInit 347:PreloadFeedFetchMetadata for start destination 6
+05-26 01:19:30.518 W/fb4a.AppInitScheduler|Run(18533): Running PreloadFeedFetchMetadata, order=142, priorityHint=LOW 
+05-26 01:19:30.518 W/fb4a.AppInitScheduler|Run(18533):   Finished PreloadFeedFetchMetadata in 1ms
+05-26 01:19:30.518 W/fb4a.AppInitScheduler|Run(18533): Running PreloadFeedRequestForAllStarts, order=143, priorityHint=LOW 
+05-26 01:19:30.518 W/fb4a.AppInitScheduler|Run(18533):   Finished PreloadFeedRequestForAllStarts in 0ms
+05-26 01:19:30.518 W/fb4a.AppInitScheduler|Run(18533): RUN AppInit 352:PreloadFreshFeedRanker for start destination 6
+05-26 01:19:30.518 W/fb4a.AppInitScheduler|Run(18533): Running PreloadFreshFeedRanker, order=144, priorityHint=LOW 
+05-26 01:19:30.527 W/fb4a.AppInitScheduler|Run(18533):   Finished KeepWarm in 48ms
+05-26 01:19:30.527 W/fb4a.AppInitScheduler|Run(18533): SKIP AppInit 353:PreloadHeroManager for start destination 6
+05-26 01:19:30.527 W/fb4a.AppInitScheduler|Run(18533):   Finished PreloadHeroManager in 0ms
+05-26 01:19:30.527 W/fb4a.AppInitScheduler|Run(18533): RUN AppInit 355:PreloadInlineComposerProfileImage for start destination 6
+05-26 01:19:30.527 W/fb4a.AppInitScheduler|Run(18533): Running PreloadInlineComposerProfileImage, order=146, priorityHint=LOW 
+05-26 01:19:30.529 W/fb4a.AppInitScheduler|Run(18533):   Finished InitTrafficNTS in 64ms
+05-26 01:19:30.530 W/fb4a.AppInitScheduler|Run(18533): Running PreloadInlineComposerProfileImageDeferred, order=147, priorityHint=LOW 
+05-26 01:19:30.531 W/fb4a.AppInitScheduler|Run(18533):   Finished PreloadInlineComposerProfileImageDeferred in 0ms
+05-26 01:19:30.531 W/fb4a.AppInitScheduler|Run(18533): RUN AppInit 357:PreloadLogDb for start destination 6
+05-26 01:19:30.531 W/fb4a.AppInitScheduler|Run(18533): Running PreloadLogDb, order=148, priorityHint=LOW 
+05-26 01:19:30.531 W/fb4a.AppInitScheduler|Run(18533):   Finished PreloadLogDb in 1ms
+05-26 01:19:30.531 W/fb4a.AppInitScheduler|Run(18533): RUN AppInit 360:PreloadReactions for start destination 6
+05-26 01:19:30.531 W/fb4a.AppInitScheduler|Run(18533): Running PreloadReactions, order=149, priorityHint=LOW 
+05-26 01:19:30.533 W/fb4a.AppInitScheduler|Run(18533):   Finished PreloadFeedDataLoader in 104ms
+05-26 01:19:30.533 W/fb4a.AppInitScheduler|Run(18533): RUN AppInit 366:PreloadStoriesTrayFetchController for start destination 6
+05-26 01:19:30.533 W/fb4a.AppInitScheduler|Run(18533):   Finished PreloadFeedFullCacheLoad in 66ms
+05-26 01:19:30.533 W/fb4a.AppInitScheduler|Schedule(18533):   Executing 132:EagerInitFeedDataLoader
+05-26 01:19:30.533 W/fb4a.AppInitScheduler|Run(18533): RUN AppInit 132:EagerInitFeedDataLoader for start destination 6
+05-26 01:19:30.534 W/fb4a.AppInitScheduler|Run(18533): Running EagerInitFeedDataLoader, order=125, priorityHint=LOW 
+05-26 01:19:30.534 W/fb4a.AppInitScheduler|Run(18533):   Finished EagerInitFeedDataLoader in 0ms
+05-26 01:19:30.534 W/fb4a.AppInitScheduler|Schedule(18533):   Executing 365:PreloadStoriesTray
+05-26 01:19:30.534 W/fb4a.AppInitScheduler|Run(18533): RUN AppInit 365:PreloadStoriesTray for start destination 6
+05-26 01:19:30.534 W/fb4a.AppInitScheduler|Run(18533): Running PreloadStoriesTray, order=150, priorityHint=LOW 
+05-26 01:19:30.534 W/fb4a.AppInitScheduler|Run(18533):   Finished PreloadStoriesTray in 0ms
+05-26 01:19:30.534 W/fb4a.AppInitScheduler|Run(18533):   Finished PreloadFreshFeedRanker in 15ms
+05-26 01:19:30.534 W/fb4a.AppInitScheduler|Run(18533): RUN AppInit 367:PreloadStoriesTrayQuery for start destination 6
+05-26 01:19:30.534 W/fb4a.AppInitScheduler|Run(18533): Running PreloadStoriesTrayQuery, order=152, priorityHint=LOW 
+05-26 01:19:30.534 W/fb4a.AppInitScheduler|Run(18533):   Finished PreloadStoriesTrayQuery in 1ms
+05-26 01:19:30.534 W/fb4a.AppInitScheduler|Run(18533): SKIP AppInit 370:PreloadVideoPrivateSharing for start destination 6
+05-26 01:19:30.534 W/fb4a.AppInitScheduler|Run(18533):   Finished PreloadVideoPrivateSharing in 0ms
+05-26 01:19:30.534 W/fb4a.AppInitScheduler|Run(18533): RUN AppInit 392:ScreenOnFeedPrefetch for start destination 6
+05-26 01:19:30.534 W/fb4a.AppInitScheduler|Run(18533): Running ScreenOnFeedPrefetch, order=155, priorityHint=LOW 
+05-26 01:19:30.534 W/fb4a.AppInitScheduler|Run(18533):   Finished ScreenOnFeedPrefetch in 0ms
+05-26 01:19:30.535 W/fb4a.AppInitScheduler|Run(18533): Running SecondaryDexPreloaderBg, order=156, priorityHint=LOW 
+05-26 01:19:30.536 W/fb4a.AppInitScheduler|Run(18533): Running PreloadStoriesTrayFetchController, order=151, priorityHint=LOW 
+05-26 01:19:30.536 W/fb4a.AppInitScheduler|Run(18533): Running PreloadTabPreloadablesBackgroundPrefetch, order=153, priorityHint=LOW 
+05-26 01:19:30.540 W/fb4a.AppInitScheduler|Run(18533):   Finished PreloadInlineComposerProfileImage in 12ms
+05-26 01:19:30.540 W/fb4a.AppInitScheduler|Run(18533): Running SetupBlockingBackgroundComponentReporting, order=157, priorityHint=LOW 
+05-26 01:19:30.540 W/fb4a.AppInitScheduler|Run(18533):   Finished SetupBlockingBackgroundComponentReporting in 0ms
+05-26 01:19:30.540 W/fb4a.AppInitScheduler|Run(18533): Running StartupQPLReplayer, order=158, priorityHint=LOW 
+05-26 01:19:30.545 W/fb4a.AppInitScheduler|Run(18533):   Finished StartupQPLReplayer in 5ms
+05-26 01:19:30.546 W/fb4a.AppInitScheduler|Schedule(18533):   Executing 408:StartupQPLTransitToMatureStage
+05-26 01:19:30.546 W/fb4a.AppInitScheduler|Run(18533): Running StartupQPLTransitToMatureStage, order=159, priorityHint=LOW 
+05-26 01:19:30.546 W/fb4a.AppInitScheduler|Run(18533):   Finished StartupQPLTransitToMatureStage in 0ms
+05-26 01:19:30.546 W/fb4a.AppInitScheduler|Run(18533): SKIP AppInit 440:VideoMetaCasper for start destination 6
+05-26 01:19:30.546 W/fb4a.AppInitScheduler|Run(18533):   Finished VideoMetaCasper in 0ms
+05-26 01:19:30.552 W/fb4a.AppInitScheduler|Run(18533):   Finished SecondaryDexPreloaderBg in 17ms
+05-26 01:19:30.553 E/libEGL  (18533): call to OpenGL ES API with no current context (logged once per thread)
+05-26 01:19:30.553 E/libEGL  (18533): call to OpenGL ES API with no current context (logged once per thread)
+05-26 01:19:30.553 E/libEGL  (18533): call to OpenGL ES API with no current context (logged once per thread)
+05-26 01:19:30.558 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039727,0.000058, totalTime 0.039786 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:30.561 W/fb4a.AppInitScheduler|Run(18533):   Finished PreloadStoriesTrayFetchController in 29ms
+05-26 01:19:30.566 W/fb4a.AppInitScheduler|Run(18533):   Finished PreloadReactions in 34ms
+05-26 01:19:30.567 W/fb4a.AppInitScheduler|Run(18533):   Finished ZeroLibraryInitializer in 102ms
+05-26 01:19:30.567 W/fb4a.AppInitScheduler|Schedule(18533):   Executing 213:InitReliableMedia
+05-26 01:19:30.568 W/fb4a.AppInitScheduler|Run(18533):   Finished PreloadIconsInit in 170ms
+05-26 01:19:30.568 W/fb4a.AppInitScheduler|Run(18533): Running InitReliableMedia, order=97, priorityHint=NORMAL 
+05-26 01:19:30.570 W/fb4a.AppInitScheduler|Run(18533):   Finished InitReliableMedia in 2ms
+05-26 01:19:30.572 W/fb4a.SigquitDetectorLacrima(18533): nativeInit
+05-26 01:19:30.576 W/fb4a.AppInitScheduler|Run(18533):   Finished PreloadTabPreloadablesBackgroundPrefetch in 42ms
+05-26 01:19:30.576 W/fb4a.lacrima(18533): Start AnrDetector... com.facebook.acra.anr.multisignal.MultiSignalANRDetector
+05-26 01:19:30.577 W/fb4a.MultiSignalANRDetectorLacrima(18533): Starting
+05-26 01:19:30.577 W/fb4a.ProcessAnrErrorMonitor(18533): startMonitoring with delay: 0
+05-26 01:19:30.583 W/fb4a.QuickPerformanceLoggerModule(18533): Provided QPL: 217492392
+05-26 01:19:30.585 E/FBI     (18533): Can't load library: dlopen failed: library "libmagtsync.so" not found
+05-26 01:19:30.587 W/fb4a.ProcessAnrErrorMonitor(18533): Starting process monitor checks for process 'com.facebook.katana'
+05-26 01:19:30.587 W/fb4a.MultiSignalANRDetectorLacrima(18533): Started monitoring
+05-26 01:19:30.590 E/libEGL  (18533): call to OpenGL ES API with no current context (logged once per thread)
+05-26 01:19:30.593 E/fb-distract(18533): Blocking distraction of /apex/com.android.art/lib64/libartpalette.so!PaletteWriteCrashThreadStacks (0x7ccde340fc) with /data/data/com.facebook.katana/lib-compressed/libdexload.so!<unknown> (0x796877c924)
+05-26 01:19:30.598 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000000,0.039626,0.000068, totalTime 0.039694 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:30.615 W/fb4a.AppInitScheduler|Run(18533):   Finished DownloadedFbResources in 260ms
+05-26 01:19:30.618 W/fb4a.AppInitScheduler|Run(18533):   Finished InitLacrimaLaterInit in 234ms
+05-26 01:19:30.620 W/fb4a.AppInitScheduler|Schedule(18533): Pending tasks reached zero, maybe shutting down…
+05-26 01:19:30.620 W/fb4a.AppInitScheduler|Run(18533): All work finished.
+05-26 01:19:30.623 W/fb4a.lacrima(18533): FixedLengthFiles.init() called twice.
+05-26 01:19:30.623 W/fb4a.lacrima(18533): FixedLengthFiles.init() called twice.
+05-26 01:19:30.627 E/MprotectOptimization(18533): Failed to make 0x79816e0000 (196608 bytes) executable for 79816e0000-7981712000 r--p 0289c000 fd:2a 2476599                        /data/app/~~ypgbsSHt1_Veo61Cru1nyg==/com.facebook.katana-hit4v7h6CuO710UWtc-i4Q==/oat/arm64/base.odex
+05-26 01:19:30.628 W/MlockOptimization(18533): mlock2 0x7981770000 70051840 successful for 7981770000-7989d0d000 rw-p 00000000 fd:2a 2431267                        /data/app/~~ypgbsSHt1_Veo61Cru1nyg==/com.facebook.katana-hit4v7h6CuO710UWtc-i4Q==/oat/arm64/base.vdex
+05-26 01:19:30.628 W/ExperimentConfigurator(18533): onAppInit completed: 2 configs executed
+05-26 01:19:30.638 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039656,0.000068, totalTime 0.039725 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:30.698 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039791,0.000065, totalTime 0.039857 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:30.738 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039639,0.000063, totalTime 0.039703 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:30.778 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039636,0.000060, totalTime 0.039697 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:30.818 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039725,0.000063, totalTime 0.039789 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:30.835 W/RefBase (18518): RefBase: Explicit destruction, weak count = 0 (in 0x706fd576d0). Use sp<> to manage this object.
+05-26 01:19:30.858 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039527,0.000057, totalTime 0.039585 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:30.898 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039677,0.000065, totalTime 0.039742 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:30.938 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039682,0.000066, totalTime 0.039749 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:30.955 I/MediaProvider( 3587): Deleted 0 0 0 0 0 0 1 items on external_primary due to com.android.shell
+05-26 01:19:30.978 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039529,0.000070, totalTime 0.039599 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:31.001 I/libPowerHal(  738): MTKPOWER_HINT_APP_TOUCH: cpu_ctrl set cpu freq: 1800000 -1 2000000 -1
+05-26 01:19:31.008 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-26 01:19:31.009 I/libPerfCtl(  738): xgfGetFPS pid:14499 fps:-1
+05-26 01:19:31.011 I/libPowerHal(  738): MTKPOWER_HINT_APP_TOUCH: cpu_ctrl set cpu freq: -1 -1 -1 -1
+05-26 01:19:31.011 I/libPowerHal(  738): [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+05-26 01:19:31.018 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039579,0.000070, totalTime 0.039650 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:31.058 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039604,0.000062, totalTime 0.039667 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:31.098 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039674,0.000058, totalTime 0.039734 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:31.158 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039691,0.000052, totalTime 0.039745 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:31.178 I/BufferQueueProducer(  755): [com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity#20010](this:0xb400007ca8149388,id:-1,api:0,p:-1,c:755) queueBuffer: fps=0.86 dur=4635.37 max=4568.81 min=16.49
+05-26 01:19:31.179 I/hwcomposer(  727): [HWCDisplay] [Display_0 (type:1)] fps:4.000851,dur:1249.73,max:1165.84,min:16.71  
+05-26 01:19:31.198 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039699,0.000062, totalTime 0.039762 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:31.238 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039637,0.000079, totalTime 0.039717 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:31.254 W/fb4a.AppInitScheduler|Run(18533): DeadlockMonitor exiting.
+05-26 01:19:31.278 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039554,0.000056, totalTime 0.039611 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:31.318 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039572,0.000025, totalTime 0.039598 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:31.358 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039742,0.000065, totalTime 0.039808 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:31.398 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039708,0.000058, totalTime 0.039767 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:31.438 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039631,0.000068, totalTime 0.039699 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:31.477 W/facebook.katana(18533): JNI RegisterNativeMethods: attempt to register 0 native methods for com.facebook.traffic.nts.providers.reachability.ReachabilityV2ProviderAppLayerUpcallsImpl
+05-26 01:19:31.478 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039532,0.000049, totalTime 0.039582 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:31.502 I/resolv  (  711): res_nsend: used send_dg 88 terrno: 0
+05-26 01:19:31.502 I/resolv  (  711): doQuery: rcode=0, ancount=2, return value=88
+05-26 01:19:31.518 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039632,0.000078, totalTime 0.039711 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:31.549 I/NearbyMediums(13439): Found Fast Ble Advertisements :
+05-26 01:19:31.549 I/NearbyMediums(13439): BleAdvertisement { version=2, socketVersion=2, isFast=true, serviceIdHash=null, data=[ 0x23 0x33 0x4a 0x4d 0x4c 0x11 0x32 0x84 0x4b 0xa2 0x87 0x99 0xc8 0xe6 0xcd 0x15 0xbe 0xf5 0xae 0xae 0x30 0xed 0xce ], deviceToken=[ 0x5f 0x29 ], rxAdvertisement=null } : 1 times.
+05-26 01:19:31.549 I/NearbyMediums(13439): BleAdvertisement { version=2, socketVersion=2, isFast=true, serviceIdHash=null, data=[ 0x23 0x36 0x43 0x39 0x36 0x11 0x32 0x3e 0xa8 0xf6 0x6d 0x4d 0x60 0x14 0x96 0x43 0xff 0x83 0x31 0x5c 0x20 0x55 0x03 ], deviceToken=[ 0x27 0x91 ], rxAdvertisement=null } : 1 times.
+05-26 01:19:31.549 I/NearbyMediums(13439): Total 2 fast advertisements from 2 unique advertisers.
+05-26 01:19:31.549 I/NearbyMediums(13439): Current Tracked Scanning Clients are : {NearbyConnections.EnvironmentMonitor, NearbySharing}
+05-26 01:19:31.558 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039584,0.000087, totalTime 0.039672 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:31.618 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039709,0.000085, totalTime 0.039796 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:31.658 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039419,0.000089, totalTime 0.039510 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:31.838 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039586,0.000093, totalTime 0.039682 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:31.878 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039522,0.000096, totalTime 0.039620 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:31.938 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039600,0.000182, totalTime 0.039784 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:31.995 I/BufferQueueProducer(  755): [StatusBar#88](this:0xb400007ca8098aa8,id:-1,api:0,p:-1,c:755) queueBuffer: fps=0.48 dur=2067.79 max=2067.79 min=2067.79
+05-26 01:19:32.006 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-26 01:19:32.006 I/libPerfCtl(  738): xgfGetFPS pid:14499 fps:-1
+05-26 01:19:32.258 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039524,0.000194, totalTime 0.039720 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:32.298 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039368,0.000069, totalTime 0.039438 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:32.338 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039552,0.000094, totalTime 0.039648 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:32.375 W/MediaProvider( 3587): isAppCloneUserPair for user 0: false
+05-26 01:19:32.378 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039513,0.000090, totalTime 0.039604 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:32.382 W/ProcessState(18663): Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+05-26 01:19:32.390 I/SurfaceFlinger(  755): operator()(), mtkRenderCntDebug 1180, screenshot (com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity#20010)
+05-26 01:19:32.390 I/SurfaceFlinger(  755): operator()(), mtkRenderCntDebug 1180, screenshot (StatusBar#88)
+05-26 01:19:32.391 I/SurfaceFlinger(  755): operator()(), mtkRenderCntDebug 1180, screenshot (NavigationBar0#2950)
+05-26 01:19:32.423 I/servicemanager(  489): Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+05-26 01:19:32.424 E/ion     (18663): ioctl c0044901 failed with code -1: Invalid argument
+05-26 01:19:32.424 I/DMABUFHEAPS(18663): Using : Legacy ion heaps
+05-26 01:19:32.458 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039579,0.000084, totalTime 0.039665 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:32.470 I/AppScanStats(31144): BLE_SCAN_RESULT_RECEIVED[9]reportBleScanResults=300
+05-26 01:19:32.474 E/BtGatt.ContextMap(31144): Context not found for ID 0
+05-26 01:19:32.474 W/TWSClientService(31144): array is null
+05-26 01:19:32.498 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039389,0.000088, totalTime 0.039478 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:32.538 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039559,0.000092, totalTime 0.039652 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:32.578 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039528,0.000096, totalTime 0.039625 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:32.593 W/fb4a.MultiSignalANRDetectorLacrima(18533): Pausing error state checks
+05-26 01:19:32.618 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039453,0.000175, totalTime 0.039629 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:32.658 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039452,0.000091, totalTime 0.039544 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:32.698 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039525,0.000091, totalTime 0.039617 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:32.738 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039481,0.000082, totalTime 0.039564 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:32.778 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039483,0.000089, totalTime 0.039573 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:32.818 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039537,0.000080, totalTime 0.039618 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:32.852 I/MediaServiceV2( 3587): Creating work for intent Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaServiceV2 }
+05-26 01:19:32.853 I/MediaServiceV2( 3587): Work enqueued for intent: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaServiceV2 }
+05-26 01:19:32.867 W/RefBase (18663): RefBase: Explicit destruction, weak count = 0 (in 0x7077f856d0). Use sp<> to manage this object.
+05-26 01:19:32.876 E/BtGatt.ContextMap(31144): Context not found for ID 0
+05-26 01:19:32.877 W/TWSClientService(31144): array is null
+05-26 01:19:32.878 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039671,0.000099, totalTime 0.039772 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:32.885 I/WifiHAL ( 1850): Get link layer stats
+05-26 01:19:32.885 I/WifiHAL ( 1850): GetLinkStatsCommand::create
+05-26 01:19:32.885 I/android.hardware.wifi@1.0-service-lazy( 1850): WifiCommand::requestResponse err=-14
+05-26 01:19:32.885 I/WifiHAL ( 1850): wifi_get_link_stats: result=-1
+05-26 01:19:32.886 E/WifiVendorHal( 1478): getWifiLinkLayerStats_1_5_Internal(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+05-26 01:19:32.897 I/MediaServiceV2( 3587): Work initiated for action [ android.intent.action.MEDIA_SCANNER_SCAN_FILE ]
+05-26 01:19:32.913 I/MediaServiceV2( 3587): Work ended for action [ android.intent.action.MEDIA_SCANNER_SCAN_FILE ]
+05-26 01:19:32.914 I/WM-WorkerWrapper( 3587): Worker result SUCCESS for Work [ id=0902aba8-f142-4b1e-a68e-8a4d284434cd, tags={ com.android.providers.media.MediaServiceV2 } ]
+05-26 01:19:32.918 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039432,0.000058, totalTime 0.039491 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:32.938 I/MediaProvider( 3587): Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-26 01:19:32.940 I/UriTaskContentObserver(13439): (REDACTED) Throttling content uri change event for %s
+05-26 01:19:32.958 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039661,0.000088, totalTime 0.039750 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:32.998 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039524,0.000081, totalTime 0.039607 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:33.006 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-26 01:19:33.006 I/libPerfCtl(  738): xgfGetFPS pid:14499 fps:-1
+05-26 01:19:33.038 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039331,0.000072, totalTime 0.039404 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:33.045 I/PlayCommon(23794): [256] Preparing logs for uploading
+05-26 01:19:33.065 E/AuthPII (13439): [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.android.vending, Service: oauth2:https://www.googleapis.com/auth/googleplay
+05-26 01:19:33.065 E/AuthPII (13439): bibt: Long live credential not available.
+05-26 01:19:33.065 E/AuthPII (13439): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-26 01:19:33.065 E/AuthPII (13439): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-26 01:19:33.065 E/AuthPII (13439): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-26 01:19:33.065 E/AuthPII (13439): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):151)
+05-26 01:19:33.065 E/AuthPII (13439): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):107)
+05-26 01:19:33.065 E/AuthPII (13439): 	at agvo.getAuthToken(:com.google.android.gms@261833029@26.18.33 (190400-913931251):411)
+05-26 01:19:33.065 E/AuthPII (13439): 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+05-26 01:19:33.065 E/AuthPII (13439): 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+05-26 01:19:33.065 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:19:33.065 E/AuthPII (13439): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-26 01:19:33.065 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:19:33.065 E/AuthPII (13439): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-26 01:19:33.065 E/AuthPII (13439): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-26 01:19:33.065 E/AuthPII (13439): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 01:19:33.066 E/AuthPII (13439): Message is Long live credential not available.
+05-26 01:19:33.066 E/AuthPII (13439): bibt: Long live credential not available.
+05-26 01:19:33.066 E/AuthPII (13439): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-26 01:19:33.066 E/AuthPII (13439): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-26 01:19:33.066 E/AuthPII (13439): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-26 01:19:33.066 E/AuthPII (13439): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):151)
+05-26 01:19:33.066 E/AuthPII (13439): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):107)
+05-26 01:19:33.066 E/AuthPII (13439): 	at agvo.getAuthToken(:com.google.android.gms@261833029@26.18.33 (190400-913931251):411)
+05-26 01:19:33.066 E/AuthPII (13439): 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+05-26 01:19:33.066 E/AuthPII (13439): 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+05-26 01:19:33.066 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:19:33.066 E/AuthPII (13439): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-26 01:19:33.066 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:19:33.066 E/AuthPII (13439): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-26 01:19:33.066 E/AuthPII (13439): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-26 01:19:33.066 E/AuthPII (13439): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 01:19:33.076 I/AndroidRuntime(18675): Using default boot image
+05-26 01:19:33.076 I/AndroidRuntime(18675): Leaving lock profiling enabled
+05-26 01:19:33.082 I/app_process(18675): Using CollectorTypeCC GC.
+05-26 01:19:33.085 I/Auth    (13439): (REDACTED) [GetToken] GetToken failed for app=%s with userRecoverable status: %s 
+05-26 01:19:33.086 W/Auth    (13439): [ChimeraGetToken] exception while trying to fetch auth tokens for app=com.google.android.gms, scope=oauth2:https://www.googleapis.com/auth/googleplay [CONTEXT service_id=153 ]
+05-26 01:19:33.086 W/Auth    (13439): ahbw: GetToken failed with status code and recovery intent: BadAuthentication
+05-26 01:19:33.086 W/Auth    (13439): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):352)
+05-26 01:19:33.086 W/Auth    (13439): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):107)
+05-26 01:19:33.086 W/Auth    (13439): 	at agvo.getAuthToken(:com.google.android.gms@261833029@26.18.33 (190400-913931251):411)
+05-26 01:19:33.086 W/Auth    (13439): 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+05-26 01:19:33.086 W/Auth    (13439): 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+05-26 01:19:33.086 W/Auth    (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:19:33.086 W/Auth    (13439): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-26 01:19:33.086 W/Auth    (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:19:33.086 W/Auth    (13439): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-26 01:19:33.086 W/Auth    (13439): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-26 01:19:33.086 W/Auth    (13439): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 01:19:33.086 W/GLSActivity(13439): [GmsAccountAuthenticatorImpl] error status while fetching token:BadAuthentication
+05-26 01:19:33.095 W/PlayCommon(23794): [256] Deferring log upload because couldn't retrieve auth token
+05-26 01:19:33.098 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039805,0.000073, totalTime 0.039880 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:33.138 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039594,0.000063, totalTime 0.039658 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:33.178 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039584,0.000061, totalTime 0.039646 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:33.203 I/PlayCommon(23794): [255] Preparing logs for uploading
+05-26 01:19:33.218 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039622,0.000053, totalTime 0.039676 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:33.219 E/AuthPII (13439): [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.android.vending, Service: oauth2:https://www.googleapis.com/auth/googleplay
+05-26 01:19:33.219 E/AuthPII (13439): bibt: Long live credential not available.
+05-26 01:19:33.219 E/AuthPII (13439): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-26 01:19:33.219 E/AuthPII (13439): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-26 01:19:33.219 E/AuthPII (13439): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-26 01:19:33.219 E/AuthPII (13439): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):151)
+05-26 01:19:33.219 E/AuthPII (13439): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):107)
+05-26 01:19:33.219 E/AuthPII (13439): 	at agvo.getAuthToken(:com.google.android.gms@261833029@26.18.33 (190400-913931251):411)
+05-26 01:19:33.219 E/AuthPII (13439): 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+05-26 01:19:33.219 E/AuthPII (13439): 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+05-26 01:19:33.219 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:19:33.219 E/AuthPII (13439): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-26 01:19:33.219 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:19:33.219 E/AuthPII (13439): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-26 01:19:33.219 E/AuthPII (13439): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-26 01:19:33.219 E/AuthPII (13439): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 01:19:33.219 E/AuthPII (13439): Message is Long live credential not available.
+05-26 01:19:33.219 E/AuthPII (13439): bibt: Long live credential not available.
+05-26 01:19:33.219 E/AuthPII (13439): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-26 01:19:33.219 E/AuthPII (13439): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-26 01:19:33.219 E/AuthPII (13439): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-26 01:19:33.219 E/AuthPII (13439): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):151)
+05-26 01:19:33.219 E/AuthPII (13439): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):107)
+05-26 01:19:33.219 E/AuthPII (13439): 	at agvo.getAuthToken(:com.google.android.gms@261833029@26.18.33 (190400-913931251):411)
+05-26 01:19:33.219 E/AuthPII (13439): 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+05-26 01:19:33.219 E/AuthPII (13439): 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+05-26 01:19:33.219 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:19:33.219 E/AuthPII (13439): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-26 01:19:33.219 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:19:33.219 E/AuthPII (13439): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-26 01:19:33.219 E/AuthPII (13439): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-26 01:19:33.219 E/AuthPII (13439): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 01:19:33.219 I/app_process(18675): Priority-to-niceness mapping: 19, 16, 13, 10, 0, -2, -4, -5, -6, -8
+05-26 01:19:33.233 I/Auth    (13439): (REDACTED) [GetToken] GetToken failed for app=%s with userRecoverable status: %s 
+05-26 01:19:33.234 W/Auth    (13439): [ChimeraGetToken] exception while trying to fetch auth tokens for app=com.google.android.gms, scope=oauth2:https://www.googleapis.com/auth/googleplay [CONTEXT service_id=153 ]
+05-26 01:19:33.234 W/Auth    (13439): ahbw: GetToken failed with status code and recovery intent: BadAuthentication
+05-26 01:19:33.234 W/Auth    (13439): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):352)
+05-26 01:19:33.234 W/Auth    (13439): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):107)
+05-26 01:19:33.234 W/Auth    (13439): 	at agvo.getAuthToken(:com.google.android.gms@261833029@26.18.33 (190400-913931251):411)
+05-26 01:19:33.234 W/Auth    (13439): 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+05-26 01:19:33.234 W/Auth    (13439): 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+05-26 01:19:33.234 W/Auth    (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:19:33.234 W/Auth    (13439): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-26 01:19:33.234 W/Auth    (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:19:33.234 W/Auth    (13439): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-26 01:19:33.234 W/Auth    (13439): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-26 01:19:33.234 W/Auth    (13439): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 01:19:33.234 W/GLSActivity(13439): [GmsAccountAuthenticatorImpl] error status while fetching token:BadAuthentication
+05-26 01:19:33.237 W/PlayCommon(23794): [255] Deferring log upload because couldn't retrieve auth token
+05-26 01:19:33.239 W/libc    (18675): Access denied finding property "ro.vendor.tran.hardware"
+05-26 01:19:33.239 W/libc    (18675): Access denied finding property "ro.vendor.tran.cpu_model"
+05-26 01:19:33.235 W/main    (18675): type=1400 audit(0.0:138936): avc: denied { read } for name="u:object_r:vendor_exported_default_prop:s0" dev="tmpfs" ino=7877 scontext=u:r:shell:s0 tcontext=u:object_r:vendor_exported_default_prop:s0 tclass=file permissive=0
+05-26 01:19:33.235 W/main    (18675): type=1400 audit(0.0:138937): avc: denied { read } for name="u:object_r:vendor_exported_default_prop:s0" dev="tmpfs" ino=7877 scontext=u:r:shell:s0 tcontext=u:object_r:vendor_exported_default_prop:s0 tclass=file permissive=0
+05-26 01:19:33.258 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039568,0.000040, totalTime 0.039609 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:33.259 W/System  (18675): ClassLoader referenced unknown path: /system/framework/mediatek-cta.jar
+05-26 01:19:33.259 W/CtaManagerFactory(18675): CtaManagerFactoryImpl not found
+05-26 01:19:33.282 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-26 01:19:33.283 I/hwcomposer(  727): [HWCDisplay] [Display_0 (type:1)] fps:1.901518,dur:2103.58,max:1285.54,min:16.73  
+05-26 01:19:33.285 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-26 01:19:33.287 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-26 01:19:33.289 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-26 01:19:33.289 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:19:33.291 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-26 01:19:33.293 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:19:33.294 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-26 01:19:33.294 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-26 01:19:33.296 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-26 01:19:33.298 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-26 01:19:33.300 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-26 01:19:33.305 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-26 01:19:33.318 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039494,0.000038, totalTime 0.039534 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:33.358 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039847,0.000052, totalTime 0.039899 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:33.398 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039631,0.000061, totalTime 0.039693 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:33.438 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039571,0.000062, totalTime 0.039634 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:33.439 I/ActivityManager( 1478): Killing 17089:com.adobe.reader/u0a265 (adj 965): empty for 73s
+05-26 01:19:33.448 I/libprocessgroup( 1478): Successfully killed process cgroup uid 10265 pid 17089 in 6ms
+05-26 01:19:33.478 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039676,0.000058, totalTime 0.039735 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:33.505 I/Zygote  (  712): Process 17089 exited due to signal 9 (Killed)
+05-26 01:19:33.513 I/mtkpower_client( 1478): [Legacy][PowerHal_Wrap_notifyAppState] com.adobe.reader/com.adobe.reader pid=17089 state:3
+05-26 01:19:33.513 I/game_scn( 1478): collectForegroundAppList packName=com.adobe.reader, actName=com.adobe.reader, pid=17089, uid=10265, state:DEAD
+05-26 01:19:33.514 I/game_scn( 1478): powerNotifyForegroundApp multi_resumed_app_info: pid: 14499, packname: com.easyui.guardianlauncher, actname: com.easyui.guardianlauncher.MainActivity
+05-26 01:19:33.515 I/libPowerHal(  738): [perfNotifyAppState] pack:com.adobe.reader, act:com.adobe.reader, state:3, pid:17089, uid:10265, fps:-1
+05-26 01:19:33.515 I/libPowerHal(  738): [perfNotifyAppState] pack:com.adobe.reader, pid:17089, STATE_DEAD
+05-26 01:19:33.518 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039640,0.000090, totalTime 0.039730 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:33.522 W/TextToSpeechManagerPerUserService( 1478): Disconnected from TTS engine
+05-26 01:19:33.523 I/TextToSpeechManagerPerUserService( 1478): Failed running callback method: android.os.DeadObjectException
+05-26 01:19:33.523 W/ServiceConnector.Impl( 1478): mayInterruptIfRunning not supported - ignoring
+05-26 01:19:34.007 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-26 01:19:34.007 I/libPerfCtl(  738): xgfGetFPS pid:14499 fps:-1
+05-26 01:19:34.299 W/libc    (18675): Access denied finding property "qemu.sf.lcd_density"
+05-26 01:19:34.299 W/libc    (18675): Access denied finding property "qemu.sf.lcd_density"
+05-26 01:19:34.295 W/uiautomator(18675): type=1400 audit(0.0:138938): avc: denied { read } for name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=7714 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=0
+05-26 01:19:34.295 W/uiautomator(18675): type=1400 audit(0.0:138939): avc: denied { read } for name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=7714 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=0
+05-26 01:19:34.316 W/MediaProvider( 3587): isAppCloneUserPair for user 0: false
+05-26 01:19:34.341 W/AccessibilityNodeInfoDumper(18675): Fetch time: 38ms
+05-26 01:19:34.366 I/hwcomposer(  727): [HWCDisplay] [Display_0 (type:1)] fps:1.846998,dur:1082.84,max:1052.03,min:30.80  
+05-26 01:19:34.390 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:19:34.393 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:19:34.404 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:19:34.418 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:19:34.424 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-26 01:19:34.436 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-26 01:19:34.446 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-26 01:19:34.447 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:19:34.448 I/PSyncWorker( 3587): Starting proactive picker sync from sync source: 1
+05-26 01:19:34.448 I/PickerSyncTracker( 3587): Created new sync future java.util.concurrent.CompletableFuture@f81a0ce[Not completed, 1 dependents]. Future map: {64195f8c-a059-465e-92ed-912a615eb5bd=java.util.concurrent.CompletableFuture@f81a0ce[Not completed, 1 dependents]}
+05-26 01:19:34.457 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:19:34.457 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-26 01:19:34.463 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-26 01:19:34.498 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039771,0.000122, totalTime 0.039895 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:34.505 I/PickerSyncController( 3587): Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+05-26 01:19:34.523 I/PickerSyncController( 3587): Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=5038614, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+05-26 01:19:34.523 I/PickerSyncController( 3587): Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+05-26 01:19:34.538 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039474,0.000124, totalTime 0.039600 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:34.550 E/PickerDbFacade( 3587): Could not get first date taken millis for media id: 1000836620
+05-26 01:19:34.552 W/PickerDbFacade( 3587): Unable to promote cloud media with localId: 1000836620
+05-26 01:19:34.555 I/PickerSyncController( 3587): Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=5038614, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+05-26 01:19:34.555 I/PickerSyncTracker( 3587): Marked sync future complete for work id: 64195f8c-a059-465e-92ed-912a615eb5bd. Future map: {}
+05-26 01:19:34.555 I/PSyncWorker( 3587): Completed picker proactive sync complete from local provider.
+05-26 01:19:34.558 I/WM-WorkerWrapper( 3587): Worker result SUCCESS for Work [ id=64195f8c-a059-465e-92ed-912a615eb5bd, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+05-26 01:19:34.658 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039469,0.000097, totalTime 0.039569 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:35.007 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-26 01:19:35.007 I/libPerfCtl(  738): xgfGetFPS pid:14499 fps:-1
+05-26 01:19:35.286 W/RefBase (18675): RefBase: Explicit destruction, weak count = 0 (in 0x7f17bac6d0). Use sp<> to manage this object.
+05-26 01:19:35.318 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039605,0.000059, totalTime 0.039667 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:35.358 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039711,0.000086, totalTime 0.039798 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:35.367 W/fb4a.PeriodicThreadBoost(18533): Periodic thread booster disabled by MC
+05-26 01:19:35.391 W/soft_error.cpp(18533): [DGWClientConfig] : sgConnectTimeout: value 0 outside valid range [1, 120] <force_oncall:mi_client_infra:force_oncall>
+05-26 01:19:35.391 W/soft_error.cpp(18533): [DGWClientConfig] : sgPingTimeout: value 0 outside valid range [1, 60] <force_oncall:mi_client_infra:force_oncall>
+05-26 01:19:35.391 W/soft_error.cpp(18533): [DGWClientConfig] : tunnelConnectTimeout: value 0 outside valid range [1, 120] <force_oncall:mi_client_infra:force_oncall>
+05-26 01:19:35.391 W/soft_error.cpp(18533): [DGWClientConfig] : tunnelConnectAckTimeout: value 0 outside valid range [1, 120] <force_oncall:mi_client_infra:force_oncall>
+05-26 01:19:35.414 I/MediaProvider( 3587): Deleted 0 0 0 0 0 0 1 items on external_primary due to com.android.shell
+05-26 01:19:35.418 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039511,0.000062, totalTime 0.039576 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:35.422 E/HiddenApis2(18533): Failed to init DecodeJObjectFuncPtr
+05-26 01:19:35.435 W/fb4a.Fixie/ActivityStackResetterFixer(18533): Enable Activity Stack Resetter
+05-26 01:19:35.442 E/fb-distract(18533): Blocking distraction of /apex/com.android.art/lib64/libart.so!_ZN3art10ThreadList10SuspendAllEPKcb (0x7a072e3528) with /data/data/com.facebook.katana/lib-compressed/libdexload.so!<unknown> (0x7968770ee4)
+05-26 01:19:35.442 E/LongSuspend(18533): Couldn't hook SuspendAll function: Attempted to hook a killswitched function
+05-26 01:19:35.458 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039623,0.000069, totalTime 0.039692 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:35.459 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-26 01:19:35.460 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-26 01:19:35.498 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039667,0.000069, totalTime 0.039737 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:35.499 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-26 01:19:35.500 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-26 01:19:35.536 E/fb-distract(18533): Blocking distraction of /apex/com.android.art/lib64/libart.so!<unknown> (0x7a07717a14) with /data/data/com.facebook.katana/lib-compressed/libdexload.so!<unknown> (0x79687720a8)
+05-26 01:19:35.537 E/LongSuspend(18533): Couldn't hook UnsafeLogFatalForThreadSuspendAllTimeout function: Attempted to hook a killswitched function
+05-26 01:19:35.538 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039572,0.000096, totalTime 0.039669 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:19:35.539 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-26 01:19:35.540 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-26 01:19:35.547 E/fb-distract(18533): Blocking distraction of /apex/com.android.art/lib64/libart.so!_ZNK3art10ThreadList22SweepInterpreterCachesEPNS_15IsMarkedVisitorE (0x7a07717f84) with /data/data/com.facebook.katana/lib-compressed/libdexload.so!_ZN8facebook22interpcacheinterceptor23replacedSweepThreadListEPvS1_ (0x7968770e00)
+05-26 01:19:35.547 E/InterpreterCacheClear(18533): Couldn't hook SweepInterpreterCaches in libart.so: (null)

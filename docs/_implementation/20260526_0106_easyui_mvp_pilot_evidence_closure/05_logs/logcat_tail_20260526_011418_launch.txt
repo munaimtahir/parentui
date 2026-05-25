@@ -1,0 +1,600 @@
+05-26 01:14:26.442 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-26 01:14:26.450 I/TransportConnection( 1478): BackupTransportService#4668: Notifying [AppBackupUtils.appIsRunningAndEligibleForBackupWithTransport] transport = BackupTransportClient
+05-26 01:14:26.454 I/BaseFilesVerify( 1478): Base File verify start
+05-26 01:14:26.454 W/BaseFilesVerify( 1478): com.microsoft.appmanager.xmlis not in fileProtect list,can not protect this file
+05-26 01:14:26.464 I/Backup  (30000): [EligibilityFilter] Rejecting com.google.android.overlay.gmsconfig.personalsafety, it's a first party app.
+05-26 01:14:26.470 I/LoadedApk(13356): No resource references to update in package com.transsion.theme.icon
+05-26 01:14:26.477 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039522,0.000071, totalTime 0.039594 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:26.480 I/TransportConnection( 1478): BackupTransportService#4671: Notifying [AppBackupUtils.appIsRunningAndEligibleForBackupWithTransport] transport = BackupTransportClient
+05-26 01:14:26.506 I/TransportConnection( 1478): BackupTransportService#4672: Notifying [AppBackupUtils.appIsRunningAndEligibleForBackupWithTransport] transport = BackupTransportClient
+05-26 01:14:26.517 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039591,0.000060, totalTime 0.039652 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:26.521 I/Backup  (30000): [EligibilityFilter] Rejecting com.google.android.ondevicepersonalization.services, it's a first party app.
+05-26 01:14:26.537 I/TransportConnection( 1478): BackupTransportService#4673: Notifying [AppBackupUtils.appIsRunningAndEligibleForBackupWithTransport] transport = BackupTransportClient
+05-26 01:14:26.543 I/Kolun.ThemeManager(24717):  SettingObserver AppList not changed 
+05-26 01:14:26.557 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039591,0.000049, totalTime 0.039640 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:26.563 I/TransportConnection( 1478): BackupTransportService#4674: Notifying [AppBackupUtils.appIsRunningAndEligibleForBackupWithTransport] transport = BackupTransportClient
+05-26 01:14:26.595 I/TransportConnection( 1478): BackupTransportService#4676: Notifying [AppBackupUtils.appIsRunningAndEligibleForBackupWithTransport] transport = BackupTransportClient
+05-26 01:14:26.597 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039578,0.000049, totalTime 0.039628 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:26.608 I/Backup  (30000): [EligibilityFilter] Rejecting com.android.bluetoothmidiservice, it's a first party app.
+05-26 01:14:26.610 W/ProviderHelper(13356): Unknown dynamite feature providerinstaller.dynamite
+05-26 01:14:26.610 I/DynamiteModule(13356): Considering local module com.google.android.gms.providerinstaller.dynamite:1 and remote module com.google.android.gms.providerinstaller.dynamite:0
+05-26 01:14:26.610 I/DynamiteModule(13356): Selected local version of com.google.android.gms.providerinstaller.dynamite
+05-26 01:14:26.624 I/TransportConnection( 1478): BackupTransportService#4677: Notifying [AppBackupUtils.appIsRunningAndEligibleForBackupWithTransport] transport = BackupTransportClient
+05-26 01:14:26.637 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039593,0.000049, totalTime 0.039642 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:26.648 I/ProviderInstaller(13356): Installed default security provider GmsCore_OpenSSL
+05-26 01:14:26.655 I/TransportConnection( 1478): BackupTransportService#4678: Notifying [AppBackupUtils.appIsRunningAndEligibleForBackupWithTransport] transport = BackupTransportClient
+05-26 01:14:26.665 I/Watchcat(13356): Started
+05-26 01:14:26.668 I/GMS_MM_Logger(13356): (REDACTED) Start time: %s
+05-26 01:14:26.669 I/GMS_MM_Logger(13356): Started.
+05-26 01:14:26.677 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039620,0.000031, totalTime 0.039652 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:26.692 I/TransportConnection( 1478): BackupTransportService#4682: Notifying [AppBackupUtils.appIsRunningAndEligibleForBackupWithTransport] transport = BackupTransportClient
+05-26 01:14:26.717 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039747,0.000052, totalTime 0.039800 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:26.720 I/TransportConnection( 1478): BackupTransportService#4684: Notifying [AppBackupUtils.appIsRunningAndEligibleForBackupWithTransport] transport = BackupTransportClient
+05-26 01:14:26.751 I/TransportConnection( 1478): BackupTransportService#4686: Notifying [AppBackupUtils.appIsRunningAndEligibleForBackupWithTransport] transport = BackupTransportClient
+05-26 01:14:26.757 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039664,0.000055, totalTime 0.039721 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:26.764 I/native  (31344): I0000 00:00:1779740066.764304   18906 soda_async_impl.cc:1424] Current audio timestamp: 1779740065707480
+05-26 01:14:26.780 I/TransportConnection( 1478): BackupTransportService#4687: Notifying [AppBackupUtils.appIsRunningAndEligibleForBackupWithTransport] transport = BackupTransportClient
+05-26 01:14:26.789 W/TracingHelper(13356): No RequestContext found in the trace or trace not available. [CONTEXT service_id=259 ratelimit_count=1410065408 ]
+05-26 01:14:26.796 W/TracingHelper(13356): Mismatched RequestContext found for module DROIDGUARD. Module id from RequestContext is MODULEID_UNKNOWN [CONTEXT service_id=259 ratelimit_count=1410065408 ]
+05-26 01:14:26.816 I/TransportConnection( 1478): BackupTransportService#4688: Notifying [AppBackupUtils.appIsRunningAndEligibleForBackupWithTransport] transport = BackupTransportClient
+05-26 01:14:26.817 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039682,0.000036, totalTime 0.039719 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:26.833 E/id.gms.unstable(13356): Attempt to load writable dex file: /data/user/0/com.google.android.gms/app_dg_cache/754BEC187BC4F26BBC31300F93DBF9B7506C1861/the.apk
+05-26 01:14:26.836 E/id.gms.unstable(13356): Unable to resolve path '/data/app/~~atfKLOWneyNTRvNaoFRnBg==/com.google.android.gms-ZLLA9EM6FrF0AaiovILAdQ==/base.apk': No such file or directory
+05-26 01:14:26.836 W/id.gms.unstable(13356): ClassLoaderContext classpath element mismatch. expected=/data/app/~~atfKLOWneyNTRvNaoFRnBg==/com.google.android.gms-ZLLA9EM6FrF0AaiovILAdQ==/base.apk, found=/data/app/~~2kEpK5IiCNEmiM-qc309rQ==/com.google.android.gms-VtO7gWcAyCI4I_lOZBtg9A==/base.apk (PCL[];PCL[/data/app/~~atfKLOWneyNTRvNaoFRnBg==/com.google.android.gms-ZLLA9EM6FrF0AaiovILAdQ==/base.apk*3459175842]{PCL[/system/framework/org.apache.http.legacy.jar*2290010995]#PCL[/system/framework/com.android.location.provider.jar*3868789109]#PCL[/system/framework/com.android.media.remotedisplay.jar*3886290638]} | PCL[];PCL[/data/app/~~2kEpK5IiCNEmiM-qc309rQ==/com.google.android.gms-VtO7gWcAyCI4I_lOZBtg9A==/base.apk*217194814]{PCL[/system/framework/org.apache.http.legacy.jar*2290010995]#PCL[/system/framework/com.android.location.provider.jar*3868789109]#PCL[/system/framework/com.android.media.remotedisplay.jar*3886290638]})
+05-26 01:14:26.841 I/TransportConnection( 1478): BackupTransportService#4689: Notifying [AppBackupUtils.appIsRunningAndEligibleForBackupWithTransport] transport = BackupTransportClient
+05-26 01:14:26.854 I/Backup  (30000): [EligibilityFilter] Rejecting com.google.android.apps.adm, it's a first party app.
+05-26 01:14:26.857 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039633,0.000049, totalTime 0.039683 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:26.871 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-26 01:14:26.871 I/libPerfCtl(  738): xgfGetFPS pid:10319 fps:-1
+05-26 01:14:26.871 I/libPerfCtl(  738): xgfGetFPS pid:12743 fps:-1
+05-26 01:14:26.878 I/Accelerometer(  934): batch: handle:0, flag:0,samplingPeriodNs:20000000 maxBatchReportLatencyNs:0
+05-26 01:14:26.879 I/TransportConnection( 1478): BackupTransportService#4692: Notifying [AppBackupUtils.appIsRunningAndEligibleForBackupWithTransport] transport = BackupTransportClient
+05-26 01:14:26.880 I/BufferQueueProducer(  755): [StatusBar#88](this:0xb400007ca8098aa8,id:-1,api:0,p:-1,c:755) queueBuffer: fps=0.39 dur=5136.96 max=4998.78 min=138.19
+05-26 01:14:26.882 I/hwcomposer(  727): [HWCDisplay] [Display_0 (type:1)] fps:4.200741,dur:1190.27,max:1016.99,min:10.75  
+05-26 01:14:26.884 I/VGyroscope(  934): batch: handle:3, flag:0,samplingPeriodNs:5000000 maxBatchReportLatencyNs:0
+05-26 01:14:26.884 I/VGyroscope(  934): enable, handle:3, en:1
+05-26 01:14:26.884 I/Accelerometer(  934): batch: handle:0, flag:0,samplingPeriodNs:5000000 maxBatchReportLatencyNs:0
+05-26 01:14:26.885 I/Magnetic(  934): batch: handle:1, flag:0, samplingPeriodNs:20000000,maxBatchReportLatencyNs:0
+05-26 01:14:26.887 I/Magnetic(  934): enable: handle:1, en:1 
+05-26 01:14:26.888 E/android.hardware.sensors@2.0-service.multihal-mediatek(  934): MEMSIC_enableLib
+05-26 01:14:26.893 I/PickerSyncController( 3587): Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+05-26 01:14:26.897 E/SensorManager(  934): Correct handle(1) mindelay: 20000000 old: 10000000
+05-26 01:14:26.897 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039712,0.000070, totalTime 0.039783 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:26.903 I/Backup  (30000): [EligibilityFilter] Rejecting com.android.wallpaperpicker, it's a first party app.
+05-26 01:14:26.912 I/SmartPanel_AppModel( 3903): com.openai.chatgpt is duplicated uid = 0
+05-26 01:14:26.940 I/TransportConnection( 1478): BackupTransportService#4699: Notifying [AppBackupUtils.appIsRunningAndEligibleForBackupWithTransport] transport = BackupTransportClient
+05-26 01:14:26.954 I/Backup  (30000): [EligibilityFilter] Rejecting com.android.internal.systemui.navbar.gestural_narrow_back, it's a first party app.
+05-26 01:14:26.957 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039755,0.000057, totalTime 0.039813 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:26.960 I/PickerSyncController( 3587): Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=5038063, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+05-26 01:14:26.962 I/PickerSyncController( 3587): Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+05-26 01:14:26.963 W/libc    (13356): Access denied finding property "persist.adb.tls_server.enable"
+05-26 01:14:26.959 W/binder:13356_4(13356): type=1400 audit(0.0:138445): avc: denied { read } for name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=7740 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.transsion.calculator
+05-26 01:14:26.963 W/libc    (13356): Access denied finding property "service.adb.tls.port"
+05-26 01:14:26.959 W/binder:13356_4(13356): type=1400 audit(0.0:138446): avc: denied { read } for name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=7532 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.transsion.calculator
+05-26 01:14:26.991 I/system_server( 1478): Background young concurrent copying GC freed 19MB AllocSpace bytes, 20(480KB) LOS objects, 19% free, 94MB/117MB, paused 484us,353us total 108.441ms
+05-26 01:14:26.996 W/JHwRemoteBinder( 1478): BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.biometrics.sensors.fingerprint.hidl.Fingerprint21
+05-26 01:14:26.996 I/hw-BpHwBinder( 1478): onLastStrongRef automatically unlinking death recipients
+05-26 01:14:27.001 I/TransportConnection( 1478): BackupTransportService#4700: Notifying [AppBackupUtils.appIsRunningAndEligibleForBackupWithTransport] transport = BackupTransportClient
+05-26 01:14:27.009 I/Checkin (30000): [CheckinApiChimeraService] onGetService
+05-26 01:14:27.017 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039715,0.000049, totalTime 0.039765 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:27.020 I/ekvy    (31344): (REDACTED) #onAudioData: %s bytes, getAudioReadSize %s
+05-26 01:14:27.027 I/TransportConnection( 1478): BackupTransportService#4702: Notifying [AppBackupUtils.appIsRunningAndEligibleForBackupWithTransport] transport = BackupTransportClient
+05-26 01:14:27.035 I/FloatWindow( 1478): hookInputMethodShown inputShown: false
+05-26 01:14:27.035 W/uiautomator(13292): type=1400 audit(0.0:138447): avc: denied { read } for name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=7714 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=0
+05-26 01:14:27.037 W/libc    (13292): Access denied finding property "qemu.sf.lcd_density"
+05-26 01:14:27.037 W/libc    (13292): Access denied finding property "qemu.sf.lcd_density"
+05-26 01:14:27.035 W/uiautomator(13292): type=1400 audit(0.0:138448): avc: denied { read } for name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=7714 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=0
+05-26 01:14:27.039 I/resolv  (  711): GetAddrInfoHandler::run: {108 786540 108 983148 10115 0}
+05-26 01:14:27.045 I/TranSourceConnectManagerImpl( 1478): hookInputMethodShown inputShown: false
+05-26 01:14:27.045 I/input_debug( 1478): package: com.easyui.guardianlauncher isPassWordInput: false inputType: 0 mMethodMap: true isKeyguardShowing: false enable: 0 isSplitScreen: false
+05-26 01:14:27.047 I/Choreographer(12743): Skipped 277 frames!  The application may be doing too much work on its main thread.
+05-26 01:14:27.053 W/MediaProvider( 3587): isAppCloneUserPair for user 0: false
+05-26 01:14:27.058 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.040127,0.000056, totalTime 0.040183 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:27.060 I/MultiWindowManager( 2228): manager notifyInputMethodShow: false
+05-26 01:14:27.060 I/tmw_    ( 2228): notifyInputMethodShow: false ignoreSame: true mFocusOnMultiDisplay: false
+05-26 01:14:27.064 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:14:27.069 I/AlarmManager( 1478): going to release mWakeLock actually.
+05-26 01:14:27.071 E/TranSecureKeyboardManagerImpl( 1478): inputTarget = Window{c71ead2 u0 com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity}
+05-26 01:14:27.088 I/TransportConnection( 1478): BackupTransportService#4703: Notifying [AppBackupUtils.appIsRunningAndEligibleForBackupWithTransport] transport = BackupTransportClient
+05-26 01:14:27.097 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039110,0.000051, totalTime 0.039162 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:27.098 I/Magnetic(  934): batch: handle:1, flag:0, samplingPeriodNs:20000000,maxBatchReportLatencyNs:0
+05-26 01:14:27.107 I/VGyroscope(  934): enable, handle:3, en:0
+05-26 01:14:27.107 I/Accelerometer(  934): batch: handle:0, flag:0,samplingPeriodNs:20000000 maxBatchReportLatencyNs:100000000
+05-26 01:14:27.107 I/Magnetic(  934): enable: handle:1, en:0 
+05-26 01:14:27.108 E/android.hardware.sensors@2.0-service.multihal-mediatek(  934): MEMSIC_enableLib
+05-26 01:14:27.111 I/resolv  (  711): res_nsend: used send_dg 0 terrno: 110
+05-26 01:14:27.111 I/CryptauthV2(30000): [ReEnrollmentCryptauthFramework] Starting enrollment process.
+05-26 01:14:27.118 I/CryptauthV2(30000): [ReEnrollmentCryptauthFramework] New keyName: fido:android_strong_auth_v3_key
+05-26 01:14:27.118 I/CryptauthV2(30000): [ReEnrollmentCryptauthFramework] New keyName: fido:android_autofill_keystore_key
+05-26 01:14:27.121 W/CryptauthV2(30000): [ClientDataOperation] No keyMetadata found for keyName=PublicKey
+05-26 01:14:27.125 W/CryptauthV2(30000): [ClientDataOperation] No keyMetadata found for keyName=fido:android_software_key_cable_lk
+05-26 01:14:27.129 W/CryptauthV2(30000): [ClientDataOperation] No keyMetadata found for keyName=fido:android_software_key_cable_irk
+05-26 01:14:27.130 I/BufferQueueProducer(  755): [com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity#19895](this:0xb400007ca8115f68,id:-1,api:0,p:-1,c:755) queueBuffer: fps=0.22 dur=4569.62 max=4569.62 min=4569.62
+05-26 01:14:27.133 W/CryptauthV2(30000): [ClientDataOperation] No keyMetadata found for keyName=fido:android_software_key
+05-26 01:14:27.136 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:14:27.137 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039587,0.000055, totalTime 0.039643 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:27.139 I/TransportConnection( 1478): BackupTransportService#4705: Notifying [AppBackupUtils.appIsRunningAndEligibleForBackupWithTransport] transport = BackupTransportClient
+05-26 01:14:27.139 W/CryptauthV2(30000): [ClientDataOperation] No keyMetadata found for keyName=DeviceSync:BetterTogether
+05-26 01:14:27.143 E/PickerDbFacade( 3587): Could not get first date taken millis for media id: 1000836564
+05-26 01:14:27.156 W/PickerDbFacade( 3587): Unable to promote cloud media with localId: 1000836564
+05-26 01:14:27.159 W/CryptauthV2(30000): [ClientDataOperation] No keyMetadata found for keyName=authzen
+05-26 01:14:27.168 I/PickerSyncController( 3587): Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=5038063, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+05-26 01:14:27.168 I/PickerSyncTracker( 3587): Marked sync future complete for work id: eb53634d-6ebe-4b54-bb1d-e7bd9524362a. Future map: {}
+05-26 01:14:27.168 I/PSyncWorker( 3587): Completed picker proactive sync complete from local provider.
+05-26 01:14:27.176 I/WM-WorkerWrapper( 3587): Worker result SUCCESS for Work [ id=eb53634d-6ebe-4b54-bb1d-e7bd9524362a, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+05-26 01:14:27.177 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.034951,0.000040, totalTime 0.034992 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:27.184 W/CryptauthV2(30000): [ClientDataOperation] No keyMetadata found for keyName=fido:android_strong_auth_v3_key
+05-26 01:14:27.190 W/JobScheduler( 1478): Job didn't exist in JobStore: 5f6e304 #u0a202/60780 com.google.android.providers.media.module/androidx.work.impl.background.systemjob.SystemJobService
+05-26 01:14:27.191 W/CryptauthV2(30000): [ClientDataOperation] No keyMetadata found for keyName=fido:android_autofill_keystore_key
+05-26 01:14:27.191 I/CryptauthV2(30000): [ReEnrollmentCryptauthFramework] Performing SyncKeysRequest with 8 keys.
+05-26 01:14:27.217 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039640,0.000053, totalTime 0.039693 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:27.228 I/TransportConnection( 1478): BackupTransportService#4706: Notifying [AppBackupUtils.appIsRunningAndEligibleForBackupWithTransport] transport = BackupTransportClient
+05-26 01:14:27.234 W/AccessibilityNodeInfoDumper(13292): Fetch time: 192ms
+05-26 01:14:27.243 I/AndroidBackupEventsLogg(30000): (REDACTED) Logging with sampling event %s
+05-26 01:14:27.245 I/NetworkScheduler.Stats(13439): (REDACTED) HousekeepingTask %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-26 01:14:27.248 E/AuthPII (13439): [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/plus.me
+05-26 01:14:27.248 E/AuthPII (13439): bibt: Long live credential not available.
+05-26 01:14:27.248 E/AuthPII (13439): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-26 01:14:27.248 E/AuthPII (13439): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-26 01:14:27.248 E/AuthPII (13439): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-26 01:14:27.248 E/AuthPII (13439): 	at aglv.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):82)
+05-26 01:14:27.248 E/AuthPII (13439): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):40)
+05-26 01:14:27.248 E/AuthPII (13439): 	at aaql.dispatchTransaction(:com.google.android.gms@261833029@26.18.33 (190400-913931251):153)
+05-26 01:14:27.248 E/AuthPII (13439): 	at cawh.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):64)
+05-26 01:14:27.248 E/AuthPII (13439): 	at zuu.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-26 01:14:27.248 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:14:27.248 E/AuthPII (13439): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-26 01:14:27.248 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:14:27.248 E/AuthPII (13439): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-26 01:14:27.248 E/AuthPII (13439): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-26 01:14:27.248 E/AuthPII (13439): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 01:14:27.248 E/AuthPII (13439): Message is Long live credential not available.
+05-26 01:14:27.248 E/AuthPII (13439): bibt: Long live credential not available.
+05-26 01:14:27.248 E/AuthPII (13439): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-26 01:14:27.248 E/AuthPII (13439): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-26 01:14:27.248 E/AuthPII (13439): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-26 01:14:27.248 E/AuthPII (13439): 	at aglv.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):82)
+05-26 01:14:27.248 E/AuthPII (13439): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):40)
+05-26 01:14:27.248 E/AuthPII (13439): 	at aaql.dispatchTransaction(:com.google.android.gms@261833029@26.18.33 (190400-913931251):153)
+05-26 01:14:27.248 E/AuthPII (13439): 	at cawh.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):64)
+05-26 01:14:27.248 E/AuthPII (13439): 	at zuu.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-26 01:14:27.248 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:14:27.248 E/AuthPII (13439): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-26 01:14:27.248 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:14:27.248 E/AuthPII (13439): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-26 01:14:27.248 E/AuthPII (13439): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-26 01:14:27.248 E/AuthPII (13439): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 01:14:27.249 I/Auth    (13439): (REDACTED) [AccountIdManager] Token response failed with status=%s
+05-26 01:14:27.262 E/AuthPII (13439): [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/account.capabilities https://www.googleapis.com/auth/account.service_flags
+05-26 01:14:27.262 E/AuthPII (13439): bibt: Long live credential not available.
+05-26 01:14:27.262 E/AuthPII (13439): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-26 01:14:27.262 E/AuthPII (13439): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-26 01:14:27.262 E/AuthPII (13439): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-26 01:14:27.262 E/AuthPII (13439): 	at agmb.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):55)
+05-26 01:14:27.262 E/AuthPII (13439): 	at agmb.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):108)
+05-26 01:14:27.262 E/AuthPII (13439): 	at agmb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):817)
+05-26 01:14:27.262 E/AuthPII (13439): 	at agmb.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-26 01:14:27.262 E/AuthPII (13439): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):65)
+05-26 01:14:27.262 E/AuthPII (13439): 	at aaql.dispatchTransaction(:com.google.android.gms@261833029@26.18.33 (190400-913931251):153)
+05-26 01:14:27.262 E/AuthPII (13439): 	at cawh.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):64)
+05-26 01:14:27.262 E/AuthPII (13439): 	at zuu.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-26 01:14:27.262 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:14:27.262 E/AuthPII (13439): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-26 01:14:27.262 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:14:27.262 E/AuthPII (13439): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-26 01:14:27.262 E/AuthPII (13439): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-26 01:14:27.262 E/AuthPII (13439): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 01:14:27.263 E/AuthPII (13439): Message is Long live credential not available.
+05-26 01:14:27.263 E/AuthPII (13439): bibt: Long live credential not available.
+05-26 01:14:27.263 E/AuthPII (13439): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-26 01:14:27.263 E/AuthPII (13439): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-26 01:14:27.263 E/AuthPII (13439): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-26 01:14:27.263 E/AuthPII (13439): 	at agmb.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):55)
+05-26 01:14:27.263 E/AuthPII (13439): 	at agmb.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):108)
+05-26 01:14:27.263 E/AuthPII (13439): 	at agmb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):817)
+05-26 01:14:27.263 E/AuthPII (13439): 	at agmb.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-26 01:14:27.263 E/AuthPII (13439): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):65)
+05-26 01:14:27.263 E/AuthPII (13439): 	at aaql.dispatchTransaction(:com.google.android.gms@261833029@26.18.33 (190400-913931251):153)
+05-26 01:14:27.263 E/AuthPII (13439): 	at cawh.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):64)
+05-26 01:14:27.263 E/AuthPII (13439): 	at zuu.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-26 01:14:27.263 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:14:27.263 E/AuthPII (13439): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-26 01:14:27.263 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:14:27.263 E/AuthPII (13439): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-26 01:14:27.263 E/AuthPII (13439): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-26 01:14:27.263 E/AuthPII (13439): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 01:14:27.264 W/Auth    (13439): [AccountStateDownloader] Unable to look up account state from server: couldn't fetch accessToken [CONTEXT service_id=343 ]
+05-26 01:14:27.266 W/Auth    (13439): [GaiaIdSync] Empty email. Not updating db. [CONTEXT service_id=153 ]
+05-26 01:14:27.268 I/NetworkScheduler.Stats(13439): (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-26 01:14:27.277 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039767,0.000035, totalTime 0.039803 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:27.281 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:14:27.290 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:14:27.290 E/AuthPII (13439): [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/cryptauth
+05-26 01:14:27.290 E/AuthPII (13439): bibt: Long live credential not available.
+05-26 01:14:27.290 E/AuthPII (13439): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-26 01:14:27.290 E/AuthPII (13439): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-26 01:14:27.290 E/AuthPII (13439): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-26 01:14:27.290 E/AuthPII (13439): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):151)
+05-26 01:14:27.290 E/AuthPII (13439): 	at agqn.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):328)
+05-26 01:14:27.290 E/AuthPII (13439): 	at aglm.f(:com.google.android.gms@261833029@26.18.33 (190400-913931251):24)
+05-26 01:14:27.290 E/AuthPII (13439): 	at cwnx.fD(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1)
+05-26 01:14:27.290 E/AuthPII (13439): 	at cwoi.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):121)
+05-26 01:14:27.290 E/AuthPII (13439): 	at haww.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-26 01:14:27.290 E/AuthPII (13439): 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-26 01:14:27.290 E/AuthPII (13439): 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-26 01:14:27.290 E/AuthPII (13439): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-26 01:14:27.290 E/AuthPII (13439): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-26 01:14:27.290 E/AuthPII (13439): 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-26 01:14:27.290 E/AuthPII (13439): 	at java.lang.Thread.run(Thread.java:1564)
+05-26 01:14:27.291 E/AuthPII (13439): Message is Long live credential not available.
+05-26 01:14:27.291 E/AuthPII (13439): bibt: Long live credential not available.
+05-26 01:14:27.291 E/AuthPII (13439): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-26 01:14:27.291 E/AuthPII (13439): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-26 01:14:27.291 E/AuthPII (13439): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-26 01:14:27.291 E/AuthPII (13439): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):151)
+05-26 01:14:27.291 E/AuthPII (13439): 	at agqn.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):328)
+05-26 01:14:27.291 E/AuthPII (13439): 	at aglm.f(:com.google.android.gms@261833029@26.18.33 (190400-913931251):24)
+05-26 01:14:27.291 E/AuthPII (13439): 	at cwnx.fD(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1)
+05-26 01:14:27.291 E/AuthPII (13439): 	at cwoi.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):121)
+05-26 01:14:27.291 E/AuthPII (13439): 	at haww.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-26 01:14:27.291 E/AuthPII (13439): 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-26 01:14:27.291 E/AuthPII (13439): 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-26 01:14:27.291 E/AuthPII (13439): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-26 01:14:27.291 E/AuthPII (13439): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-26 01:14:27.291 E/AuthPII (13439): 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-26 01:14:27.291 E/AuthPII (13439): 	at java.lang.Thread.run(Thread.java:1564)
+05-26 01:14:27.292 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:14:27.304 I/resolv  (  711): res_nsend: used send_dg 180 terrno: 0
+05-26 01:14:27.304 I/resolv  (  711): doQuery: rcode=0, ancount=3, return value=180
+05-26 01:14:27.305 W/SocketClient(  711): write error (Broken pipe)
+05-26 01:14:27.307 W/resolv  (  711): GetAddrInfoHandler::run: Error writing DNS result to client uid 10367 pid 12581: Broken pipe
+05-26 01:14:27.312 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:14:27.316 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-26 01:14:27.316 I/Auth    (13439): (REDACTED) [GetToken] GetToken failed for app=%s with userRecoverable status: %s 
+05-26 01:14:27.317 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039656,0.000048, totalTime 0.039705 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:27.318 W/Auth    (13439): [GetTokenOperation] exception while trying to fetch auth tokens for app=com.google.android.gms [CONTEXT service_id=343 ]
+05-26 01:14:27.318 W/Auth    (13439): ahbw: GetToken failed with status code and recovery intent: BadAuthentication
+05-26 01:14:27.318 W/Auth    (13439): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):352)
+05-26 01:14:27.318 W/Auth    (13439): 	at agqn.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):328)
+05-26 01:14:27.318 W/Auth    (13439): 	at aglm.f(:com.google.android.gms@261833029@26.18.33 (190400-913931251):24)
+05-26 01:14:27.318 W/Auth    (13439): 	at cwnx.fD(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1)
+05-26 01:14:27.318 W/Auth    (13439): 	at cwoi.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):121)
+05-26 01:14:27.318 W/Auth    (13439): 	at haww.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-26 01:14:27.318 W/Auth    (13439): 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-26 01:14:27.318 W/Auth    (13439): 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-26 01:14:27.318 W/Auth    (13439): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-26 01:14:27.318 W/Auth    (13439): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-26 01:14:27.318 W/Auth    (13439): 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-26 01:14:27.318 W/Auth    (13439): 	at java.lang.Thread.run(Thread.java:1564)
+05-26 01:14:27.325 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-26 01:14:27.330 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:14:27.330 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-26 01:14:27.339 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-26 01:14:27.341 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:14:27.344 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-26 01:14:27.344 I/NetworkScheduler.Stats(13439): (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-26 01:14:27.349 I/NetworkScheduler.Stats(13439): (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-26 01:14:27.350 W/CryptauthV2(30000): [ClientAppMetadataHelper] Skipping display calculation since didn't have access to a visual context
+05-26 01:14:27.355 I/android_os_HwBinder( 1478): HwBinder: Starting thread pool for getting: android.hardware.biometrics.fingerprint@2.1::IBiometricsFingerprint/default
+05-26 01:14:27.355 E/Fingerprint21( 1478): Unable to set callback
+05-26 01:14:27.357 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039580,0.000046, totalTime 0.039627 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:27.395 I/Accelerometer(  934): batch: handle:0, flag:0,samplingPeriodNs:20000000 maxBatchReportLatencyNs:0
+05-26 01:14:27.398 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{640dbf6 com.funbase.xradio}
+05-26 01:14:27.398 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039973,0.000066, totalTime 0.040040 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:27.398 I/VGyroscope(  934): batch: handle:3, flag:0,samplingPeriodNs:5000000 maxBatchReportLatencyNs:0
+05-26 01:14:27.399 I/VGyroscope(  934): enable, handle:3, en:1
+05-26 01:14:27.400 I/Accelerometer(  934): batch: handle:0, flag:0,samplingPeriodNs:5000000 maxBatchReportLatencyNs:0
+05-26 01:14:27.400 W/native  (31344): W0000 00:00:1779740067.400459   18906 lag_detector.cc:58] Pipeline lagging by 1.082976521s. Continue processing samples.
+05-26 01:14:27.401 I/NetworkScheduler.Stats(13439): (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-26 01:14:27.402 I/Magnetic(  934): batch: handle:1, flag:0, samplingPeriodNs:20000000,maxBatchReportLatencyNs:0
+05-26 01:14:27.402 I/WalletGcmTaskService(30000): Running GcmTask w/ tag INSTANTBUY_SYNC_GCM_TASK_STEP_2
+05-26 01:14:27.403 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:27.403 I/Magnetic(  934): enable: handle:1, en:1 
+05-26 01:14:27.404 E/android.hardware.sensors@2.0-service.multihal-mediatek(  934): MEMSIC_enableLib
+05-26 01:14:27.407 E/SensorManager(  934): Correct handle(1) mindelay: 20000000 old: 10000000
+05-26 01:14:27.407 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:27.418 I/NetworkScheduler.Stats(13439): (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-26 01:14:27.438 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039450,0.000087, totalTime 0.039538 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:27.455 W/binder:13356_4(13356): type=1400 audit(0.0:138449): avc: denied { read } for name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=7740 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.transsion.calculator
+05-26 01:14:27.457 W/libc    (13356): Access denied finding property "persist.adb.tls_server.enable"
+05-26 01:14:27.457 W/libc    (13356): Access denied finding property "service.adb.tls.port"
+05-26 01:14:27.468 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-26 01:14:27.477 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039458,0.000082, totalTime 0.039541 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:27.490 I/BaseFilesVerify( 1478): Base File verify start
+05-26 01:14:27.490 W/BaseFilesVerify( 1478): settings_system.xmlis not in fileProtect list,can not protect this file
+05-26 01:14:27.522 I/Magnetic(  934): batch: handle:1, flag:0, samplingPeriodNs:20000000,maxBatchReportLatencyNs:0
+05-26 01:14:27.522 I/CryptauthV2(30000): [ReEnrollmentCryptauthFramework] Starting enrollment process.
+05-26 01:14:27.525 I/VGyroscope(  934): enable, handle:3, en:0
+05-26 01:14:27.525 I/Accelerometer(  934): batch: handle:0, flag:0,samplingPeriodNs:20000000 maxBatchReportLatencyNs:100000000
+05-26 01:14:27.525 I/Magnetic(  934): enable: handle:1, en:0 
+05-26 01:14:27.526 E/android.hardware.sensors@2.0-service.multihal-mediatek(  934): MEMSIC_enableLib
+05-26 01:14:27.530 I/CryptauthV2(30000): [ReEnrollmentCryptauthFramework] New keyName: fido:android_strong_auth_v3_key
+05-26 01:14:27.530 I/CryptauthV2(30000): [ReEnrollmentCryptauthFramework] New keyName: fido:android_autofill_keystore_key
+05-26 01:14:27.533 W/CryptauthV2(30000): [ClientDataOperation] No keyMetadata found for keyName=PublicKey
+05-26 01:14:27.537 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039739,0.000098, totalTime 0.039839 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:27.538 W/CryptauthV2(30000): [ClientDataOperation] No keyMetadata found for keyName=fido:android_software_key_cable_lk
+05-26 01:14:27.543 W/CryptauthV2(30000): [ClientDataOperation] No keyMetadata found for keyName=fido:android_software_key_cable_irk
+05-26 01:14:27.546 W/CryptauthV2(30000): [ClientDataOperation] No keyMetadata found for keyName=fido:android_software_key
+05-26 01:14:27.549 W/CryptauthV2(30000): [ClientDataOperation] No keyMetadata found for keyName=DeviceSync:BetterTogether
+05-26 01:14:27.551 W/CryptauthV2(30000): [ClientDataOperation] No keyMetadata found for keyName=authzen
+05-26 01:14:27.553 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{b07cc43 com.transsion.healthlife}
+05-26 01:14:27.554 W/CryptauthV2(30000): [ClientDataOperation] No keyMetadata found for keyName=fido:android_strong_auth_v3_key
+05-26 01:14:27.557 W/CryptauthV2(30000): [ClientDataOperation] No keyMetadata found for keyName=fido:android_autofill_keystore_key
+05-26 01:14:27.557 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:27.557 I/CryptauthV2(30000): [ReEnrollmentCryptauthFramework] Performing SyncKeysRequest with 8 keys.
+05-26 01:14:27.560 I/NetworkScheduler.Stats(13439): (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-26 01:14:27.561 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:27.567 E/AuthPII (13439): [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/plus.me
+05-26 01:14:27.567 E/AuthPII (13439): bibt: Long live credential not available.
+05-26 01:14:27.567 E/AuthPII (13439): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-26 01:14:27.567 E/AuthPII (13439): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-26 01:14:27.567 E/AuthPII (13439): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-26 01:14:27.567 E/AuthPII (13439): 	at aglv.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):82)
+05-26 01:14:27.567 E/AuthPII (13439): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):40)
+05-26 01:14:27.567 E/AuthPII (13439): 	at aaql.dispatchTransaction(:com.google.android.gms@261833029@26.18.33 (190400-913931251):153)
+05-26 01:14:27.567 E/AuthPII (13439): 	at cawh.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):64)
+05-26 01:14:27.567 E/AuthPII (13439): 	at zuu.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-26 01:14:27.567 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:14:27.567 E/AuthPII (13439): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-26 01:14:27.567 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:14:27.567 E/AuthPII (13439): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-26 01:14:27.567 E/AuthPII (13439): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-26 01:14:27.567 E/AuthPII (13439): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 01:14:27.567 E/AuthPII (13439): Message is Long live credential not available.
+05-26 01:14:27.567 E/AuthPII (13439): bibt: Long live credential not available.
+05-26 01:14:27.567 E/AuthPII (13439): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-26 01:14:27.567 E/AuthPII (13439): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-26 01:14:27.567 E/AuthPII (13439): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-26 01:14:27.567 E/AuthPII (13439): 	at aglv.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):82)
+05-26 01:14:27.567 E/AuthPII (13439): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):40)
+05-26 01:14:27.567 E/AuthPII (13439): 	at aaql.dispatchTransaction(:com.google.android.gms@261833029@26.18.33 (190400-913931251):153)
+05-26 01:14:27.567 E/AuthPII (13439): 	at cawh.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):64)
+05-26 01:14:27.567 E/AuthPII (13439): 	at zuu.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-26 01:14:27.567 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:14:27.567 E/AuthPII (13439): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-26 01:14:27.567 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:14:27.567 E/AuthPII (13439): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-26 01:14:27.567 E/AuthPII (13439): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-26 01:14:27.567 E/AuthPII (13439): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 01:14:27.568 I/Auth    (13439): (REDACTED) [AccountIdManager] Token response failed with status=%s
+05-26 01:14:27.572 E/AuthPII (13439): [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/account.capabilities https://www.googleapis.com/auth/account.service_flags
+05-26 01:14:27.572 E/AuthPII (13439): bibt: Long live credential not available.
+05-26 01:14:27.572 E/AuthPII (13439): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-26 01:14:27.572 E/AuthPII (13439): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-26 01:14:27.572 E/AuthPII (13439): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-26 01:14:27.572 E/AuthPII (13439): 	at agmb.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):55)
+05-26 01:14:27.572 E/AuthPII (13439): 	at agmb.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):108)
+05-26 01:14:27.572 E/AuthPII (13439): 	at agmb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):817)
+05-26 01:14:27.572 E/AuthPII (13439): 	at agmb.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-26 01:14:27.572 E/AuthPII (13439): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):65)
+05-26 01:14:27.572 E/AuthPII (13439): 	at aaql.dispatchTransaction(:com.google.android.gms@261833029@26.18.33 (190400-913931251):153)
+05-26 01:14:27.572 E/AuthPII (13439): 	at cawh.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):64)
+05-26 01:14:27.572 E/AuthPII (13439): 	at zuu.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-26 01:14:27.572 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:14:27.572 E/AuthPII (13439): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-26 01:14:27.572 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:14:27.572 E/AuthPII (13439): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-26 01:14:27.572 E/AuthPII (13439): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-26 01:14:27.572 E/AuthPII (13439): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 01:14:27.572 E/AuthPII (13439): Message is Long live credential not available.
+05-26 01:14:27.572 E/AuthPII (13439): bibt: Long live credential not available.
+05-26 01:14:27.572 E/AuthPII (13439): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-26 01:14:27.572 E/AuthPII (13439): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-26 01:14:27.572 E/AuthPII (13439): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-26 01:14:27.572 E/AuthPII (13439): 	at agmb.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):55)
+05-26 01:14:27.572 E/AuthPII (13439): 	at agmb.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):108)
+05-26 01:14:27.572 E/AuthPII (13439): 	at agmb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):817)
+05-26 01:14:27.572 E/AuthPII (13439): 	at agmb.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-26 01:14:27.572 E/AuthPII (13439): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):65)
+05-26 01:14:27.572 E/AuthPII (13439): 	at aaql.dispatchTransaction(:com.google.android.gms@261833029@26.18.33 (190400-913931251):153)
+05-26 01:14:27.572 E/AuthPII (13439): 	at cawh.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):64)
+05-26 01:14:27.572 E/AuthPII (13439): 	at zuu.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-26 01:14:27.572 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:14:27.572 E/AuthPII (13439): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-26 01:14:27.572 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:14:27.572 E/AuthPII (13439): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-26 01:14:27.572 E/AuthPII (13439): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-26 01:14:27.572 E/AuthPII (13439): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 01:14:27.574 W/Auth    (13439): [AccountStateDownloader] Unable to look up account state from server: couldn't fetch accessToken [CONTEXT service_id=343 ]
+05-26 01:14:27.574 W/Auth    (13439): [GaiaIdSync] Empty email. Not updating db. [CONTEXT service_id=153 ]
+05-26 01:14:27.576 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{fd2171c com.transsion.hilauncher}
+05-26 01:14:27.577 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039541,0.000064, totalTime 0.039606 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:27.581 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:27.585 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:27.588 I/PlayGamesServices[GamesSyncAdapter](30000): Starting sync for 5eec3ec6
+05-26 01:14:27.599 I/PlayGamesServices[GamesSyncAdapter](30000): Sync duration for 5eec3ec6: 9
+05-26 01:14:27.603 E/AuthPII (13439): [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/cryptauth
+05-26 01:14:27.603 E/AuthPII (13439): bibt: Long live credential not available.
+05-26 01:14:27.603 E/AuthPII (13439): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-26 01:14:27.603 E/AuthPII (13439): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-26 01:14:27.603 E/AuthPII (13439): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-26 01:14:27.603 E/AuthPII (13439): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):151)
+05-26 01:14:27.603 E/AuthPII (13439): 	at agqn.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):328)
+05-26 01:14:27.603 E/AuthPII (13439): 	at aglm.f(:com.google.android.gms@261833029@26.18.33 (190400-913931251):24)
+05-26 01:14:27.603 E/AuthPII (13439): 	at cwnx.fD(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1)
+05-26 01:14:27.603 E/AuthPII (13439): 	at cwoi.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):121)
+05-26 01:14:27.603 E/AuthPII (13439): 	at haww.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-26 01:14:27.603 E/AuthPII (13439): 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-26 01:14:27.603 E/AuthPII (13439): 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-26 01:14:27.603 E/AuthPII (13439): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-26 01:14:27.603 E/AuthPII (13439): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-26 01:14:27.603 E/AuthPII (13439): 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-26 01:14:27.603 E/AuthPII (13439): 	at java.lang.Thread.run(Thread.java:1564)
+05-26 01:14:27.603 E/AuthPII (13439): Message is Long live credential not available.
+05-26 01:14:27.603 E/AuthPII (13439): bibt: Long live credential not available.
+05-26 01:14:27.603 E/AuthPII (13439): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-26 01:14:27.603 E/AuthPII (13439): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-26 01:14:27.603 E/AuthPII (13439): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-26 01:14:27.603 E/AuthPII (13439): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):151)
+05-26 01:14:27.603 E/AuthPII (13439): 	at agqn.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):328)
+05-26 01:14:27.603 E/AuthPII (13439): 	at aglm.f(:com.google.android.gms@261833029@26.18.33 (190400-913931251):24)
+05-26 01:14:27.603 E/AuthPII (13439): 	at cwnx.fD(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1)
+05-26 01:14:27.603 E/AuthPII (13439): 	at cwoi.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):121)
+05-26 01:14:27.603 E/AuthPII (13439): 	at haww.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-26 01:14:27.603 E/AuthPII (13439): 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-26 01:14:27.603 E/AuthPII (13439): 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-26 01:14:27.603 E/AuthPII (13439): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-26 01:14:27.603 E/AuthPII (13439): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-26 01:14:27.603 E/AuthPII (13439): 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-26 01:14:27.603 E/AuthPII (13439): 	at java.lang.Thread.run(Thread.java:1564)
+05-26 01:14:27.625 I/Auth    (13439): (REDACTED) [GetToken] GetToken failed for app=%s with userRecoverable status: %s 
+05-26 01:14:27.626 W/Auth    (13439): [GetTokenOperation] exception while trying to fetch auth tokens for app=com.google.android.gms [CONTEXT service_id=343 ]
+05-26 01:14:27.626 W/Auth    (13439): ahbw: GetToken failed with status code and recovery intent: BadAuthentication
+05-26 01:14:27.626 W/Auth    (13439): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):352)
+05-26 01:14:27.626 W/Auth    (13439): 	at agqn.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):328)
+05-26 01:14:27.626 W/Auth    (13439): 	at aglm.f(:com.google.android.gms@261833029@26.18.33 (190400-913931251):24)
+05-26 01:14:27.626 W/Auth    (13439): 	at cwnx.fD(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1)
+05-26 01:14:27.626 W/Auth    (13439): 	at cwoi.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):121)
+05-26 01:14:27.626 W/Auth    (13439): 	at haww.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-26 01:14:27.626 W/Auth    (13439): 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-26 01:14:27.626 W/Auth    (13439): 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-26 01:14:27.626 W/Auth    (13439): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-26 01:14:27.626 W/Auth    (13439): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-26 01:14:27.626 W/Auth    (13439): 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-26 01:14:27.626 W/Auth    (13439): 	at java.lang.Thread.run(Thread.java:1564)
+05-26 01:14:27.633 W/CCTFlatFileLogStore(13439): Excessive logging: 128 events, 130849 bytes from log source ANDROID_AUTH last 32s
+05-26 01:14:27.645 I/NetworkScheduler.Stats(13439): (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-26 01:14:27.648 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.671 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.673 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.675 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.677 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.723 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.725 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.726 I/NetworkScheduler.Stats(13439): (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-26 01:14:27.732 I/PlayGamesServices[GamesSyncAdapter](30000): Starting sync for ce13e262
+05-26 01:14:27.739 I/PlayGamesServices[GamesSyncAdapter](30000): Sync duration for ce13e262: 5
+05-26 01:14:27.747 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{6a6da0d com.magiconnect.tcast}
+05-26 01:14:27.751 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:27.756 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:27.758 I/NetworkScheduler.Stats(13439): (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-26 01:14:27.765 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.770 I/GetServiceValidatorImpl(30000): (REDACTED) onGetService() from Client SDK version [%s], Module version [%s], PGA version [%s], Account [%s], Calling package [%s], Game package [%s]
+05-26 01:14:27.772 I/GetGamesServiceReqFacto(30000): (REDACTED) Parsing request with ignored arguments. signInOptionsBundle [%s], isRetryingSignIn [%s], skipWelcomePopup [%s], requireGooglePlus [%s]
+05-26 01:14:27.772 I/GetGamesServiceReqFacto(30000): Replacing request for `games` scope with `games_lite`
+05-26 01:14:27.777 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039458,0.000100, totalTime 0.039559 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:27.784 I/SignInPerformer-2(30000): (REDACTED) Handling request [%s], isFirstPartyCaller [%s]
+05-26 01:14:27.785 I/SignInPerformer-2(30000): Successfully brokered first-party unauthenticated GamesService [CONTEXT service_id=1 ]
+05-26 01:14:27.786 I/GetGamesServiceV2Op(30000): (REDACTED) Successfully brokered GamesService for request %s
+05-26 01:14:27.788 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.790 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.793 E/BtGatt.ContextMap(31144): Context not found for ID 0
+05-26 01:14:27.793 W/TWSClientService(31144): array is null
+05-26 01:14:27.794 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.795 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.805 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{1a3967a invo8.meezan.mb}
+05-26 01:14:27.805 I/mtkpower@impl(  738): [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:12015
+05-26 01:14:27.809 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:27.813 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:27.823 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.824 I/NetworkScheduler.Stats(13439): (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-26 01:14:27.825 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.831 I/PlayGamesServices[GamesSyncAdapter](30000): Starting sync for c45dc983
+05-26 01:14:27.834 I/PlayGamesServices[GamesSyncAdapter](30000): Sync duration for c45dc983: 3
+05-26 01:14:27.837 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039745,0.000067, totalTime 0.039813 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:27.845 I/NetworkScheduler.Stats(13439): (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-26 01:14:27.854 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.868 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.870 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.871 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.871 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-26 01:14:27.871 I/libPerfCtl(  738): xgfGetFPS pid:10319 fps:-1
+05-26 01:14:27.871 I/libPerfCtl(  738): xgfGetFPS pid:12743 fps:-1
+05-26 01:14:27.872 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.877 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039568,0.000060, totalTime 0.039629 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:27.899 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{359d856 com.transsnet.store}
+05-26 01:14:27.904 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:27.904 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.905 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.907 I/NetworkScheduler.Stats(13439): (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-26 01:14:27.909 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:27.913 I/PlayGamesServices[GamesSyncAdapter](30000): Starting sync for 55a50f3c
+05-26 01:14:27.917 I/PlayGamesServices[GamesSyncAdapter](30000): Sync duration for 55a50f3c: 3
+05-26 01:14:27.928 I/NetworkScheduler.Stats(13439): (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-26 01:14:27.929 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{8501760 com.Neurononfire.SupremeDuelist}
+05-26 01:14:27.933 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:27.937 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.937 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039735,0.000082, totalTime 0.039818 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:27.938 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:27.951 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{f3e2dbc com.YsoCorp.MobileRun}
+05-26 01:14:27.955 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.956 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:27.957 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.960 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.961 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:27.962 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:27.972 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{3ddb44a com.YsoCorp.NinjaHands}
+05-26 01:14:27.976 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:27.978 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039612,0.000088, totalTime 0.039701 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:27.981 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:27.990 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{46fdc08 com.YsoCorp.TVInvasion}
+05-26 01:14:27.997 I/NetworkScheduler.Stats(13439): (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-26 01:14:27.997 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:28.000 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:28.002 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:28.003 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:28.003 I/PlayGamesServices[GamesSyncAdapter](30000): Starting sync for 8f51ad08
+05-26 01:14:28.011 I/PlayGamesServices[GamesSyncAdapter](30000): Sync duration for 8f51ad08: 4
+05-26 01:14:28.019 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{335aee4 com.aiswei.international}
+05-26 01:14:28.023 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:28.027 I/NetworkScheduler.Stats(13439): (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-26 01:14:28.029 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:28.038 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039806,0.000088, totalTime 0.039896 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:28.042 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:28.063 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:28.066 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:28.068 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:28.070 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:28.110 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:28.113 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:28.119 I/NetworkScheduler.Stats(13439): (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-26 01:14:28.122 I/PlayGamesServices[GamesSyncAdapter](30000): Starting sync for feaa6f71
+05-26 01:14:28.126 I/PlayGamesServices[GamesSyncAdapter](30000): Sync duration for feaa6f71: 3
+05-26 01:14:28.127 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{10dd198 com.base.bankalfalah}
+05-26 01:14:28.131 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:28.135 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:28.137 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039646,0.000098, totalTime 0.039746 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:28.143 I/NetworkScheduler.Stats(13439): (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-26 01:14:28.152 W/RefBase (13292): RefBase: Explicit destruction, weak count = 0 (in 0x7c4bdb76d0). Use sp<> to manage this object.
+05-26 01:14:28.156 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:28.160 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{f22f0e0 com.daraz.android}
+05-26 01:14:28.163 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:28.167 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:28.174 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:28.175 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:28.177 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039479,0.000063, totalTime 0.039543 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:28.178 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:28.181 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:28.215 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:28.217 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:28.217 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039606,0.000086, totalTime 0.039694 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:28.219 I/NetworkScheduler.Stats(13439): (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-26 01:14:28.225 I/PlayGamesServices[GamesSyncAdapter](30000): Starting sync for 3c67e224
+05-26 01:14:28.229 I/PlayGamesServices[GamesSyncAdapter](30000): Sync duration for 3c67e224: 3
+05-26 01:14:28.237 I/MediaProvider( 3587): Deleted 0 0 0 0 0 0 1 items on external_primary due to com.android.shell
+05-26 01:14:28.245 I/NetworkScheduler.Stats(13439): (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-26 01:14:28.254 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:28.256 I/TranNonAdaptiveIconExtImpl( 3903): custom icon for ApplicationInfo{10a9672 com.entertainerasia.vouch365}
+05-26 01:14:28.257 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039565,0.000059, totalTime 0.039625 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:28.260 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:28.264 I/TranIconHelper( 3903): Destory assetMAnager
+05-26 01:14:28.273 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:28.275 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:28.276 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:28.279 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:28.297 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039605,0.000064, totalTime 0.039670 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:28.305 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-26 01:14:28.306 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-26 01:14:28.315 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:28.316 W/PlayGamesServices[DataBroker](30000): No player ID found when refreshing
+05-26 01:14:28.336 I/NetworkScheduler.Stats(13439): (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-26 01:14:28.337 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039619,0.000063, totalTime 0.039683 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:14:28.338 D/BoundBrokerSvc(30000): onUnbind: Intent { act=com.google.android.gms.audit.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+05-26 01:14:28.340 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-26 01:14:28.341 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-26 01:14:28.340 I/PlayGamesServices[GamesSyncAdapter](30000): Starting sync for 3306dd37
+05-26 01:14:28.345 I/PlayGamesServices[GamesSyncAdapter](30000): Sync duration for 3306dd37: 3
+05-26 01:14:28.345 V/AlarmManager( 1478): set(PendingIntent{e3691df: PendingIntentRecord{6d7b9e com.google.android.gms/com.google.android.gms.scheduler broadcastIntent}}) : type=3 triggerAtTime=252894022 win=0 tElapsed=252898291 maxElapsed=252898291 interval=0 flags=0x0
+05-26 01:14:28.346 D/AlarmManagerService( 1478): inside native alarm timerfd set Alarm Type = 2
+05-26 01:14:28.346 D/AlarmManagerService( 1478): inside native alarm timerfd set Alarm Type = 3
+05-26 01:14:28.356 I/NetworkScheduler.Stats(13439): (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s

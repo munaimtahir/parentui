@@ -1,0 +1,400 @@
+05-26 01:21:00.474 E/AuthPII (13439): bibt: Long live credential not available.
+05-26 01:21:00.474 E/AuthPII (13439): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-26 01:21:00.474 E/AuthPII (13439): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-26 01:21:00.474 E/AuthPII (13439): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-26 01:21:00.474 E/AuthPII (13439): 	at aglv.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):82)
+05-26 01:21:00.474 E/AuthPII (13439): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):40)
+05-26 01:21:00.474 E/AuthPII (13439): 	at aaql.dispatchTransaction(:com.google.android.gms@261833029@26.18.33 (190400-913931251):153)
+05-26 01:21:00.474 E/AuthPII (13439): 	at cawh.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):64)
+05-26 01:21:00.474 E/AuthPII (13439): 	at zuu.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-26 01:21:00.474 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:21:00.474 E/AuthPII (13439): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-26 01:21:00.474 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:21:00.474 E/AuthPII (13439): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-26 01:21:00.474 E/AuthPII (13439): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-26 01:21:00.474 E/AuthPII (13439): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 01:21:00.474 E/AuthPII (13439): Message is Long live credential not available.
+05-26 01:21:00.474 E/AuthPII (13439): bibt: Long live credential not available.
+05-26 01:21:00.474 E/AuthPII (13439): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-26 01:21:00.474 E/AuthPII (13439): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-26 01:21:00.474 E/AuthPII (13439): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-26 01:21:00.474 E/AuthPII (13439): 	at aglv.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):82)
+05-26 01:21:00.474 E/AuthPII (13439): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):40)
+05-26 01:21:00.474 E/AuthPII (13439): 	at aaql.dispatchTransaction(:com.google.android.gms@261833029@26.18.33 (190400-913931251):153)
+05-26 01:21:00.474 E/AuthPII (13439): 	at cawh.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):64)
+05-26 01:21:00.474 E/AuthPII (13439): 	at zuu.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-26 01:21:00.474 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:21:00.474 E/AuthPII (13439): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-26 01:21:00.474 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:21:00.474 E/AuthPII (13439): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-26 01:21:00.474 E/AuthPII (13439): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-26 01:21:00.474 E/AuthPII (13439): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 01:21:00.475 I/Auth    (13439): (REDACTED) [AccountIdManager] Token response failed with status=%s
+05-26 01:21:00.479 E/AuthPII (13439): [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/account.capabilities https://www.googleapis.com/auth/account.service_flags
+05-26 01:21:00.479 E/AuthPII (13439): bibt: Long live credential not available.
+05-26 01:21:00.479 E/AuthPII (13439): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-26 01:21:00.479 E/AuthPII (13439): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-26 01:21:00.479 E/AuthPII (13439): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-26 01:21:00.479 E/AuthPII (13439): 	at agmb.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):55)
+05-26 01:21:00.479 E/AuthPII (13439): 	at agmb.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):108)
+05-26 01:21:00.479 E/AuthPII (13439): 	at agmb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):817)
+05-26 01:21:00.479 E/AuthPII (13439): 	at agmb.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-26 01:21:00.479 E/AuthPII (13439): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):65)
+05-26 01:21:00.479 E/AuthPII (13439): 	at aaql.dispatchTransaction(:com.google.android.gms@261833029@26.18.33 (190400-913931251):153)
+05-26 01:21:00.479 E/AuthPII (13439): 	at cawh.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):64)
+05-26 01:21:00.479 E/AuthPII (13439): 	at zuu.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-26 01:21:00.479 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:21:00.479 E/AuthPII (13439): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-26 01:21:00.479 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:21:00.479 E/AuthPII (13439): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-26 01:21:00.479 E/AuthPII (13439): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-26 01:21:00.479 E/AuthPII (13439): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 01:21:00.479 E/AuthPII (13439): Message is Long live credential not available.
+05-26 01:21:00.479 E/AuthPII (13439): bibt: Long live credential not available.
+05-26 01:21:00.479 E/AuthPII (13439): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-26 01:21:00.479 E/AuthPII (13439): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-26 01:21:00.479 E/AuthPII (13439): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-26 01:21:00.479 E/AuthPII (13439): 	at agmb.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):55)
+05-26 01:21:00.479 E/AuthPII (13439): 	at agmb.h(:com.google.android.gms@261833029@26.18.33 (190400-913931251):108)
+05-26 01:21:00.479 E/AuthPII (13439): 	at agmb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):817)
+05-26 01:21:00.479 E/AuthPII (13439): 	at agmb.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):5)
+05-26 01:21:00.479 E/AuthPII (13439): 	at aaql.d(:com.google.android.gms@261833029@26.18.33 (190400-913931251):65)
+05-26 01:21:00.479 E/AuthPII (13439): 	at aaql.dispatchTransaction(:com.google.android.gms@261833029@26.18.33 (190400-913931251):153)
+05-26 01:21:00.479 E/AuthPII (13439): 	at cawh.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):64)
+05-26 01:21:00.479 E/AuthPII (13439): 	at zuu.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-26 01:21:00.479 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:21:00.479 E/AuthPII (13439): 	at cnmk.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):12)
+05-26 01:21:00.479 E/AuthPII (13439): 	at android.os.Binder.transact(Binder.java:1165)
+05-26 01:21:00.479 E/AuthPII (13439): 	at cawv.onTransact(:com.google.android.gms@261833029@26.18.33 (190400-913931251):169)
+05-26 01:21:00.479 E/AuthPII (13439): 	at android.os.Binder.execTransactInternal(Binder.java:1286)
+05-26 01:21:00.479 E/AuthPII (13439): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 01:21:00.480 I/input_debug( 1478): package: com.easyui.guardianlauncher isPassWordInput: false inputType: 0 mMethodMap: true isKeyguardShowing: false enable: 0 isSplitScreen: false
+05-26 01:21:00.482 W/Auth    (13439): [AccountStateDownloader] Unable to look up account state from server: couldn't fetch accessToken [CONTEXT service_id=343 ]
+05-26 01:21:00.482 W/Auth    (13439): [GaiaIdSync] Empty email. Not updating db. [CONTEXT service_id=153 ]
+05-26 01:21:00.498 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039809,0.000072, totalTime 0.039882 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:00.503 E/AuthPII (13439): [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/cryptauth
+05-26 01:21:00.503 E/AuthPII (13439): bibt: Long live credential not available.
+05-26 01:21:00.503 E/AuthPII (13439): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-26 01:21:00.503 E/AuthPII (13439): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-26 01:21:00.503 E/AuthPII (13439): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-26 01:21:00.503 E/AuthPII (13439): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):151)
+05-26 01:21:00.503 E/AuthPII (13439): 	at agqn.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):328)
+05-26 01:21:00.503 E/AuthPII (13439): 	at aglm.f(:com.google.android.gms@261833029@26.18.33 (190400-913931251):24)
+05-26 01:21:00.503 E/AuthPII (13439): 	at cwnx.fD(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1)
+05-26 01:21:00.503 E/AuthPII (13439): 	at cwoi.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):121)
+05-26 01:21:00.503 E/AuthPII (13439): 	at haww.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-26 01:21:00.503 E/AuthPII (13439): 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-26 01:21:00.503 E/AuthPII (13439): 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-26 01:21:00.503 E/AuthPII (13439): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-26 01:21:00.503 E/AuthPII (13439): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-26 01:21:00.503 E/AuthPII (13439): 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-26 01:21:00.503 E/AuthPII (13439): 	at java.lang.Thread.run(Thread.java:1564)
+05-26 01:21:00.503 E/AuthPII (13439): Message is Long live credential not available.
+05-26 01:21:00.503 E/AuthPII (13439): bibt: Long live credential not available.
+05-26 01:21:00.503 E/AuthPII (13439): 	at ahbx.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1347)
+05-26 01:21:00.503 E/AuthPII (13439): 	at ahce.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):26)
+05-26 01:21:00.503 E/AuthPII (13439): 	at ahcc.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):745)
+05-26 01:21:00.503 E/AuthPII (13439): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):151)
+05-26 01:21:00.503 E/AuthPII (13439): 	at agqn.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):328)
+05-26 01:21:00.503 E/AuthPII (13439): 	at aglm.f(:com.google.android.gms@261833029@26.18.33 (190400-913931251):24)
+05-26 01:21:00.503 E/AuthPII (13439): 	at cwnx.fD(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1)
+05-26 01:21:00.503 E/AuthPII (13439): 	at cwoi.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):121)
+05-26 01:21:00.503 E/AuthPII (13439): 	at haww.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-26 01:21:00.503 E/AuthPII (13439): 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-26 01:21:00.503 E/AuthPII (13439): 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-26 01:21:00.503 E/AuthPII (13439): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-26 01:21:00.503 E/AuthPII (13439): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-26 01:21:00.503 E/AuthPII (13439): 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-26 01:21:00.503 E/AuthPII (13439): 	at java.lang.Thread.run(Thread.java:1564)
+05-26 01:21:00.522 I/Auth    (13439): (REDACTED) [GetToken] GetToken failed for app=%s with userRecoverable status: %s 
+05-26 01:21:00.523 W/Auth    (13439): [GetTokenOperation] exception while trying to fetch auth tokens for app=com.google.android.gms [CONTEXT service_id=343 ]
+05-26 01:21:00.523 W/Auth    (13439): ahbw: GetToken failed with status code and recovery intent: BadAuthentication
+05-26 01:21:00.523 W/Auth    (13439): 	at ahcb.b(:com.google.android.gms@261833029@26.18.33 (190400-913931251):352)
+05-26 01:21:00.523 W/Auth    (13439): 	at agqn.a(:com.google.android.gms@261833029@26.18.33 (190400-913931251):328)
+05-26 01:21:00.523 W/Auth    (13439): 	at aglm.f(:com.google.android.gms@261833029@26.18.33 (190400-913931251):24)
+05-26 01:21:00.523 W/Auth    (13439): 	at cwnx.fD(:com.google.android.gms@261833029@26.18.33 (190400-913931251):1)
+05-26 01:21:00.523 W/Auth    (13439): 	at cwoi.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):121)
+05-26 01:21:00.523 W/Auth    (13439): 	at haww.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):23)
+05-26 01:21:00.523 W/Auth    (13439): 	at bjix.c(:com.google.android.gms@261833029@26.18.33 (190400-913931251):50)
+05-26 01:21:00.523 W/Auth    (13439): 	at bjix.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):66)
+05-26 01:21:00.523 W/Auth    (13439): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-26 01:21:00.523 W/Auth    (13439): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-26 01:21:00.523 W/Auth    (13439): 	at bjoo.run(:com.google.android.gms@261833029@26.18.33 (190400-913931251):8)
+05-26 01:21:00.523 W/Auth    (13439): 	at java.lang.Thread.run(Thread.java:1564)
+05-26 01:21:00.538 I/NetworkScheduler.Stats(13439): (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-26 01:21:00.538 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039670,0.000075, totalTime 0.039746 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:00.542 I/ActivityManager( 1478): Killing 15652:com.google.android.apps.photos/u0a217 (adj 985): empty for 67s
+05-26 01:21:00.549 I/libprocessgroup( 1478): Successfully killed process cgroup uid 10217 pid 15652 in 6ms
+05-26 01:21:00.578 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039513,0.000063, totalTime 0.039578 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:00.591 I/Zygote  (  712): Process 15652 exited due to signal 9 (Killed)
+05-26 01:21:00.592 I/mtkpower_client( 1478): [Legacy][PowerHal_Wrap_notifyAppState] com.google.android.apps.photos/com.google.android.apps.photos pid=15652 state:3
+05-26 01:21:00.592 I/game_scn( 1478): collectForegroundAppList packName=com.google.android.apps.photos, actName=com.google.android.apps.photos, pid=15652, uid=10217, state:DEAD
+05-26 01:21:00.592 I/game_scn( 1478): powerNotifyForegroundApp multi_resumed_app_info: pid: 14499, packname: com.easyui.guardianlauncher, actname: com.easyui.guardianlauncher.MainActivity
+05-26 01:21:00.593 I/libPowerHal(  738): [perfNotifyAppState] pack:com.google.android.apps.photos, act:com.google.android.apps.photos, state:3, pid:15652, uid:10217, fps:-1
+05-26 01:21:00.593 I/libPowerHal(  738): [perfNotifyAppState] pack:com.google.android.apps.photos, pid:15652, STATE_DEAD
+05-26 01:21:00.667 E/BtGatt.ContextMap(31144): Context not found for ID 0
+05-26 01:21:00.667 W/TWSClientService(31144): array is null
+05-26 01:21:00.692 E/Athena  ( 2228): ------------------------------------------------------------
+05-26 01:21:00.693 E/Athena  ( 2228): 
+05-26 01:21:00.693 E/Athena  ( 2228): Athena is in DEBUG or TEST mode, should not release this APK [com.transsion.multiwindow]
+05-26 01:21:00.693 E/Athena  ( 2228): 
+05-26 01:21:00.693 E/Athena  ( 2228): ------------------------------------------------------------
+05-26 01:21:00.703 W/ThreadPoolForeg(30000): type=1400 audit(0.0:139062): avc: denied { write } for name="traced_producer" dev="tmpfs" ino=17420 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+05-26 01:21:00.998 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039292,0.000116, totalTime 0.039412 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:01.004 I/AlarmManager( 1478): going to release mWakeLock actually.
+05-26 01:21:01.008 I/ActivityTaskManager( 1478): moveTaskToBack: Task{648cfa #15985 type=home A=10466:com.easyui.guardianlauncher U=0 rootTaskId=1 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+05-26 01:21:01.030 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-26 01:21:01.030 I/libPerfCtl(  738): xgfGetFPS pid:8319 fps:-1
+05-26 01:21:01.030 I/libPerfCtl(  738): xgfGetFPS pid:14499 fps:-1
+05-26 01:21:01.036 E/BtGatt.ContextMap(31144): Context not found for ID 0
+05-26 01:21:01.036 W/TWSClientService(31144): array is null
+05-26 01:21:01.046 I/mtkpower_client( 1478): perf_cus_lock_hint hint:50, dur:1000
+05-26 01:21:01.049 I/mtkpower_client( 1478): perf_cus_lock_hint, ret_hdl:0
+05-26 01:21:01.051 I/PowerHalWrapper( 1478): <amsBoostResume> last:com.transsion.hilauncher, next:com.easyui.guardianlauncher 
+05-26 01:21:01.054 I/SimpleEventAdapt( 4290): onActivityEvent get com.easyui.guardianlauncher, com.easyui.guardianlauncher.MainActivity,false
+05-26 01:21:01.054 I/SimpleEventAdapt( 4290): notifyEvent2  activity_event
+05-26 01:21:01.054 I/SimpleEventAdapt( 4290): notifyEvent  1
+05-26 01:21:01.054 I/libPowerHal(  738): MTKPOWER_HINT_PACK_SWITCH: cpu_ctrl set cpu freq: 1800000 -1 2000000 -1
+05-26 01:21:01.056 I/PowerHalWrapper( 1478): amsBoostNotify pid:14499,activity:com.easyui.guardianlauncher.MainActivity, package:com.easyui.guardianlauncher, mProcessCreatePackcom.easyui.guardianlauncher 
+05-26 01:21:01.056 I/CacheManager( 4290):  save new data to cache activity_event
+05-26 01:21:01.056 I/PowerHalWrapper( 1478): state: 1 
+05-26 01:21:01.056 I/bsc     ( 4290): notifyDataChange in activity_event, 1
+05-26 01:21:01.056 I/DataServiceImplV2( 4290): StandardDataService notifyDataChange  in 
+05-26 01:21:01.056 I/mtkpower_client( 1478): [Legacy][PowerHal_Wrap_notifyAppState] com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity pid=14499 state:1
+05-26 01:21:01.056 I/DataServiceImplV2( 4290): StandardDataService notifyDataChange  curServiceName StandardDataService type:activity_event
+05-26 01:21:01.056 I/game_scn( 1478): collectForegroundAppList packName=com.easyui.guardianlauncher, actName=com.easyui.guardianlauncher.MainActivity, pid=14499, uid=10466, state:RESUMED
+05-26 01:21:01.056 I/game_scn( 1478): powerNotifyForegroundApp multi_resumed_app_info: pid: 14499, packname: com.easyui.guardianlauncher, actname: com.easyui.guardianlauncher.MainActivity
+05-26 01:21:01.056 I/PowerHalWrapper( 1478): amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false 
+05-26 01:21:01.057 I/libPowerHal(  738): [perfNotifyAppState] pack:com.easyui.guardianlauncher, act:com.easyui.guardianlauncher.MainActivity, state:1, pid:14499, uid:10466, fps:-1
+05-26 01:21:01.057 I/Kolun_AI( 4290): SystemEventSubscribe: onPublishData {"type":"activity_event","time":1779740461056,"data":"{\"className\":\"com.easyui.guardianlauncher.MainActivity\",\"isResumed\":false,\"packageName\":\"com.easyui.guardianlauncher\"}","provider":"dc","dc_version":2023081003,"data_version":1,"user_id":0}
+05-26 01:21:01.057 I/Kolun_AI( 4290): SystemEventSubscribe: publisher.getMatcher() activity_event
+05-26 01:21:01.057 I/mtkpower@impl(  738): [notifyAppState] act com.android.permissioncontroller.role.ui.DefaultAppActivity => com.easyui.guardianlauncher.MainActivity
+05-26 01:21:01.057 W/ApiInvoke( 4290): SubscribeBusServerImpl1.2.158: onPublishData, GLOBAL_SUBSCRIBE size 3
+05-26 01:21:01.057 W/ApiInvoke( 4290): ApiRequest1.2.158: do publishData to remote activity_event
+05-26 01:21:01.058 I/Kolun_AI( 4290): SystemEventSubscribe: onPublishData {"type":"activity_event","time":1779740461056,"data":"{\"className\":\"com.easyui.guardianlauncher.MainActivity\",\"isResumed\":false,\"packageName\":\"com.easyui.guardianlauncher\"}","provider":"dc","dc_version":2023081003,"data_version":1,"user_id":0}
+05-26 01:21:01.058 I/Kolun_AI( 4290): SystemEventSubscribe: publisher.getMatcher() activity_event
+05-26 01:21:01.058 W/WindowManager( 1478): Changing focus from Window{2c0a650 u0 com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:524 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6372 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:5056 com.android.server.wm.TaskFragment.onActivityStateChanged:830 
+05-26 01:21:01.059 I/TranSourceConnectManagerImpl( 1478): hookDisplayResumedActivityChanged displayId: 0 packageName: com.easyui.guardianlauncher
+05-26 01:21:01.060 I/SmartPanel_SmartPanelService( 3903): activityCheck pkgName: com.easyui.guardianlauncher, className: com.easyui.guardianlauncher.MainActivity isResume=true isInshow =true isDrawn = false
+05-26 01:21:01.063 I/TranSourceConnectManagerImpl( 1478): hookDisplayResumedActivityChanged displayId: 0 packageName: com.easyui.guardianlauncher
+05-26 01:21:01.066 I/PowerHalWrapper( 1478): amsBoostNotify pid:14499,activity:com.easyui.guardianlauncher.MainActivity, package:com.easyui.guardianlauncher, mProcessCreatePackcom.easyui.guardianlauncher 
+05-26 01:21:01.066 I/PowerHalWrapper( 1478): state: 0 
+05-26 01:21:01.066 I/mtkpower_client( 1478): [Legacy][PowerHal_Wrap_notifyAppState] com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity pid=14499 state:0
+05-26 01:21:01.066 I/game_scn( 1478): collectForegroundAppList packName=com.easyui.guardianlauncher, actName=com.easyui.guardianlauncher.MainActivity, pid=14499, uid=10466, state:PAUSED
+05-26 01:21:01.066 I/PowerHalWrapper( 1478): amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false 
+05-26 01:21:01.066 I/libPowerHal(  738): [perfNotifyAppState] pack:com.easyui.guardianlauncher, act:com.easyui.guardianlauncher.MainActivity, state:0, pid:14499, uid:10466, fps:-1
+05-26 01:21:01.072 I/SmartPanel_SmartPanelService( 3903): onTaskFocusChanged taskId: 15985  focused: false
+05-26 01:21:01.072 I/SmartPanel_SmartPanelService( 3903): onTaskFocusChanged taskId: 15983  focused: true
+05-26 01:21:01.073 I/SimpleEventAdapt( 4290): onActivityEvent get com.easyui.guardianlauncher, com.easyui.guardianlauncher.MainActivity,true
+05-26 01:21:01.073 I/SimpleEventAdapt( 4290): notifyEvent2  activity_event
+05-26 01:21:01.073 I/SimpleEventAdapt( 4290): notifyEvent  1
+05-26 01:21:01.074 I/CacheManager( 4290):  save new data to cache activity_event
+05-26 01:21:01.074 I/bsc     ( 4290): notifyDataChange in activity_event, 1
+05-26 01:21:01.074 W/SmartPanel_OperateState( 3903): show
+05-26 01:21:01.075 I/DataServiceImplV2( 4290): StandardDataService notifyDataChange  in 
+05-26 01:21:01.075 I/DataServiceImplV2( 4290): StandardDataService notifyDataChange  curServiceName StandardDataService type:activity_event
+05-26 01:21:01.075 I/Kolun_AI( 4290): SystemEventSubscribe: onPublishData {"type":"activity_event","time":1779740461074,"data":"{\"className\":\"com.easyui.guardianlauncher.MainActivity\",\"isResumed\":true,\"packageName\":\"com.easyui.guardianlauncher\"}","provider":"dc","dc_version":2023081003,"data_version":1,"user_id":0}
+05-26 01:21:01.075 I/Kolun_AI( 4290): SystemEventSubscribe: publisher.getMatcher() activity_event
+05-26 01:21:01.075 W/ApiInvoke( 4290): SubscribeBusServerImpl1.2.158: onPublishData, GLOBAL_SUBSCRIBE size 3
+05-26 01:21:01.076 W/ApiInvoke( 4290): ApiRequest1.2.158: do publishData to remote activity_event
+05-26 01:21:01.077 I/Kolun_AI( 4290): SystemEventSubscribe: onPublishData {"type":"activity_event","time":1779740461074,"data":"{\"className\":\"com.easyui.guardianlauncher.MainActivity\",\"isResumed\":true,\"packageName\":\"com.easyui.guardianlauncher\"}","provider":"dc","dc_version":2023081003,"data_version":1,"user_id":0}
+05-26 01:21:01.077 I/Kolun_AI( 4290): SystemEventSubscribe: publisher.getMatcher() activity_event
+05-26 01:21:01.078 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039772,0.000058, totalTime 0.039834 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:01.083 I/BufferQueueDebug(  755): [com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity#20132](this:0xb400007ca80a9c08,id:-1,api:0,p:-1,c:-1) BufferQueue core=(755:/system/bin/surfaceflinger)
+05-26 01:21:01.087 E/WindowManager( 1478): isFocusOnThunderbackWindow false mFocusMultiWindowId: 11 newFocus: 0 thunderback: false
+05-26 01:21:01.088 W/WindowManager( 1478): Changing focus from null to Window{b477697 u0 com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:524 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6372 com.android.server.wm.WindowManagerService.relayoutWindow:2634 com.android.server.wm.Session.relayout:267 
+05-26 01:21:01.091 I/WindowManager( 1478): Relayout Window{b477697 u0 com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity}: oldVis=8 newVis=0 focusMayChange = true requestedWidth = 1080 requestedHeight = 2460 outFrames = ClientWindowFrames{frame=[0,0][1080,2460] display=[0,0][1080,2460] parentFrame=[0,0][0,0] parentClippedByDisplayCutout=false} outSurfaceControl = Surface(name=com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity)/@0x4e448e3
+05-26 01:21:01.095 I/SmartPanel_OperateState( 3903): clear, goto SlideState
+05-26 01:21:01.113 I/DreamAnimation( 1478):  hookAppTransitSuccess called, and doUnlockAnimation=0  mState=7
+05-26 01:21:01.118 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039372,0.000060, totalTime 0.039432 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:01.119 I/SmartPanel_SmartPanelService( 3903): onWindowsDrawn pkgName: com.easyui.guardianlauncher, className: com.easyui.guardianlauncher.MainActivity launchState=0 windowsDrawnDelayMs =-1
+05-26 01:21:01.127 I/PowerHalWrapper( 1478): amsBoostStop AMS_BOOST_PACK_SWITCH:true, AMS_BOOST_ACT_SWITCH:false, AMS_BOOST_PROCESS_CREATE:false 
+05-26 01:21:01.127 I/mtkpower@impl(  738): [mtkPowerHint] hint:22, hold:500, ext:0, ext_hold:0
+05-26 01:21:01.131 W/nvram@1.1-servi(  739): type=1400 audit(0.0:139063): avc: denied { read } for name="atag,boot" dev="sysfs" ino=73 scontext=u:r:mtk_hal_nvramagent:s0 tcontext=u:object_r:sysfs_boot_info:s0 tclass=file permissive=0
+05-26 01:21:01.141 I/PowerHalWrapper( 1478): amsBoostNotify pid:14499,activity:com.easyui.guardianlauncher.MainActivity, package:com.easyui.guardianlauncher, mProcessCreatePackcom.easyui.guardianlauncher 
+05-26 01:21:01.141 I/PowerHalWrapper( 1478): state: 0 
+05-26 01:21:01.141 I/mtkpower_client( 1478): [Legacy][PowerHal_Wrap_notifyAppState] com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity pid=14499 state:0
+05-26 01:21:01.141 I/game_scn( 1478): collectForegroundAppList packName=com.easyui.guardianlauncher, actName=com.easyui.guardianlauncher.MainActivity, pid=14499, uid=10466, state:PAUSED
+05-26 01:21:01.141 I/PowerHalWrapper( 1478): amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false 
+05-26 01:21:01.142 I/libPowerHal(  738): [perfNotifyAppState] pack:com.easyui.guardianlauncher, act:com.easyui.guardianlauncher.MainActivity, state:0, pid:14499, uid:10466, fps:-1
+05-26 01:21:01.142 I/SmartPanel_SmartPanelService( 3903): ASP pkgName: com.easyui.guardianlauncher  className = com.easyui.guardianlauncher.MainActivity
+05-26 01:21:01.143 I/FloatWindow( 1478): hookGetMultiWindowDefaultRectByTask
+05-26 01:21:01.145 I/tmw_    ( 2228): calculateMultiWindowScaleAndLocation111: {100=0.759, 101=130.0, 102=465.0}
+05-26 01:21:01.145 I/tmw_    ( 2228): calculateMultiWindowScaleAndLocation222: {100=0.759, 101=130.0, 102=465.0}
+05-26 01:21:01.147 W/nvram@1.1-servi(  739): type=1400 audit(0.0:139064): avc: denied { read } for name="atag,boot" dev="sysfs" ino=73 scontext=u:r:mtk_hal_nvramagent:s0 tcontext=u:object_r:sysfs_boot_info:s0 tclass=file permissive=0
+05-26 01:21:01.153 I/FloatWindow( 1478): hookGetMultiWindowDefaultRectByTask
+05-26 01:21:01.155 I/tmw_    ( 2228): calculateMultiWindowScaleAndLocation111: {100=0.759, 101=130.0, 102=465.0}
+05-26 01:21:01.155 I/tmw_    ( 2228): calculateMultiWindowScaleAndLocation222: {100=0.759, 101=130.0, 102=465.0}
+05-26 01:21:01.158 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039598,0.000060, totalTime 0.039658 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:01.175 I/SmartPanel_SmartPanelService( 3903): onTaskFocusChanged isSplitScreen: false
+05-26 01:21:01.186 I/FloatWindow( 1478): hookInputMethodShown inputShown: false
+05-26 01:21:01.186 I/TranSourceConnectManagerImpl( 1478): hookInputMethodShown inputShown: false
+05-26 01:21:01.187 I/input_debug( 1478): package: com.easyui.guardianlauncher isPassWordInput: false inputType: 0 mMethodMap: true isKeyguardShowing: false enable: 0 isSplitScreen: false
+05-26 01:21:01.189 E/TranSecureKeyboardManagerImpl( 1478): inputTarget = Window{b477697 u0 com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity}
+05-26 01:21:01.190 I/MultiWindowManager( 2228): manager notifyInputMethodShow: false
+05-26 01:21:01.190 I/tmw_    ( 2228): notifyInputMethodShow: false ignoreSame: true mFocusOnMultiDisplay: false
+05-26 01:21:01.197 I/SmartPanel_SmartPanelService( 3903): checkAndHandleAPP curosr: count = 0
+05-26 01:21:01.197 I/SmartPanel_SmartPanelService( 3903): checkVideoApp curosr: count = 0
+05-26 01:21:01.198 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039620,0.000055, totalTime 0.039676 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:01.201 I/BufferQueueDebug(  755): [com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity#20010](this:0xb400007ca8149388,id:-1,api:0,p:-1,c:755) onDestructor()
+05-26 01:21:01.238 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039732,0.000051, totalTime 0.039784 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:01.298 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039710,0.000054, totalTime 0.039765 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:01.338 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039694,0.000050, totalTime 0.039745 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:01.438 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039858,0.000052, totalTime 0.039911 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:01.448 E/Athena  (13123): ------------------------------------------------------------
+05-26 01:21:01.448 E/Athena  (13123): 
+05-26 01:21:01.448 E/Athena  (13123): Athena is in DEBUG or TEST mode, should not release this APK [com.transsion.screencapture]
+05-26 01:21:01.448 E/Athena  (13123): 
+05-26 01:21:01.448 E/Athena  (13123): ------------------------------------------------------------
+05-26 01:21:01.538 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039743,0.000052, totalTime 0.039796 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:01.574 I/NearbyMediums(13439): Found Fast Ble Advertisements :
+05-26 01:21:01.574 I/NearbyMediums(13439): BleAdvertisement { version=2, socketVersion=2, isFast=true, serviceIdHash=null, data=[ 0x23 0x33 0x4a 0x4d 0x4c 0x11 0x32 0x84 0x4b 0xa2 0x87 0x99 0xc8 0xe6 0xcd 0x15 0xbe 0xf5 0xae 0xae 0x30 0xed 0xce ], deviceToken=[ 0x5f 0x29 ], rxAdvertisement=null } : 2 times.
+05-26 01:21:01.574 I/NearbyMediums(13439): BleAdvertisement { version=2, socketVersion=2, isFast=true, serviceIdHash=null, data=[ 0x23 0x52 0x4f 0x35 0x49 0x11 0x32 0x12 0xe8 0xd9 0x73 0x15 0xc7 0x40 0x5e 0xd5 0x09 0x81 0xba 0xfa 0x84 0xdb 0x3c ], deviceToken=[ 0x27 0x91 ], rxAdvertisement=null } : 1 times.
+05-26 01:21:01.574 I/NearbyMediums(13439): Total 3 fast advertisements from 2 unique advertisers.
+05-26 01:21:01.574 I/NearbyMediums(13439): Current Tracked Scanning Clients are : {NearbyConnections.EnvironmentMonitor, NearbySharing}
+05-26 01:21:01.598 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039766,0.000050, totalTime 0.039817 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:01.628 I/mtkpower@impl(  738): [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:12107
+05-26 01:21:01.629 I/libPowerHal(  738): MTKPOWER_HINT_PACK_SWITCH: cpu_ctrl set cpu freq: -1 -1 -1 -1
+05-26 01:21:01.629 I/libPowerHal(  738): [PD] MTKPOWER_HINT_PACK_SWITCH update cmd:1000000, param:-1
+05-26 01:21:01.629 I/libPowerHal(  738): [PD] MTKPOWER_HINT_PACK_SWITCH update cmd:1408300 param:0
+05-26 01:21:01.629 I/libPowerHal(  738): [PD] MTKPOWER_HINT_PACK_SWITCH update cmd:1000000 param:-1
+05-26 01:21:01.638 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039974,0.000129, totalTime 0.040104 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:01.878 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039668,0.000138, totalTime 0.039810 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:01.938 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000004,0.039644,0.000139, totalTime 0.039787 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:01.971 W/MediaProvider( 3587): isAppCloneUserPair for user 0: false
+05-26 01:21:01.981 W/ProcessState(19952): Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+05-26 01:21:01.988 I/SurfaceFlinger(  755): operator()(), mtkRenderCntDebug 1190, screenshot (com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity#20132)
+05-26 01:21:01.988 I/SurfaceFlinger(  755): operator()(), mtkRenderCntDebug 1190, screenshot (StatusBar#88)
+05-26 01:21:01.988 I/SurfaceFlinger(  755): operator()(), mtkRenderCntDebug 1190, screenshot (NavigationBar0#2950)
+05-26 01:21:02.017 I/BufferQueueProducer(  755): [StatusBar#88](this:0xb400007ca8098aa8,id:-1,api:0,p:-1,c:755) queueBuffer: fps=0.52 dur=1933.99 max=1933.99 min=1933.99
+05-26 01:21:02.019 I/hwcomposer(  727): [HWCDisplay] [Display_0 (type:1)] fps:8.298012,dur:1566.64,max:815.15,min:13.44  
+05-26 01:21:02.030 I/servicemanager(  489): Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+05-26 01:21:02.030 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-26 01:21:02.030 I/libPerfCtl(  738): xgfGetFPS pid:8319 fps:-1
+05-26 01:21:02.030 I/libPerfCtl(  738): xgfGetFPS pid:14499 fps:-1
+05-26 01:21:02.031 E/ion     (19952): ioctl c0044901 failed with code -1: Invalid argument
+05-26 01:21:02.031 I/DMABUFHEAPS(19952): Using : Legacy ion heaps
+05-26 01:21:02.058 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039884,0.000134, totalTime 0.040020 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:02.098 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039381,0.000121, totalTime 0.039504 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:02.138 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039457,0.000133, totalTime 0.039592 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:02.178 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039408,0.000120, totalTime 0.039531 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:02.238 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039640,0.000123, totalTime 0.039766 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:02.278 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039410,0.000120, totalTime 0.039531 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:02.338 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000004,0.039680,0.000132, totalTime 0.039815 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:02.378 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039375,0.000134, totalTime 0.039512 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:02.438 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039741,0.000145, totalTime 0.039889 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:02.471 I/MediaServiceV2( 3587): Creating work for intent Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaServiceV2 }
+05-26 01:21:02.473 I/MediaServiceV2( 3587): Work enqueued for intent: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaServiceV2 }
+05-26 01:21:02.487 W/RefBase (19952): RefBase: Explicit destruction, weak count = 0 (in 0x721e5e56d0). Use sp<> to manage this object.
+05-26 01:21:02.518 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039605,0.000132, totalTime 0.039741 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:02.537 I/MediaServiceV2( 3587): Work initiated for action [ android.intent.action.MEDIA_SCANNER_SCAN_FILE ]
+05-26 01:21:02.551 I/MediaServiceV2( 3587): Work ended for action [ android.intent.action.MEDIA_SCANNER_SCAN_FILE ]
+05-26 01:21:02.552 I/WM-WorkerWrapper( 3587): Worker result SUCCESS for Work [ id=58246b66-5111-459e-a28d-26396fb38356, tags={ com.android.providers.media.MediaServiceV2 } ]
+05-26 01:21:02.580 I/MediaProvider( 3587): Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-26 01:21:02.582 I/UriTaskContentObserver(13439): (REDACTED) Throttling content uri change event for %s
+05-26 01:21:02.598 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039747,0.000134, totalTime 0.039883 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:02.698 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039650,0.000074, totalTime 0.039726 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:02.729 I/AndroidRuntime(19965): Using default boot image
+05-26 01:21:02.729 I/AndroidRuntime(19965): Leaving lock profiling enabled
+05-26 01:21:02.734 I/app_process(19965): Using CollectorTypeCC GC.
+05-26 01:21:02.738 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039628,0.000123, totalTime 0.039752 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:02.858 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039649,0.000138, totalTime 0.039790 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:02.893 I/app_process(19965): Priority-to-niceness mapping: 19, 16, 13, 10, 0, -2, -4, -5, -6, -8
+05-26 01:21:02.898 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039264,0.000036, totalTime 0.039303 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:02.913 W/libc    (19965): Access denied finding property "ro.vendor.tran.hardware"
+05-26 01:21:02.913 W/libc    (19965): Access denied finding property "ro.vendor.tran.cpu_model"
+05-26 01:21:02.911 W/main    (19965): type=1400 audit(0.0:139065): avc: denied { read } for name="u:object_r:vendor_exported_default_prop:s0" dev="tmpfs" ino=7877 scontext=u:r:shell:s0 tcontext=u:object_r:vendor_exported_default_prop:s0 tclass=file permissive=0 app=com.instagram.android
+05-26 01:21:02.911 W/main    (19965): type=1400 audit(0.0:139066): avc: denied { read } for name="u:object_r:vendor_exported_default_prop:s0" dev="tmpfs" ino=7877 scontext=u:r:shell:s0 tcontext=u:object_r:vendor_exported_default_prop:s0 tclass=file permissive=0 app=com.instagram.android
+05-26 01:21:02.934 W/System  (19965): ClassLoader referenced unknown path: /system/framework/mediatek-cta.jar
+05-26 01:21:02.935 W/CtaManagerFactory(19965): CtaManagerFactoryImpl not found
+05-26 01:21:02.938 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039714,0.000029, totalTime 0.039744 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:02.953 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-26 01:21:02.955 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-26 01:21:02.956 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-26 01:21:02.957 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-26 01:21:02.958 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-26 01:21:02.960 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-26 01:21:02.967 I/ActivityManager( 1478): Killing 15105:com.google.android.apps.nbu.files/u0a104 (adj 985): empty for 14s
+05-26 01:21:02.967 W/libprocessgroup( 1478): Failed to open /dev/blkio/background/cgroup.procs: No such file or directory
+05-26 01:21:02.972 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:21:02.974 I/libprocessgroup( 1478): Successfully killed process cgroup uid 10104 pid 15105 in 6ms
+05-26 01:21:02.974 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-26 01:21:02.976 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-26 01:21:02.977 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-26 01:21:02.978 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:21:02.978 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039786,0.000078, totalTime 0.039865 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:02.986 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-26 01:21:03.016 I/Zygote  (  712): Process 15105 exited due to signal 9 (Killed)
+05-26 01:21:03.018 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039402,0.000122, totalTime 0.039525 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:03.018 I/mtkpower_client( 1478): [Legacy][PowerHal_Wrap_notifyAppState] com.google.android.apps.nbu.files/com.google.android.apps.nbu.files pid=15105 state:3
+05-26 01:21:03.019 I/game_scn( 1478): collectForegroundAppList packName=com.google.android.apps.nbu.files, actName=com.google.android.apps.nbu.files, pid=15105, uid=10104, state:DEAD
+05-26 01:21:03.019 I/libPowerHal(  738): [perfNotifyAppState] pack:com.google.android.apps.nbu.files, act:com.google.android.apps.nbu.files, state:3, pid:15105, uid:10104, fps:-1
+05-26 01:21:03.019 I/libPowerHal(  738): [perfNotifyAppState] pack:com.google.android.apps.nbu.files, pid:15105, STATE_DEAD
+05-26 01:21:03.030 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-26 01:21:03.030 I/libPerfCtl(  738): xgfGetFPS pid:8319 fps:-1
+05-26 01:21:03.030 I/libPerfCtl(  738): xgfGetFPS pid:14499 fps:-1
+05-26 01:21:03.270 I/WifiHAL ( 1850): Get link layer stats
+05-26 01:21:03.270 I/WifiHAL ( 1850): GetLinkStatsCommand::create
+05-26 01:21:03.270 I/android.hardware.wifi@1.0-service-lazy( 1850): WifiCommand::requestResponse err=-14
+05-26 01:21:03.270 I/WifiHAL ( 1850): wifi_get_link_stats: result=-1
+05-26 01:21:03.272 E/WifiVendorHal( 1478): getWifiLinkLayerStats_1_5_Internal(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+05-26 01:21:03.318 I/BufferQueueProducer(  755): [StatusBar#88](this:0xb400007ca8098aa8,id:-1,api:0,p:-1,c:755) queueBuffer: fps=0.77 dur=1300.71 max=1300.71 min=1300.71
+05-26 01:21:03.321 I/hwcomposer(  727): [HWCDisplay] [Display_0 (type:1)] fps:3.072718,dur:1301.78,max:932.90,min:15.86  
+05-26 01:21:03.722 E/BtGatt.ContextMap(31144): Context not found for ID 0
+05-26 01:21:03.722 W/TWSClientService(31144): array is null
+05-26 01:21:03.984 W/libc    (19965): Access denied finding property "qemu.sf.lcd_density"
+05-26 01:21:03.979 W/uiautomator(19965): type=1400 audit(0.0:139067): avc: denied { read } for name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=7714 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=0 app=com.instagram.android
+05-26 01:21:03.985 W/libc    (19965): Access denied finding property "qemu.sf.lcd_density"
+05-26 01:21:03.983 W/uiautomator(19965): type=1400 audit(0.0:139068): avc: denied { read } for name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=7714 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=0 app=com.instagram.android
+05-26 01:21:04.008 W/MediaProvider( 3587): isAppCloneUserPair for user 0: false
+05-26 01:21:04.031 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-26 01:21:04.031 I/libPerfCtl(  738): xgfGetFPS pid:8319 fps:-1
+05-26 01:21:04.031 I/libPerfCtl(  738): xgfGetFPS pid:14499 fps:-1
+05-26 01:21:04.040 W/AccessibilityNodeInfoDumper(19965): Fetch time: 49ms
+05-26 01:21:04.067 I/BaseFilesVerify( 1478): Base File verify start
+05-26 01:21:04.067 W/BaseFilesVerify( 1478): 15983_task.xmlis not in fileProtect list,can not protect this file
+05-26 01:21:04.100 E/BtGatt.ContextMap(31144): Context not found for ID 0
+05-26 01:21:04.100 W/TWSClientService(31144): array is null
+05-26 01:21:04.100 I/PSyncWorker( 3587): Starting proactive picker sync from sync source: 1
+05-26 01:21:04.101 I/PickerSyncTracker( 3587): Created new sync future java.util.concurrent.CompletableFuture@44bfcf3[Not completed, 1 dependents]. Future map: {39f99d6e-454f-417c-81e7-d8f66a970f7b=java.util.concurrent.CompletableFuture@44bfcf3[Not completed, 1 dependents]}
+05-26 01:21:04.107 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:21:04.120 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:21:04.133 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:21:04.140 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:21:04.158 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-26 01:21:04.171 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-26 01:21:04.186 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-26 01:21:04.188 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:21:04.190 I/PickerSyncController( 3587): Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+05-26 01:21:04.199 W/WindowMagnificationMgr( 1478): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-26 01:21:04.199 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-26 01:21:04.207 I/SafetyCenterAccessibilityListener(12022): accessibility event occurred, safety center feature not enabled.
+05-26 01:21:04.230 I/PickerSyncController( 3587): Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=5038763, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+05-26 01:21:04.230 I/PickerSyncController( 3587): Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+05-26 01:21:04.278 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000003,0.039704,0.000137, totalTime 0.039844 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:04.280 E/PickerDbFacade( 3587): Could not get first date taken millis for media id: 1000836640
+05-26 01:21:04.285 W/PickerDbFacade( 3587): Unable to promote cloud media with localId: 1000836640
+05-26 01:21:04.297 I/PickerSyncController( 3587): Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=5038763, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+05-26 01:21:04.297 I/PickerSyncTracker( 3587): Marked sync future complete for work id: 39f99d6e-454f-417c-81e7-d8f66a970f7b. Future map: {}
+05-26 01:21:04.297 I/PSyncWorker( 3587): Completed picker proactive sync complete from local provider.
+05-26 01:21:04.302 I/WM-WorkerWrapper( 3587): Worker result SUCCESS for Work [ id=39f99d6e-454f-417c-81e7-d8f66a970f7b, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+05-26 01:21:05.031 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-26 01:21:05.031 I/libPerfCtl(  738): xgfGetFPS pid:8319 fps:-1
+05-26 01:21:05.031 I/libPerfCtl(  738): xgfGetFPS pid:14499 fps:-1
+05-26 01:21:05.037 W/RefBase (19965): RefBase: Explicit destruction, weak count = 0 (in 0x7dec5ef6d0). Use sp<> to manage this object.
+05-26 01:21:05.078 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039745,0.000120, totalTime 0.039867 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:05.124 I/MediaProvider( 3587): Deleted 0 0 0 0 0 0 1 items on external_primary due to com.android.shell
+05-26 01:21:05.158 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039917,0.000137, totalTime 0.040055 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:05.162 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-26 01:21:05.163 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-26 01:21:05.198 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039081,0.000054, totalTime 0.039137 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:05.200 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-26 01:21:05.200 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-26 01:21:05.221 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-26 01:21:05.258 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039597,0.000068, totalTime 0.039667 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:05.260 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-26 01:21:05.260 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-26 01:21:05.280 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-26 01:21:05.318 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039486,0.000050, totalTime 0.039537 > logTimeout 0.022000 TIMEOUT!!
+05-26 01:21:05.320 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-26 01:21:05.320 D/TimeCheck(  745): isMT6580Project boolVal = 0 

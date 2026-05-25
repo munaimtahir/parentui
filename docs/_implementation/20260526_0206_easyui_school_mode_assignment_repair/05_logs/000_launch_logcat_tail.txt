@@ -1,0 +1,250 @@
+05-26 02:07:52.017 E/DatabaseUtils(24678): Writing exception to parcel
+05-26 02:07:52.017 E/DatabaseUtils(24678): java.lang.IllegalArgumentException: Unrecognized uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006208
+05-26 02:07:52.017 E/DatabaseUtils(24678): 	at com.transsion.camera.app.common.provider.ProcessPhotoProvider.query(ProcessPhotoProvider.java:75)
+05-26 02:07:52.017 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1477)
+05-26 02:07:52.017 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1573)
+05-26 02:07:52.017 E/DatabaseUtils(24678): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:292)
+05-26 02:07:52.017 E/DatabaseUtils(24678): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:107)
+05-26 02:07:52.017 E/DatabaseUtils(24678): 	at android.os.Binder.execTransactInternal(Binder.java:1281)
+05-26 02:07:52.017 E/DatabaseUtils(24678): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 02:07:52.019 I/CamAp_ProcessPhotoProvi(24678): query uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006209
+05-26 02:07:52.019 E/DatabaseUtils(24678): Writing exception to parcel
+05-26 02:07:52.019 E/DatabaseUtils(24678): java.lang.IllegalArgumentException: Unrecognized uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006209
+05-26 02:07:52.019 E/DatabaseUtils(24678): 	at com.transsion.camera.app.common.provider.ProcessPhotoProvider.query(ProcessPhotoProvider.java:75)
+05-26 02:07:52.019 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1477)
+05-26 02:07:52.019 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1573)
+05-26 02:07:52.019 E/DatabaseUtils(24678): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:292)
+05-26 02:07:52.019 E/DatabaseUtils(24678): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:107)
+05-26 02:07:52.019 E/DatabaseUtils(24678): 	at android.os.Binder.execTransactInternal(Binder.java:1281)
+05-26 02:07:52.019 E/DatabaseUtils(24678): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 02:07:52.022 I/CamAp_ProcessPhotoProvi(24678): query uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006221
+05-26 02:07:52.024 E/DatabaseUtils(24678): Writing exception to parcel
+05-26 02:07:52.024 E/DatabaseUtils(24678): java.lang.IllegalArgumentException: Unrecognized uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006221
+05-26 02:07:52.024 E/DatabaseUtils(24678): 	at com.transsion.camera.app.common.provider.ProcessPhotoProvider.query(ProcessPhotoProvider.java:75)
+05-26 02:07:52.024 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1477)
+05-26 02:07:52.024 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1573)
+05-26 02:07:52.024 E/DatabaseUtils(24678): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:292)
+05-26 02:07:52.024 E/DatabaseUtils(24678): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:107)
+05-26 02:07:52.024 E/DatabaseUtils(24678): 	at android.os.Binder.execTransactInternal(Binder.java:1281)
+05-26 02:07:52.024 E/DatabaseUtils(24678): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 02:07:52.024 I/CamAp_ProcessPhotoProvi(24678): query uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006223
+05-26 02:07:52.025 E/DatabaseUtils(24678): Writing exception to parcel
+05-26 02:07:52.025 E/DatabaseUtils(24678): java.lang.IllegalArgumentException: Unrecognized uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006223
+05-26 02:07:52.025 E/DatabaseUtils(24678): 	at com.transsion.camera.app.common.provider.ProcessPhotoProvider.query(ProcessPhotoProvider.java:75)
+05-26 02:07:52.025 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1477)
+05-26 02:07:52.025 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1573)
+05-26 02:07:52.025 E/DatabaseUtils(24678): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:292)
+05-26 02:07:52.025 E/DatabaseUtils(24678): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:107)
+05-26 02:07:52.025 E/DatabaseUtils(24678): 	at android.os.Binder.execTransactInternal(Binder.java:1281)
+05-26 02:07:52.025 E/DatabaseUtils(24678): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 02:07:52.028 I/CamAp_ProcessPhotoProvi(24678): query uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006224
+05-26 02:07:52.029 E/DatabaseUtils(24678): Writing exception to parcel
+05-26 02:07:52.029 E/DatabaseUtils(24678): java.lang.IllegalArgumentException: Unrecognized uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006224
+05-26 02:07:52.029 E/DatabaseUtils(24678): 	at com.transsion.camera.app.common.provider.ProcessPhotoProvider.query(ProcessPhotoProvider.java:75)
+05-26 02:07:52.029 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1477)
+05-26 02:07:52.029 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1573)
+05-26 02:07:52.029 E/DatabaseUtils(24678): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:292)
+05-26 02:07:52.029 E/DatabaseUtils(24678): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:107)
+05-26 02:07:52.029 E/DatabaseUtils(24678): 	at android.os.Binder.execTransactInternal(Binder.java:1281)
+05-26 02:07:52.029 E/DatabaseUtils(24678): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 02:07:52.030 I/CamAp_ProcessPhotoProvi(24678): query uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006528
+05-26 02:07:52.030 E/DatabaseUtils(24678): Writing exception to parcel
+05-26 02:07:52.030 E/DatabaseUtils(24678): java.lang.IllegalArgumentException: Unrecognized uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006528
+05-26 02:07:52.030 E/DatabaseUtils(24678): 	at com.transsion.camera.app.common.provider.ProcessPhotoProvider.query(ProcessPhotoProvider.java:75)
+05-26 02:07:52.030 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1477)
+05-26 02:07:52.030 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1573)
+05-26 02:07:52.030 E/DatabaseUtils(24678): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:292)
+05-26 02:07:52.030 E/DatabaseUtils(24678): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:107)
+05-26 02:07:52.030 E/DatabaseUtils(24678): 	at android.os.Binder.execTransactInternal(Binder.java:1281)
+05-26 02:07:52.030 E/DatabaseUtils(24678): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 02:07:52.033 I/CamAp_ProcessPhotoProvi(24678): query uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006700
+05-26 02:07:52.034 E/DatabaseUtils(24678): Writing exception to parcel
+05-26 02:07:52.034 E/DatabaseUtils(24678): java.lang.IllegalArgumentException: Unrecognized uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006700
+05-26 02:07:52.034 E/DatabaseUtils(24678): 	at com.transsion.camera.app.common.provider.ProcessPhotoProvider.query(ProcessPhotoProvider.java:75)
+05-26 02:07:52.034 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1477)
+05-26 02:07:52.034 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1573)
+05-26 02:07:52.034 E/DatabaseUtils(24678): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:292)
+05-26 02:07:52.034 E/DatabaseUtils(24678): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:107)
+05-26 02:07:52.034 E/DatabaseUtils(24678): 	at android.os.Binder.execTransactInternal(Binder.java:1281)
+05-26 02:07:52.034 E/DatabaseUtils(24678): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 02:07:52.038 I/CamAp_ProcessPhotoProvi(24678): query uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006825
+05-26 02:07:52.038 I/CamAp_ProcessPhotoProvi(24678): query uri: content://com.transsion.camera.SpecialTypesProvider/type/1000007169
+05-26 02:07:52.039 E/DatabaseUtils(24678): Writing exception to parcel
+05-26 02:07:52.039 E/DatabaseUtils(24678): java.lang.IllegalArgumentException: Unrecognized uri: content://com.transsion.camera.SpecialTypesProvider/type/1000006825
+05-26 02:07:52.039 E/DatabaseUtils(24678): 	at com.transsion.camera.app.common.provider.ProcessPhotoProvider.query(ProcessPhotoProvider.java:75)
+05-26 02:07:52.039 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1477)
+05-26 02:07:52.039 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1573)
+05-26 02:07:52.039 E/DatabaseUtils(24678): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:292)
+05-26 02:07:52.039 E/DatabaseUtils(24678): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:107)
+05-26 02:07:52.039 E/DatabaseUtils(24678): 	at android.os.Binder.execTransactInternal(Binder.java:1281)
+05-26 02:07:52.039 E/DatabaseUtils(24678): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 02:07:52.039 E/DatabaseUtils(24678): Writing exception to parcel
+05-26 02:07:52.039 E/DatabaseUtils(24678): java.lang.IllegalArgumentException: Unrecognized uri: content://com.transsion.camera.SpecialTypesProvider/type/1000007169
+05-26 02:07:52.039 E/DatabaseUtils(24678): 	at com.transsion.camera.app.common.provider.ProcessPhotoProvider.query(ProcessPhotoProvider.java:75)
+05-26 02:07:52.039 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1477)
+05-26 02:07:52.039 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1573)
+05-26 02:07:52.039 E/DatabaseUtils(24678): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:292)
+05-26 02:07:52.039 E/DatabaseUtils(24678): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:107)
+05-26 02:07:52.039 E/DatabaseUtils(24678): 	at android.os.Binder.execTransactInternal(Binder.java:1281)
+05-26 02:07:52.039 E/DatabaseUtils(24678): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 02:07:52.046 I/CamAp_ProcessPhotoProvi(24678): query uri: content://com.transsion.camera.SpecialTypesProvider/type/1000616050
+05-26 02:07:52.046 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039764,0.000089, totalTime 0.039854 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:52.046 E/DatabaseUtils(24678): Writing exception to parcel
+05-26 02:07:52.046 E/DatabaseUtils(24678): java.lang.IllegalArgumentException: Unrecognized uri: content://com.transsion.camera.SpecialTypesProvider/type/1000616050
+05-26 02:07:52.046 E/DatabaseUtils(24678): 	at com.transsion.camera.app.common.provider.ProcessPhotoProvider.query(ProcessPhotoProvider.java:75)
+05-26 02:07:52.046 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1477)
+05-26 02:07:52.046 E/DatabaseUtils(24678): 	at android.content.ContentProvider.query(ContentProvider.java:1573)
+05-26 02:07:52.046 E/DatabaseUtils(24678): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:292)
+05-26 02:07:52.046 E/DatabaseUtils(24678): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:107)
+05-26 02:07:52.046 E/DatabaseUtils(24678): 	at android.os.Binder.execTransactInternal(Binder.java:1281)
+05-26 02:07:52.046 E/DatabaseUtils(24678): 	at android.os.Binder.execTransact(Binder.java:1245)
+05-26 02:07:52.086 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039595,0.000058, totalTime 0.039653 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:52.126 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039651,0.000057, totalTime 0.039709 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:52.160 E/BtGatt.ContextMap(32722): Context not found for ID 0
+05-26 02:07:52.161 W/TWSClientService(32722): array is null
+05-26 02:07:52.166 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039646,0.000063, totalTime 0.039710 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:52.187 E/BtGatt.ContextMap(32722): Context not found for ID 0
+05-26 02:07:52.187 W/TWSClientService(32722): array is null
+05-26 02:07:52.201 E/BtGatt.ContextMap(32722): Context not found for ID 0
+05-26 02:07:52.201 W/TWSClientService(32722): array is null
+05-26 02:07:52.206 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039606,0.000062, totalTime 0.039668 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:52.246 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039619,0.000057, totalTime 0.039676 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:52.286 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039651,0.000063, totalTime 0.039715 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:52.326 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039626,0.000060, totalTime 0.039686 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:52.344 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-26 02:07:52.366 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039640,0.000059, totalTime 0.039699 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:52.406 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039619,0.000060, totalTime 0.039679 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:52.446 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039639,0.000066, totalTime 0.039705 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:52.486 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039639,0.000062, totalTime 0.039701 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:52.526 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039627,0.000064, totalTime 0.039692 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:52.548 E/BtGatt.ContextMap(32722): Context not found for ID 0
+05-26 02:07:52.548 W/TWSClientService(32722): array is null
+05-26 02:07:52.583 W/ThreadPoolForeg(13439): type=1400 audit(0.0:141724): avc: denied { write } for name="traced_producer" dev="tmpfs" ino=17420 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+05-26 02:07:52.586 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039738,0.000062, totalTime 0.039801 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:52.625 E/BtGatt.ContextMap(32722): Context not found for ID 0
+05-26 02:07:52.625 W/TWSClientService(32722): array is null
+05-26 02:07:52.626 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039634,0.000063, totalTime 0.039697 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:52.628 W/AppInitScheduler|Run(14561):   Waiting on ClipsTabInitializer for 48521ms...
+05-26 02:07:52.686 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000002,0.039755,0.000058, totalTime 0.039814 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:52.726 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039636,0.000058, totalTime 0.039695 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:52.766 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039653,0.000057, totalTime 0.039710 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:52.806 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039637,0.000060, totalTime 0.039698 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:52.846 W/MainThreadWatchdog(14561): Main thread is in RED state - latency=1000ms
+05-26 02:07:52.866 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039750,0.000066, totalTime 0.039817 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:52.906 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039629,0.000065, totalTime 0.039694 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:52.932 W/TeeEndorsementInstaller(  775): Endorsement token not found, wait a bit longer [vendor/mediatek/proprietary/trustzone/trustonic/source/external/mobicore/common/500/Daemon/src/EndorsementInstaller.cpp:105]
+05-26 02:07:52.946 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039637,0.000063, totalTime 0.039701 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:52.986 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039612,0.000063, totalTime 0.039675 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:52.995 E/BtGatt.ContextMap(32722): Context not found for ID 0
+05-26 02:07:52.995 W/TWSClientService(32722): array is null
+05-26 02:07:53.026 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039642,0.000061, totalTime 0.039705 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.028 E/BtGatt.ContextMap(32722): Context not found for ID 0
+05-26 02:07:53.028 W/TWSClientService(32722): array is null
+05-26 02:07:53.066 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039615,0.000057, totalTime 0.039673 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.106 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039635,0.000058, totalTime 0.039694 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.146 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039633,0.000064, totalTime 0.039697 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.186 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039628,0.000066, totalTime 0.039694 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.226 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039635,0.000057, totalTime 0.039693 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.266 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039653,0.000058, totalTime 0.039713 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.298 E/BtGatt.ContextMap(32722): Context not found for ID 0
+05-26 02:07:53.298 W/TWSClientService(32722): array is null
+05-26 02:07:53.306 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039640,0.000060, totalTime 0.039701 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.308 E/BtGatt.ContextMap(32722): Context not found for ID 0
+05-26 02:07:53.308 W/TWSClientService(32722): array is null
+05-26 02:07:53.344 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-26 02:07:53.346 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039619,0.000061, totalTime 0.039681 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.353 E/BtGatt.ContextMap(32722): Context not found for ID 0
+05-26 02:07:53.353 W/TWSClientService(32722): array is null
+05-26 02:07:53.357 I/BufferQueueProducer(  755): [StatusBar#88](this:0xb400007ca8098aa8,id:-1,api:0,p:-1,c:755) queueBuffer: fps=0.31 dur=3252.19 max=3252.19 min=3252.19
+05-26 02:07:53.358 I/hwcomposer(  727): [HWCDisplay] [Display_0 (type:1)] fps:0.307506,dur:3251.97,max:3251.97,min:3251.97  
+05-26 02:07:53.386 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039631,0.000058, totalTime 0.039690 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.426 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039636,0.000055, totalTime 0.039692 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.466 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039646,0.000055, totalTime 0.039701 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.506 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039639,0.000059, totalTime 0.039699 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.546 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039633,0.000059, totalTime 0.039693 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.586 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039650,0.000050, totalTime 0.039701 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.626 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039647,0.000055, totalTime 0.039703 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.628 W/AppInitScheduler|Run(14561):   Waiting on ClipsTabInitializer for 49521ms...
+05-26 02:07:53.666 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039638,0.000059, totalTime 0.039698 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.693 I/WifiHAL ( 1850): Get link layer stats
+05-26 02:07:53.693 I/WifiHAL ( 1850): GetLinkStatsCommand::create
+05-26 02:07:53.694 I/android.hardware.wifi@1.0-service-lazy( 1850): WifiCommand::requestResponse err=-14
+05-26 02:07:53.694 I/WifiHAL ( 1850): wifi_get_link_stats: result=-1
+05-26 02:07:53.694 E/WifiVendorHal( 1478): getWifiLinkLayerStats_1_5_Internal(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+05-26 02:07:53.699 I/NearbyMediums(13439): Found Fast Ble Advertisements :
+05-26 02:07:53.699 I/NearbyMediums(13439): BleAdvertisement { version=2, socketVersion=2, isFast=true, serviceIdHash=null, data=[ 0x23 0x33 0x4a 0x4d 0x4c 0x11 0x32 0x84 0x4b 0xa2 0x87 0x99 0xc8 0xe6 0xcd 0x15 0xbe 0xf5 0xae 0xae 0x30 0xed 0xce ], deviceToken=[ 0x5f 0x29 ], rxAdvertisement=null } : 2 times.
+05-26 02:07:53.699 I/NearbyMediums(13439): BleAdvertisement { version=2, socketVersion=2, isFast=true, serviceIdHash=null, data=[ 0x23 0x4e 0x56 0x47 0x50 0x11 0x32 0xec 0x2a 0x86 0xa1 0x82 0xaf 0xa3 0x1e 0x4e 0x0f 0xdc 0x12 0x5e 0xec 0xad 0x59 ], deviceToken=[ 0x27 0x91 ], rxAdvertisement=null } : 1 times.
+05-26 02:07:53.699 I/NearbyMediums(13439): Total 3 fast advertisements from 2 unique advertisers.
+05-26 02:07:53.699 I/NearbyMediums(13439): Current Tracked Scanning Clients are : {NearbyConnections.EnvironmentMonitor, NearbySharing}
+05-26 02:07:53.706 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039638,0.000059, totalTime 0.039698 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.709 E/BtGatt.ContextMap(32722): Context not found for ID 0
+05-26 02:07:53.709 W/TWSClientService(32722): array is null
+05-26 02:07:53.744 E/BtGatt.ContextMap(32722): Context not found for ID 0
+05-26 02:07:53.745 W/TWSClientService(32722): array is null
+05-26 02:07:53.746 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039641,0.000055, totalTime 0.039697 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.775 E/BtGatt.ContextMap(32722): Context not found for ID 0
+05-26 02:07:53.775 W/TWSClientService(32722): array is null
+05-26 02:07:53.786 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039644,0.000059, totalTime 0.039704 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.826 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039635,0.000061, totalTime 0.039697 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.866 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039649,0.000059, totalTime 0.039708 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.906 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039657,0.000058, totalTime 0.039716 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.946 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039644,0.000061, totalTime 0.039705 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:53.986 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039646,0.000062, totalTime 0.039708 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:54.026 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039656,0.000056, totalTime 0.039713 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:54.050 E/BtGatt.ContextMap(32722): Context not found for ID 0
+05-26 02:07:54.050 W/TWSClientService(32722): array is null
+05-26 02:07:54.066 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039641,0.000057, totalTime 0.039699 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:54.125 E/BtGatt.ContextMap(32722): Context not found for ID 0
+05-26 02:07:54.125 W/TWSClientService(32722): array is null
+05-26 02:07:54.126 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039756,0.000061, totalTime 0.039818 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:54.164 I/ActivityManager( 1478): Killing 14888:com.android.keychain/1000 (adj 995): empty for 29s
+05-26 02:07:54.166 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039641,0.000056, totalTime 0.039698 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:54.171 I/libprocessgroup( 1478): Successfully killed process cgroup uid 1000 pid 14888 in 5ms
+05-26 02:07:54.194 I/Zygote  (  712): Process 14888 exited due to signal 9 (Killed)
+05-26 02:07:54.194 I/mtkpower_client( 1478): [Legacy][PowerHal_Wrap_notifyAppState] com.android.keychain/com.android.keychain pid=14888 state:3
+05-26 02:07:54.194 I/game_scn( 1478): collectForegroundAppList packName=com.android.keychain, actName=com.android.keychain, pid=14888, uid=1000, state:DEAD
+05-26 02:07:54.194 I/game_scn( 1478): powerNotifyForegroundApp multi_resumed_app_info: pid: 15009, packname: com.easyui.guardianlauncher, actname: com.easyui.guardianlauncher.MainActivity
+05-26 02:07:54.195 I/libPowerHal(  738): [perfNotifyAppState] pack:com.android.keychain, act:com.android.keychain, state:3, pid:14888, uid:1000, fps:-1
+05-26 02:07:54.195 I/libPowerHal(  738): [perfNotifyAppState] pack:com.android.keychain, pid:14888, STATE_DEAD
+05-26 02:07:54.206 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039658,0.000071, totalTime 0.039730 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:54.246 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039608,0.000054, totalTime 0.039663 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:54.286 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039650,0.000059, totalTime 0.039710 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:54.326 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039633,0.000059, totalTime 0.039693 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:54.344 I/libPerfCtl(  738): xgfGetFPS pid:1911 fps:-1
+05-26 02:07:54.366 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039718,0.000055, totalTime 0.039773 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:54.386 I/flutter (10480): RecordingManagerPage: 开始刷新录音列表
+05-26 02:07:54.403 I/flutter (10480): Android录音目录: /storage/emulated/0/Android/data/com.lensmoo.app/files/media/no_storage_audio
+05-26 02:07:54.403 I/flutter (10480): === 录音目录调试信息 ===
+05-26 02:07:54.403 I/flutter (10480): 当前平台: android
+05-26 02:07:54.403 I/flutter (10480): 录音目录路径: /storage/emulated/0/Android/data/com.lensmoo.app/files/media/no_storage_audio
+05-26 02:07:54.406 I/flutter (10480): 目录是否存在: true
+05-26 02:07:54.406 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039547,0.000058, totalTime 0.039606 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:54.409 I/flutter (10480): === 调试信息结束 ===
+05-26 02:07:54.410 I/flutter (10480): RecordingManagerPage: 开始刷新录音列表
+05-26 02:07:54.412 I/flutter (10480): Android录音目录: /storage/emulated/0/Android/data/com.lensmoo.app/files/media/no_storage_audio
+05-26 02:07:54.412 I/flutter (10480): 录音文件目录: /storage/emulated/0/Android/data/com.lensmoo.app/files/media/no_storage_audio
+05-26 02:07:54.413 I/flutter (10480): 加载了 0 个录音文件
+05-26 02:07:54.415 I/flutter (10480): Android录音目录: /storage/emulated/0/Android/data/com.lensmoo.app/files/media/no_storage_audio
+05-26 02:07:54.415 I/flutter (10480): === 录音目录调试信息 ===
+05-26 02:07:54.415 I/flutter (10480): 当前平台: android
+05-26 02:07:54.415 I/flutter (10480): 录音目录路径: /storage/emulated/0/Android/data/com.lensmoo.app/files/media/no_storage_audio
+05-26 02:07:54.416 I/flutter (10480): 目录是否存在: true
+05-26 02:07:54.417 I/flutter (10480): === 调试信息结束 ===
+05-26 02:07:54.419 I/flutter (10480): Android录音目录: /storage/emulated/0/Android/data/com.lensmoo.app/files/media/no_storage_audio
+05-26 02:07:54.419 I/flutter (10480): 录音文件目录: /storage/emulated/0/Android/data/com.lensmoo.app/files/media/no_storage_audio
+05-26 02:07:54.419 I/flutter (10480): 加载了 0 个录音文件
+05-26 02:07:54.429 E/BtGatt.ContextMap(32722): Context not found for ID 0
+05-26 02:07:54.429 W/TWSClientService(32722): array is null
+05-26 02:07:54.466 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039745,0.000058, totalTime 0.039804 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:54.506 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039649,0.000059, totalTime 0.039708 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:54.512 E/BtGatt.ContextMap(32722): Context not found for ID 0
+05-26 02:07:54.512 W/TWSClientService(32722): array is null
+05-26 02:07:54.546 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039621,0.000058, totalTime 0.039680 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:54.586 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039620,0.000059, totalTime 0.039680 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:54.626 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039652,0.000063, totalTime 0.039715 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:54.627 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-26 02:07:54.628 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-26 02:07:54.628 W/AppInitScheduler|Run(14561):   Waiting on ClipsTabInitializer for 50522ms...
+05-26 02:07:54.666 W/AudioALSACaptureDataProviderNormal(  720): readThread, latency_in_s,0.000001,0.039598,0.000057, totalTime 0.039656 > logTimeout 0.022000 TIMEOUT!!
+05-26 02:07:54.668 D/TimeCheck(  745): isMT6580Project boolVal = 0 
+05-26 02:07:54.669 D/TimeCheck(  745): isMT6580Project boolVal = 0 

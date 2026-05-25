@@ -1,0 +1,2 @@
+  mCurrentFocus=Window{bc7e904 u0 com.adobe.reader/com.adobe.reader.AdobeReader}
+  mFocusedApp=ActivityRecord{f226abd u0 com.adobe.reader/.AdobeReader} t15986}

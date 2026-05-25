@@ -1,0 +1,3 @@
+12:com.adobe.reader
+14:com.adobe.reader
+16:mode_apps_school

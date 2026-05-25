@@ -1,0 +1,18 @@
+last_online_at_millis
+parent_pin_hash
+B*@9af15b336e6a9619928537df30b2e6a2376569fcf9d7e773eccede65606529a0
+parent_contact_label
+parent_contact_phone
+5550000000
+emergency_contact_label
+Emergency Services
+emergency_contact_phone
+emergency_contact_enabled
+mode_apps_home
+com.adobe.reader
+allowed_apps
+com.adobe.reader
+onboarding_completed
+mode_apps_school
+active_mode
+SCHOOL

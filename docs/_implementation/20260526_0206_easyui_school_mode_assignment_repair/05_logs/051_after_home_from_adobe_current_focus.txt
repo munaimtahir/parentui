@@ -1,0 +1,2 @@
+  mCurrentFocus=Window{5f8977d u0 com.easyui.guardianlauncher/com.easyui.guardianlauncher.MainActivity}
+  mFocusedApp=ActivityRecord{e1a6857 u0 com.easyui.guardianlauncher/.MainActivity} t15991}
