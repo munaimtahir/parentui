@@ -9,8 +9,8 @@
 - `.github/workflows/android-runtime-emulator-ci.yml` — Android Runtime Emulator CI
 
 ## Status
-- Android Code CI: PASS (latest run) https://github.com/munaimtahir/parentui/actions/runs/26425560859
-- Android Runtime Emulator CI: PASS (latest run) https://github.com/munaimtahir/parentui/actions/runs/26425560851
+- Android Code CI: PASS (latest run) https://github.com/munaimtahir/parentui/actions/runs/26425787104
+- Android Runtime Emulator CI: PASS (latest run) https://github.com/munaimtahir/parentui/actions/runs/26425787106
 
 ## Gradle commands verified in CI
 - Code CI:
