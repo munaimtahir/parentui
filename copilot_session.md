@@ -28,15 +28,16 @@
 - Created .github/workflows/android-code-ci.yml
 - Created .github/workflows/android-runtime-emulator-ci.yml
 
-## Update (2026-05-26 02:50 UTC)
+## Update (2026-05-26 03:25 UTC)
 - Pushed branch `fix/onboarding-ci-cleanup` and created PR #2.
-- Remote `Android Code CI` (Build, Unit Test, Lint) PASSED: https://github.com/munaimtahir/parentui/actions/runs/26424870059
-- Remote `Android Runtime Emulator CI` is currently IN PROGRESS.
+- Remote `Android Code CI` (Build, Unit Test, Lint) PASSED: https://github.com/munaimtahir/parentui/actions/runs/26428401787
+- Remote `Android Runtime Emulator CI` (Instrumentation + Artifacts) PASSED: https://github.com/munaimtahir/parentui/actions/runs/26428567229
+- Fixed multiple CI iteration issues: shell compatibility, wrapper validation, and artifact capture timing.
 - Root cause for Onboarding failures was identified as `testTag` overwriting in `OnboardingStepScaffold`.
 - Fixed by applying `modifier` to `Scaffold` and ensuring `onboarding_scroll_container` is applied separately.
 - Improved list tagging in `AppSelectionStep`.
-- All unit tests pass.
-- Code health confirmed remotely.
+- All unit tests and instrumentation smoke tests pass.
+- Final GO verdict.
 
 ## Update (2026-05-26 00:35 UTC)
 - PR: https://github.com/munaimtahir/parentui/pull/1
