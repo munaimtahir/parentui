@@ -102,18 +102,32 @@ jobs:
             echo "api_level=$API_LEVEL" >> ci-artifacts/meta/inputs.txt
             echo "retry_failed=$RETRY_FAILED" >> ci-artifacts/meta/inputs.txt
 
-            adb devices -l | tee ci-artifacts/meta/adb_devices_pre.txt
+            dump_on_exit() {
+              set +e
+              mkdir -p ci-artifacts/logs ci-artifacts/screenshots ci-artifacts/ui
 
-            adb shell settings put global window_animation_scale 0 || true
-            adb shell settings put global transition_animation_scale 0 || true
-            adb shell settings put global animator_duration_scale 0 || true
+              timeout 20s adb devices -l > ci-artifacts/logs/adb_devices_exit.txt || true
+              timeout 20s adb logcat -d > ci-artifacts/logs/logcat_exit.txt || true
+
+              timeout 20s adb exec-out screencap -p > ci-artifacts/screenshots/screen_exit.png || true
+
+              timeout 20s adb shell uiautomator dump /sdcard/window_dump_exit.xml || true
+              timeout 20s adb pull /sdcard/window_dump_exit.xml ci-artifacts/ui/window_dump_exit.xml || true
+            }
+            trap dump_on_exit EXIT
+
+            timeout 20s adb devices -l | tee ci-artifacts/meta/adb_devices_pre.txt || true
+
+            timeout 20s adb shell settings put global window_animation_scale 0 || true
+            timeout 20s adb shell settings put global transition_animation_scale 0 || true
+            timeout 20s adb shell settings put global animator_duration_scale 0 || true
 
             if [ "$TEST_LEVEL" = "screenshots_only" ]; then
-              adb install -r app/build/outputs/apk/debug/app-debug.apk
-              adb shell am start -W -n "$MAIN_ACTIVITY" | tee ci-artifacts/meta/am_start.txt || true
+              timeout 120s adb install -r app/build/outputs/apk/debug/app-debug.apk
+              timeout 30s adb shell am start -W -n "$MAIN_ACTIVITY" | tee ci-artifacts/meta/am_start.txt || true
               sleep 8
             else
-              adb shell am start -W -n "$MAIN_ACTIVITY" | tee ci-artifacts/meta/am_start.txt || true
+              timeout 30s adb shell am start -W -n "$MAIN_ACTIVITY" | tee ci-artifacts/meta/am_start.txt || true
               if [ "$RETRY_FAILED" = "true" ]; then
                 ./gradlew --no-daemon --stacktrace :app:connectedDebugAndroidTest || ./gradlew --no-daemon --stacktrace :app:connectedDebugAndroidTest
               else
@@ -121,21 +135,14 @@ jobs:
               fi
             fi
 
-            mkdir -p ci-artifacts/screenshots
-            adb exec-out screencap -p > ci-artifacts/screenshots/screen.png || true
-
-            mkdir -p ci-artifacts/ui
-            adb shell uiautomator dump /sdcard/window_dump.xml || true
-            adb pull /sdcard/window_dump.xml ci-artifacts/ui/window_dump.xml || true
-
       - name: Capture logcat and package state
         if: always()
         run: |
           mkdir -p ci-artifacts/logs
-          adb devices -l > ci-artifacts/logs/adb_devices_post.txt || true
-          adb shell getprop > ci-artifacts/logs/getprop.txt || true
-          adb shell pm list packages | grep -F "${APP_ID}" > ci-artifacts/logs/pm_app_packages.txt || true
-          adb logcat -d > ci-artifacts/logs/logcat.txt || true
+          timeout 20s adb devices -l > ci-artifacts/logs/adb_devices_post.txt || true
+          timeout 20s adb shell getprop > ci-artifacts/logs/getprop.txt || true
+          timeout 20s adb shell pm list packages | grep -F "${APP_ID}" > ci-artifacts/logs/pm_app_packages.txt || true
+          timeout 20s adb logcat -d > ci-artifacts/logs/logcat.txt || true
 
       - name: Upload emulator artifacts
         if: always()
