@@ -94,7 +94,7 @@ jobs:
           disable-animations: true
           emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim
           script: |
-            set -euxo pipefail
+            set -eux
 
             mkdir -p ci-artifacts/meta
             echo "test_level=$TEST_LEVEL" > ci-artifacts/meta/inputs.txt
