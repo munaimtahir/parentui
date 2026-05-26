@@ -66,26 +66,7 @@ jobs:
           profile: pixel_6
           disable-animations: true
           emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim
-          script: |
-            set -ex
-            adb devices
-            adb shell settings put global window_animation_scale 0
-            adb shell settings put global transition_animation_scale 0
-            adb shell settings put global animator_duration_scale 0
-            
-            # Run tests and capture log on failure
-            if ./gradlew :app:connectedDebugAndroidTest; then
-              echo "Tests passed"
-            else
-              echo "Tests failed"
-            fi
-            
-            # Capture artifacts while emulator is still alive
-            mkdir -p ci-artifacts/logs ci-artifacts/ui ci-artifacts/screenshots
-            adb logcat -d > ci-artifacts/logs/logcat.txt || true
-            adb shell uiautomator dump /sdcard/window_dump.xml || true
-            adb pull /sdcard/window_dump.xml ci-artifacts/ui/window_dump.xml || true
-            adb exec-out screencap -p > ci-artifacts/screenshots/screen.png || true
+          script: bash testing/ci/android_runtime_emulator.sh
 
       - name: Upload emulator artifacts
         if: always()
