@@ -1,0 +1,121 @@
+name: Android Runtime Emulator CI
+
+on:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      test_level:
+        description: "smoke runs connected tests; screenshots_only skips tests"
+        required: true
+        default: "smoke"
+        type: choice
+        options:
+          - smoke
+          - full
+          - screenshots_only
+      runtime_target:
+        description: "future selector; currently informational"
+        required: true
+        default: "all"
+        type: choice
+        options:
+          - all
+          - onboarding
+          - home_screen
+          - caregiver_settings
+          - app_assignment
+          - contacts_emergency
+          - theme_layout
+      api_level:
+        description: "Android API level for emulator"
+        required: true
+        default: "34"
+        type: choice
+        options:
+          - "34"
+          - "35"
+      retry_failed:
+        description: "Re-run gradle test task once if it fails"
+        required: true
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+
+jobs:
+  runtime-emulator:
+    name: Emulator Runtime Verification
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+
+    env:
+      TEST_LEVEL: ${{ inputs.test_level || 'smoke' }}
+      RUNTIME_TARGET: ${{ inputs.runtime_target || 'all' }}
+      API_LEVEL: ${{ inputs.api_level || '34' }}
+      RETRY_FAILED: ${{ inputs.retry_failed || 'false' }}
+      APP_ID: com.easyui.guardianlauncher
+      MAIN_ACTIVITY: com.easyui.guardianlauncher/.MainActivity
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          validate-wrappers: false
+
+      - name: Make Gradle executable
+        run: chmod +x ./gradlew
+
+      - name: Enable KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+
+      - name: Assemble debug and androidTest APKs
+        run: ./gradlew --no-daemon --stacktrace :app:assembleDebug :app:assembleDebugAndroidTest
+
+      - name: Run emulator + runtime verification
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: ${{ env.API_LEVEL }}
+          target: google_apis
+          arch: x86_64
+          profile: pixel_6
+          disable-animations: true
+          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim
+          script: |
+            bash testing/ci/android_runtime_emulator.sh
+
+      - name: Capture logcat and package state
+        if: always()
+        run: |
+          mkdir -p ci-artifacts/logs
+          timeout 20s adb devices -l > ci-artifacts/logs/adb_devices_post.txt || true
+          timeout 20s adb shell getprop > ci-artifacts/logs/getprop.txt || true
+          timeout 20s adb shell pm list packages | grep -F "${APP_ID}" > ci-artifacts/logs/pm_app_packages.txt || true
+          timeout 20s adb logcat -d > ci-artifacts/logs/logcat.txt || true
+
+      - name: Upload emulator artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: runtime-emulator-artifacts
+          if-no-files-found: warn
+          path: |
+            ci-artifacts/
+            app/build/outputs/apk/debug/*.apk
+            app/build/outputs/apk/androidTest/debug/*.apk
+            **/build/reports/androidTests/
+            **/build/outputs/androidTest-results/
+            **/build/outputs/connected_android_test_additional_output/
+            **/build/test-results/

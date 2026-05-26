@@ -256,7 +256,9 @@ fun PinSetupStep(onPinCreated: (String) -> Unit) {
             onClearClick = {
                 enteredPin = ""
             },
-            modifier = Modifier.fillMaxWidth(0.9f)
+            modifier = Modifier
+                .fillMaxWidth(0.9f)
+                .testTag("pin_keypad")
         )
     }
 }

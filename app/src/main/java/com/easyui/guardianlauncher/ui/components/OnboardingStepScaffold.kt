@@ -29,6 +29,7 @@ fun OnboardingStepScaffold(
     content: @Composable ColumnScope.() -> Unit
 ) {
     Scaffold(
+        modifier = modifier,
         topBar = {
             Column(
                 modifier = Modifier.fillMaxWidth()
@@ -116,13 +117,13 @@ fun OnboardingStepScaffold(
         }
     ) { innerPadding ->
         val contentModifier = if (scrollable) {
-            modifier
+            Modifier
                 .fillMaxSize()
                 .padding(innerPadding)
                 .verticalScroll(rememberScrollState())
                 .padding(horizontal = 20.dp, vertical = 16.dp)
         } else {
-            modifier
+            Modifier
                 .fillMaxSize()
                 .padding(innerPadding)
                 .padding(horizontal = 20.dp, vertical = 16.dp)
