@@ -1,0 +1,531 @@
+Build, Unit Test, and Lint	Set up job	﻿2026-05-26T08:23:35.6999371Z Current runner version: '2.334.0'
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7036170Z ##[group]Runner Image Provisioner
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7037674Z Hosted Compute Agent
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7038594Z Version: 20260213.493
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7039447Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7040634Z Build Date: 2026-02-13T00:28:41Z
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7041620Z Worker ID: {adb05afe-9b47-41ee-91d7-48411f4fa901}
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7042663Z Azure Region: eastus2
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7043519Z ##[endgroup]
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7045732Z ##[group]Operating System
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7046613Z Ubuntu
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7047701Z 24.04.4
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7048419Z LTS
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7049092Z ##[endgroup]
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7049991Z ##[group]Runner Image
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7050781Z Image: ubuntu-24.04
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7051536Z Version: 20260518.149.1
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7053215Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260518.149/images/ubuntu/Ubuntu2404-Readme.md
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7055991Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260518.149
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7057739Z ##[endgroup]
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7059544Z ##[group]GITHUB_TOKEN Permissions
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7062157Z Contents: read
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7062986Z Metadata: read
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7063867Z Packages: read
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7064612Z ##[endgroup]
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7068287Z Secret source: Actions
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7069489Z Prepare workflow directory
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7543368Z Prepare all required actions
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:35.7598316Z Getting action download info
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:36.1863424Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:36.3414188Z Download action repository 'actions/setup-java@v4' (SHA:c1e323688fd81a25caa38c78aa6df2d33d3e20d9)
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:36.6673646Z Download action repository 'gradle/actions@v4' (SHA:ed408507eac070d1f99cc633dbcf757c94c7933a)
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:37.3866744Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+Build, Unit Test, and Lint	Set up job	2026-05-26T08:23:37.6780793Z Complete job name: Build, Unit Test, and Lint
+Build, Unit Test, and Lint	Checkout repository	﻿2026-05-26T08:23:37.7660648Z ##[group]Run actions/checkout@v4
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.7661976Z with:
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.7662790Z   repository: munaimtahir/parentui
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.7664139Z   token: ***
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.7664914Z   ssh-strict: true
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.7665725Z   ssh-user: git
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.7666555Z   persist-credentials: true
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.7667675Z   clean: true
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.7668502Z   sparse-checkout-cone-mode: true
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.7669504Z   fetch-depth: 1
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.7670330Z   fetch-tags: false
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.7671171Z   show-progress: true
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.7671999Z   lfs: false
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.7672767Z   submodules: false
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.7673605Z   set-safe-directory: true
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.7674720Z ##[endgroup]
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.8815209Z Syncing repository: munaimtahir/parentui
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.8818492Z ##[group]Getting Git version info
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.8819947Z Working directory is '/home/runner/work/parentui/parentui'
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.8821861Z [command]/usr/bin/git version
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.8876512Z git version 2.54.0
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.8902096Z ##[endgroup]
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.8917312Z Temporarily overriding HOME='/home/runner/work/_temp/8810093c-5a2e-4cea-9350-8ceb2770fa83' before making global git config changes
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.8919921Z Adding repository directory to the temporary git global config as a safe directory
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.8931514Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/parentui/parentui
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.8981396Z Deleting the contents of '/home/runner/work/parentui/parentui'
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.8985183Z ##[group]Initializing the repository
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.8990724Z [command]/usr/bin/git init /home/runner/work/parentui/parentui
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9074147Z hint: Using 'master' as the name for the initial branch. This default branch name
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9076359Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9078396Z hint: to use in all of your new repositories, which will suppress this warning,
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9080235Z hint: call:
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9081301Z hint:
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9082232Z hint: 	git config --global init.defaultBranch <name>
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9083341Z hint:
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9084401Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9086304Z hint: 'development'. The just-created branch can be renamed via this command:
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9087951Z hint:
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9088705Z hint: 	git branch -m <name>
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9089707Z hint:
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9091109Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9093028Z Initialized empty Git repository in /home/runner/work/parentui/parentui/.git/
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9096150Z [command]/usr/bin/git remote add origin https://github.com/munaimtahir/parentui
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9138523Z ##[endgroup]
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9139914Z ##[group]Disabling automatic garbage collection
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9142758Z [command]/usr/bin/git config --local gc.auto 0
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9177917Z ##[endgroup]
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9179263Z ##[group]Setting up auth
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9185004Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9221301Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9574761Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9616346Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9849838Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:37.9883334Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:38.0131334Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:38.0168124Z ##[endgroup]
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:38.0169497Z ##[group]Fetching the repository
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:38.0177104Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +da548669ca4ec43f8cd8714b47ef9903764e0bbf:refs/remotes/origin/sprint/complete-ci-e2e-status-lock
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:41.3671655Z From https://github.com/munaimtahir/parentui
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:41.3673326Z  * [new ref]         da548669ca4ec43f8cd8714b47ef9903764e0bbf -> origin/sprint/complete-ci-e2e-status-lock
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:41.3709928Z ##[endgroup]
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:41.3710475Z ##[group]Determining the checkout info
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:41.3712844Z ##[endgroup]
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:41.3718896Z [command]/usr/bin/git sparse-checkout disable
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:41.3762908Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:41.3794462Z ##[group]Checking out the ref
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:41.3795587Z [command]/usr/bin/git checkout --progress --force -B sprint/complete-ci-e2e-status-lock refs/remotes/origin/sprint/complete-ci-e2e-status-lock
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:41.7151795Z Switched to a new branch 'sprint/complete-ci-e2e-status-lock'
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:41.7152893Z branch 'sprint/complete-ci-e2e-status-lock' set up to track 'origin/sprint/complete-ci-e2e-status-lock'.
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:41.7264648Z ##[endgroup]
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:41.7277021Z [command]/usr/bin/git log -1 --format=%H
+Build, Unit Test, and Lint	Checkout repository	2026-05-26T08:23:41.7278473Z da548669ca4ec43f8cd8714b47ef9903764e0bbf
+Build, Unit Test, and Lint	Set up JDK	﻿2026-05-26T08:23:41.7515765Z ##[group]Run actions/setup-java@v4
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.7516274Z with:
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.7516461Z   distribution: temurin
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.7516673Z   java-version: 17
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.7516865Z   java-package: jdk
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.7517073Z   check-latest: false
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.7517433Z   server-id: github
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.7517634Z   server-username: GITHUB_ACTOR
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.7517870Z   server-password: GITHUB_TOKEN
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.7518104Z   overwrite-settings: true
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.7518320Z   job-status: success
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.7518646Z   token: ***
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.7518841Z ##[endgroup]
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.9584541Z ##[group]Installed distributions
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.9660084Z Resolved Java 17.0.19+10 from tool-cache
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.9660811Z Setting Java 17.0.19+10 as the default
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.9683470Z Creating toolchains.xml for JDK version 17 from temurin
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.9762652Z Writing to /home/runner/.m2/toolchains.xml
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.9763036Z 
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.9763270Z Java configuration:
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.9764723Z   Distribution: temurin
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.9765036Z   Version: 17.0.19+10
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.9765578Z   Path: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.9766006Z 
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.9766657Z ##[endgroup]
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.9784625Z Creating settings.xml with server-id: github
+Build, Unit Test, and Lint	Set up JDK	2026-05-26T08:23:41.9786684Z Writing to /home/runner/.m2/settings.xml
+Build, Unit Test, and Lint	Set up Gradle	﻿2026-05-26T08:23:42.0001326Z ##[group]Run gradle/actions/setup-gradle@v4
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.0001636Z with:
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.0001836Z   validate-wrappers: false
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.0002063Z   cache-disabled: false
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.0002297Z   cache-read-only: true
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.0002507Z   cache-write-only: false
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.0002733Z   cache-overwrite-existing: false
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.0002986Z   cache-cleanup: on-success
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.0003252Z   gradle-home-cache-includes: caches
+Build, Unit Test, and Lint	Set up Gradle	notifications
+Build, Unit Test, and Lint	Set up Gradle	
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.0003561Z   add-job-summary: always
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.0003817Z   add-job-summary-as-pr-comment: never
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.0004088Z   dependency-graph: disabled
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.0004376Z   dependency-graph-report-dir: dependency-graph-reports
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.0004728Z   dependency-graph-continue-on-failure: true
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.0005012Z   build-scan-publish: false
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.0005258Z   allow-snapshot-wrappers: false
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.0005520Z   gradle-home-cache-strict-match: false
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.0005826Z   workflow-job-context: null
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.0006259Z   github-token: ***
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.0006459Z env:
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.0006755Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.0007490Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.0007859Z ##[endgroup]
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.4953936Z Merged default JDK locations into /home/runner/.m2/toolchains.xml
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.4956826Z ##[group]Restore Gradle state from cache
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:42.6014639Z Cache hit for restore-key: gradle-home-v1|Linux-X64|android-code-ci[cea5394e468dc886ff06ff79ee5e393c]-75f3d32b809b9d0dfd48c5703a7a765739ca1b7e
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:43.4853639Z Received 130318231 of 130318231 (100.0%), 145.5 MBs/sec
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:43.4856165Z Cache Size: ~124 MB (130318231 B)
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:43.4888322Z [command]/usr/bin/tar -xf /home/runner/work/_temp/96ee0dc7-3034-43ca-bdcf-f9211953ccca/cache.tzst -P -C /home/runner/work/parentui/parentui --use-compress-program unzstd
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:44.2913129Z Cache restored successfully
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:44.2980786Z Restored cache entry with key gradle-home-v1|Linux-X64|android-code-ci[cea5394e468dc886ff06ff79ee5e393c]-da548669ca4ec43f8cd8714b47ef9903764e0bbf to /home/runner/.gradle/caches,/home/runner/.gradle/notifications,/home/runner/.gradle/.setup-gradle in 1801ms
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:44.3796654Z Cache hit for: gradle-dependencies-v1-a51a6fb819433c67824f608d6ceae97b
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:44.3853720Z Cache hit for: gradle-generated-gradle-jars-v1-688225baeac4a3a51a617774fb1fe1f4
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:44.3877438Z Cache hit for: gradle-generated-gradle-jars-v1-5f6a8613b478fd816378c9834ad14e25
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:44.3916162Z Cache hit for: gradle-wrapper-zips-v1-d75ab2e302ad9e0b00dcd53244709342
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:44.4249129Z Cache hit for: gradle-groovy-dsl-v1-cc7f8f524271f43497214cba9cef5653
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:44.4337931Z Cache hit for: gradle-kotlin-dsl-v1-16152a65d144128af1bd078441b3f256
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:44.4342564Z Cache hit for: gradle-instrumented-jars-v1-1a4a67717307cddb0f9bbb97efc530d3
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:44.5681170Z Received 97082 of 97082 (100.0%), 1.1 MBs/sec
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:44.5681834Z Cache Size: ~0 MB (97082 B)
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:44.6656100Z Received 121613 of 121613 (100.0%), 0.5 MBs/sec
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:44.6656775Z Cache Size: ~0 MB (121613 B)
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:44.9444435Z Received 91748 of 91748 (100.0%), 0.3 MBs/sec
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:44.9445112Z Cache Size: ~0 MB (91748 B)
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:45.0205142Z [command]/usr/bin/tar -xf /home/runner/work/_temp/5258f220-9365-4a1b-b705-e0d401078017/cache.tzst -P -C /home/runner/work/parentui/parentui --use-compress-program unzstd
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:45.1182329Z Cache restored successfully
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:45.1194626Z Restored cache entry with key gradle-kotlin-dsl-v1-16152a65d144128af1bd078441b3f256 to /home/runner/.gradle/caches/*/kotlin-dsl/accessors/*/,/home/runner/.gradle/caches/*/kotlin-dsl/scripts/*/ in 819ms
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:45.1380238Z [command]/usr/bin/tar -xf /home/runner/work/_temp/c71dc232-ac03-40f1-a97e-000f7d65560c/cache.tzst -P -C /home/runner/work/parentui/parentui --use-compress-program unzstd
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:45.2080061Z Cache restored successfully
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:45.2085853Z Restored cache entry with key gradle-generated-gradle-jars-v1-688225baeac4a3a51a617774fb1fe1f4 to /home/runner/.gradle/caches/8.2/generated-gradle-jars/gradle-kotlin-dsl-extensions-8.2.jar in 909ms
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:45.4229609Z Received 71303168 of 344595818 (20.7%), 66.7 MBs/sec
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:45.4231454Z [command]/usr/bin/tar -xf /home/runner/work/_temp/21edc1c2-df43-4857-b136-135129ba3d0f/cache.tzst -P -C /home/runner/work/parentui/parentui --use-compress-program unzstd
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:45.4550394Z Received 62914560 of 128168981 (49.1%), 59.5 MBs/sec
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:45.4793155Z Cache restored successfully
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:45.4795515Z Received 25118128 of 37701040 (66.6%), 23.7 MBs/sec
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:45.5097574Z Restored cache entry with key gradle-groovy-dsl-v1-cc7f8f524271f43497214cba9cef5653 to /home/runner/.gradle/caches/*/groovy-dsl/*/ in 1209ms
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:45.5837618Z Received 37748736 of 89704124 (42.1%), 35.5 MBs/sec
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:45.7940359Z Received 128168981 of 128168981 (100.0%), 90.7 MBs/sec
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:45.7941576Z Cache Size: ~122 MB (128168981 B)
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:45.8047924Z Received 37701040 of 37701040 (100.0%), 26.9 MBs/sec
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:45.8050190Z Cache Size: ~36 MB (37701040 B)
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:45.8687085Z [command]/usr/bin/tar -xf /home/runner/work/_temp/0fce2330-93da-41c4-b4c3-cc0a83a28bfb/cache.tzst -P -C /home/runner/work/parentui/parentui --use-compress-program unzstd
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:45.8735110Z [command]/usr/bin/tar -xf /home/runner/work/_temp/2d3f85b9-d4fc-4f65-9d76-bfda4dcde06b/cache.tzst -P -C /home/runner/work/parentui/parentui --use-compress-program unzstd
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:45.9058859Z Received 89704124 of 89704124 (100.0%), 64.0 MBs/sec
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:45.9059978Z Cache Size: ~86 MB (89704124 B)
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:45.9171034Z [command]/usr/bin/tar -xf /home/runner/work/_temp/abaf7695-de41-459e-8e67-ebba1c47475b/cache.tzst -P -C /home/runner/work/parentui/parentui --use-compress-program unzstd
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:46.2842523Z Cache restored successfully
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:46.3032724Z Restored cache entry with key gradle-wrapper-zips-v1-d75ab2e302ad9e0b00dcd53244709342 to /home/runner/.gradle/wrapper/dists/gradle-8.2-bin/bbg7u40eoinfdyxsxr3z4i7ta in 2003ms
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:46.4258792Z Received 247463936 of 344595818 (71.8%), 116.8 MBs/sec
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:46.4384224Z Cache restored successfully
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:46.4435954Z Restored cache entry with key gradle-generated-gradle-jars-v1-5f6a8613b478fd816378c9834ad14e25 to /home/runner/.gradle/caches/8.2/generated-gradle-jars/gradle-api-8.2.jar in 2145ms
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:46.9756890Z Received 344595818 of 344595818 (100.0%), 127.8 MBs/sec
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:46.9760617Z Cache Size: ~329 MB (344595818 B)
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:46.9789010Z [command]/usr/bin/tar -xf /home/runner/work/_temp/2115bd26-06ab-491b-9f4e-d9f1d7cc4b83/cache.tzst -P -C /home/runner/work/parentui/parentui --use-compress-program unzstd
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:47.0171985Z Cache restored successfully
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:47.0235621Z Restored cache entry with key gradle-instrumented-jars-v1-1a4a67717307cddb0f9bbb97efc530d3 to /home/runner/.gradle/caches/jars-*/*/ in 2724ms
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:47.6098767Z Cache restored successfully
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:47.6316612Z Restored cache entry with key gradle-dependencies-v1-a51a6fb819433c67824f608d6ceae97b to /home/runner/.gradle/caches/modules-*/files-*/*/*/*/* in 3332ms
+Build, Unit Test, and Lint	Set up Gradle	2026-05-26T08:23:47.6522036Z ##[endgroup]
+Build, Unit Test, and Lint	Make Gradle executable	﻿2026-05-26T08:23:47.7287763Z ##[group]Run chmod +x ./gradlew
+Build, Unit Test, and Lint	Make Gradle executable	2026-05-26T08:23:47.7288207Z [36;1mchmod +x ./gradlew[0m
+Build, Unit Test, and Lint	Make Gradle executable	2026-05-26T08:23:47.7327301Z shell: /usr/bin/bash -e {0}
+Build, Unit Test, and Lint	Make Gradle executable	2026-05-26T08:23:47.7327614Z env:
+Build, Unit Test, and Lint	Make Gradle executable	2026-05-26T08:23:47.7327976Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Build, Unit Test, and Lint	Make Gradle executable	2026-05-26T08:23:47.7328514Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Build, Unit Test, and Lint	Make Gradle executable	2026-05-26T08:23:47.7328966Z   GRADLE_ACTION_ID: gradle/actions/setup-gradle
+Build, Unit Test, and Lint	Make Gradle executable	2026-05-26T08:23:47.7329310Z   GRADLE_USER_HOME: /home/runner/.gradle
+Build, Unit Test, and Lint	Make Gradle executable	2026-05-26T08:23:47.7329637Z   GRADLE_BUILD_ACTION_SETUP_COMPLETED: true
+Build, Unit Test, and Lint	Make Gradle executable	2026-05-26T08:23:47.7329967Z   GRADLE_BUILD_ACTION_CACHE_RESTORED: true
+Build, Unit Test, and Lint	Make Gradle executable	2026-05-26T08:23:47.7330441Z   DEVELOCITY_INJECTION_INIT_SCRIPT_NAME: gradle-actions.inject-develocity.init.gradle
+Build, Unit Test, and Lint	Make Gradle executable	2026-05-26T08:23:47.7330952Z   DEVELOCITY_INJECTION_CUSTOM_VALUE: gradle-actions
+Build, Unit Test, and Lint	Make Gradle executable	2026-05-26T08:23:47.7331291Z   GITHUB_DEPENDENCY_GRAPH_ENABLED: false
+Build, Unit Test, and Lint	Make Gradle executable	2026-05-26T08:23:47.7331606Z ##[endgroup]
+Build, Unit Test, and Lint	Clean	﻿2026-05-26T08:23:47.9306240Z ##[group]Run ./gradlew --no-daemon --stacktrace :app:clean
+Build, Unit Test, and Lint	Clean	2026-05-26T08:23:47.9306985Z [36;1m./gradlew --no-daemon --stacktrace :app:clean[0m
+Build, Unit Test, and Lint	Clean	2026-05-26T08:23:47.9353985Z shell: /usr/bin/bash -e {0}
+Build, Unit Test, and Lint	Clean	2026-05-26T08:23:47.9354284Z env:
+Build, Unit Test, and Lint	Clean	2026-05-26T08:23:47.9354639Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Build, Unit Test, and Lint	Clean	2026-05-26T08:23:47.9355169Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Build, Unit Test, and Lint	Clean	2026-05-26T08:23:47.9355616Z   GRADLE_ACTION_ID: gradle/actions/setup-gradle
+Build, Unit Test, and Lint	Clean	2026-05-26T08:23:47.9355957Z   GRADLE_USER_HOME: /home/runner/.gradle
+Build, Unit Test, and Lint	Clean	2026-05-26T08:23:47.9356270Z   GRADLE_BUILD_ACTION_SETUP_COMPLETED: true
+Build, Unit Test, and Lint	Clean	2026-05-26T08:23:47.9356597Z   GRADLE_BUILD_ACTION_CACHE_RESTORED: true
+Build, Unit Test, and Lint	Clean	2026-05-26T08:23:47.9357063Z   DEVELOCITY_INJECTION_INIT_SCRIPT_NAME: gradle-actions.inject-develocity.init.gradle
+Build, Unit Test, and Lint	Clean	2026-05-26T08:23:47.9357823Z   DEVELOCITY_INJECTION_CUSTOM_VALUE: gradle-actions
+Build, Unit Test, and Lint	Clean	2026-05-26T08:23:47.9358198Z   GITHUB_DEPENDENCY_GRAPH_ENABLED: false
+Build, Unit Test, and Lint	Clean	2026-05-26T08:23:47.9358547Z ##[endgroup]
+Build, Unit Test, and Lint	Clean	2026-05-26T08:23:48.1353240Z openjdk version "17.0.19" 2026-04-21
+Build, Unit Test, and Lint	Clean	2026-05-26T08:23:48.1354009Z OpenJDK Runtime Environment Temurin-17.0.19+10 (build 17.0.19+10)
+Build, Unit Test, and Lint	Clean	2026-05-26T08:23:48.1354818Z OpenJDK 64-Bit Server VM Temurin-17.0.19+10 (build 17.0.19+10, mixed mode, sharing)
+Build, Unit Test, and Lint	Clean	2026-05-26T08:23:49.1610245Z To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.2/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Build, Unit Test, and Lint	Clean	2026-05-26T08:23:50.5593858Z Daemon will be stopped at the end of the build 
+Build, Unit Test, and Lint	Clean	2026-05-26T08:23:58.0610578Z > Task :app:clean UP-TO-DATE
+Build, Unit Test, and Lint	Clean	2026-05-26T08:23:58.1406739Z gradle/actions: Writing build results to /home/runner/work/_temp/.gradle-actions/build-results/__run_2-1779783832782.json
+Build, Unit Test, and Lint	Clean	2026-05-26T08:23:58.1427647Z 
+Build, Unit Test, and Lint	Clean	2026-05-26T08:23:58.1458103Z BUILD SUCCESSFUL in 9s
+Build, Unit Test, and Lint	Clean	2026-05-26T08:23:58.1477687Z 1 actionable task: 1 up-to-date
+Build, Unit Test, and Lint	Assemble debug APK	﻿2026-05-26T08:23:58.4698809Z ##[group]Run ./gradlew --no-daemon --stacktrace :app:assembleDebug
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:23:58.4699401Z [36;1m./gradlew --no-daemon --stacktrace :app:assembleDebug[0m
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:23:58.4737679Z shell: /usr/bin/bash -e {0}
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:23:58.4737980Z env:
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:23:58.4738350Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:23:58.4738922Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:23:58.4739371Z   GRADLE_ACTION_ID: gradle/actions/setup-gradle
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:23:58.4739715Z   GRADLE_USER_HOME: /home/runner/.gradle
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:23:58.4740045Z   GRADLE_BUILD_ACTION_SETUP_COMPLETED: true
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:23:58.4740367Z   GRADLE_BUILD_ACTION_CACHE_RESTORED: true
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:23:58.4740841Z   DEVELOCITY_INJECTION_INIT_SCRIPT_NAME: gradle-actions.inject-develocity.init.gradle
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:23:58.4741352Z   DEVELOCITY_INJECTION_CUSTOM_VALUE: gradle-actions
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:23:58.4741712Z   GITHUB_DEPENDENCY_GRAPH_ENABLED: false
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:23:58.4742068Z ##[endgroup]
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:23:58.5257487Z openjdk version "17.0.19" 2026-04-21
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:23:58.5258070Z OpenJDK Runtime Environment Temurin-17.0.19+10 (build 17.0.19+10)
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:23:58.5258858Z OpenJDK 64-Bit Server VM Temurin-17.0.19+10 (build 17.0.19+10, mixed mode, sharing)
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:23:59.0974759Z To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.2/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:23:59.9966041Z Daemon will be stopped at the end of the build 
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:07.0999194Z > Task :app:preBuild UP-TO-DATE
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:07.1000105Z > Task :app:preDebugBuild UP-TO-DATE
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:07.1001092Z > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:07.1001936Z > Task :app:checkKotlinGradlePluginConfigurationErrors
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:07.4968551Z > Task :app:generateDebugResValues
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:07.5964896Z > Task :app:checkDebugAarMetadata
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:07.5970681Z > Task :app:mapDebugSourceSetPaths
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:07.5986933Z > Task :app:generateDebugResources
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:09.0964051Z > Task :app:packageDebugResources
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:09.1961013Z > Task :app:mergeDebugResources
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:09.6008614Z > Task :app:createDebugCompatibleScreenManifests
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:09.6009784Z > Task :app:extractDeepLinksDebug
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:09.7968605Z > Task :app:parseDebugLocalResources
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:09.9008337Z > Task :app:processDebugMainManifest
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:09.9970851Z > Task :app:processDebugManifest
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:10.0964385Z > Task :app:javaPreCompileDebug
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:10.0965577Z > Task :app:mergeDebugShaders
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:10.0966417Z > Task :app:compileDebugShaders NO-SOURCE
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:10.0967512Z > Task :app:generateDebugAssets UP-TO-DATE
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:10.1962703Z > Task :app:mergeDebugAssets
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:10.1970567Z > Task :app:compressDebugAssets
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:10.1971281Z > Task :app:desugarDebugFileDependencies
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:10.2969874Z > Task :app:processDebugManifestForPackage
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:10.3982533Z > Task :app:checkDebugDuplicateClasses
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:10.6981794Z > Task :app:mergeDebugJniLibFolders
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:10.7964131Z > Task :app:mergeDebugNativeLibs NO-SOURCE
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:10.7987936Z > Task :app:mergeLibDexDebug
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:10.8018063Z > Task :app:stripDebugDebugSymbols NO-SOURCE
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:10.9962996Z > Task :app:processDebugResources
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:11.6965540Z > Task :app:validateSigningDebug
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:12.2967701Z > Task :app:writeDebugAppMetadata
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:12.3008270Z > Task :app:writeDebugSigningConfigVersions
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:25.5969429Z > Task :app:mergeExtDexDebug
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:41.6961628Z > Task :app:compileDebugKotlin
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:44.3010014Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/guardian/routine/RoutineManager.kt:63:13 Variable 'now' is never used
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:44.3035424Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/components/OnboardingStepScaffold.kt:52:65 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:44.3069367Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/components/OnboardingStepScaffold.kt:65:21 'LinearProgressIndicator(Float, Modifier = ..., Color = ..., Color = ..., StrokeCap = ...): Unit' is deprecated. Use the overload that takes `progress` as a lambda
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:44.3072950Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/screens/parent/ParentDashboardScreen.kt:685:5 Parameter 'modeAppsBedtime' is never used
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:44.3098665Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/screens/parent/ParentDashboardScreen.kt:686:5 Parameter 'modeAppsTravel' is never used
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:44.3132282Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/screens/parent/ParentDashboardScreen.kt:687:5 Parameter 'modeAppsExam' is never used
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:44.3135409Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/screens/parent/SetupLimitationsScreen.kt:54:58 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:44.3138615Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/viewmodels/LauncherViewModel.kt:108:32 Unchecked cast: Any? to Set<String>
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:44.3141154Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/viewmodels/LauncherViewModel.kt:109:31 Unchecked cast: Any? to Set<String>
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:44.3143485Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/viewmodels/LauncherViewModel.kt:229:34 Unchecked cast: Any to List<AllowedApp>
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:44.3145828Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/viewmodels/LauncherViewModel.kt:231:32 Unchecked cast: Any to Set<String>
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:44.3148308Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/viewmodels/LauncherViewModel.kt:232:33 Unchecked cast: Any to Set<String>
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:44.3150594Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/viewmodels/LauncherViewModel.kt:233:35 Unchecked cast: Any to Set<String>
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:44.3152938Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/viewmodels/LauncherViewModel.kt:234:13 Variable '_sleepApps' is never used
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:44.3155265Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/viewmodels/LauncherViewModel.kt:234:35 Unchecked cast: Any to Set<String>
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:44.3157738Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/viewmodels/LauncherViewModel.kt:235:36 Unchecked cast: Any to Set<String>
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:44.3160113Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/viewmodels/LauncherViewModel.kt:236:35 Unchecked cast: Any to Set<String>
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:44.3162382Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/viewmodels/LauncherViewModel.kt:237:33 Unchecked cast: Any to Set<String>
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:44.4974850Z 
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:44.4976119Z > Task :app:compileDebugJavaWithJavac NO-SOURCE
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:48.9965004Z > Task :app:dexBuilderDebug
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:49.0961113Z > Task :app:mergeDebugGlobalSynthetics
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:49.0979626Z > Task :app:processDebugJavaRes
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:49.3966910Z > Task :app:mergeProjectDexDebug
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:50.2994724Z > Task :app:mergeDebugJavaResource
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:51.1960828Z > Task :app:packageDebug
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:51.1964211Z > Task :app:createDebugApkListingFileRedirect
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:51.1965067Z > Task :app:assembleDebug
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:51.1966289Z gradle/actions: Writing build results to /home/runner/work/_temp/.gradle-actions/build-results/__run_3-1779783841453.json
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:51.2728690Z 
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:51.2747099Z BUILD SUCCESSFUL in 52s
+Build, Unit Test, and Lint	Assemble debug APK	2026-05-26T08:24:51.2747964Z 33 actionable tasks: 33 executed
+Build, Unit Test, and Lint	Run unit tests	﻿2026-05-26T08:24:51.5991617Z ##[group]Run ./gradlew --no-daemon --stacktrace :app:testDebugUnitTest
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:24:51.5992556Z [36;1m./gradlew --no-daemon --stacktrace :app:testDebugUnitTest[0m
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:24:51.6044352Z shell: /usr/bin/bash -e {0}
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:24:51.6044783Z env:
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:24:51.6045333Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:24:51.6046222Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:24:51.6046971Z   GRADLE_ACTION_ID: gradle/actions/setup-gradle
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:24:51.6047759Z   GRADLE_USER_HOME: /home/runner/.gradle
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:24:51.6048285Z   GRADLE_BUILD_ACTION_SETUP_COMPLETED: true
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:24:51.6048807Z   GRADLE_BUILD_ACTION_CACHE_RESTORED: true
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:24:51.6049566Z   DEVELOCITY_INJECTION_INIT_SCRIPT_NAME: gradle-actions.inject-develocity.init.gradle
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:24:51.6050389Z   DEVELOCITY_INJECTION_CUSTOM_VALUE: gradle-actions
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:24:51.6050963Z   GITHUB_DEPENDENCY_GRAPH_ENABLED: false
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:24:51.6051489Z ##[endgroup]
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:24:51.6659572Z openjdk version "17.0.19" 2026-04-21
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:24:51.6660512Z OpenJDK Runtime Environment Temurin-17.0.19+10 (build 17.0.19+10)
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:24:51.6661407Z OpenJDK 64-Bit Server VM Temurin-17.0.19+10 (build 17.0.19+10, mixed mode, sharing)
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:24:52.2336752Z To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.2/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:24:53.1320379Z Daemon will be stopped at the end of the build 
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:24:59.9344290Z > Task :app:checkKotlinGradlePluginConfigurationErrors
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:24:59.9345018Z > Task :app:preBuild UP-TO-DATE
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:24:59.9408220Z > Task :app:preDebugBuild UP-TO-DATE
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:00.3331286Z > Task :app:checkDebugAarMetadata UP-TO-DATE
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:00.3335536Z > Task :app:generateDebugResValues UP-TO-DATE
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:00.4365868Z > Task :app:mapDebugSourceSetPaths UP-TO-DATE
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:00.4381416Z > Task :app:generateDebugResources UP-TO-DATE
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:00.4382616Z > Task :app:mergeDebugResources UP-TO-DATE
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:00.4384100Z > Task :app:packageDebugResources UP-TO-DATE
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:00.4387739Z > Task :app:parseDebugLocalResources UP-TO-DATE
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:00.4398052Z > Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:00.4399323Z > Task :app:extractDeepLinksDebug UP-TO-DATE
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:00.6334761Z > Task :app:processDebugMainManifest UP-TO-DATE
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:00.6359052Z > Task :app:processDebugManifest UP-TO-DATE
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:00.6388987Z > Task :app:processDebugManifestForPackage UP-TO-DATE
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:00.8319916Z > Task :app:processDebugResources UP-TO-DATE
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:01.0388812Z > Task :app:compileDebugKotlin UP-TO-DATE
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:01.0465585Z > Task :app:javaPreCompileDebug UP-TO-DATE
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:01.0466597Z > Task :app:compileDebugJavaWithJavac NO-SOURCE
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:01.1322017Z > Task :app:preDebugUnitTestBuild UP-TO-DATE
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:01.1331346Z > Task :app:processDebugJavaRes UP-TO-DATE
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:01.1338054Z > Task :app:javaPreCompileDebugUnitTest
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:01.2341934Z > Task :app:bundleDebugClassesToCompileJar
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:01.2359845Z > Task :app:bundleDebugClassesToRuntimeJar
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:09.8324512Z > Task :app:compileDebugUnitTestKotlin
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:09.8328684Z > Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:09.8329649Z > Task :app:processDebugUnitTestJavaRes
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:11.8322107Z 
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:11.8327007Z > Task :app:testDebugUnitTest
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:11.8328270Z OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:12.3333052Z gradle/actions: Writing build results to /home/runner/work/_temp/.gradle-actions/build-results/__run_4-1779783894624.json
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:12.3344591Z 
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:12.3353065Z BUILD SUCCESSFUL in 20s
+Build, Unit Test, and Lint	Run unit tests	2026-05-26T08:25:12.3356582Z 22 actionable tasks: 7 executed, 15 up-to-date
+Build, Unit Test, and Lint	Run lint	﻿2026-05-26T08:25:12.7024240Z ##[group]Run ./gradlew --no-daemon --stacktrace :app:lintDebug
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:12.7025015Z [36;1m./gradlew --no-daemon --stacktrace :app:lintDebug[0m
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:12.7071773Z shell: /usr/bin/bash -e {0}
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:12.7072209Z env:
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:12.7072726Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:12.7073567Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:12.7074284Z   GRADLE_ACTION_ID: gradle/actions/setup-gradle
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:12.7074797Z   GRADLE_USER_HOME: /home/runner/.gradle
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:12.7075299Z   GRADLE_BUILD_ACTION_SETUP_COMPLETED: true
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:12.7075821Z   GRADLE_BUILD_ACTION_CACHE_RESTORED: true
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:12.7076571Z   DEVELOCITY_INJECTION_INIT_SCRIPT_NAME: gradle-actions.inject-develocity.init.gradle
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:12.7077503Z   DEVELOCITY_INJECTION_CUSTOM_VALUE: gradle-actions
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:12.7078033Z   GITHUB_DEPENDENCY_GRAPH_ENABLED: false
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:12.7078522Z ##[endgroup]
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:12.7606704Z openjdk version "17.0.19" 2026-04-21
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:12.7607718Z OpenJDK Runtime Environment Temurin-17.0.19+10 (build 17.0.19+10)
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:12.7608602Z OpenJDK 64-Bit Server VM Temurin-17.0.19+10 (build 17.0.19+10, mixed mode, sharing)
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:13.3544011Z To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.2/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:14.2536487Z Daemon will be stopped at the end of the build 
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:21.4592233Z > Task :app:checkKotlinGradlePluginConfigurationErrors
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:21.4593658Z > Task :app:preBuild UP-TO-DATE
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:21.4616573Z > Task :app:preDebugBuild UP-TO-DATE
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:21.8532688Z > Task :app:checkDebugAarMetadata UP-TO-DATE
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:21.8558022Z > Task :app:generateDebugResValues UP-TO-DATE
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:21.8568262Z > Task :app:mapDebugSourceSetPaths UP-TO-DATE
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:21.8569100Z > Task :app:generateDebugResources UP-TO-DATE
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:21.9548507Z > Task :app:mergeDebugResources UP-TO-DATE
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:21.9576414Z > Task :app:packageDebugResources UP-TO-DATE
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:21.9584679Z > Task :app:parseDebugLocalResources UP-TO-DATE
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:21.9585719Z > Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:21.9586602Z > Task :app:extractDeepLinksDebug UP-TO-DATE
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:22.0562763Z > Task :app:processDebugMainManifest UP-TO-DATE
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:22.0572784Z > Task :app:processDebugManifest UP-TO-DATE
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:22.0573730Z > Task :app:processDebugManifestForPackage UP-TO-DATE
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:22.2532100Z > Task :app:processDebugResources UP-TO-DATE
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:22.3542830Z > Task :app:compileDebugKotlin UP-TO-DATE
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:22.4532208Z > Task :app:javaPreCompileDebug UP-TO-DATE
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:22.4533227Z > Task :app:compileDebugJavaWithJavac NO-SOURCE
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:22.4534184Z > Task :app:bundleDebugClassesToCompileJar UP-TO-DATE
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:22.4535080Z > Task :app:extractProguardFiles
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:22.4535796Z > Task :app:preDebugAndroidTestBuild SKIPPED
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:22.4538508Z > Task :app:generateDebugAndroidTestResValues
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:23.3547455Z > Task :app:generateDebugLintReportModel
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:50.2551032Z > Task :app:lintAnalyzeDebug
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:50.4541912Z 
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:50.4547401Z > Task :app:lintReportDebug
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:50.4559327Z Wrote HTML report to file:///home/runner/work/parentui/parentui/app/build/reports/lint-results-debug.html
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:50.4565324Z 
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:50.4569061Z > Task :app:lintDebug
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:50.4570354Z gradle/actions: Writing build results to /home/runner/work/_temp/.gradle-actions/build-results/__run_5-1779783915833.json
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:50.4571555Z 
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:50.4571881Z BUILD SUCCESSFUL in 37s
+Build, Unit Test, and Lint	Run lint	2026-05-26T08:25:50.4572476Z 22 actionable tasks: 7 executed, 15 up-to-date
+Build, Unit Test, and Lint	Upload APK artifact	﻿2026-05-26T08:25:50.8357060Z ##[group]Run actions/upload-artifact@v4
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:50.8357662Z with:
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:50.8357889Z   name: debug-apk
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:50.8358136Z   if-no-files-found: warn
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:50.8358438Z   path: app/build/outputs/apk/debug/*.apk
+Build, Unit Test, and Lint	Upload APK artifact	
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:50.8358760Z   compression-level: 6
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:50.8359011Z   overwrite: false
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:50.8359253Z   include-hidden-files: false
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:50.8359520Z env:
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:50.8359852Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:50.8360387Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:50.8360845Z   GRADLE_ACTION_ID: gradle/actions/setup-gradle
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:50.8361184Z   GRADLE_USER_HOME: /home/runner/.gradle
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:50.8361504Z   GRADLE_BUILD_ACTION_SETUP_COMPLETED: true
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:50.8361818Z   GRADLE_BUILD_ACTION_CACHE_RESTORED: true
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:50.8362282Z   DEVELOCITY_INJECTION_INIT_SCRIPT_NAME: gradle-actions.inject-develocity.init.gradle
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:50.8362813Z   DEVELOCITY_INJECTION_CUSTOM_VALUE: gradle-actions
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:50.8363158Z   GITHUB_DEPENDENCY_GRAPH_ENABLED: false
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:50.8363458Z ##[endgroup]
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:51.0790717Z With the provided path, there will be 1 file uploaded
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:51.0796583Z Artifact name is valid!
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:51.0798382Z Root directory input is valid!
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:51.2388844Z Beginning upload of artifact content to blob storage
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:51.6967067Z Uploaded bytes 8388608
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:51.9546019Z Uploaded bytes 16216289
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:51.9678932Z Finished uploading artifact content to blob storage!
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:51.9681768Z SHA256 digest of uploaded artifact zip is 9e02486259ee5dc16de755e5e79ef71aada160670de81f6e63ac2e81fc40cd85
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:51.9683644Z Finalizing artifact upload
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:52.1310692Z Artifact debug-apk.zip successfully finalized. Artifact ID 7212259550
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:52.1311800Z Artifact debug-apk has been successfully uploaded! Final size is 16216289 bytes. Artifact ID is 7212259550
+Build, Unit Test, and Lint	Upload APK artifact	2026-05-26T08:25:52.1318292Z Artifact download URL: https://github.com/munaimtahir/parentui/actions/runs/26441037227/artifacts/7212259550
+Build, Unit Test, and Lint	Upload test and lint reports	﻿2026-05-26T08:25:52.1490190Z ##[group]Run actions/upload-artifact@v4
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.1490747Z with:
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.1491099Z   name: android-code-ci-reports
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.1491562Z   if-no-files-found: warn
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.1492467Z   path: **/build/reports/tests/
+Build, Unit Test, and Lint	Upload test and lint reports	**/build/test-results/
+Build, Unit Test, and Lint	Upload test and lint reports	**/build/reports/lint-results-*.html
+Build, Unit Test, and Lint	Upload test and lint reports	**/build/reports/lint-results-*.xml
+Build, Unit Test, and Lint	Upload test and lint reports	
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.1493403Z   compression-level: 6
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.1493798Z   overwrite: false
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.1494166Z   include-hidden-files: false
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.1494598Z env:
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.1495121Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.1495999Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.1496739Z   GRADLE_ACTION_ID: gradle/actions/setup-gradle
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.1497498Z   GRADLE_USER_HOME: /home/runner/.gradle
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.1498337Z   GRADLE_BUILD_ACTION_SETUP_COMPLETED: true
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.1498871Z   GRADLE_BUILD_ACTION_CACHE_RESTORED: true
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.1499698Z   DEVELOCITY_INJECTION_INIT_SCRIPT_NAME: gradle-actions.inject-develocity.init.gradle
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.1500507Z   DEVELOCITY_INJECTION_CUSTOM_VALUE: gradle-actions
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.1501073Z   GITHUB_DEPENDENCY_GRAPH_ENABLED: false
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.1501539Z ##[endgroup]
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.7189918Z With the provided path, there will be 20 files uploaded
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.7194942Z Artifact name is valid!
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.7195844Z Root directory input is valid!
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.8931125Z Beginning upload of artifact content to blob storage
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.9682152Z Uploaded bytes 41024
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.9817386Z Finished uploading artifact content to blob storage!
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.9820253Z SHA256 digest of uploaded artifact zip is 61dfe4cd6fe111680222ef65cb2c814db91b2e7476376c4779af783e6a424776
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:52.9822300Z Finalizing artifact upload
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:53.1124140Z Artifact android-code-ci-reports.zip successfully finalized. Artifact ID 7212259920
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:53.1125469Z Artifact android-code-ci-reports has been successfully uploaded! Final size is 41024 bytes. Artifact ID is 7212259920
+Build, Unit Test, and Lint	Upload test and lint reports	2026-05-26T08:25:53.1132690Z Artifact download URL: https://github.com/munaimtahir/parentui/actions/runs/26441037227/artifacts/7212259920
+Build, Unit Test, and Lint	Post Set up Gradle	﻿2026-05-26T08:25:53.1340811Z Post job cleanup.
+Build, Unit Test, and Lint	Post Set up Gradle	2026-05-26T08:25:53.4643721Z In post-action step
+Build, Unit Test, and Lint	Post Set up Gradle	2026-05-26T08:25:53.4654094Z Cache is read-only: will not save state for use in subsequent builds.
+Build, Unit Test, and Lint	Post Set up Gradle	2026-05-26T08:25:53.4661396Z Generating Job Summary
+Build, Unit Test, and Lint	Post Set up Gradle	2026-05-26T08:25:53.4686138Z Completed post-action step
+Build, Unit Test, and Lint	Post Set up JDK	﻿2026-05-26T08:25:53.4863655Z Post job cleanup.
+Build, Unit Test, and Lint	Post Checkout repository	﻿2026-05-26T08:25:53.6761480Z Post job cleanup.
+Build, Unit Test, and Lint	Post Checkout repository	2026-05-26T08:25:53.8003927Z [command]/usr/bin/git version
+Build, Unit Test, and Lint	Post Checkout repository	2026-05-26T08:25:53.8041921Z git version 2.54.0
+Build, Unit Test, and Lint	Post Checkout repository	2026-05-26T08:25:53.8083723Z Temporarily overriding HOME='/home/runner/work/_temp/e6d5ac70-51d2-4f3f-8f9e-443767b05b10' before making global git config changes
+Build, Unit Test, and Lint	Post Checkout repository	2026-05-26T08:25:53.8085031Z Adding repository directory to the temporary git global config as a safe directory
+Build, Unit Test, and Lint	Post Checkout repository	2026-05-26T08:25:53.8090019Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/parentui/parentui
+Build, Unit Test, and Lint	Post Checkout repository	2026-05-26T08:25:53.8128926Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Build, Unit Test, and Lint	Post Checkout repository	2026-05-26T08:25:53.8163952Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Build, Unit Test, and Lint	Post Checkout repository	2026-05-26T08:25:53.8414431Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Build, Unit Test, and Lint	Post Checkout repository	2026-05-26T08:25:53.8443470Z http.https://github.com/.extraheader
+Build, Unit Test, and Lint	Post Checkout repository	2026-05-26T08:25:53.8457322Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Build, Unit Test, and Lint	Post Checkout repository	2026-05-26T08:25:53.8492374Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Build, Unit Test, and Lint	Post Checkout repository	2026-05-26T08:25:53.8744730Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Build, Unit Test, and Lint	Post Checkout repository	2026-05-26T08:25:53.8780849Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Build, Unit Test, and Lint	Complete job	﻿2026-05-26T08:25:53.9155671Z Cleaning up orphan processes
+Build, Unit Test, and Lint	Complete job	2026-05-26T08:25:53.9457332Z ##[warning]Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@v4, actions/setup-java@v4, actions/upload-artifact@v4, gradle/actions/setup-gradle@v4. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

@@ -1,0 +1,799 @@
+Emulator Runtime Verification	Set up job	﻿2026-05-26T08:23:36.7266109Z Current runner version: '2.334.0'
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7296767Z ##[group]Runner Image Provisioner
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7297938Z Hosted Compute Agent
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7298489Z Version: 20260213.493
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7299150Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7299892Z Build Date: 2026-02-13T00:28:41Z
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7300665Z Worker ID: {d2de9c75-c83f-40b4-8e51-b3a4fc227596}
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7301344Z Azure Region: eastus2
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7301979Z ##[endgroup]
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7303501Z ##[group]Operating System
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7304459Z Ubuntu
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7305073Z 24.04.4
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7305537Z LTS
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7306028Z ##[endgroup]
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7306480Z ##[group]Runner Image
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7307133Z Image: ubuntu-24.04
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7307616Z Version: 20260518.149.1
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7308617Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260518.149/images/ubuntu/Ubuntu2404-Readme.md
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7310455Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260518.149
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7311430Z ##[endgroup]
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7312519Z ##[group]GITHUB_TOKEN Permissions
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7315144Z Contents: read
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7315850Z Metadata: read
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7316336Z Packages: read
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7316872Z ##[endgroup]
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7319276Z Secret source: Actions
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.7319969Z Prepare workflow directory
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.8086106Z Prepare all required actions
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:36.8143133Z Getting action download info
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:37.2890931Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:37.4698622Z Download action repository 'actions/setup-java@v4' (SHA:c1e323688fd81a25caa38c78aa6df2d33d3e20d9)
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:37.8308010Z Download action repository 'gradle/actions@v4' (SHA:ed408507eac070d1f99cc633dbcf757c94c7933a)
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:38.5893842Z Download action repository 'reactivecircus/android-emulator-runner@v2' (SHA:e89f39f1abbbd05b1113a29cf4db69e7540cae5a)
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:38.7809444Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+Emulator Runtime Verification	Set up job	2026-05-26T08:23:39.1262110Z Complete job name: Emulator Runtime Verification
+Emulator Runtime Verification	Checkout repository	﻿2026-05-26T08:23:39.2088915Z ##[group]Run actions/checkout@v4
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.2090211Z with:
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.2090979Z   repository: munaimtahir/parentui
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.2092386Z   token: ***
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.2093114Z   ssh-strict: true
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.2093889Z   ssh-user: git
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.2094935Z   persist-credentials: true
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.2095808Z   clean: true
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.2096588Z   sparse-checkout-cone-mode: true
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.2097564Z   fetch-depth: 1
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.2098333Z   fetch-tags: false
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.2099122Z   show-progress: true
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.2099911Z   lfs: false
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.2100622Z   submodules: false
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.2101436Z   set-safe-directory: true
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.2102488Z env:
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.2103173Z   TEST_LEVEL: smoke
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.2103919Z   API_LEVEL: 34
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.2104924Z   APP_ID: com.easyui.guardianlauncher
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.2106111Z   MAIN_ACTIVITY: com.easyui.guardianlauncher/.MainActivity
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.2107334Z ##[endgroup]
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3322548Z Syncing repository: munaimtahir/parentui
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3326106Z ##[group]Getting Git version info
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3327517Z Working directory is '/home/runner/work/parentui/parentui'
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3329516Z [command]/usr/bin/git version
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3389042Z git version 2.54.0
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3416101Z ##[endgroup]
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3441464Z Temporarily overriding HOME='/home/runner/work/_temp/bdf38da2-7176-4d8a-8b77-f85495415e2a' before making global git config changes
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3444614Z Adding repository directory to the temporary git global config as a safe directory
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3447575Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/parentui/parentui
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3499737Z Deleting the contents of '/home/runner/work/parentui/parentui'
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3504204Z ##[group]Initializing the repository
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3509110Z [command]/usr/bin/git init /home/runner/work/parentui/parentui
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3614791Z hint: Using 'master' as the name for the initial branch. This default branch name
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3617564Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3619563Z hint: to use in all of your new repositories, which will suppress this warning,
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3621004Z hint: call:
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3621952Z hint:
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3701440Z hint: 	git config --global init.defaultBranch <name>
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3703423Z hint:
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3705066Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3706836Z hint: 'development'. The just-created branch can be renamed via this command:
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3708245Z hint:
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3709004Z hint: 	git branch -m <name>
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3709830Z hint:
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3710949Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3712909Z Initialized empty Git repository in /home/runner/work/parentui/parentui/.git/
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3716404Z [command]/usr/bin/git remote add origin https://github.com/munaimtahir/parentui
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3719248Z ##[endgroup]
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3720539Z ##[group]Disabling automatic garbage collection
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3721671Z [command]/usr/bin/git config --local gc.auto 0
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3726088Z ##[endgroup]
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3727280Z ##[group]Setting up auth
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3735292Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.3776368Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.4139390Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.4179006Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.4425125Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.4466949Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.4722122Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.4762475Z ##[endgroup]
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.4771802Z ##[group]Fetching the repository
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:39.4776607Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +da548669ca4ec43f8cd8714b47ef9903764e0bbf:refs/remotes/origin/sprint/complete-ci-e2e-status-lock
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:42.8903983Z From https://github.com/munaimtahir/parentui
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:42.8905521Z  * [new ref]         da548669ca4ec43f8cd8714b47ef9903764e0bbf -> origin/sprint/complete-ci-e2e-status-lock
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:42.8940700Z ##[endgroup]
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:42.8942961Z ##[group]Determining the checkout info
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:42.8944218Z ##[endgroup]
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:42.8950519Z [command]/usr/bin/git sparse-checkout disable
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:42.9002442Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:42.9036315Z ##[group]Checking out the ref
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:42.9041425Z [command]/usr/bin/git checkout --progress --force -B sprint/complete-ci-e2e-status-lock refs/remotes/origin/sprint/complete-ci-e2e-status-lock
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:43.2527864Z Switched to a new branch 'sprint/complete-ci-e2e-status-lock'
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:43.2529443Z branch 'sprint/complete-ci-e2e-status-lock' set up to track 'origin/sprint/complete-ci-e2e-status-lock'.
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:43.2568327Z ##[endgroup]
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:43.2619115Z [command]/usr/bin/git log -1 --format=%H
+Emulator Runtime Verification	Checkout repository	2026-05-26T08:23:43.2649761Z da548669ca4ec43f8cd8714b47ef9903764e0bbf
+Emulator Runtime Verification	Set up JDK	﻿2026-05-26T08:23:43.2911956Z ##[group]Run actions/setup-java@v4
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.2912306Z with:
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.2912502Z   distribution: temurin
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.2912716Z   java-version: 17
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.2912908Z   java-package: jdk
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.2913118Z   check-latest: false
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.2913321Z   server-id: github
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.2913525Z   server-username: GITHUB_ACTOR
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.2913777Z   server-password: GITHUB_TOKEN
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.2914192Z   overwrite-settings: true
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.2914418Z   job-status: success
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.2914811Z   token: ***
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.2915004Z env:
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.2915201Z   TEST_LEVEL: smoke
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.2915407Z   API_LEVEL: 34
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.2915659Z   APP_ID: com.easyui.guardianlauncher
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.2916054Z   MAIN_ACTIVITY: com.easyui.guardianlauncher/.MainActivity
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.2916365Z ##[endgroup]
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.5098834Z ##[group]Installed distributions
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.5161570Z Resolved Java 17.0.19+10 from tool-cache
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.5162641Z Setting Java 17.0.19+10 as the default
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.5176244Z Creating toolchains.xml for JDK version 17 from temurin
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.5254980Z Writing to /home/runner/.m2/toolchains.xml
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.5255637Z 
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.5255837Z Java configuration:
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.5257103Z   Distribution: temurin
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.5259097Z   Version: 17.0.19+10
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.5260113Z   Path: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.5260638Z 
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.5261233Z ##[endgroup]
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.5279011Z Creating settings.xml with server-id: github
+Emulator Runtime Verification	Set up JDK	2026-05-26T08:23:43.5284381Z Writing to /home/runner/.m2/settings.xml
+Emulator Runtime Verification	Set up Gradle	﻿2026-05-26T08:23:43.5632802Z ##[group]Run gradle/actions/setup-gradle@v4
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5633131Z with:
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5633326Z   validate-wrappers: false
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5633558Z   cache-disabled: false
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5633774Z   cache-read-only: true
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5633989Z   cache-write-only: false
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5634405Z   cache-overwrite-existing: false
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5634660Z   cache-cleanup: on-success
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5634928Z   gradle-home-cache-includes: caches
+Emulator Runtime Verification	Set up Gradle	notifications
+Emulator Runtime Verification	Set up Gradle	
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5635235Z   add-job-summary: always
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5635473Z   add-job-summary-as-pr-comment: never
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5635744Z   dependency-graph: disabled
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5636033Z   dependency-graph-report-dir: dependency-graph-reports
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5636376Z   dependency-graph-continue-on-failure: true
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5636662Z   build-scan-publish: false
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5636939Z   allow-snapshot-wrappers: false
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5637203Z   gradle-home-cache-strict-match: false
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5637529Z   workflow-job-context: null
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5637946Z   github-token: ***
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5638132Z env:
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5638312Z   TEST_LEVEL: smoke
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5638493Z   API_LEVEL: 34
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5638706Z   APP_ID: com.easyui.guardianlauncher
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5639016Z   MAIN_ACTIVITY: com.easyui.guardianlauncher/.MainActivity
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5639427Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5639883Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:43.5640227Z ##[endgroup]
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:45.3060834Z Merged default JDK locations into /home/runner/.m2/toolchains.xml
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:45.3063013Z ##[group]Restore Gradle state from cache
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:45.4117916Z Cache hit for restore-key: gradle-home-v1|Linux-X64|runtime-emulator[571282735ca99ddd983746ca137f0d93]-75f3d32b809b9d0dfd48c5703a7a765739ca1b7e
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:46.0888125Z Received 128925361 of 128925361 (100.0%), 197.0 MBs/sec
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:46.0890693Z Cache Size: ~123 MB (128925361 B)
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:46.0929884Z [command]/usr/bin/tar -xf /home/runner/work/_temp/3dc52bf8-474c-4a63-947d-eccc185565ba/cache.tzst -P -C /home/runner/work/parentui/parentui --use-compress-program unzstd
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:46.8445911Z Cache restored successfully
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:46.8515495Z Restored cache entry with key gradle-home-v1|Linux-X64|runtime-emulator[571282735ca99ddd983746ca137f0d93]-da548669ca4ec43f8cd8714b47ef9903764e0bbf to /home/runner/.gradle/caches,/home/runner/.gradle/notifications,/home/runner/.gradle/.setup-gradle in 1544ms
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:46.9325441Z Cache hit for: gradle-generated-gradle-jars-v1-688225baeac4a3a51a617774fb1fe1f4
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:46.9383318Z Cache hit for: gradle-wrapper-zips-v1-d75ab2e302ad9e0b00dcd53244709342
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:46.9467603Z Cache hit for: gradle-dependencies-v1-1ef8814f6de1e215d19a180aff9a8977
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:46.9578374Z Cache hit for: gradle-generated-gradle-jars-v1-5f6a8613b478fd816378c9834ad14e25
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:46.9583335Z Cache hit for: gradle-groovy-dsl-v1-0d852015ccf5bcbb34e44cfaf4e3d79b
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:46.9591189Z Cache hit for: gradle-instrumented-jars-v1-26e825da1e4c1f662812fdafd1d0a385
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:46.9595561Z Cache hit for: gradle-kotlin-dsl-v1-16152a65d144128af1bd078441b3f256
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:47.0984862Z Received 121613 of 121613 (100.0%), 0.9 MBs/sec
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:47.0985503Z Cache Size: ~0 MB (121613 B)
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:47.3581756Z Received 91327 of 91327 (100.0%), 0.3 MBs/sec
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:47.3582389Z Cache Size: ~0 MB (91327 B)
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:47.4450484Z [command]/usr/bin/tar -xf /home/runner/work/_temp/bf88c40b-6992-4d45-9622-d191e46b42d5/cache.tzst -P -C /home/runner/work/parentui/parentui --use-compress-program unzstd
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:47.5174580Z Cache restored successfully
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:47.5463930Z Restored cache entry with key gradle-generated-gradle-jars-v1-688225baeac4a3a51a617774fb1fe1f4 to /home/runner/.gradle/caches/8.2/generated-gradle-jars/gradle-kotlin-dsl-extensions-8.2.jar in 694ms
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:47.5582902Z Received 97082 of 97082 (100.0%), 0.5 MBs/sec
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:47.5583533Z Cache Size: ~0 MB (97082 B)
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:47.6298344Z [command]/usr/bin/tar -xf /home/runner/work/_temp/fd7265c2-e6d4-4445-9b0c-72a186259b84/cache.tzst -P -C /home/runner/work/parentui/parentui --use-compress-program unzstd
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:47.6865209Z Cache restored successfully
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:47.7095134Z Restored cache entry with key gradle-groovy-dsl-v1-0d852015ccf5bcbb34e44cfaf4e3d79b to /home/runner/.gradle/caches/*/groovy-dsl/*/ in 854ms
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:47.8163116Z [command]/usr/bin/tar -xf /home/runner/work/_temp/766110e5-8145-4b7e-b6a5-0e7614f5f9bf/cache.tzst -P -C /home/runner/work/parentui/parentui --use-compress-program unzstd
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:47.8899203Z Cache restored successfully
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:47.8995959Z Restored cache entry with key gradle-kotlin-dsl-v1-16152a65d144128af1bd078441b3f256 to /home/runner/.gradle/caches/*/kotlin-dsl/accessors/*/,/home/runner/.gradle/caches/*/kotlin-dsl/scripts/*/ in 1046ms
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:47.9103398Z Received 37701040 of 37701040 (100.0%), 42.1 MBs/sec
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:47.9105930Z Cache Size: ~36 MB (37701040 B)
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:47.9738604Z Received 96468992 of 128168981 (75.3%), 91.8 MBs/sec
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:48.0394314Z Received 20971520 of 260050595 (8.1%), 20.0 MBs/sec
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:48.1086079Z Received 37748736 of 89700940 (42.1%), 36.0 MBs/sec
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:48.1430314Z Received 128168981 of 128168981 (100.0%), 104.4 MBs/sec
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:48.1431082Z Cache Size: ~122 MB (128168981 B)
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:48.1569088Z [command]/usr/bin/tar -xf /home/runner/work/_temp/1fd0f5ec-8627-46c5-9cb5-b31cc9f2a02b/cache.tzst -P -C /home/runner/work/parentui/parentui --use-compress-program unzstd
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:48.2978779Z [command]/usr/bin/tar -xf /home/runner/work/_temp/0ef5806c-3284-498d-8164-11aa84f314d6/cache.tzst -P -C /home/runner/work/parentui/parentui --use-compress-program unzstd
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:48.4910192Z Received 89700940 of 89700940 (100.0%), 61.9 MBs/sec
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:48.4911321Z Cache Size: ~86 MB (89700940 B)
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:48.5521643Z Cache restored successfully
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:48.5569275Z Restored cache entry with key gradle-generated-gradle-jars-v1-5f6a8613b478fd816378c9834ad14e25 to /home/runner/.gradle/caches/8.2/generated-gradle-jars/gradle-api-8.2.jar in 1704ms
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:48.5904965Z [command]/usr/bin/tar -xf /home/runner/work/_temp/03816a99-24f5-4996-ae6b-596dfd7c3001/cache.tzst -P -C /home/runner/work/parentui/parentui --use-compress-program unzstd
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:48.6550924Z Cache restored successfully
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:48.6649519Z Restored cache entry with key gradle-wrapper-zips-v1-d75ab2e302ad9e0b00dcd53244709342 to /home/runner/.gradle/wrapper/dists/gradle-8.2-bin/bbg7u40eoinfdyxsxr3z4i7ta in 1812ms
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:49.0397453Z Received 222298112 of 260050595 (85.5%), 105.9 MBs/sec
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:49.1604626Z Received 260050595 of 260050595 (100.0%), 116.8 MBs/sec
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:49.1608197Z Cache Size: ~248 MB (260050595 B)
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:49.1631421Z [command]/usr/bin/tar -xf /home/runner/work/_temp/8b721f86-9890-4932-bff0-ee7d641484d6/cache.tzst -P -C /home/runner/work/parentui/parentui --use-compress-program unzstd
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:49.3937298Z Cache restored successfully
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:49.4009007Z Restored cache entry with key gradle-instrumented-jars-v1-26e825da1e4c1f662812fdafd1d0a385 to /home/runner/.gradle/caches/jars-*/*/ in 2547ms
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:49.7196590Z Cache restored successfully
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:49.7325310Z Restored cache entry with key gradle-dependencies-v1-1ef8814f6de1e215d19a180aff9a8977 to /home/runner/.gradle/caches/modules-*/files-*/*/*/*/* in 2879ms
+Emulator Runtime Verification	Set up Gradle	2026-05-26T08:23:49.7720647Z ##[endgroup]
+Emulator Runtime Verification	Make Gradle executable	﻿2026-05-26T08:23:49.7940149Z ##[group]Run chmod +x ./gradlew
+Emulator Runtime Verification	Make Gradle executable	2026-05-26T08:23:49.7940610Z [36;1mchmod +x ./gradlew[0m
+Emulator Runtime Verification	Make Gradle executable	2026-05-26T08:23:49.7981388Z shell: /usr/bin/bash -e {0}
+Emulator Runtime Verification	Make Gradle executable	2026-05-26T08:23:49.7981722Z env:
+Emulator Runtime Verification	Make Gradle executable	2026-05-26T08:23:49.7981955Z   TEST_LEVEL: smoke
+Emulator Runtime Verification	Make Gradle executable	2026-05-26T08:23:49.7982208Z   API_LEVEL: 34
+Emulator Runtime Verification	Make Gradle executable	2026-05-26T08:23:49.7982481Z   APP_ID: com.easyui.guardianlauncher
+Emulator Runtime Verification	Make Gradle executable	2026-05-26T08:23:49.7982874Z   MAIN_ACTIVITY: com.easyui.guardianlauncher/.MainActivity
+Emulator Runtime Verification	Make Gradle executable	2026-05-26T08:23:49.7983349Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Emulator Runtime Verification	Make Gradle executable	2026-05-26T08:23:49.7983865Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Emulator Runtime Verification	Make Gradle executable	2026-05-26T08:23:49.7984482Z   GRADLE_ACTION_ID: gradle/actions/setup-gradle
+Emulator Runtime Verification	Make Gradle executable	2026-05-26T08:23:49.7984820Z   GRADLE_USER_HOME: /home/runner/.gradle
+Emulator Runtime Verification	Make Gradle executable	2026-05-26T08:23:49.7985153Z   GRADLE_BUILD_ACTION_SETUP_COMPLETED: true
+Emulator Runtime Verification	Make Gradle executable	2026-05-26T08:23:49.7985486Z   GRADLE_BUILD_ACTION_CACHE_RESTORED: true
+Emulator Runtime Verification	Make Gradle executable	2026-05-26T08:23:49.7985948Z   DEVELOCITY_INJECTION_INIT_SCRIPT_NAME: gradle-actions.inject-develocity.init.gradle
+Emulator Runtime Verification	Make Gradle executable	2026-05-26T08:23:49.7986527Z   DEVELOCITY_INJECTION_CUSTOM_VALUE: gradle-actions
+Emulator Runtime Verification	Make Gradle executable	2026-05-26T08:23:49.7986884Z   GITHUB_DEPENDENCY_GRAPH_ENABLED: false
+Emulator Runtime Verification	Make Gradle executable	2026-05-26T08:23:49.7987189Z ##[endgroup]
+Emulator Runtime Verification	Enable KVM	﻿2026-05-26T08:23:49.8125010Z ##[group]Run echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+Emulator Runtime Verification	Enable KVM	2026-05-26T08:23:49.8125965Z [36;1mecho 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules[0m
+Emulator Runtime Verification	Enable KVM	2026-05-26T08:23:49.8126582Z [36;1msudo udevadm control --reload-rules[0m
+Emulator Runtime Verification	Enable KVM	2026-05-26T08:23:49.8126949Z [36;1msudo udevadm trigger --name-match=kvm[0m
+Emulator Runtime Verification	Enable KVM	2026-05-26T08:23:49.8164809Z shell: /usr/bin/bash -e {0}
+Emulator Runtime Verification	Enable KVM	2026-05-26T08:23:49.8165128Z env:
+Emulator Runtime Verification	Enable KVM	2026-05-26T08:23:49.8165370Z   TEST_LEVEL: smoke
+Emulator Runtime Verification	Enable KVM	2026-05-26T08:23:49.8165629Z   API_LEVEL: 34
+Emulator Runtime Verification	Enable KVM	2026-05-26T08:23:49.8165917Z   APP_ID: com.easyui.guardianlauncher
+Emulator Runtime Verification	Enable KVM	2026-05-26T08:23:49.8166330Z   MAIN_ACTIVITY: com.easyui.guardianlauncher/.MainActivity
+Emulator Runtime Verification	Enable KVM	2026-05-26T08:23:49.8166821Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Emulator Runtime Verification	Enable KVM	2026-05-26T08:23:49.8167625Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Emulator Runtime Verification	Enable KVM	2026-05-26T08:23:49.8168135Z   GRADLE_ACTION_ID: gradle/actions/setup-gradle
+Emulator Runtime Verification	Enable KVM	2026-05-26T08:23:49.8168492Z   GRADLE_USER_HOME: /home/runner/.gradle
+Emulator Runtime Verification	Enable KVM	2026-05-26T08:23:49.8168838Z   GRADLE_BUILD_ACTION_SETUP_COMPLETED: true
+Emulator Runtime Verification	Enable KVM	2026-05-26T08:23:49.8169185Z   GRADLE_BUILD_ACTION_CACHE_RESTORED: true
+Emulator Runtime Verification	Enable KVM	2026-05-26T08:23:49.8169655Z   DEVELOCITY_INJECTION_INIT_SCRIPT_NAME: gradle-actions.inject-develocity.init.gradle
+Emulator Runtime Verification	Enable KVM	2026-05-26T08:23:49.8170164Z   DEVELOCITY_INJECTION_CUSTOM_VALUE: gradle-actions
+Emulator Runtime Verification	Enable KVM	2026-05-26T08:23:49.8170529Z   GITHUB_DEPENDENCY_GRAPH_ENABLED: false
+Emulator Runtime Verification	Enable KVM	2026-05-26T08:23:49.8170846Z ##[endgroup]
+Emulator Runtime Verification	Enable KVM	2026-05-26T08:23:49.8314766Z KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"
+Emulator Runtime Verification	Assemble debug and androidTest APKs	﻿2026-05-26T08:23:49.8717387Z ##[group]Run ./gradlew :app:assembleDebug :app:assembleDebugAndroidTest
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:23:49.8717980Z [36;1m./gradlew :app:assembleDebug :app:assembleDebugAndroidTest[0m
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:23:49.8755747Z shell: /usr/bin/bash -e {0}
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:23:49.8756055Z env:
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:23:49.8756289Z   TEST_LEVEL: smoke
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:23:49.8756541Z   API_LEVEL: 34
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:23:49.8756809Z   APP_ID: com.easyui.guardianlauncher
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:23:49.8757206Z   MAIN_ACTIVITY: com.easyui.guardianlauncher/.MainActivity
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:23:49.8757691Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:23:49.8758225Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:23:49.8758675Z   GRADLE_ACTION_ID: gradle/actions/setup-gradle
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:23:49.8759020Z   GRADLE_USER_HOME: /home/runner/.gradle
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:23:49.8759358Z   GRADLE_BUILD_ACTION_SETUP_COMPLETED: true
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:23:49.8759691Z   GRADLE_BUILD_ACTION_CACHE_RESTORED: true
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:23:49.8760223Z   DEVELOCITY_INJECTION_INIT_SCRIPT_NAME: gradle-actions.inject-develocity.init.gradle
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:23:49.8760740Z   DEVELOCITY_INJECTION_CUSTOM_VALUE: gradle-actions
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:23:49.8761089Z   GITHUB_DEPENDENCY_GRAPH_ENABLED: false
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:23:49.8761393Z ##[endgroup]
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:23:49.9380766Z openjdk version "17.0.19" 2026-04-21
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:23:49.9381417Z OpenJDK Runtime Environment Temurin-17.0.19+10 (build 17.0.19+10)
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:23:49.9382027Z OpenJDK 64-Bit Server VM Temurin-17.0.19+10 (build 17.0.19+10, mixed mode, sharing)
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:23:51.4452358Z Starting a Gradle Daemon (subsequent builds will be faster)
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:02.8469664Z > Task :app:preBuild UP-TO-DATE
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:02.8479385Z > Task :app:preDebugBuild UP-TO-DATE
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:02.8480377Z > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:02.8481334Z > Task :app:checkKotlinGradlePluginConfigurationErrors
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:03.3445979Z > Task :app:generateDebugResValues
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:03.3451116Z > Task :app:checkDebugAarMetadata
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:03.3451928Z > Task :app:mapDebugSourceSetPaths
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:03.3452683Z > Task :app:generateDebugResources
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:04.5461990Z > Task :app:packageDebugResources
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:05.2452512Z > Task :app:mergeDebugResources
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:05.3459354Z > Task :app:createDebugCompatibleScreenManifests
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:05.3476006Z > Task :app:extractDeepLinksDebug
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:05.4469912Z > Task :app:parseDebugLocalResources
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:05.5447879Z > Task :app:processDebugMainManifest
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:05.6455532Z > Task :app:processDebugManifest
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:05.7450495Z > Task :app:javaPreCompileDebug
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:05.7465327Z > Task :app:mergeDebugShaders
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:05.7466398Z > Task :app:compileDebugShaders NO-SOURCE
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:05.7467126Z > Task :app:generateDebugAssets UP-TO-DATE
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:05.8445185Z > Task :app:mergeDebugAssets
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:05.8446932Z > Task :app:compressDebugAssets
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:05.8447735Z > Task :app:desugarDebugFileDependencies
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:05.9463162Z > Task :app:processDebugManifestForPackage
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:06.0449239Z > Task :app:checkDebugDuplicateClasses
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:06.3456376Z > Task :app:mergeDebugJniLibFolders
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:06.4469852Z > Task :app:mergeLibDexDebug
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:06.4484261Z > Task :app:mergeDebugNativeLibs NO-SOURCE
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:06.4485069Z > Task :app:stripDebugDebugSymbols NO-SOURCE
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:06.5461745Z > Task :app:processDebugResources
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:07.6455412Z > Task :app:validateSigningDebug
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:08.2455612Z > Task :app:writeDebugAppMetadata
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:08.2515617Z > Task :app:writeDebugSigningConfigVersions
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:08.3467866Z > Task :app:preDebugAndroidTestBuild SKIPPED
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:08.6473901Z > Task :app:checkDebugAndroidTestAarMetadata
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:08.6475285Z > Task :app:generateDebugAndroidTestResValues
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:08.6505028Z > Task :app:mapDebugAndroidTestSourceSetPaths
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:08.6534869Z > Task :app:generateDebugAndroidTestResources
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:09.4458854Z > Task :app:processDebugAndroidTestManifest
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:09.7458402Z > Task :app:javaPreCompileDebugAndroidTest
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:09.7514945Z > Task :app:mergeDebugAndroidTestShaders
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:09.7544643Z > Task :app:compileDebugAndroidTestShaders NO-SOURCE
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:09.7574665Z > Task :app:generateDebugAndroidTestAssets UP-TO-DATE
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:09.9472850Z > Task :app:mergeDebugAndroidTestAssets
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:09.9511781Z > Task :app:compressDebugAndroidTestAssets
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:09.9544956Z > Task :app:mergeDebugAndroidTestResources
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:09.9551489Z > Task :app:desugarDebugAndroidTestFileDependencies
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:10.2455107Z > Task :app:checkDebugAndroidTestDuplicateClasses
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:10.2493478Z > Task :app:processDebugAndroidTestResources
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:12.9465604Z > Task :app:mergeExtDexDebugAndroidTest
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:13.0495195Z > Task :app:mergeLibDexDebugAndroidTest
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:13.0555287Z > Task :app:mergeDebugAndroidTestJniLibFolders
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:13.0628649Z > Task :app:mergeDebugAndroidTestNativeLibs NO-SOURCE
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:13.0685562Z > Task :app:stripDebugAndroidTestDebugSymbols NO-SOURCE
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:13.0724971Z > Task :app:validateSigningDebugAndroidTest
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:13.0758463Z > Task :app:writeDebugAndroidTestSigningConfigVersions
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:20.9475534Z > Task :app:mergeExtDexDebug
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:37.6466954Z > Task :app:compileDebugKotlin
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:42.4459877Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/guardian/routine/RoutineManager.kt:63:13 Variable 'now' is never used
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:42.4507135Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/components/OnboardingStepScaffold.kt:52:65 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:42.4536428Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/components/OnboardingStepScaffold.kt:65:21 'LinearProgressIndicator(Float, Modifier = ..., Color = ..., Color = ..., StrokeCap = ...): Unit' is deprecated. Use the overload that takes `progress` as a lambda
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:42.4539826Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/screens/parent/ParentDashboardScreen.kt:685:5 Parameter 'modeAppsBedtime' is never used
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:42.4565716Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/screens/parent/ParentDashboardScreen.kt:686:5 Parameter 'modeAppsTravel' is never used
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:42.4581219Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/screens/parent/ParentDashboardScreen.kt:687:5 Parameter 'modeAppsExam' is never used
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:42.4583987Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/screens/parent/SetupLimitationsScreen.kt:54:58 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:42.4587333Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/viewmodels/LauncherViewModel.kt:108:32 Unchecked cast: Any? to Set<String>
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:42.4589498Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/viewmodels/LauncherViewModel.kt:109:31 Unchecked cast: Any? to Set<String>
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:42.4591659Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/viewmodels/LauncherViewModel.kt:229:34 Unchecked cast: Any to List<AllowedApp>
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:42.4593828Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/viewmodels/LauncherViewModel.kt:231:32 Unchecked cast: Any to Set<String>
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:42.4596397Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/viewmodels/LauncherViewModel.kt:232:33 Unchecked cast: Any to Set<String>
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:42.4598382Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/viewmodels/LauncherViewModel.kt:233:35 Unchecked cast: Any to Set<String>
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:42.4600501Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/viewmodels/LauncherViewModel.kt:234:13 Variable '_sleepApps' is never used
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:42.4602645Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/viewmodels/LauncherViewModel.kt:234:35 Unchecked cast: Any to Set<String>
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:42.4604890Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/viewmodels/LauncherViewModel.kt:235:36 Unchecked cast: Any to Set<String>
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:42.4607041Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/viewmodels/LauncherViewModel.kt:236:35 Unchecked cast: Any to Set<String>
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:42.4609235Z w: file:///home/runner/work/parentui/parentui/app/src/main/java/com/easyui/guardianlauncher/ui/viewmodels/LauncherViewModel.kt:237:33 Unchecked cast: Any to Set<String>
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:42.5453652Z 
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:42.5487582Z > Task :app:compileDebugJavaWithJavac NO-SOURCE
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:47.2445953Z > Task :app:dexBuilderDebug
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:47.2446980Z > Task :app:mergeDebugGlobalSynthetics
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:47.3455390Z > Task :app:processDebugJavaRes
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:47.6485631Z > Task :app:bundleDebugClassesToCompileJar
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:47.7443636Z > Task :app:mergeProjectDexDebug
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:49.3466177Z > Task :app:mergeDebugJavaResource
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:49.9444609Z > Task :app:compileDebugAndroidTestKotlin
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:49.9471403Z > Task :app:compileDebugAndroidTestJavaWithJavac NO-SOURCE
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:50.1485263Z > Task :app:dexBuilderDebugAndroidTest
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:50.2469851Z > Task :app:mergeDebugAndroidTestGlobalSynthetics
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:50.2589708Z > Task :app:processDebugAndroidTestJavaRes
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:50.3460709Z > Task :app:mergeProjectDexDebugAndroidTest
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:50.6443689Z > Task :app:mergeDebugAndroidTestJavaResource
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:50.9446029Z > Task :app:packageDebugAndroidTest
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:50.9447161Z > Task :app:createDebugAndroidTestApkListingFileRedirect
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:50.9464839Z > Task :app:assembleDebugAndroidTest
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:51.0444813Z > Task :app:packageDebug
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:51.0452942Z > Task :app:createDebugApkListingFileRedirect
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:51.0453832Z > Task :app:assembleDebug
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:51.0455130Z gradle/actions: Writing build results to /home/runner/work/_temp/.gradle-actions/build-results/__run_3-1779783835513.json
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:51.1442950Z 
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:51.1453706Z BUILD SUCCESSFUL in 1m 1s
+Emulator Runtime Verification	Assemble debug and androidTest APKs	2026-05-26T08:24:51.1454977Z 59 actionable tasks: 59 executed
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	﻿2026-05-26T08:24:51.4819962Z ##[group]Run reactivecircus/android-emulator-runner@v2
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4820543Z with:
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4820781Z   api-level: 34
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4821018Z   target: google_apis
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4821269Z   arch: x86_64
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4821510Z   profile: pixel_6
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4821773Z   disable-animations: true
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4822291Z   emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4822840Z   script: bash testing/ci/android_runtime_emulator.sh
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4823170Z   cores: 2
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4823392Z   avd-name: test
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4823636Z   force-avd-creation: true
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4823904Z   emulator-boot-timeout: 600
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4824477Z   emulator-port: 5554
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4824763Z   disable-spellchecker: false
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4825053Z   disable-linux-hw-accel: auto
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4825346Z   enable-hw-keyboard: false
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4825616Z   channel: stable
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4825888Z env:
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4826102Z   TEST_LEVEL: smoke
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4826348Z   API_LEVEL: 34
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4826604Z   APP_ID: com.easyui.guardianlauncher
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4826997Z   MAIN_ACTIVITY: com.easyui.guardianlauncher/.MainActivity
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4827495Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4828028Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4828490Z   GRADLE_ACTION_ID: gradle/actions/setup-gradle
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4828830Z   GRADLE_USER_HOME: /home/runner/.gradle
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4829145Z   GRADLE_BUILD_ACTION_SETUP_COMPLETED: true
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4829480Z   GRADLE_BUILD_ACTION_CACHE_RESTORED: true
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4829947Z   DEVELOCITY_INJECTION_INIT_SCRIPT_NAME: gradle-actions.inject-develocity.init.gradle
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4830438Z   DEVELOCITY_INJECTION_CUSTOM_VALUE: gradle-actions
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4830786Z   GITHUB_DEPENDENCY_GRAPH_ENABLED: false
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.4831083Z ##[endgroup]
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5462736Z ##[group]Configure emulator
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5465792Z API level: 34
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5466562Z System image API level: 34
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5467039Z target: google_apis
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5467426Z CPU architecture: x86_64
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5467857Z Hardware profile: pixel_6
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5469360Z Cores: 2
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5470330Z RAM size: 
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5470917Z Heap size: 
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5471499Z SD card path or size: 
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5471928Z Disk size: 
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5472468Z AVD name: test
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5472970Z force avd creation: true
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5473683Z Emulator boot timeout: 600
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5474574Z emulator port: 5554
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5475539Z emulator options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5476475Z disable animations: true
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5477163Z disable spellchecker: false
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5477881Z disable Linux hardware acceleration: false
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5478651Z enable hardware keyboard: false
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5479315Z Channel: 0 (stable)
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5496210Z Script:
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5496650Z bash testing/ci/android_runtime_emulator.sh
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5497232Z Pre emulator launch script:
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5498035Z ##[endgroup]
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5498647Z ##[group]Install Android SDK
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:51.5639066Z [command]/usr/bin/sh -c \yes | sdkmanager --licenses > /dev/null
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:56.1042298Z Installing latest build tools, platform tools, and platform.
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:56.1056308Z [command]/usr/bin/sh -c \sdkmanager --install 'build-tools;36.0.0' platform-tools 'platforms;android-34'> /dev/null
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:57.6516102Z Installing latest emulator.
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:24:57.6530676Z [command]/usr/bin/sh -c \sdkmanager --install emulator --channel=0 > /dev/null
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:05.9543271Z Installing system images.
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:05.9557722Z [command]/usr/bin/sh -c \sdkmanager --install 'system-images;android-34;google_apis;x86_64' --channel=0 > /dev/null
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:48.6030707Z ##[endgroup]
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:48.6032283Z ##[group]Create AVD
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:48.6032878Z Creating AVD.
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:48.6051092Z [command]/usr/bin/sh -c \echo no | avdmanager create avd --force -n test --package 'system-images;android-34;google_apis;x86_64' --device 'pixel_6'
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:49.4015494Z Loading local repository...                                                     
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:49.4019628Z [=========                              ] 25% Loading local repository...       
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:49.4020521Z [=========                              ] 25% Fetch remote repository...        
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:49.4021519Z [=======================================] 100% Fetch remote repository...       
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:49.5244415Z Auto-selecting single ABI x86_64
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:49.9634378Z [command]/usr/bin/sh -c \printf 'hw.cpu.ncore=2\n' >> /home/runner/.android/avd/test.avd/config.ini
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:49.9659863Z ##[endgroup]
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:49.9662467Z ##[group]Launch Emulator
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:49.9662888Z Starting emulator.
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:49.9677380Z [command]/usr/bin/sh -c \/usr/local/lib/android/sdk/emulator/emulator -port 5554 -avd test -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim &
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:49.9837968Z INFO         | Android emulator version 36.5.11.0 (build_id 15261927) (CL:N/A)
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:49.9838709Z INFO         | Graphics backend: gfxstream
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:49.9839508Z INFO         | Found systemPath /usr/local/lib/android/sdk/system-images/android-34/google_apis/x86_64/
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4375340Z INFO         | Increasing RAM size to 2048MB
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4375939Z ##############################################################################
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4376536Z ##                        WARNING - ACTION REQUIRED                         ##
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4377212Z ##  Consider using the '-metrics-collection' flag to help improve the       ##
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4378096Z ##  emulator by sending anonymized usage data. Or use the '-no-metrics'     ##
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4378894Z ##  flag to bypass this warning and turn off the metrics collection.        ##
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4379641Z ##  In a future release this warning will turn into a one-time blocking     ##
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4380414Z ##  prompt to ask for explicit user input regarding metrics collection.     ##
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4381078Z ##                                                                          ##
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4381749Z ##  Please see '-help-metrics-collection' for more details. You can use     ##
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4382542Z ##  '-metrics-to-file' or '-metrics-to-console' flags to see what type of   ##
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4383330Z ##  data is being collected by emulator as part of usage statistics.        ##
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4384888Z ##############################################################################
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4385465Z INFO         | Guest GLES Driver: Auto (ext controls)
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4386223Z INFO         | emuglConfig_init: vulkan_mode_selected:swiftshader gles_mode_selected:swiftshader
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4386734Z INFO         | Checking system compatibility:
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4387079Z INFO         |   Checking: hasSufficientDiskSpace
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4387483Z INFO         |      Ok: Disk space requirements to run avd: `test` are met
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4387866Z INFO         |   Checking: hasSufficientHwGpu
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4388249Z INFO         |      Ok: Hardware GPU compatibility checks are not required
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4388643Z INFO         |   Checking: hasSufficientSystem
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4389026Z INFO         |      Ok: System requirements to run avd: `test` are met
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4389449Z ERROR        | Unable to connect to adb daemon on port: 5037
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4392881Z INFO         | Storing crashdata in: /tmp/android-runner/emu-crash-36.5.11.db, detection is enabled for process: 2970
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4394794Z INFO         | Initializing gfxstream backend
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4405913Z INFO         | android_startOpenglesRenderer: gpu info
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4406460Z INFO         | 
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4408650Z INFO         | initIcdPaths: ICD set to 'swiftshader', using Swiftshader ICD
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4409713Z INFO         | Setting ICD filenames for the loader = /usr/local/lib/android/sdk/emulator/lib64/vulkan/vk_swiftshader_icd.json
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4410628Z INFO         | SharedLibrary::open for [/usr/local/lib/android/sdk/emulator/qemu/linux-x86_64/lib64/vulkan/libvulkan.so]
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4411433Z INFO         | SharedLibrary::open for [/usr/local/lib/android/sdk/emulator/qemu/linux-x86_64/lib64/vulkan/libvulkan.so.1]
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4412143Z INFO         | SharedLibrary::open for [/usr/local/lib/android/sdk/emulator/lib64/vulkan/libvulkan.so]
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4413818Z INFO         | Added library: /usr/local/lib/android/sdk/emulator/lib64/vulkan/libvulkan.so
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4628417Z INFO         | Selecting Vulkan device: SwiftShader Device (Subzero), Version: 1.3.0
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4786562Z INFO         | SharedLibrary::open for [libX11]
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4787279Z WARNING      | Could not open libX11.so, try libX11.so.6
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4787895Z INFO         | SharedLibrary::open for [libX11.so.6]
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4788391Z INFO         | SharedLibrary::open for [libX11-xcb]
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4788802Z WARNING      | Could not open libX11-xcb.so, try libX11-xcb.so.1
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4789224Z INFO         | SharedLibrary::open for [libX11-xcb.so.1]
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4882033Z INFO         | Initializing VkEmulation features:
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4882687Z INFO         |     glInteropSupported: false
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4883084Z INFO         |     useDeferredCommands: true
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4883619Z INFO         |     createResourceWithRequirements: true
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4884333Z INFO         |     useVulkanComposition: false
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4884872Z INFO         |     useVulkanNativeSwapchain: false
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4885363Z INFO         |     enable guestRenderDoc: false
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4885838Z INFO         |     ASTC LDR emulation mode: Gpu
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4886327Z INFO         |     enable ETC2 emulation: true
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4886824Z INFO         |     enable Ycbcr emulation: false
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4887295Z INFO         |     guestVulkanOnly: false
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4887799Z INFO         |     useDedicatedAllocations: false
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4888254Z INFO         |     guestVulkanMaxApiVersion: 1.3.0
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4888665Z INFO         | Graphics Adapter Vendor Google (Google Inc.)
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4889152Z INFO         | Graphics Adapter Android Emulator OpenGL ES Translator (Google SwiftShader)
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4889714Z INFO         | Graphics API Version OpenGL ES 3.0 (OpenGL ES 3.0 SwiftShader 4.0.0.1)
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4891795Z INFO         | Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_standard_derivatives GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4893961Z INFO         | Graphics Device Extensions N/A
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4894555Z INFO         | Disabling sparse binding feature support
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4960256Z INFO         | Sending adb public key [QAAAAFvUd9UtxC4pqmIC/j8XZJ9RjkWtFpQX+rHDdK9pZH2zeHMvAcDKQIxHq1kY7PTAGpk1vI7vUFGxy1WjQICc5gkEp1B9A9G/unyI5wK4JBU41lBiTdYnLne8kh1jXOjpBxuXE6PpOAiNJLdAiX6gpzvfN1PUc7hXGJFs/OTaUVIj+u5G4I6/OEp4ukwWzzvtPmkw80Ur9fCRA159qQmzDL60Bj4FFOo3scF3C1+nupehMyL8QTfGprpeNWTaCfEde5vogER1TWaGuLF6L/nsJV8ghp9C55chB2X5ftbDRsbw+bkpUK7nJ5XR4C9TfD7MRWilE4OB2pb9JX//XGK8YtDw2iOk6vtIy9NlymiqKr8cQKIwS1Vtspejp5kIJl88Woo7jI5cSgAPg2xnCwHrlpl9vyLklZloZfCkHTiOuyG1UV1lcwLVpRSQHx2q5yxtFa1Nsm1zd61EWIshqkyuyrJiOjH3eayp29BnuxjoTHQ5JyqyZT93zdZjYoIecRzNTMuNCKdJrMTVZTDYcH8pc7ZmQfKV9vZ0YHf2SLcROOapOJS9XDcBKXC4BpVWtUw6PtVSJfr1bYZmc0dVQ2yTzWV+daIPMfpADZ9LuN8yHF19lCVhJPtA/8ydPtQlgGpFB6dtdj1PbVJT1p3kZMYqF22z9RQQYsynu9mdb3QyH+PKFiZHmQEAAQA= runner@unknown]
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4967135Z INFO         | Userspace boot properties:
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4967617Z INFO         |   androidboot.boot_devices=pci0000:00/0000:00:03.0 pci0000:00/0000:00:06.0
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4968101Z INFO         |   androidboot.dalvik.vm.heapsize=512m
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4968491Z INFO         |   androidboot.debug.hwui.renderer=skiagl
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4968872Z INFO         |   androidboot.debug.sf.nobootanimation=1
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4969415Z INFO         |   androidboot.hardware=ranchu
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4969796Z INFO         |   androidboot.hardware.gltransport=pipe
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4970171Z INFO         |   androidboot.hardware.vulkan=ranchu
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4970535Z INFO         |   androidboot.logcat=*:V
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4970878Z INFO         |   androidboot.opengles.version=196608
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4971208Z INFO         |   androidboot.qemu=1
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4975171Z INFO         |   androidboot.qemu.adb.pubkey=QAAAAFvUd9UtxC4pqmIC/j8XZJ9RjkWtFpQX+rHDdK9pZH2zeHMvAcDKQIxHq1kY7PTAGpk1vI7vUFGxy1WjQICc5gkEp1B9A9G/unyI5wK4JBU41lBiTdYnLne8kh1jXOjpBxuXE6PpOAiNJLdAiX6gpzvfN1PUc7hXGJFs/OTaUVIj+u5G4I6/OEp4ukwWzzvtPmkw80Ur9fCRA159qQmzDL60Bj4FFOo3scF3C1+nupehMyL8QTfGprpeNWTaCfEde5vogER1TWaGuLF6L/nsJV8ghp9C55chB2X5ftbDRsbw+bkpUK7nJ5XR4C9TfD7MRWilE4OB2pb9JX//XGK8YtDw2iOk6vtIy9NlymiqKr8cQKIwS1Vtspejp5kIJl88Woo7jI5cSgAPg2xnCwHrlpl9vyLklZloZfCkHTiOuyG1UV1lcwLVpRSQHx2q5yxtFa1Nsm1zd61EWIshqkyuyrJiOjH3eayp29BnuxjoTHQ5JyqyZT93zdZjYoIecRzNTMuNCKdJrMTVZTDYcH8pc7ZmQfKV9vZ0YHf2SLcROOapOJS9XDcBKXC4BpVWtUw6PtVSJfr1bYZmc0dVQ2yTzWV+daIPMfpADZ9LuN8yHF19lCVhJPtA/8ydPtQlgGpFB6dtdj1PbVJT1p3kZMYqF22z9RQQYsynu9mdb3QyH+PKFiZHmQEAAQA= runner@unknown
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4978892Z INFO         |   androidboot.qemu.avd_name=test
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4979281Z INFO         |   androidboot.qemu.camera_hq_edge_processing=0
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4979670Z INFO         |   androidboot.qemu.camera_protocol_ver=1
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4980050Z INFO         |   androidboot.qemu.cpuvulkan.version=4202496
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4980483Z INFO         |   androidboot.qemu.gltransport.drawFlushInterval=800
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4980901Z INFO         |   androidboot.qemu.gltransport.name=pipe
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4981256Z INFO         |   androidboot.qemu.hwcodec.avcdec=2
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4981619Z INFO         |   androidboot.qemu.hwcodec.hevcdec=2
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4981973Z INFO         |   androidboot.qemu.hwcodec.vpxdec=2
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4982393Z INFO         |   androidboot.qemu.settings.system.screen_off_timeout=2147483647
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4982842Z INFO         |   androidboot.qemu.skin=1080x2400
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4983177Z INFO         |   androidboot.qemu.virtiowifi=1
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4983513Z INFO         |   androidboot.qemu.vsync=60
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4983856Z INFO         |   androidboot.serialno=EMULATOR36X5X11X0
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4984613Z INFO         |   androidboot.vbmeta.digest=451e57ed688ff746d2c636d52169ade253e2bc5bb30a5c3ff23679ca15d3bcd3
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4985156Z INFO         |   androidboot.vbmeta.hash_alg=sha256
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4985500Z INFO         |   androidboot.vbmeta.size=6656
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.4985837Z INFO         |   androidboot.veritymode=enforcing
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.5180689Z WARNING: cannnot unmap ptr 0x7f754be01000 as it is in the protected range from 0x7f74cbe00000 to 0x7f754c000000
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:50.5343166Z INFO         | Monitoring duration of emulator setup.
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:53.5436071Z INFO         | Activated packet streamer for bluetooth emulation
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:53.5458568Z INFO         | Successfully initialized netsim WiFi
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:53.5520434Z INFO         | Setting display: 0 configuration to: 1080x2400, dpi: 420x420 
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:53.5521705Z INFO         | setDisplayActiveConfig: id:0, 1080x2400
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:53.5522697Z INFO         | emulatorSetupEnvironment: Setting up screen background view and display layout at env:1080x2400, lcd:1080x2400
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:53.5523744Z INFO         | emulatorSetupEnvironment: Environment scene is not required
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:53.5602464Z USER_INFO    | Emulator is performing a full startup. This may take upto two minutes, or more.
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:53.5604188Z WARNING      | Failed to process .ini file /home/runner/.android/emu-update-last-check.ini for reading.
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:53.6574857Z WARNING      | Failed to process .ini file /home/runner/.android/emu-update-last-check.ini for reading.
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:59.9737369Z [command]/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell getprop sys.boot_completed
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:25:59.9782604Z * daemon not running; starting now at tcp:5037
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:00.0670244Z * daemon started successfully
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:00.0671366Z adb: device offline
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:00.0681884Z The process '/usr/local/lib/android/sdk/platform-tools/adb' failed with exit code 1
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:02.0723559Z [command]/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell getprop sys.boot_completed
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:02.0766713Z adb: device offline
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:02.0773176Z The process '/usr/local/lib/android/sdk/platform-tools/adb' failed with exit code 1
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:04.0810047Z [command]/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell getprop sys.boot_completed
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:04.0846981Z adb: device offline
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:04.0852337Z The process '/usr/local/lib/android/sdk/platform-tools/adb' failed with exit code 1
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:06.0918485Z [command]/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell getprop sys.boot_completed
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:06.2011638Z 
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:08.2085686Z [command]/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell getprop sys.boot_completed
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:08.3519036Z 
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:10.3602207Z [command]/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell getprop sys.boot_completed
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:10.3936151Z 
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:12.3992976Z [command]/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell getprop sys.boot_completed
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:12.4220554Z 
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:14.4259409Z [command]/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell getprop sys.boot_completed
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:14.4534814Z 
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:16.4596015Z [command]/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell getprop sys.boot_completed
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:16.4807534Z 
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:18.4865790Z [command]/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell getprop sys.boot_completed
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:18.5158075Z 
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:20.5201925Z [command]/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell getprop sys.boot_completed
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:20.5447212Z 
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:22.5482085Z [command]/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell getprop sys.boot_completed
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:22.5707389Z 
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:24.5767743Z [command]/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell getprop sys.boot_completed
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:24.6006820Z 
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:26.6045860Z [command]/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell getprop sys.boot_completed
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:26.6307102Z 
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:28.6358456Z [command]/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell getprop sys.boot_completed
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:28.6748498Z 
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:30.6792895Z [command]/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell getprop sys.boot_completed
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:30.7078258Z 
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:32.4997252Z INFO         | Boot completed in 42485 ms
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:32.5001012Z INFO         | Increasing screen off timeout, logcat buffer size to 2M.
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:32.7135575Z [command]/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell getprop sys.boot_completed
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:32.8217703Z 1
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:32.8235382Z Emulator booted.
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:32.8280063Z [command]/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell input keyevent 82
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:33.2632118Z Disabling animations.
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:33.2661057Z [command]/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell settings put global window_animation_scale 0.0
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:33.5019628Z [command]/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell settings put global transition_animation_scale 0.0
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:33.6625774Z [command]/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell settings put global animator_duration_scale 0.0
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:33.8907860Z ##[endgroup]
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:33.8918503Z [command]/usr/bin/sh -c bash testing/ci/android_runtime_emulator.sh
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:33.8962915Z + mkdir -p ci-artifacts/logs ci-artifacts/ui ci-artifacts/screenshots
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:33.8985177Z + ./gradlew :app:connectedDebugAndroidTest
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:33.9775814Z openjdk version "17.0.19" 2026-04-21
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:33.9777713Z OpenJDK Runtime Environment Temurin-17.0.19+10 (build 17.0.19+10)
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:33.9778959Z OpenJDK 64-Bit Server VM Temurin-17.0.19+10 (build 17.0.19+10, mixed mode, sharing)
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:35.8535488Z > Task :app:checkKotlinGradlePluginConfigurationErrors
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:35.8545403Z > Task :app:preBuild UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:35.8567618Z > Task :app:preDebugBuild UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:35.9478970Z > Task :app:checkDebugAarMetadata UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:35.9535215Z > Task :app:generateDebugResValues UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:35.9564930Z > Task :app:mapDebugSourceSetPaths UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:35.9615317Z > Task :app:generateDebugResources UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.0465335Z > Task :app:mergeDebugResources UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.0485289Z > Task :app:packageDebugResources UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.0515410Z > Task :app:parseDebugLocalResources UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.0545246Z > Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.0566889Z > Task :app:extractDeepLinksDebug UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.0574774Z > Task :app:processDebugMainManifest UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.0605097Z > Task :app:processDebugManifest UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.0625372Z > Task :app:processDebugManifestForPackage UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.1425231Z > Task :app:processDebugResources UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.2416073Z > Task :app:compileDebugKotlin UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.2454962Z > Task :app:javaPreCompileDebug UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.2485597Z > Task :app:compileDebugJavaWithJavac NO-SOURCE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.2507279Z > Task :app:bundleDebugClassesToCompileJar UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.2523876Z > Task :app:preDebugAndroidTestBuild SKIPPED
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.3485654Z > Task :app:checkDebugAndroidTestAarMetadata UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.3544228Z > Task :app:generateDebugAndroidTestResValues UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.3601857Z > Task :app:mapDebugAndroidTestSourceSetPaths UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.3628163Z > Task :app:generateDebugAndroidTestResources UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.3658068Z > Task :app:mergeDebugAndroidTestResources UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.3707287Z > Task :app:processDebugAndroidTestManifest UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.3717847Z > Task :app:processDebugAndroidTestResources UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.4429264Z > Task :app:compileDebugAndroidTestKotlin UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.4454893Z > Task :app:javaPreCompileDebugAndroidTest UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.4483221Z > Task :app:compileDebugAndroidTestJavaWithJavac NO-SOURCE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.4512290Z > Task :app:mergeDebugShaders UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.4532489Z > Task :app:compileDebugShaders NO-SOURCE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.4558715Z > Task :app:generateDebugAssets UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.4575483Z > Task :app:mergeDebugAssets UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.4604492Z > Task :app:compressDebugAssets UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.4645473Z > Task :app:desugarDebugFileDependencies UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.4655504Z > Task :app:dexBuilderDebug UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.5442439Z > Task :app:mergeDebugGlobalSynthetics UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.5526060Z > Task :app:processDebugJavaRes UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.5579622Z > Task :app:mergeDebugJavaResource UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.5628147Z > Task :app:checkDebugDuplicateClasses UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.5658493Z > Task :app:mergeExtDexDebug UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.5719919Z > Task :app:mergeLibDexDebug UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.5770628Z > Task :app:mergeProjectDexDebug UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.5827028Z > Task :app:mergeDebugJniLibFolders UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.5857912Z > Task :app:mergeDebugNativeLibs NO-SOURCE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.5897811Z > Task :app:stripDebugDebugSymbols NO-SOURCE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.5899045Z > Task :app:validateSigningDebug UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.5923667Z > Task :app:writeDebugAppMetadata UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.5951886Z > Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.6412461Z > Task :app:packageDebug UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.6439788Z > Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.6460048Z > Task :app:mergeDebugAndroidTestShaders UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.6475108Z > Task :app:compileDebugAndroidTestShaders NO-SOURCE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.6505561Z > Task :app:generateDebugAndroidTestAssets UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.6525385Z > Task :app:mergeDebugAndroidTestAssets UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.6565314Z > Task :app:compressDebugAndroidTestAssets UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.6566407Z > Task :app:desugarDebugAndroidTestFileDependencies UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.6595291Z > Task :app:dexBuilderDebugAndroidTest UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.6625129Z > Task :app:mergeDebugAndroidTestGlobalSynthetics UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.6647020Z > Task :app:processDebugAndroidTestJavaRes UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.6667244Z > Task :app:mergeDebugAndroidTestJavaResource UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.6687623Z > Task :app:checkDebugAndroidTestDuplicateClasses UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.6704794Z > Task :app:mergeExtDexDebugAndroidTest UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.6728885Z > Task :app:mergeLibDexDebugAndroidTest UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.6754735Z > Task :app:mergeProjectDexDebugAndroidTest UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.6780076Z > Task :app:mergeDebugAndroidTestJniLibFolders UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.7445933Z > Task :app:mergeDebugAndroidTestNativeLibs NO-SOURCE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.7475107Z > Task :app:stripDebugAndroidTestDebugSymbols NO-SOURCE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.7476215Z > Task :app:validateSigningDebugAndroidTest UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.7505388Z > Task :app:writeDebugAndroidTestSigningConfigVersions UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.7533456Z > Task :app:packageDebugAndroidTest UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:36.7560659Z > Task :app:createDebugAndroidTestApkListingFileRedirect UP-TO-DATE
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:26:37.1428873Z [EmulatorConsole]: Failed to start Emulator console for 5554
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:27:01.8412010Z 
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:27:01.8420349Z > Task :app:connectedDebugAndroidTest
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:27:01.8424217Z Starting 5 tests on emulator-5554 - 14
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:06.1044819Z gradle/actions: Writing build results to /home/runner/work/_temp/.gradle-actions/build-results/__reactivecircus_android-emulator-runner-1779783995148.json
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:06.1050221Z 
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:06.1054002Z BUILD SUCCESSFUL in 1m 32s
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:06.1055375Z 60 actionable tasks: 2 executed, 58 up-to-date
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:06.4249983Z + echo 'Tests passed'
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:06.4250840Z + adb logcat -d
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:06.4259731Z Tests passed
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:07.3294960Z + adb shell uiautomator dump /sdcard/window_dump.xml
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:09.9165588Z ERROR: null root node returned by UiTestAutomationBridge.
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:10.8291495Z + adb pull /sdcard/window_dump.xml ci-artifacts/ui/window_dump.xml
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:10.8910327Z adb: error: failed to stat remote object '/sdcard/window_dump.xml': No such file or directory
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:10.8938432Z + true
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:10.8959232Z + adb exec-out screencap -p
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:13.9720845Z ##[group]Terminate Emulator
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:13.9746395Z [command]/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 emu kill
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:13.9810376Z OK: killing emulator, bye bye
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:13.9811585Z OK
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:13.9813097Z INFO         | Wait for emulator (pid 2970) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:13.9815264Z 
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:13.9815987Z ##[endgroup]
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:13.9961494Z USER_INFO    | Snapshots have been disabled by the user, save request is ignored.
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:13.9962803Z INFO         | Saving snapshot 'default_boot' using 1 ms
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:14.5777904Z ERROR        | stop: Not implemented
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:14.5778539Z WARNING      | Emulator client has not yet been configured.. Call configure me first!
+Emulator Runtime Verification	Run emulator tests + Capture Artifacts	2026-05-26T08:28:14.6317971Z WARNING      | Netsim Wifi localhost:36423 is gone due to CANCELLED
+Emulator Runtime Verification	Upload emulator artifacts	﻿2026-05-26T08:28:15.2771047Z ##[group]Run actions/upload-artifact@v4
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.2771388Z with:
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.2771627Z   name: emulator-verification-artifacts
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.2772621Z   path: ci-artifacts/
+Emulator Runtime Verification	Upload emulator artifacts	**/build/reports/androidTests/
+Emulator Runtime Verification	Upload emulator artifacts	**/build/outputs/androidTest-results/
+Emulator Runtime Verification	Upload emulator artifacts	**/build/outputs/connected_android_test_additional_output/
+Emulator Runtime Verification	Upload emulator artifacts	**/build/test-results/
+Emulator Runtime Verification	Upload emulator artifacts	**/build/outputs/apk/debug/*.apk
+Emulator Runtime Verification	Upload emulator artifacts	**/build/outputs/apk/androidTest/debug/*.apk
+Emulator Runtime Verification	Upload emulator artifacts	
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.2773611Z   if-no-files-found: warn
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.2773945Z   compression-level: 6
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.2774433Z   overwrite: false
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.2774778Z   include-hidden-files: false
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.2775074Z env:
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.2775279Z   TEST_LEVEL: smoke
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.2775522Z   API_LEVEL: 34
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.2775774Z   APP_ID: com.easyui.guardianlauncher
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.2776146Z   MAIN_ACTIVITY: com.easyui.guardianlauncher/.MainActivity
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.2776633Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.2777183Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.2777632Z   GRADLE_ACTION_ID: gradle/actions/setup-gradle
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.2777968Z   GRADLE_USER_HOME: /home/runner/.gradle
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.2778291Z   GRADLE_BUILD_ACTION_SETUP_COMPLETED: true
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.2778620Z   GRADLE_BUILD_ACTION_CACHE_RESTORED: true
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.2779088Z   DEVELOCITY_INJECTION_INIT_SCRIPT_NAME: gradle-actions.inject-develocity.init.gradle
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.2779580Z   DEVELOCITY_INJECTION_CUSTOM_VALUE: gradle-actions
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.2779929Z   GITHUB_DEPENDENCY_GRAPH_ENABLED: false
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.2780273Z   ANDROID_AVD_HOME: /home/runner/.android/avd
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.2780580Z ##[endgroup]
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.9404369Z With the provided path, there will be 25 files uploaded
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.9409494Z Artifact name is valid!
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:15.9410681Z Root directory input is valid!
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:16.0776429Z Beginning upload of artifact content to blob storage
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:16.5319750Z Uploaded bytes 8388608
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:16.7758193Z Uploaded bytes 16777216
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:16.9428197Z Uploaded bytes 19635901
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:16.9573204Z Finished uploading artifact content to blob storage!
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:16.9591676Z SHA256 digest of uploaded artifact zip is 11c2531b99325ee354e15ce031e2c29257b58c30c3762f97f16ec6d03f8af91b
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:16.9592593Z Finalizing artifact upload
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:17.1301480Z Artifact emulator-verification-artifacts.zip successfully finalized. Artifact ID 7212306535
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:17.1302837Z Artifact emulator-verification-artifacts has been successfully uploaded! Final size is 19635901 bytes. Artifact ID is 7212306535
+Emulator Runtime Verification	Upload emulator artifacts	2026-05-26T08:28:17.1310894Z Artifact download URL: https://github.com/munaimtahir/parentui/actions/runs/26441038147/artifacts/7212306535
+Emulator Runtime Verification	Post Set up Gradle	﻿2026-05-26T08:28:17.1546731Z Post job cleanup.
+Emulator Runtime Verification	Post Set up Gradle	2026-05-26T08:28:17.5194929Z In post-action step
+Emulator Runtime Verification	Post Set up Gradle	2026-05-26T08:28:17.5204585Z Cache is read-only: will not save state for use in subsequent builds.
+Emulator Runtime Verification	Post Set up Gradle	2026-05-26T08:28:17.5211406Z Generating Job Summary
+Emulator Runtime Verification	Post Set up Gradle	2026-05-26T08:28:17.5236254Z Completed post-action step
+Emulator Runtime Verification	Post Set up JDK	﻿2026-05-26T08:28:17.5399494Z Post job cleanup.
+Emulator Runtime Verification	Post Checkout repository	﻿2026-05-26T08:28:17.7320343Z Post job cleanup.
+Emulator Runtime Verification	Post Checkout repository	2026-05-26T08:28:17.8394853Z [command]/usr/bin/git version
+Emulator Runtime Verification	Post Checkout repository	2026-05-26T08:28:17.8435272Z git version 2.54.0
+Emulator Runtime Verification	Post Checkout repository	2026-05-26T08:28:17.8480354Z Temporarily overriding HOME='/home/runner/work/_temp/38a1bf7c-2e08-4284-bc44-ad4f1a5c1317' before making global git config changes
+Emulator Runtime Verification	Post Checkout repository	2026-05-26T08:28:17.8481529Z Adding repository directory to the temporary git global config as a safe directory
+Emulator Runtime Verification	Post Checkout repository	2026-05-26T08:28:17.8496390Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/parentui/parentui
+Emulator Runtime Verification	Post Checkout repository	2026-05-26T08:28:17.8539226Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Emulator Runtime Verification	Post Checkout repository	2026-05-26T08:28:17.8577438Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Emulator Runtime Verification	Post Checkout repository	2026-05-26T08:28:17.8850520Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Emulator Runtime Verification	Post Checkout repository	2026-05-26T08:28:17.8885869Z http.https://github.com/.extraheader
+Emulator Runtime Verification	Post Checkout repository	2026-05-26T08:28:17.8900763Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Emulator Runtime Verification	Post Checkout repository	2026-05-26T08:28:17.8938855Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Emulator Runtime Verification	Post Checkout repository	2026-05-26T08:28:17.9189346Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Emulator Runtime Verification	Post Checkout repository	2026-05-26T08:28:17.9227993Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Emulator Runtime Verification	Complete job	﻿2026-05-26T08:28:17.9623623Z Cleaning up orphan processes
+Emulator Runtime Verification	Complete job	2026-05-26T08:28:17.9984119Z Terminate orphan process: pid (2455) (java)
+Emulator Runtime Verification	Complete job	2026-05-26T08:28:18.0023190Z Terminate orphan process: pid (2581) (java)
+Emulator Runtime Verification	Complete job	2026-05-26T08:28:18.0176088Z Terminate orphan process: pid (3094) (adb)
+Emulator Runtime Verification	Complete job	2026-05-26T08:28:18.0246185Z ##[warning]Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@v4, actions/setup-java@v4, actions/upload-artifact@v4, gradle/actions/setup-gradle@v4. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
