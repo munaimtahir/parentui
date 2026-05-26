@@ -3,6 +3,7 @@
 ## Workflow
 - Name: `Android Runtime Emulator CI`
 - File: `.github/workflows/android-runtime-emulator-ci.yml`
+- Latest passing run: https://github.com/munaimtahir/parentui/actions/runs/26425560851
 
 ## What it validates (emulator-appropriate)
 - App installs and launches on emulator
@@ -23,4 +24,3 @@
 
 ## Artifacts uploaded (always)
 - `runtime-emulator-artifacts` (includes `ci-artifacts/`, APKs, reports)
-

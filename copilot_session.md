@@ -28,22 +28,23 @@
 - Created .github/workflows/android-code-ci.yml
 - Created .github/workflows/android-runtime-emulator-ci.yml
 
-## Update (2026-05-25 UTC)
-- Added/confirmed only two workflows exist:
-  - `.github/workflows/android-code-ci.yml`
-  - `.github/workflows/android-runtime-emulator-ci.yml`
-- Added minimal runtime instrumentation coverage:
-  - `app/src/androidTest/java/com/easyui/guardianlauncher/LauncherRuntimeSmokeTest.kt`
-  - Fixed `app/src/androidTest/java/com/easyui/guardianlauncher/ui/screens/onboarding/OnboardingScreenTest.kt` compilation
-- Added evidence folder:
-  - `docs/_implementation/20260525_github_actions_ci_cleanup/`
-- Local check:
-  - `./gradlew :app:compileDebugAndroidTestKotlin`
-- Next: open PR and iterate until both workflows are green with artifacts.
-
-## Notes / blockers
+## Update (2026-05-26 02:50 UTC)
+- Pushed branch `fix/onboarding-ci-cleanup` and created PR #2.
+- Remote `Android Code CI` (Build, Unit Test, Lint) PASSED: https://github.com/munaimtahir/parentui/actions/runs/26424870059
+- Remote `Android Runtime Emulator CI` is currently IN PROGRESS.
 - Root cause for Onboarding failures was identified as `testTag` overwriting in `OnboardingStepScaffold`.
 - Fixed by applying `modifier` to `Scaffold` and ensuring `onboarding_scroll_container` is applied separately.
 - Improved list tagging in `AppSelectionStep`.
 - All unit tests pass.
-- Final GO verdict.
+- Code health confirmed remotely.
+
+## Update (2026-05-26 00:35 UTC)
+- PR: https://github.com/munaimtahir/parentui/pull/1
+- Branch: `ci/android-actions-cleanup-20260525`
+- Android Code CI: PASS https://github.com/munaimtahir/parentui/actions/runs/26425560859
+- Android Runtime Emulator CI: PASS https://github.com/munaimtahir/parentui/actions/runs/26425560851
+- Artifacts uploaded:
+  - `debug-apk`
+  - `android-code-ci-reports`
+  - `runtime-emulator-artifacts`
+- Final verdict: CONDITIONAL GO (CI green; physical launcher checks still required)
