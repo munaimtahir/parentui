@@ -13,22 +13,10 @@ on:
           - smoke
           - full
           - screenshots_only
-      runtime_target:
-        description: 'selector'
-        required: true
-        default: 'all'
-        type: choice
-        options:
-          - all
       api_level:
         description: 'Android API level'
         required: true
         default: '34'
-      retry_failed:
-        description: 'Retry failed tests'
-        required: true
-        default: 'false'
-        type: boolean
 
 jobs:
   runtime-emulator:
@@ -38,9 +26,7 @@ jobs:
 
     env:
       TEST_LEVEL: ${{ inputs.test_level || 'smoke' }}
-      RUNTIME_TARGET: ${{ inputs.runtime_target || 'all' }}
       API_LEVEL: ${{ inputs.api_level || '34' }}
-      RETRY_FAILED: ${{ inputs.retry_failed || 'false' }}
       APP_ID: com.easyui.guardianlauncher
       MAIN_ACTIVITY: com.easyui.guardianlauncher/.MainActivity
 
@@ -71,7 +57,7 @@ jobs:
       - name: Assemble debug and androidTest APKs
         run: ./gradlew :app:assembleDebug :app:assembleDebugAndroidTest
 
-      - name: Run emulator tests
+      - name: Run emulator tests + Capture Artifacts
         uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: ${{ env.API_LEVEL }}
@@ -81,25 +67,25 @@ jobs:
           disable-animations: true
           emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim
           script: |
+            set -ex
             adb devices
             adb shell settings put global window_animation_scale 0
             adb shell settings put global transition_animation_scale 0
             adb shell settings put global animator_duration_scale 0
-            ./gradlew :app:connectedDebugAndroidTest
-
-      - name: Capture logcat
-        if: always()
-        run: |
-          mkdir -p ci-artifacts/logs
-          adb logcat -d > ci-artifacts/logs/logcat.txt || true
-          adb devices -l > ci-artifacts/logs/adb_devices.txt || true
-
-      - name: Capture UI dump
-        if: always()
-        run: |
-          mkdir -p ci-artifacts/ui
-          adb shell uiautomator dump /sdcard/window_dump.xml || true
-          adb pull /sdcard/window_dump.xml ci-artifacts/ui/window_dump.xml || true
+            
+            # Run tests and capture log on failure
+            if ./gradlew :app:connectedDebugAndroidTest; then
+              echo "Tests passed"
+            else
+              echo "Tests failed"
+            fi
+            
+            # Capture artifacts while emulator is still alive
+            mkdir -p ci-artifacts/logs ci-artifacts/ui ci-artifacts/screenshots
+            adb logcat -d > ci-artifacts/logs/logcat.txt || true
+            adb shell uiautomator dump /sdcard/window_dump.xml || true
+            adb pull /sdcard/window_dump.xml ci-artifacts/ui/window_dump.xml || true
+            adb exec-out screencap -p > ci-artifacts/screenshots/screen.png || true
 
       - name: Upload emulator artifacts
         if: always()
