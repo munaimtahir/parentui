@@ -1,16 +1,26 @@
 # Final GO / NO-GO Report (2026-05-25)
 
 ## Branch / PR
-- Branch: _TBD after branch creation_
-- PR: _TBD after PR creation_
+- Branch: `ci/android-actions-cleanup-20260525`
+- PR: https://github.com/munaimtahir/parentui/pull/1
 
 ## Workflows
 - `.github/workflows/android-code-ci.yml` — Android Code CI
 - `.github/workflows/android-runtime-emulator-ci.yml` — Android Runtime Emulator CI
 
 ## Status
-- Android Code CI: _PENDING_
-- Android Runtime Emulator CI: _PENDING_
+- Android Code CI: PASS (latest run) https://github.com/munaimtahir/parentui/actions/runs/26425998286
+- Android Runtime Emulator CI: PASS (latest run) https://github.com/munaimtahir/parentui/actions/runs/26425998285
+
+## Gradle commands verified in CI
+- Code CI:
+  - `./gradlew --no-daemon --stacktrace :app:clean`
+  - `./gradlew --no-daemon --stacktrace :app:assembleDebug`
+  - `./gradlew --no-daemon --stacktrace :app:testDebugUnitTest`
+  - `./gradlew --no-daemon --stacktrace :app:lintDebug`
+- Runtime emulator CI:
+  - `./gradlew --no-daemon --stacktrace :app:assembleDebug :app:assembleDebugAndroidTest`
+  - `./gradlew --no-daemon --stacktrace :app:connectedDebugAndroidTest`
 
 ## Artifacts expected
 - `debug-apk`
@@ -18,5 +28,6 @@
 - `runtime-emulator-artifacts`
 
 ## Verdict
-NO-GO (until both workflows are green and artifacts are confirmed uploaded on GitHub Actions).
+CONDITIONAL GO
 
+CI is green and artifacts are uploaded, but a launcher still needs physical-device checks for default-launcher/HOME/lockscreen/OEM behavior. See `docs/_implementation/20260525_github_actions_ci_cleanup/REMAINING_MANUAL_DEVICE_CHECKS.md`.

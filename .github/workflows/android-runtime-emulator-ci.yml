@@ -5,43 +5,30 @@ on:
   workflow_dispatch:
     inputs:
       test_level:
-        description: "smoke runs connected tests; screenshots_only skips tests"
+        description: 'smoke runs connected tests; screenshots_only skips tests'
         required: true
-        default: "smoke"
+        default: 'smoke'
         type: choice
         options:
           - smoke
           - full
           - screenshots_only
       runtime_target:
-        description: "future selector; currently informational"
+        description: 'selector'
         required: true
-        default: "all"
+        default: 'all'
         type: choice
         options:
           - all
-          - onboarding
-          - home_screen
-          - caregiver_settings
-          - app_assignment
-          - contacts_emergency
-          - theme_layout
       api_level:
-        description: "Android API level for emulator"
+        description: 'Android API level'
         required: true
-        default: "34"
-        type: choice
-        options:
-          - "34"
-          - "35"
+        default: '34'
       retry_failed:
-        description: "Re-run gradle test task once if it fails"
+        description: 'Retry failed tests'
         required: true
-        default: "false"
-        type: choice
-        options:
-          - "false"
-          - "true"
+        default: 'false'
+        type: boolean
 
 jobs:
   runtime-emulator:
@@ -64,13 +51,11 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
-          distribution: temurin
-          java-version: "17"
+          distribution: 'temurin'
+          java-version: '17'
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
-        with:
-          validate-wrappers: false
 
       - name: Make Gradle executable
         run: chmod +x ./gradlew
@@ -82,9 +67,9 @@ jobs:
           sudo udevadm trigger --name-match=kvm
 
       - name: Assemble debug and androidTest APKs
-        run: ./gradlew --no-daemon --stacktrace :app:assembleDebug :app:assembleDebugAndroidTest
+        run: ./gradlew :app:assembleDebug :app:assembleDebugAndroidTest
 
-      - name: Run emulator + runtime verification
+      - name: Run emulator tests
         uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: ${{ env.API_LEVEL }}
@@ -94,67 +79,36 @@ jobs:
           disable-animations: true
           emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim
           script: |
-            set -euxo pipefail
+            adb devices
+            adb shell settings put global window_animation_scale 0
+            adb shell settings put global transition_animation_scale 0
+            adb shell settings put global animator_duration_scale 0
+            ./gradlew :app:connectedDebugAndroidTest
 
-            mkdir -p ci-artifacts/meta
-            echo "test_level=$TEST_LEVEL" > ci-artifacts/meta/inputs.txt
-            echo "runtime_target=$RUNTIME_TARGET" >> ci-artifacts/meta/inputs.txt
-            echo "api_level=$API_LEVEL" >> ci-artifacts/meta/inputs.txt
-            echo "retry_failed=$RETRY_FAILED" >> ci-artifacts/meta/inputs.txt
-
-            dump_on_exit() {
-              set +e
-              mkdir -p ci-artifacts/logs ci-artifacts/screenshots ci-artifacts/ui
-
-              timeout 20s adb devices -l > ci-artifacts/logs/adb_devices_exit.txt || true
-              timeout 20s adb logcat -d > ci-artifacts/logs/logcat_exit.txt || true
-
-              timeout 20s adb exec-out screencap -p > ci-artifacts/screenshots/screen_exit.png || true
-
-              timeout 20s adb shell uiautomator dump /sdcard/window_dump_exit.xml || true
-              timeout 20s adb pull /sdcard/window_dump_exit.xml ci-artifacts/ui/window_dump_exit.xml || true
-            }
-            trap dump_on_exit EXIT
-
-            timeout 20s adb devices -l | tee ci-artifacts/meta/adb_devices_pre.txt || true
-
-            timeout 20s adb shell settings put global window_animation_scale 0 || true
-            timeout 20s adb shell settings put global transition_animation_scale 0 || true
-            timeout 20s adb shell settings put global animator_duration_scale 0 || true
-
-            if [ "$TEST_LEVEL" = "screenshots_only" ]; then
-              timeout 120s adb install -r app/build/outputs/apk/debug/app-debug.apk
-              timeout 30s adb shell am start -W -n "$MAIN_ACTIVITY" | tee ci-artifacts/meta/am_start.txt || true
-              sleep 8
-            else
-              timeout 30s adb shell am start -W -n "$MAIN_ACTIVITY" | tee ci-artifacts/meta/am_start.txt || true
-              if [ "$RETRY_FAILED" = "true" ]; then
-                ./gradlew --no-daemon --stacktrace :app:connectedDebugAndroidTest || ./gradlew --no-daemon --stacktrace :app:connectedDebugAndroidTest
-              else
-                ./gradlew --no-daemon --stacktrace :app:connectedDebugAndroidTest
-              fi
-            fi
-
-      - name: Capture logcat and package state
+      - name: Capture logcat
         if: always()
         run: |
           mkdir -p ci-artifacts/logs
-          timeout 20s adb devices -l > ci-artifacts/logs/adb_devices_post.txt || true
-          timeout 20s adb shell getprop > ci-artifacts/logs/getprop.txt || true
-          timeout 20s adb shell pm list packages | grep -F "${APP_ID}" > ci-artifacts/logs/pm_app_packages.txt || true
-          timeout 20s adb logcat -d > ci-artifacts/logs/logcat.txt || true
+          adb logcat -d > ci-artifacts/logs/logcat.txt || true
+          adb devices -l > ci-artifacts/logs/adb_devices.txt || true
+
+      - name: Capture UI dump
+        if: always()
+        run: |
+          mkdir -p ci-artifacts/ui
+          adb shell uiautomator dump /sdcard/window_dump.xml || true
+          adb pull /sdcard/window_dump.xml ci-artifacts/ui/window_dump.xml || true
 
       - name: Upload emulator artifacts
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: runtime-emulator-artifacts
-          if-no-files-found: warn
+          name: emulator-verification-artifacts
           path: |
             ci-artifacts/
-            app/build/outputs/apk/debug/*.apk
-            app/build/outputs/apk/androidTest/debug/*.apk
             **/build/reports/androidTests/
             **/build/outputs/androidTest-results/
             **/build/outputs/connected_android_test_additional_output/
             **/build/test-results/
+            **/build/outputs/apk/debug/*.apk
+            **/build/outputs/apk/androidTest/debug/*.apk

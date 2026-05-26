@@ -16,6 +16,5 @@ Create a simple, two-workflow GitHub Actions setup that supports repeated AI-age
 - `./gradlew :app:compileDebugAndroidTestKotlin`
 
 ## What remains to claim “green”
-GitHub Actions runs for both workflows on a pull request (with uploaded artifacts). See:
+Completed: both workflows are green on a pull request (with artifacts uploaded). See:
 - `docs/_implementation/20260525_github_actions_ci_cleanup/GITHUB_ACTIONS_RUN_HISTORY.md`
-
